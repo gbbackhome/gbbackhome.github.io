@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "cat": "Work",
+    "title": "Test Entry",
+    "s": "Testing the sync pipeline.",
+    "t": "Verify data flows from Sheet to site.",
+    "a": "Ran the workflow manually.",
+    "r": "Sync confirmed",
+    "tags": [
+      "test"
+    ]
+  }
+]
