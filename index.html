@@ -15,6 +15,7 @@
     <a class="nav__logo" href="#hero">GB.</a>
     <nav class="nav__links">
       <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
       <a href="#cases">Work</a>
       <a href="#about">About</a>
       <a href="#contact" class="nav__cta">Contact</a>
@@ -44,10 +45,11 @@
         <div class="skill-col reveal">
           <div class="skill-col__head">
             <img class="skill-col__emoji" data-emoji="gear" alt="⚙️">
-            <h3>Technical</h3>
+            <h3>Data &amp; Tools</h3>
           </div>
           <ul class="chips">
-            <li>SQL</li><li>Python</li><li>BigQuery</li><li>Looker</li>
+            <li>SQL</li><li>Python</li><li>BigQuery</li><li>Power BI</li>
+            <li>Looker Studio</li><li>GA4</li><li>Funnel.io</li><li>Excel</li>
           </ul>
         </div>
 
@@ -57,7 +59,19 @@
             <h3>Strategy</h3>
           </div>
           <ul class="chips">
-            <li>CRO</li><li>A/B Testing</li><li>Attribution</li>
+            <li>Attribution</li><li>Markov Chain</li><li>A/B Testing</li>
+            <li>CRO</li><li>Media Buying</li><li>FGI Research</li>
+          </ul>
+        </div>
+
+        <div class="skill-col reveal">
+          <div class="skill-col__head">
+            <img class="skill-col__emoji" data-emoji="rocket" alt="🚀">
+            <h3>Ad Platforms</h3>
+          </div>
+          <ul class="chips">
+            <li>Amazon DSP/SA</li><li>Meta Ads</li><li>Google Ads</li>
+            <li>LINE Ads</li><li>X Ads</li>
           </ul>
         </div>
       </div>
@@ -79,15 +93,96 @@
       </div>
     </section>
 
+    <!-- ===== Experience ===== -->
+    <section id="experience" class="section">
+      <p class="section__eyebrow">Experience</p>
+      <h2 class="section__title">Where I've worked</h2>
+
+      <div class="exp">
+        <article class="exp__item reveal">
+          <div class="exp__head">
+            <div>
+              <h3 class="exp__role">Digital Executive</h3>
+              <p class="exp__company">WPP Media · Tokyo, Japan</p>
+            </div>
+            <span class="exp__period">2025.04 – Present</span>
+          </div>
+          <ul class="exp__points">
+            <li>Mapped conversion paths and audience overlaps with Amazon Marketing Cloud (SQL) and Python, driving budget shifts that reached <b>1,800% ROAS (2× growth)</b>.</li>
+            <li>Built an automated Funnel.io → dashboard reporting workflow, cutting manual data processing <b>90%</b> (5 days → &lt;24h).</li>
+            <li>Led multi-channel strategy (Meta, Google, Amazon) with clients, using data visualization to resolve attribution issues and support C-level decisions.</li>
+            <li>Developing attribution models (Markov Chain, Composite KPI Indices) to surface effective conversion paths and measure ad cannibalization.</li>
+          </ul>
+        </article>
+
+        <article class="exp__item reveal">
+          <div class="exp__head">
+            <div>
+              <h3 class="exp__role">Marketing Associate</h3>
+              <p class="exp__company">CIDER · Seoul, Korea</p>
+            </div>
+            <span class="exp__period">2021.07 – 2024.02</span>
+          </div>
+          <ul class="exp__points">
+            <li>Internalized ad operations from agencies, achieving <b>200% annual growth</b> and a steady <b>26% MoM</b> revenue increase through performance analysis.</li>
+            <li>Built a cross-platform monitoring framework (Kakao SDK/Sync + AppsFlyer), reducing attribution discrepancies and surfacing high-ROI segments.</li>
+            <li>Ran FGI research and A/B testing on user pain points, turning VOC into UI/UX improvements (e.g., Address API) that lifted conversion <b>20%</b>.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Background ===== -->
+    <section id="background" class="section">
+      <p class="section__eyebrow">Background</p>
+      <h2 class="section__title">Education &amp; credentials</h2>
+
+      <div class="info-grid">
+        <div class="info-card reveal">
+          <h3 class="info-card__title">🎓 Education</h3>
+          <ul class="info-card__list">
+            <li><b>Beijing Foreign Studies University</b><br>B.A., International Economics &amp; Trade · 2019–2023<br><span class="info-card__note">Dean's List · Beijing Government Scholarship (full tuition)</span></li>
+            <li><b>Calvin University</b>, Michigan, USA<br>International Relations &amp; Affairs · 2014–2016</li>
+          </ul>
+        </div>
+
+        <div class="info-card reveal">
+          <h3 class="info-card__title">📜 Certifications</h3>
+          <ul class="info-card__list">
+            <li>Power BI Data Analyst (PL-300)</li>
+            <li>Amazon Marketing Cloud</li>
+            <li>MOS Excel Expert</li>
+            <li><span class="info-card__note">Bootcamps: MIT-ADSP (Python, ML) · Datarian (MySQL)</span></li>
+          </ul>
+        </div>
+
+        <div class="info-card reveal">
+          <h3 class="info-card__title">🌐 Languages</h3>
+          <ul class="info-card__list">
+            <li>English — Native</li>
+            <li>Korean — Native</li>
+            <li>Japanese — Business (N2)</li>
+            <li>Chinese — HSK5</li>
+            <li>Turkish</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== About ===== -->
     <section id="about" class="section">
       <p class="section__eyebrow">About</p>
       <h2 class="section__title">GyeongBae Jeon</h2>
       <p class="about reveal">
-        <!-- TODO(GyeongBae): write your own intro here. -->
-        Write a short paragraph about yourself: what you do well, the kinds of
-        problems you like to solve, and where you do your best work. Keep it
-        plain and specific.
+        I'm a data &amp; marketing strategist based in Tokyo, turning messy
+        cross-channel data into decisions that move revenue. At WPP Media I build
+        attribution models and automated reporting that connect spend to
+        outcomes — recently reaching 1,800% ROAS by reading conversion paths in
+        Amazon Marketing Cloud. Before that, at CIDER, I grew performance
+        marketing 200% a year by internalizing ad operations and rebuilding
+        cross-platform measurement from the ground up. I work best where SQL and
+        Python meet experimentation: finding the lever in the data, testing it,
+        and scaling what works.
       </p>
     </section>
 
