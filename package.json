@@ -1,0 +1,14 @@
+{
+  "name": "gbbackhome-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "데이터/마케팅 전략가 자동갱신 포트폴리오",
+  "scripts": {
+    "sync": "node fetch-data.js",
+    "emoji": "node scripts/download-emoji.mjs"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}

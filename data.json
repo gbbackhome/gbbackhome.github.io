@@ -1,0 +1,12 @@
+[
+  {
+    "cat": "Growth",
+    "title": "A/B testing the onboarding funnel to lift signup conversion",
+    "s": "Drop-off at step two of the signup funnel was higher than the rest.",
+    "t": "Find the cause and validate a fix through controlled experiments.",
+    "a": "Ran an A/B test with two variants: fewer steps and rewritten copy.",
+    "r": "+75%",
+    "tags": ["A/B Testing", "CRO", "SQL", "Funnel Analysis"],
+    "demo": true
+  }
+]
