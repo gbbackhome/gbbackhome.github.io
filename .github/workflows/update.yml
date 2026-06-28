@@ -2,8 +2,8 @@ name: Auto-Update Portfolio Data
 
 on:
   schedule:
-    - cron: '0 21 * * *'   # 매일 06:00 KST (UTC 21:00)
-  workflow_dispatch:        # 수동 실행 허용
+    - cron: '0 21 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -30,7 +30,7 @@ jobs:
           SHEET_NAME: ${{ vars.SHEET_NAME }}
         run: node fetch-data.js
 
-- name: Commit and push if changed
+      - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
