@@ -3,6 +3,7 @@
     "cat": "Performance",
     "headline": "Took CIDER's paid media in-house and tripled performance",
     "context": "Rebuilt Naver & Kakao paid media end to end after agency results fell ~70%.",
+    "img": "",
     "metrics": [
       "+200% YoY",
       "+26% MoM avg",
@@ -13,12 +14,14 @@
       "A/B Test",
       "Kakao",
       "Naver"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Influencer",
     "headline": "Reworked CIDER's Naver KOL playbook for +67% GMV",
     "context": "Built sponsorship guidelines, an influencer tier chart, and metrics from scratch.",
+    "img": "",
     "metrics": [
       "+67% GMV",
       "SOPs built"
@@ -27,12 +30,14 @@
       "Influencer",
       "Naver",
       "ROI"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Influencer",
     "headline": "Built CIDER's ambassador program to 9x sales on budget",
     "context": "Ran it end to end as PM — 20+ styled looks, tiered rewards, ad-ready content.",
+    "img": "",
     "metrics": [
       "9x sales vs. budget",
       "20+ looks"
@@ -41,12 +46,14 @@
       "Project Management",
       "Influencer",
       "Market Research"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Event",
     "headline": "Ran CIDER's Seoul pop-up to 3x competitors' footfall",
     "context": "Led event, viral marketing, press, and agency contracts on a lean budget.",
+    "img": "",
     "metrics": [
       "+7,243% SNS search",
       "3x visitors"
@@ -55,12 +62,14 @@
       "Event Planning",
       "SNS Marketing",
       "KPIs"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Content",
     "headline": "Grew CIDER's Naver Blog +81% as the brand entered Korea",
     "context": "Built Instagram-style content and ran interim customer service before support existed.",
+    "img": "",
     "metrics": [
       "+81% daily visitors",
       "2x followers / 6mo"
@@ -69,12 +78,14 @@
       "Content Marketing",
       "Naver Blog",
       "Social"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Research",
     "headline": "Lifted CIDER's address conversion +20% with localized UX",
     "context": "Specced an auto-address API, reworked sizing, and mapped the full refund journey.",
+    "img": "",
     "metrics": [
       "+20% address conversion",
       "A/B tested"
@@ -83,12 +94,14 @@
       "UI/UX",
       "A/B Test",
       "Localization"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "CRM",
     "headline": "Localized CIDER's CRM on KakaoTalk to lift retention",
     "context": "Integrated Kakao Alimtalk and a chatbot, and wrote CS SOPs for overseas teams.",
+    "img": "",
     "metrics": [
       "Higher retention",
       "10+ competitors mapped"
@@ -97,12 +110,14 @@
       "CRM",
       "Retention",
       "Customer Service"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Research",
     "headline": "Turned CIDER customer FGIs into a product action plan",
     "context": "Planned and ran focus group interviews end to end as PM.",
+    "img": "",
     "metrics": [
       "VOC to action plan"
     ],
@@ -110,12 +125,14 @@
       "Market Research",
       "Interview",
       "Strategic Planning"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Analytics",
     "headline": "Modeled a multinational's market share in Power BI",
     "context": "Portfolio project on a sample dataset — Power Query cleaning and DAX modeling.",
+    "img": "",
     "metrics": [
       "48.55% share mapped",
       "DAX measures"
@@ -125,12 +142,14 @@
       "DAX",
       "Data Modeling",
       "Portfolio"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Analytics",
     "headline": "Found the drivers behind a 26.86% telecom churn rate",
     "context": "Portfolio project — Excel pivot analysis across demographics, plans, and geography.",
+    "img": "",
     "metrics": [
       "26.86% churn analyzed",
       "Driver segments"
@@ -140,12 +159,14 @@
       "Churn",
       "Segmentation",
       "Portfolio"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Analytics",
     "headline": "Built an interactive Excel/VBA sales dashboard",
     "context": "Portfolio project — 5,782 rows with slicers, VBA controls, and theme switching.",
+    "img": "",
     "metrics": [
       "5,782 rows",
       "Interactive VBA"
@@ -155,12 +176,14 @@
       "VBA",
       "Dashboard",
       "Portfolio"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Analytics",
     "headline": "Segmented customers into 5 actionable groups in Python",
     "context": "Portfolio project — compared K-Means, DBSCAN, PCA, and GMM; chose a 5-cluster GMM.",
+    "img": "",
     "metrics": [
       "5 segments",
       "GMM model"
@@ -170,12 +193,14 @@
       "Clustering",
       "GMM",
       "Portfolio"
-    ]
+    ],
+    "detail": null
   },
   {
     "cat": "Analytics",
     "headline": "Analyzed 39 job posts to rank in-demand analyst skills",
     "context": "Self-collected 39 international Tokyo postings and analyzed them in Excel.",
+    "img": "",
     "metrics": [
       "39 postings",
       "Top-10 skills ranked"
@@ -184,6 +209,7 @@
       "Excel",
       "Research",
       "Data Analysis"
-    ]
+    ],
+    "detail": null
   }
 ]
