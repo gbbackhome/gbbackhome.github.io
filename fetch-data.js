@@ -6,12 +6,12 @@
 // 환경변수:
 //   GOOGLE_SERVICE_ACCOUNT_JSON  서비스계정 키(JSON 전체 문자열)
 //   SHEET_ID                     스프레드시트 ID
-//   SHEET_NAME                   탭 이름 (기본: Sheet1)
+//   SHEET_NAME                   탭 이름 (기본: tab1)
 import { writeFile, readFile } from "node:fs/promises";
 import { google } from "googleapis";
 
-const SHEET_ID = process.env.SHEET_ID;
-const SHEET_NAME = process.env.SHEET_NAME || "Sheet1";
+const SHEET_ID = process.env.SHEET_ID || "1aIwM45AcTbIvsNUIuLALSdexe7rM26Ll3lBT_FqMqK4";
+const SHEET_NAME = process.env.SHEET_NAME || "tab1";
 const KEY = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
 
 if (!SHEET_ID || !KEY) {
