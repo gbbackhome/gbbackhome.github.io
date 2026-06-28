@@ -1,12 +1,8 @@
 // Method B: Google 서비스계정으로 비공개 시트에서 데이터 동기화
 // 보안 원칙: A열·E열만 읽음. B열·D열은 절대 요청하지 않음.
-//   - A열: 사용 여부/메모 등 자유 (참고용, 저장 안 함)
-//   - E열: 위 스키마의 JSON 문자열 → 파싱해서 data.json 으로 저장
-//
-// 환경변수:
-//   GOOGLE_SERVICE_ACCOUNT_JSON  서비스계정 키(JSON 전체 문자열)
-//   SHEET_ID                     스프레드시트 ID
-//   SHEET_NAME                   탭 이름 (기본: tab1)
+//   - A열: 메모 등 자유 (참고용, 저장 안 함)
+//   - E열: JSON 문자열 → 파싱해서 data.json 으로 저장
+//   - 스키마: { cat, headline, context, metrics[], tags[] }
 import { writeFile, readFile } from "node:fs/promises";
 import { google } from "googleapis";
 
@@ -36,20 +32,22 @@ const colE = data.valueRanges?.[1]?.values || [];
 const rows = Math.max(colA.length, colE.length);
 
 const STR_KEYS = ["cat", "headline", "context"];
+const out = [];
+let skipped = 0;
 
 for (let i = 0; i < rows; i++) {
   const raw = (colE[i]?.[0] || "").trim();
-  if (!raw) { skipped++; continue; }
+  if (!raw) { skipped++; continue; }                 // E가 비면 건너뜀
   try {
     const obj = JSON.parse(raw);
     const item = {};
-    for (const k of STR_KEYS) item[k] = obj[k] ?? "";
+    for (const k of STR_KEYS) item[k] = obj[k] ?? "";  // 문자열 필드
     item.metrics = Array.isArray(obj.metrics) ? obj.metrics : [];
     item.tags = Array.isArray(obj.tags) ? obj.tags : [];
-    if (!item.headline) { skipped++; continue; }
+    if (!item.headline) { skipped++; continue; }       // headline 없으면 무효 행
     out.push(item);
   } catch {
-    skipped++;
+    skipped++;                                         // 파싱 실패 행 건너뜀
   }
 }
 
