@@ -35,24 +35,21 @@ const colA = data.valueRanges?.[0]?.values || [];
 const colE = data.valueRanges?.[1]?.values || [];
 const rows = Math.max(colA.length, colE.length);
 
-const REQUIRED = ["cat", "title", "s", "t", "a", "r", "tags"];
-const out = [];
-let skipped = 0;
+const STR_KEYS = ["cat", "headline", "context"];
 
 for (let i = 0; i < rows; i++) {
   const raw = (colE[i]?.[0] || "").trim();
-  if (!raw) { skipped++; continue; }                // E가 비면 건너뜀
+  if (!raw) { skipped++; continue; }
   try {
     const obj = JSON.parse(raw);
-    // 스키마 키만 추려서 정규화
     const item = {};
-    for (const k of REQUIRED) {
-      item[k] = k === "tags" ? (Array.isArray(obj.tags) ? obj.tags : []) : (obj[k] ?? "");
-    }
-    if (!item.title) { skipped++; continue; }        // 제목 없으면 무효 행
+    for (const k of STR_KEYS) item[k] = obj[k] ?? "";
+    item.metrics = Array.isArray(obj.metrics) ? obj.metrics : [];
+    item.tags = Array.isArray(obj.tags) ? obj.tags : [];
+    if (!item.headline) { skipped++; continue; }
     out.push(item);
   } catch {
-    skipped++;                                       // 파싱 실패 행 건너뜀
+    skipped++;
   }
 }
 
