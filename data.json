@@ -31,7 +31,27 @@
       "Naver",
       "ROI"
     ],
-    "detail": null
+    "detail": {
+      "overview": "CIDER's influencer marketing on Naver ran without structure, internal SOPs, or reliable tracking.",
+      "problem": "Naver results are hard to track directly, and there was no repeatable playbook, so each campaign started from zero.",
+      "actions": [
+        "Wrote detailed sponsorship guidelines so influencers produced varied, on-brand content",
+        "Built an influencer tier chart and defined performance metrics in Excel",
+        "Followed up individually with each blogger to recover campaign results Naver couldn't track",
+        "Negotiated using cross-channel mirrored exposure instead of just higher fees"
+      ],
+      "impact": [
+        "+67% GMV versus the previous KOL campaign",
+        "Repeatable SOPs and tiering adopted across Naver, Instagram, and YouTube"
+      ],
+      "skills": [
+        "Influencer Marketing",
+        "Naver",
+        "SOP Design",
+        "Negotiation",
+        "Excel"
+      ]
+    }
   },
   {
     "cat": "Influencer",
@@ -40,14 +60,33 @@
     "img": "",
     "metrics": [
       "9x sales vs. budget",
-      "20+ looks"
+      "52% feed / 47% reels"
     ],
     "tags": [
       "Project Management",
       "Influencer",
       "Market Research"
     ],
-    "detail": null
+    "detail": {
+      "overview": "CIDER, a fast-fashion e-commerce brand, had little local awareness or loyalty in the Korea market.",
+      "problem": "The brand needed deeper engagement, a reason for local shoppers to explore the app, and a steady supply of advertising content.",
+      "actions": [
+        "Designed the program around three goals: engagement, an in-app exclusive collection, and ad content",
+        "Prepared 20+ head-to-toe styling looks, finalized through manager and team feedback",
+        "Coordinated with logistics for a final check two weeks before each shoot",
+        "Set reward tiers across categories (most reviews, most content, best reels) and routed content to ad and design teams"
+      ],
+      "impact": [
+        "Sales reached 9x the invested budget",
+        "Content hit 52% for feed and 47% for reels, surpassing initial targets"
+      ],
+      "skills": [
+        "Project Management",
+        "Influencer Marketing",
+        "Cross-team Coordination",
+        "Market Research"
+      ]
+    }
   },
   {
     "cat": "Event",
@@ -63,7 +102,27 @@
       "SNS Marketing",
       "KPIs"
     ],
-    "detail": null
+    "detail": {
+      "overview": "Ahead of pop-ups at Waterbomb and Konkuk University, CIDER launched a large pop-up at Space Wadiz, Seoul.",
+      "problem": "The event had to make a big splash on a tight budget, and offline pop-up ROI is hard to measure.",
+      "actions": [
+        "Sent well-written press drafts to a curated journalist list to earn coverage without paid placement",
+        "Researched other pop-up stores for format and merchandising ideas",
+        "Built a data-tracking framework and aligned KPIs across teams",
+        "Worked through ROI from viral marketing, offline footfall, and SNS participation"
+      ],
+      "impact": [
+        "+7,243% surge in SNS search volume",
+        "About 3x the venue's usual visitor rate, and 3x competitors' average footfall"
+      ],
+      "skills": [
+        "Event Planning",
+        "Viral Marketing",
+        "PR / Press",
+        "KPI Design",
+        "Project Management"
+      ]
+    }
   },
   {
     "cat": "Content",
@@ -79,7 +138,26 @@
       "Naver Blog",
       "Social"
     ],
-    "detail": null
+    "detail": {
+      "overview": "With no recognition in Korea, CIDER needed reach and an early customer-service outlet before formal support existed.",
+      "problem": "Limited manpower, no brand awareness, and rising customer questions all landed at once — and the blog had to feel like an extension of the brand.",
+      "actions": [
+        "Engaged influencers directly by commenting on their blogs to build relationships",
+        "Created Instagram-style Naver content (trend roundups, styling guides, vacation picks)",
+        "Posted idol-inspired coordinated looks on Twitter to reach style-driven audiences",
+        "Ran exchange, return, sizing, and FAQ posts as interim customer service"
+      ],
+      "impact": [
+        "+81% daily visitors to the Naver Blog",
+        "Follower count doubled within six months"
+      ],
+      "skills": [
+        "Content Marketing",
+        "Naver Blog",
+        "Social Media",
+        "Customer Communication"
+      ]
+    }
   },
   {
     "cat": "Research",
@@ -95,7 +173,28 @@
       "A/B Test",
       "Localization"
     ],
-    "detail": null
+    "detail": {
+      "overview": "CIDER's app lacked Korean localization and local-standard UX for sizing, address entry, and returns.",
+      "problem": "Foreign-centric sizing and a manual address flow created friction for Korean shoppers, and changes needed C-level buy-in.",
+      "actions": [
+        "Wrote the dev document for an automatic address-fill service and integrated it with the backend team",
+        "Ran an A/B test with and without the address API",
+        "Benchmarked domestic e-commerce sizing and proposed localized options",
+        "Mapped the full return/refund journey stage by stage against competitors and surfaced weak points"
+      ],
+      "impact": [
+        "+20% address conversion from the automatic address API",
+        "Localized sizing reduced related customer inquiries",
+        "Leadership accepted the gaps and moved forward on improvements"
+      ],
+      "skills": [
+        "UI/UX",
+        "A/B Testing",
+        "Localization",
+        "Competitor Analysis",
+        "Project Management"
+      ]
+    }
   },
   {
     "cat": "CRM",
@@ -103,7 +202,7 @@
     "context": "Integrated Kakao Alimtalk and a chatbot, and wrote CS SOPs for overseas teams.",
     "img": "",
     "metrics": [
-      "Higher retention",
+      "Higher retention & payment success",
       "10+ competitors mapped"
     ],
     "tags": [
@@ -111,7 +210,28 @@
       "Retention",
       "Customer Service"
     ],
-    "detail": null
+    "detail": {
+      "overview": "CIDER's CRM relied only on email and in-app push, with no localized channel — while Korean e-commerce leans heavily on KakaoTalk.",
+      "problem": "There was no localized CRM channel, and no Korean-language customer service for local shoppers.",
+      "actions": [
+        "Integrated Kakao Alimtalk messages: payment reminder (30 min), split shipping, order confirmation, review request",
+        "Synced templates with the internal tech team",
+        "Planned and built a Kakao customer-service chatbot and wrote localized CS SOPs for overseas teams",
+        "Mapped 10+ competitors across fashion e-commerce, fashion brands, and SPA brands for comparison"
+      ],
+      "impact": [
+        "Higher retention and payment-success rates after the Kakao messages went live",
+        "Improved local CS quality through SOPs",
+        "Chatbot reduced direct inquiries and collected complaint data"
+      ],
+      "skills": [
+        "CRM",
+        "KakaoTalk / Alimtalk",
+        "Chatbot Planning",
+        "Customer Service",
+        "Competitor Analysis"
+      ]
+    }
   },
   {
     "cat": "Research",
@@ -126,7 +246,24 @@
       "Interview",
       "Strategic Planning"
     ],
-    "detail": null
+    "detail": {
+      "overview": "As a customer-centric team, CIDER needed real Voice of the Customer from domestic users to guide product and marketing.",
+      "problem": "There was no structured way to capture in-depth feedback on UI/UX and product from Korean customers.",
+      "actions": [
+        "Planned and ran focus group interviews end to end as PM",
+        "Collected detailed feedback on UI/UX and product offerings",
+        "Synthesized findings into a prioritized action plan"
+      ],
+      "impact": [
+        "Customer feedback turned into a concrete, prioritized action plan for the team"
+      ],
+      "skills": [
+        "Market Research",
+        "Focus Group Interviews",
+        "Strategic Planning",
+        "VOC Analysis"
+      ]
+    }
   },
   {
     "cat": "Analytics",
@@ -135,7 +272,7 @@
     "img": "",
     "metrics": [
       "48.55% share mapped",
-      "DAX measures"
+      "10.94% avg growth"
     ],
     "tags": [
       "Power BI",
@@ -143,7 +280,27 @@
       "Data Modeling",
       "Portfolio"
     ],
-    "detail": null
+    "detail": {
+      "overview": "A portfolio project analyzing a multinational electronics manufacturer (VanArsdel) against competitors using a sample benchmarking dataset.",
+      "problem": "Five separate tables (sales, products, manufacturers, geography, dates) needed cleaning and modeling before any insight was possible.",
+      "actions": [
+        "Cleaned and reshaped data in Power Query (fill-down, split columns, append, conditional columns, type fixes)",
+        "Built table relationships and a date table, and hid unnecessary tables",
+        "Wrote DAX measures: % Growth, PY Sales, total Sales, and Market Share",
+        "Used grouping to show only the top competitors and added filter-based interactions"
+      ],
+      "impact": [
+        "Mapped VanArsdel at 48.55% market share with 10.94% average growth (2017-2021)",
+        "Surfaced that the US drove 52.73% of revenue while Canada was underpenetrated — a localization opportunity"
+      ],
+      "skills": [
+        "Power BI",
+        "Power Query",
+        "DAX",
+        "Data Modeling",
+        "Data Visualization"
+      ]
+    }
   },
   {
     "cat": "Analytics",
@@ -152,7 +309,7 @@
     "img": "",
     "metrics": [
       "26.86% churn analyzed",
-      "Driver segments"
+      "Driver segments found"
     ],
     "tags": [
       "Excel",
@@ -160,7 +317,25 @@
       "Segmentation",
       "Portfolio"
     ],
-    "detail": null
+    "detail": {
+      "overview": "A portfolio project analyzing customer churn for a US telecom (Databel sample dataset) to surface drivers and propose actions.",
+      "problem": "Churn was rising in a competitive market, but the reasons weren't broken down by who was leaving or why.",
+      "actions": [
+        "Cleaned the data using a structured checklist and built a churn-rate column for pivot analysis",
+        "Categorized churn reasons and grouped ages into Under 30 / Senior / Other",
+        "Cross-analyzed churn by data plan, contract length, and state with international activity"
+      ],
+      "impact": [
+        "Quantified overall churn at 26.86%, mostly lost to competitors with better devices/offers",
+        "Isolated high-risk segments: seniors, unlimited-plan users under 5GB, and international users in California"
+      ],
+      "skills": [
+        "Excel",
+        "Pivot Tables",
+        "Churn Analysis",
+        "Segmentation"
+      ]
+    }
   },
   {
     "cat": "Analytics",
@@ -177,7 +352,25 @@
       "Dashboard",
       "Portfolio"
     ],
-    "detail": null
+    "detail": {
+      "overview": "A portfolio project to push Excel data-visualization skills, building an interactive dashboard from a US company's sales data.",
+      "problem": "A 5,782-row dataset across 10 categories needed to be explorable by non-technical viewers, not just static charts.",
+      "actions": [
+        "Built pivot-based waterfall, stacked bar, line, map, combo, and doughnut charts",
+        "Used GETPIVOTDATA for real-time text callouts and added slicers for filtering",
+        "Coded VBA interactive buttons, info tabs, color-theme switching, and on/off toggles"
+      ],
+      "impact": [
+        "Delivered a fully interactive dashboard covering revenue, delivery, returns, and satisfaction",
+        "Surfaced clear reads like 67% on-time delivery and a 10% return rate"
+      ],
+      "skills": [
+        "Excel",
+        "VBA",
+        "Pivot Charts",
+        "Dashboard Design"
+      ]
+    }
   },
   {
     "cat": "Analytics",
@@ -194,7 +387,27 @@
       "GMM",
       "Portfolio"
     ],
-    "detail": null
+    "detail": {
+      "overview": "A portfolio project building a customer-segmentation model on a public marketing dataset so campaigns could be targeted by behavior.",
+      "problem": "A heterogeneous customer base had heavy overlaps, so raw charts gave no clean segments to act on.",
+      "actions": [
+        "Ran feature engineering (grouped age, marital status, family size, expenses, engagement) and dropped outliers",
+        "Compared K-Means, hierarchical clustering, DBSCAN, PCA, and GMM",
+        "Selected a 5-cluster GMM for finer granularity at an acceptable silhouette score (0.1342)",
+        "Mapped each cluster to a marketing play (discounts, BNPL, VIP, cashback, household deals)"
+      ],
+      "impact": [
+        "Produced 5 clearly defined, action-ready customer segments",
+        "Confirmed a positive income-to-spend relationship to prioritize high-value targets"
+      ],
+      "skills": [
+        "Python",
+        "Clustering",
+        "GMM",
+        "Feature Engineering",
+        "Statistics"
+      ]
+    }
   },
   {
     "cat": "Analytics",
@@ -210,6 +423,24 @@
       "Research",
       "Data Analysis"
     ],
-    "detail": null
+    "detail": {
+      "overview": "A self-directed project analyzing what international employers in Tokyo actually expect from data and business analysts.",
+      "problem": "Skill expectations were anecdotal — there was no data-backed view of what to prioritize learning.",
+      "actions": [
+        "Collected 39 Data/Business Analyst postings, focused on international companies",
+        "Coded and counted required skills and tools in Excel",
+        "Ranked programming languages and visualization tools by frequency"
+      ],
+      "impact": [
+        "Found SQL required most often (ahead of Python/R), with visualization second — Tableau leading, then Power BI, Excel, Qlik, Looker",
+        "Confirmed bilingual ability and a bachelor's degree as baseline, with domain knowledge and communication as differentiators"
+      ],
+      "skills": [
+        "Excel",
+        "Data Collection",
+        "Frequency Analysis",
+        "Research"
+      ]
+    }
   }
 ]
