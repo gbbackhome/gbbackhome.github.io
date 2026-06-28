@@ -1,8 +1,9 @@
 // Method B: Google 서비스계정으로 비공개 시트에서 데이터 동기화
 // 보안 원칙: A열·E열만 읽음. B열·D열은 절대 요청하지 않음.
 //   - A열: 메모 등 자유 (참고용, 저장 안 함)
+//   - D열: 날것 원본 (내부 DB용, 사이트엔 안 올림 — 애초에 읽지도 않음)
 //   - E열: JSON 문자열 → 파싱해서 data.json 으로 저장
-//   - 스키마: { cat, headline, context, metrics[], tags[] }
+//   - 스키마: { cat, headline, context, metrics[], tags[], img, detail{} }
 import { writeFile, readFile } from "node:fs/promises";
 import { google } from "googleapis";
 
@@ -31,7 +32,7 @@ const colA = data.valueRanges?.[0]?.values || [];
 const colE = data.valueRanges?.[1]?.values || [];
 const rows = Math.max(colA.length, colE.length);
 
-const STR_KEYS = ["cat", "headline", "context"];
+const STR_KEYS = ["cat", "headline", "context", "img"];
 const out = [];
 let skipped = 0;
 
@@ -41,9 +42,10 @@ for (let i = 0; i < rows; i++) {
   try {
     const obj = JSON.parse(raw);
     const item = {};
-    for (const k of STR_KEYS) item[k] = obj[k] ?? "";  // 문자열 필드
+    for (const k of STR_KEYS) item[k] = typeof obj[k] === "string" ? obj[k] : "";
     item.metrics = Array.isArray(obj.metrics) ? obj.metrics : [];
     item.tags = Array.isArray(obj.tags) ? obj.tags : [];
+    item.detail = (obj.detail && typeof obj.detail === "object") ? obj.detail : null;
     if (!item.headline) { skipped++; continue; }       // headline 없으면 무효 행
     out.push(item);
   } catch {
