@@ -442,5 +442,20 @@
         "Research"
       ]
     }
+  },
+  {
+    "cat": "Content",
+    "headline": "Test Entry",
+    "context": "Placeholder record for system testing.",
+    "img": "",
+    "metrics": [],
+    "tags": [],
+    "detail": {
+      "overview": "This is a test entry.",
+      "problem": "",
+      "actions": [],
+      "impact": [],
+      "skills": []
+    }
   }
 ]
