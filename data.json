@@ -21,7 +21,7 @@
       "problem": "Reporting was fragmented and hard to trust, so the team couldn't confidently reallocate budget.",
       "actions": [
         "Designed a privacy-safe clean-room measurement framework in Amazon Marketing Cloud covering the whole funnel and all product lines",
-        "Engineered the SQL and a BigQuery pipeline that organized 240+ products into clean categories and produced consistent, reconcilable metrics",
+        "Engineered the SQL and a BigQuery pipeline that organized hundreds of products into clean categories and produced consistent, reconcilable metrics",
         "Built a reusable Python visualization toolkit and a documented style guide so every chart was brand-consistent and presentation-ready"
       ],
       "impact": [
@@ -44,7 +44,7 @@
     "img": "",
     "metrics": [
       "Controlled experiment",
-      "−26% wasted reach found",
+      "~25% wasted reach found",
       "~2x cost-per-reach gain (projected)"
     ],
     "tags": [
@@ -61,7 +61,7 @@
         "Measured reach efficiency and cost-per-reach with privacy-safe aggregation"
       ],
       "impact": [
-        "Showed that uncapping nearly doubled frequency but cut unique reach by 26% and raised cost-per-reach",
+        "Showed that uncapping nearly doubled frequency but cut unique reach by about a quarter and raised cost-per-reach",
         "Recommended re-applying the cap, projected to roughly halve cost-per-reach on awareness media"
       ],
       "skills": [
@@ -113,7 +113,7 @@
     "context": "Analyzed thousands of conversion paths and built a composite score to rank which media actually drives new customers for a global pet-nutrition brand.",
     "img": "",
     "metrics": [
-      "6,510 paths analyzed",
+      "6,000+ paths analyzed",
       "Top 20 = 85% of reach",
       "5-KPI composite score"
     ],
@@ -149,8 +149,8 @@
     "context": "Quantified how much of a premium video channel's reach was genuinely incremental versus already covered — keeping the media budget honest.",
     "img": "",
     "metrics": [
-      "38.5% truly incremental",
-      "62% already covered",
+      "Under 40% incremental",
+      "~60% already covered",
       "Vendor claim challenged"
     ],
     "tags": [
@@ -167,7 +167,7 @@
         "Quantified the share of reach that was genuinely incremental versus already covered, with privacy-safe aggregation"
       ],
       "impact": [
-        "Found the format was only ~38.5% incremental — 62% of its reach was already covered — directly challenging the platform's claim",
+        "Found the format was only under 40% incremental — most of its reach was already covered — directly challenging the platform's claim",
         "Protected the client from double-paying for reach and informed a more efficient channel mix"
       ],
       "skills": [
@@ -220,8 +220,8 @@
     "context": "Used clean-room conversion data to bucket a tech brand's off-Amazon purchases by price and find where the revenue really comes from.",
     "img": "",
     "metrics": [
-      "1,573 purchases analyzed",
-      "Top 3% of orders = 52% of sales",
+      "1,500+ purchases analyzed",
+      "Top ~3% of orders = ~half of sales",
       "Reporting automated"
     ],
     "tags": [
@@ -238,7 +238,7 @@
         "Built a Python pipeline (raw to aggregate to chart/CSV) to produce the report monthly without manual work"
       ],
       "impact": [
-        "Showed that 80k-300k JPY purchases drove 54% of volume and the top 3% of orders generated 52% of sales — pointing to clear high-value targets",
+        "Showed that mid-price purchases drove over half of volume, with the top few percent of orders generating over half of sales — pointing to clear high-value targets",
         "Gave the brand a repeatable monthly read on off-Amazon purchase value"
       ],
       "skills": [
