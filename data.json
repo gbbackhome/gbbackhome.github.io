@@ -1,5 +1,80 @@
 [
   {
+    "cat": "AMC",
+    "headline": "Built a full-funnel AMC measurement framework for a global pet-food brand",
+    "context": "Awareness→Loyalty penetration across 4 categories via a 300+ line AMC SQL pipeline into BigQuery + a reusable Python visualization toolkit.",
+    "img": "",
+    "metrics": ["300+ line AMC SQL", "240+ ASINs mapped", "10 client-ready assets"],
+    "tags": ["AMC", "SQL", "BigQuery", "Python"],
+    "detail": {
+      "overview": "For a global pet-nutrition (CPG) brand in the Japan market, I designed an end-to-end clean-room framework quantifying campaign penetration across the full funnel (Awareness → Consideration → Purchase → Loyalty) for four product lines.",
+      "problem": "There was no consistent way to measure how far each funnel stage penetrated a fixed audience universe, and outputs had to be mathematically consistent and stakeholder-ready.",
+      "actions": ["Wrote multi-CTE AMC SQL (300+ lines) over dsp_impressions and conversions_all, with an ASIN-mapping CTE covering 240+ products across 4 categories", "Built cumulative reach logic so the last cumulative month equals the 12-month total (pie = trend endpoint), handling AMC's 13-month retention and JST timezone conversion", "Loaded outputs to BigQuery with a standardized table-naming convention, authenticated via the Google Cloud SDK", "Created a reusable, brand-consistent Python (matplotlib) visualization toolkit with a documented style guide, exporting 300dpi PNG + vector PDF"],
+      "impact": ["Delivered a consistent full-funnel penetration view feeding client budget-allocation decisions", "Standardized 10 client-ready visual assets and a reusable toolkit that cut team rework"],
+      "skills": ["AMC SQL", "BigQuery", "Python / matplotlib", "Funnel measurement", "Clean-room analytics"]
+    }
+  },
+  {
+    "cat": "AMC",
+    "headline": "Proved an ad frequency cap could ~halve cost-per-reach for a spirits brand",
+    "context": "Pre/post quasi-experiment on a premium spirits brand's Awareness media — showed uncapping wasted reach and recommended re-applying the cap.",
+    "img": "",
+    "metrics": ["−26% unique reach", "−44% CPM", "~2x CPR (projected)"],
+    "tags": ["AMC", "Experiment Design", "Media Efficiency", "DSP"],
+    "detail": {
+      "overview": "A premium spirits (whisky) brand removed the 6×/month frequency cap on Awareness line items; I measured whether that helped or hurt media efficiency.",
+      "problem": "Frequency time-accumulation bias makes naive pre/post comparisons misleading, and the client needed a defensible answer on whether to re-apply the cap.",
+      "actions": ["Designed a pre/post quasi-experiment with equalized 14-day windows to control for frequency accumulation, mapping funnel stages via line-item naming", "Derived Cost-per-Reach (CPR) and CPM with privacy-safe COUNT(DISTINCT user_id) aggregation plus frequency-saturation bucketing"],
+      "impact": ["Found uncapping doubled frequency (4.33→8.50) but cut unique reach 26%; despite CPM falling 44%, CPR rose 9% — cheap inventory was diverted to repeat exposure", "Recommended re-applying the 6×/month cap, projected to roughly halve cost-per-reach on Awareness media"],
+      "skills": ["AMC SQL", "Experiment design", "Media efficiency (CPR/CPM)", "Privacy-safe querying", "Data storytelling"]
+    }
+  },
+  {
+    "cat": "AMC",
+    "headline": "Measured new-to-brand acquisition to redirect a brand's media budget",
+    "context": "User-level NTB analysis across 4 categories — reframed the metric and window to give the client a trustworthy acquisition signal.",
+    "img": "",
+    "metrics": ["~98% buyers ad-touched", "Rate→volume reframe", "Discrete-month fix"],
+    "tags": ["AMC", "New-to-Brand", "Attribution", "SQL"],
+    "detail": {
+      "overview": "For the same pet-food brand, I built a user-level new-to-brand (NTB) analysis to show how much advertising actually drove new-customer acquisition.",
+      "problem": "With only ~2% organic buyers, NTB rate was misleading, and a cumulative window created a false 'organic > ad' signal from attribution dilution.",
+      "actions": ["Built a user-level NTB query with ad-first attribution on the Purchase funnel", "Recognized the rate metric was misleading and reframed the decision around absolute NTB volume", "Switched from cumulative to discrete-monthly to remove the false organic-vs-ad signal"],
+      "impact": ["Showed ~98% of buyers are ad-touched, so nearly all NTB flows through ad; by category, advertising drove new customers for one line while another was over-indexed on retargeting", "Demonstrated the 2026 Spring Sale matched/exceeded 2025 peak events on a lower budget — improved NTB efficiency (with an honest correlation-vs-causation caveat)"],
+      "skills": ["AMC SQL", "NTB measurement", "Attribution rules", "User-level dedup", "Data storytelling"]
+    }
+  },
+  {
+    "cat": "AMC",
+    "headline": "Mapped cross-channel audience overlap to fix a retargeting bottleneck",
+    "context": "Audience overlap across Amazon DSP + Sponsored Ads — turned a 'retargeting is broken?' escalation into evidence of correct setup.",
+    "img": "",
+    "metrics": ["AW→CON 48%→80% (3mo)", "SA↔DSP 81%/72% dup", "<1% down-funnel leak"],
+    "tags": ["AMC", "Audience Overlap", "DSP", "Sponsored Ads"],
+    "detail": {
+      "overview": "I built audience-overlap and cross-funnel capture analyses in AMC to validate whether DSP/Sponsored-Ads retargeting was working as designed.",
+      "problem": "A single-month view suggested weak retargeting (a client escalation), and an initial 'forward rate' metric understated capture due to the huge Awareness denominator.",
+      "actions": ["Computed user-level overlap across 8 brand×funnel segments via self-joins (AMC lacks window frames), split by breed", "Reframed the metric from forward-rate to 'capture rate' (overlap ÷ lower stage) to answer the client's actual question", "Expanded the window 1→3 months to validate a retargeting lag, and fixed an AMC parser failure caused by a '+' literal in campaign names via LIKE patterns"],
+      "impact": ["Raised AW→Consideration capture from ~48% to ~78–80% with the 3-month window, confirming a functioning full-funnel pipeline", "Showed clean cat/dog separation down-funnel (<1% Loyalty overlap) and 81%/72% SA↔DSP Awareness duplication — informing reallocation"],
+      "skills": ["AMC SQL", "Audience overlap (Venn)", "Retargeting analysis", "SQL debugging", "matplotlib-venn"]
+    }
+  },
+  {
+    "cat": "AMC",
+    "headline": "Hardened AMC SQL pipelines and set team coding conventions",
+    "context": "Unified all Sponsored-Ads KPIs with media cost in one query and fixed silent parser/precision bugs that corrupted reported metrics.",
+    "img": "",
+    "metrics": ["KPI×cost unified", "Integer-division bug fixed", "7-step QA checklist"],
+    "tags": ["AMC SQL", "Data Engineering", "QA", "Clean Room"],
+    "detail": {
+      "overview": "Across AMC clean-room projects I owned SQL engineering quality — combining KPIs with cost and eliminating bugs that silently corrupted reported numbers.",
+      "problem": "In complex multi-CTE UNION/JOIN queries, ratio metrics were wrong (integer-division truncation) and alias collisions with source columns produced silent value corruption; some campaigns fell into an unclassified 'Other'.",
+      "actions": ["Joined attributed-events (KPI) with sponsored-ads-traffic (cost) via FULL OUTER JOIN so no campaign was dropped", "Fixed ratio errors with CAST(AS DOUBLE)+NULLIF and replaced unsupported window frames/ORDER BY with self-joins", "Established a prefix naming convention (raw_/u_/agg_/sum_) and a separate QA query that flags unclassified campaigns as a self-validation loop"],
+      "impact": ["Produced a single trustworthy table of per-campaign KPIs and media cost, improving report reliability", "Standardized a reusable AMC SQL template and a 7-step debugging checklist adopted by the team"],
+      "skills": ["AMC SQL", "Spark SQL", "Clean-room analytics", "Data QA/validation", "Pipeline design"]
+    }
+  },
+  {
     "cat": "Performance",
     "headline": "Took CIDER's paid media in-house and tripled performance",
     "context": "Rebuilt Naver & Kakao paid media end to end after agency results fell ~70%.",

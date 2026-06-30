@@ -1,6 +1,6 @@
 // Portfolio app — Result-First cards + detail modal (2026 style)
 const REDUCE = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-const CAT_EMOJI = { Performance:"📈",Influencer:"📣",Event:"🎪",Content:"✍️",Research:"🔍",CRM:"💬",Analytics:"📊" };
+const CAT_EMOJI = { AMC:"🧪",Performance:"📈",Influencer:"📣",Event:"🎪",Content:"✍️",Research:"🔍",CRM:"💬",Analytics:"📊" };
 const EMOJI_UNICODE = { rocket:"🚀",gear:"⚙️",brain:"🧠",bulb:"💡",wave:"👋" };
 
 const css = `
