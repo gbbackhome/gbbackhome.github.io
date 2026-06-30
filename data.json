@@ -108,6 +108,148 @@
     }
   },
   {
+    "cat": "AMC",
+    "headline": "Modeled the path to purchase and scored media with a composite KPI",
+    "context": "Analyzed thousands of conversion paths and built a composite score to rank which media actually drives new customers for a global pet-nutrition brand.",
+    "img": "",
+    "metrics": [
+      "6,510 paths analyzed",
+      "Top 20 = 85% of reach",
+      "5-KPI composite score"
+    ],
+    "tags": [
+      "AMC",
+      "Path to Purchase",
+      "Attribution",
+      "Media Planning"
+    ],
+    "detail": {
+      "overview": "A global pet-nutrition brand needed to know which channels genuinely win new customers, not just which get the last click, to plan its 2026 budget.",
+      "problem": "Last-touch attribution over-credited closing channels, and there was no single way to compare media on cost, reach, and new-customer value together.",
+      "actions": [
+        "Built a path-to-purchase analysis in Amazon Marketing Cloud across thousands of multi-touch journeys, separating new-customer paths from existing ones",
+        "Designed a 5-KPI composite score (cost-per-acquisition, new-to-brand CPA, cost-per-reach, ROAS, new-to-brand ROAS) to rank channels on one scale",
+        "Visualized the journeys (Sankey + charts) and flagged where premium video acted as a closer/reminder rather than a true acquisition driver"
+      ],
+      "impact": [
+        "Showed the top 20 paths covered ~85% of reach, focusing the conversation on what matters",
+        "Gave the client a defensible, multi-touch view to reallocate 2026 budget away from over-credited channels"
+      ],
+      "skills": [
+        "Amazon Marketing Cloud",
+        "Path-to-purchase analysis",
+        "Composite KPI scoring",
+        "Data visualization"
+      ]
+    }
+  },
+  {
+    "cat": "AMC",
+    "headline": "Measured true incremental reach to challenge a 'unique reach' claim",
+    "context": "Quantified how much of a premium video channel's reach was genuinely incremental versus already covered — keeping the media budget honest.",
+    "img": "",
+    "metrics": [
+      "38.5% truly incremental",
+      "62% already covered",
+      "Vendor claim challenged"
+    ],
+    "tags": [
+      "AMC",
+      "Incrementality",
+      "Reach",
+      "Media Efficiency"
+    ],
+    "detail": {
+      "overview": "A platform pitched a premium video format on its 'unique reach.' The client needed to know how much of that reach was actually new versus duplicated by existing awareness media.",
+      "problem": "Headline reach numbers hide overlap — paying again for audiences you already reach is wasted budget, but proving it needs clean-room overlap analysis.",
+      "actions": [
+        "Built an audience-overlap and incrementality analysis in Amazon Marketing Cloud comparing the new format against existing awareness media",
+        "Quantified the share of reach that was genuinely incremental versus already covered, with privacy-safe aggregation"
+      ],
+      "impact": [
+        "Found the format was only ~38.5% incremental — 62% of its reach was already covered — directly challenging the platform's claim",
+        "Protected the client from double-paying for reach and informed a more efficient channel mix"
+      ],
+      "skills": [
+        "Amazon Marketing Cloud",
+        "Incrementality measurement",
+        "Audience overlap",
+        "Media efficiency"
+      ]
+    }
+  },
+  {
+    "cat": "AMC",
+    "headline": "Automated reporting for 700+ campaigns with daily refresh",
+    "context": "Built an auto-classification and KPI pipeline so hundreds of a brand's campaigns report themselves daily — accurately and hands-off.",
+    "img": "",
+    "metrics": [
+      "700+ campaigns",
+      "100% classified (0 unmapped)",
+      "Daily auto-refresh"
+    ],
+    "tags": [
+      "AMC",
+      "BigQuery",
+      "Automation",
+      "Data Engineering"
+    ],
+    "detail": {
+      "overview": "A brand ran 700+ campaigns whose performance had to be classified and reported consistently every day — manual reporting didn't scale.",
+      "problem": "Campaigns were inconsistently categorized (some falling into an 'unmapped' bucket), and daily manual reporting was slow and error-prone.",
+      "actions": [
+        "Engineered an 8-dimension campaign-classification and KPI pipeline (CTR, CVR, ROAS, new-to-brand) joining attributed events with media cost",
+        "Diagnosed and fixed a pattern-matching bug to reach 100% classification accuracy with zero unmapped campaigns",
+        "Set the pipeline to refresh automatically every day in BigQuery, feeding Connected Sheets and Looker Studio dashboards"
+      ],
+      "impact": [
+        "Eliminated manual reporting for 700+ campaigns and made daily KPIs reliable and self-serve",
+        "Standardized classification so every team read performance the same way"
+      ],
+      "skills": [
+        "Amazon Marketing Cloud",
+        "BigQuery",
+        "Reporting automation",
+        "Data QA / validation"
+      ]
+    }
+  },
+  {
+    "cat": "AMC",
+    "headline": "Decoded off-Amazon purchase behavior for a global tech brand",
+    "context": "Used clean-room conversion data to bucket a tech brand's off-Amazon purchases by price and find where the revenue really comes from.",
+    "img": "",
+    "metrics": [
+      "1,573 purchases analyzed",
+      "Top 3% of orders = 52% of sales",
+      "Reporting automated"
+    ],
+    "tags": [
+      "AMC",
+      "Conversion Analysis",
+      "Python",
+      "Reporting"
+    ],
+    "detail": {
+      "overview": "A global technology (PC) brand wanted to understand its off-Amazon purchases — what people actually bought and at what price — to sharpen targeting.",
+      "problem": "Off-Amazon conversions were a black box, and an early version mis-bucketed revenue, risking the wrong conclusion.",
+      "actions": [
+        "Classified off-Amazon conversions into price bands in Amazon Marketing Cloud and fixed a null-revenue bucketing error that skewed results",
+        "Built a Python pipeline (raw to aggregate to chart/CSV) to produce the report monthly without manual work"
+      ],
+      "impact": [
+        "Showed that 80k-300k JPY purchases drove 54% of volume and the top 3% of orders generated 52% of sales — pointing to clear high-value targets",
+        "Gave the brand a repeatable monthly read on off-Amazon purchase value"
+      ],
+      "skills": [
+        "Amazon Marketing Cloud",
+        "Conversion analysis",
+        "Python",
+        "Reporting automation"
+      ]
+    }
+  },
+  {
     "cat": "Performance",
     "headline": "Took CIDER's paid media in-house and tripled performance",
     "context": "Rebuilt Naver & Kakao paid media end to end after agency results fell ~70%.",
