@@ -5,8 +5,8 @@
     "context": "Rebuilt Naver & Kakao paid media end to end after agency results fell ~70%.",
     "img": "",
     "metrics": [
-      "+200% YoY",
-      "+26% MoM avg",
+      "+200% YoY ROAS",
+      "+26% MoM avg ROAS",
       "Tracking rebuilt"
     ],
     "tags": [
@@ -15,7 +15,26 @@
       "Kakao",
       "Naver"
     ],
-    "detail": null
+    "detail": {
+      "overview": "CIDER's Korea paid media was outsourced to an agency whose ROAS had fallen ~70%. Over two years I brought the entire Naver & Kakao operation in-house and rebuilt it from measurement up — tripling ROAS.",
+      "problem": "Agency-run Naver & Kakao campaigns were down ~70% in ROAS, and the numbers couldn't be trusted: broken UTM parameters meant the in-house site analytics and the ad platforms' reported results didn't reconcile, so budget was being steered on conflicting data.",
+      "actions": [
+        "Transitioned Naver & Kakao paid media fully in-house over two years, owning campaign structure, bidding, and creative",
+        "Diagnosed and rebuilt the tracking layer — fixed the broken UTM parameters so in-house site data and ad-platform results reconciled, restoring a single source of truth for performance",
+        "Ran systematic A/B tests on creative and targeting, cutting underperformers and scaling the winners"
+      ],
+      "impact": [
+        "ROAS +200% YoY (3x) after in-housing",
+        "+26% MoM average ROAS growth, sustained across the period",
+        "Tracking rebuilt so site analytics and ad platforms reconciled, with decisions driven by trustworthy data"
+      ],
+      "skills": [
+        "Paid Media (Naver, Kakao)",
+        "Conversion Tracking / UTM / Attribution",
+        "A/B Testing",
+        "In-housing & Ops"
+      ]
+    }
   },
   {
     "cat": "Influencer",
@@ -441,21 +460,6 @@
         "Frequency Analysis",
         "Research"
       ]
-    }
-  },
-  {
-    "cat": "Content",
-    "headline": "Test Entry",
-    "context": "Placeholder record for system testing.",
-    "img": "",
-    "metrics": [],
-    "tags": [],
-    "detail": {
-      "overview": "This is a test entry.",
-      "problem": "",
-      "actions": [],
-      "impact": [],
-      "skills": []
     }
   }
 ]
