@@ -1,262 +1,12 @@
 [
   {
-    "cat": "AMC",
-    "headline": "Built a full-funnel measurement framework in Amazon Marketing Cloud",
-    "context": "Designed an end-to-end clean-room framework showing how campaigns move a global pet-nutrition brand from awareness to loyalty — feeding client budget decisions.",
-    "img": "",
-    "metrics": [
-      "Full-funnel framework",
-      "SQL · BigQuery · Python",
-      "Client-ready reporting"
-    ],
-    "tags": [
-      "AMC",
-      "Clean Room",
-      "SQL",
-      "BigQuery",
-      "Python"
-    ],
-    "detail": {
-      "overview": "A global pet-nutrition brand needed a consistent way to see how its advertising drove the full customer journey — awareness, consideration, purchase, and loyalty — across its main product lines in Japan.",
-      "problem": "Reporting was fragmented and hard to trust, so the team couldn't confidently reallocate budget.",
-      "actions": [
-        "Designed a privacy-safe clean-room measurement framework in Amazon Marketing Cloud covering the whole funnel and all product lines",
-        "Engineered the SQL and a BigQuery pipeline that organized hundreds of products into clean categories and produced consistent, reconcilable metrics",
-        "Built a reusable Python visualization toolkit and a documented style guide so every chart was brand-consistent and presentation-ready"
-      ],
-      "impact": [
-        "Gave the client one trustworthy full-funnel view to guide budget allocation",
-        "Standardized reporting into reusable templates that cut turnaround and rework for the team"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud",
-        "SQL",
-        "BigQuery",
-        "Python",
-        "Marketing measurement"
-      ]
-    }
-  },
-  {
-    "cat": "AMC",
-    "headline": "Ran a clean-room experiment that cut wasted ad frequency for a spirits brand",
-    "context": "Designed a controlled pre/post test to answer whether removing a frequency cap helped or hurt media efficiency — and turned it into a clear recommendation.",
-    "img": "",
-    "metrics": [
-      "Controlled experiment",
-      "~25% wasted reach found",
-      "~2x cost-per-reach gain (projected)"
-    ],
-    "tags": [
-      "AMC",
-      "Experimentation",
-      "Media Efficiency",
-      "Amazon DSP"
-    ],
-    "detail": {
-      "overview": "A premium spirits brand had removed the frequency cap on its awareness advertising and wanted to know whether that was a good idea.",
-      "problem": "Ad frequency builds up over time, so a simple before/after comparison would be misleading — the answer needed a controlled design.",
-      "actions": [
-        "Designed a controlled pre/post experiment with matched time windows to isolate the cap's true effect",
-        "Measured reach efficiency and cost-per-reach with privacy-safe aggregation"
-      ],
-      "impact": [
-        "Showed that uncapping nearly doubled frequency but cut unique reach by about a quarter and raised cost-per-reach",
-        "Recommended re-applying the cap, projected to roughly halve cost-per-reach on awareness media"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud",
-        "Experiment design",
-        "Media efficiency",
-        "Data storytelling"
-      ]
-    }
-  },
-  {
-    "cat": "AMC",
-    "headline": "Measured new-customer acquisition and audience overlap to redirect budget",
-    "context": "Quantified how much advertising actually wins new customers and whether retargeting was set up correctly — reframing the metrics so the client could act.",
-    "img": "",
-    "metrics": [
-      "New-to-brand measurement",
-      "Retargeting validated",
-      "Budget reallocation guidance"
-    ],
-    "tags": [
-      "AMC",
-      "New-to-Brand",
-      "Attribution",
-      "Audience"
-    ],
-    "detail": {
-      "overview": "Clients needed to know whether their advertising was bringing in genuinely new customers, and whether retargeting across channels was working.",
-      "problem": "The obvious metrics were misleading — a rate-based view and a single-month window both pointed the wrong way and risked a bad budget call.",
-      "actions": [
-        "Built a customer-level new-to-brand analysis and reframed it from a misleading rate to absolute new-customer volume",
-        "Analyzed audience overlap across Amazon DSP and Sponsored Ads and corrected the measurement window to reflect how retargeting builds over time"
-      ],
-      "impact": [
-        "Showed advertising drives nearly all new-customer acquisition, and flagged where budget was over-indexed on existing customers",
-        "Turned a 'is retargeting broken?' escalation into clear evidence it was working — guiding reallocation toward new-customer growth"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud",
-        "New-to-brand measurement",
-        "Attribution",
-        "Audience analysis"
-      ]
-    }
-  },
-  {
-    "cat": "AMC",
-    "headline": "Modeled the path to purchase and scored media with a composite KPI",
-    "context": "Analyzed thousands of conversion paths and built a composite score to rank which media actually drives new customers for a global pet-nutrition brand.",
-    "img": "",
-    "metrics": [
-      "6,000+ paths analyzed",
-      "Top 20 = 85% of reach",
-      "5-KPI composite score"
-    ],
-    "tags": [
-      "AMC",
-      "Path to Purchase",
-      "Attribution",
-      "Media Planning"
-    ],
-    "detail": {
-      "overview": "A global pet-nutrition brand needed to know which channels genuinely win new customers, not just which get the last click, to plan its 2026 budget.",
-      "problem": "Last-touch attribution over-credited closing channels, and there was no single way to compare media on cost, reach, and new-customer value together.",
-      "actions": [
-        "Built a path-to-purchase analysis in Amazon Marketing Cloud across thousands of multi-touch journeys, separating new-customer paths from existing ones",
-        "Designed a 5-KPI composite score (cost-per-acquisition, new-to-brand CPA, cost-per-reach, ROAS, new-to-brand ROAS) to rank channels on one scale",
-        "Visualized the journeys (Sankey + charts) and flagged where premium video acted as a closer/reminder rather than a true acquisition driver"
-      ],
-      "impact": [
-        "Showed the top 20 paths covered ~85% of reach, focusing the conversation on what matters",
-        "Gave the client a defensible, multi-touch view to reallocate 2026 budget away from over-credited channels"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud",
-        "Path-to-purchase analysis",
-        "Composite KPI scoring",
-        "Data visualization"
-      ]
-    }
-  },
-  {
-    "cat": "AMC",
-    "headline": "Measured true incremental reach to challenge a 'unique reach' claim",
-    "context": "Quantified how much of a premium video channel's reach was genuinely incremental versus already covered — keeping the media budget honest.",
-    "img": "",
-    "metrics": [
-      "Under 40% incremental",
-      "~60% already covered",
-      "Vendor claim challenged"
-    ],
-    "tags": [
-      "AMC",
-      "Incrementality",
-      "Reach",
-      "Media Efficiency"
-    ],
-    "detail": {
-      "overview": "A platform pitched a premium video format on its 'unique reach.' The client needed to know how much of that reach was actually new versus duplicated by existing awareness media.",
-      "problem": "Headline reach numbers hide overlap — paying again for audiences you already reach is wasted budget, but proving it needs clean-room overlap analysis.",
-      "actions": [
-        "Built an audience-overlap and incrementality analysis in Amazon Marketing Cloud comparing the new format against existing awareness media",
-        "Quantified the share of reach that was genuinely incremental versus already covered, with privacy-safe aggregation"
-      ],
-      "impact": [
-        "Found the format was only under 40% incremental — most of its reach was already covered — directly challenging the platform's claim",
-        "Protected the client from double-paying for reach and informed a more efficient channel mix"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud",
-        "Incrementality measurement",
-        "Audience overlap",
-        "Media efficiency"
-      ]
-    }
-  },
-  {
-    "cat": "AMC",
-    "headline": "Automated reporting for 700+ campaigns with daily refresh",
-    "context": "Built an auto-classification and KPI pipeline so hundreds of a brand's campaigns report themselves daily — accurately and hands-off.",
-    "img": "",
-    "metrics": [
-      "700+ campaigns",
-      "100% classified (0 unmapped)",
-      "Daily auto-refresh"
-    ],
-    "tags": [
-      "AMC",
-      "BigQuery",
-      "Automation",
-      "Data Engineering"
-    ],
-    "detail": {
-      "overview": "A brand ran 700+ campaigns whose performance had to be classified and reported consistently every day — manual reporting didn't scale.",
-      "problem": "Campaigns were inconsistently categorized (some falling into an 'unmapped' bucket), and daily manual reporting was slow and error-prone.",
-      "actions": [
-        "Engineered an 8-dimension campaign-classification and KPI pipeline (CTR, CVR, ROAS, new-to-brand) joining attributed events with media cost",
-        "Diagnosed and fixed a pattern-matching bug to reach 100% classification accuracy with zero unmapped campaigns",
-        "Set the pipeline to refresh automatically every day in BigQuery, feeding Connected Sheets and Looker Studio dashboards"
-      ],
-      "impact": [
-        "Eliminated manual reporting for 700+ campaigns and made daily KPIs reliable and self-serve",
-        "Standardized classification so every team read performance the same way"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud",
-        "BigQuery",
-        "Reporting automation",
-        "Data QA / validation"
-      ]
-    }
-  },
-  {
-    "cat": "AMC",
-    "headline": "Decoded off-Amazon purchase behavior for a global tech brand",
-    "context": "Used clean-room conversion data to bucket a tech brand's off-Amazon purchases by price and find where the revenue really comes from.",
-    "img": "",
-    "metrics": [
-      "1,500+ purchases analyzed",
-      "Top ~3% of orders = ~half of sales",
-      "Reporting automated"
-    ],
-    "tags": [
-      "AMC",
-      "Conversion Analysis",
-      "Python",
-      "Reporting"
-    ],
-    "detail": {
-      "overview": "A global technology (PC) brand wanted to understand its off-Amazon purchases — what people actually bought and at what price — to sharpen targeting.",
-      "problem": "Off-Amazon conversions were a black box, and an early version mis-bucketed revenue, risking the wrong conclusion.",
-      "actions": [
-        "Classified off-Amazon conversions into price bands in Amazon Marketing Cloud and fixed a null-revenue bucketing error that skewed results",
-        "Built a Python pipeline (raw to aggregate to chart/CSV) to produce the report monthly without manual work"
-      ],
-      "impact": [
-        "Showed that mid-price purchases drove over half of volume, with the top few percent of orders generating over half of sales — pointing to clear high-value targets",
-        "Gave the brand a repeatable monthly read on off-Amazon purchase value"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud",
-        "Conversion analysis",
-        "Python",
-        "Reporting automation"
-      ]
-    }
-  },
-  {
     "cat": "Performance",
     "headline": "Took CIDER's paid media in-house and tripled performance",
     "context": "Rebuilt Naver & Kakao paid media end to end after agency results fell ~70%.",
     "img": "",
     "metrics": [
-      "+200% YoY ROAS",
-      "+26% MoM avg ROAS",
+      "+200% YoY",
+      "+26% MoM avg",
       "Tracking rebuilt"
     ],
     "tags": [
@@ -265,26 +15,7 @@
       "Kakao",
       "Naver"
     ],
-    "detail": {
-      "overview": "CIDER's Korea paid media was outsourced to an agency whose ROAS had fallen ~70%. Over two years I brought the entire Naver & Kakao operation in-house and rebuilt it from measurement up — tripling ROAS.",
-      "problem": "Agency-run Naver & Kakao campaigns were down ~70% in ROAS, and the numbers couldn't be trusted: broken UTM parameters meant the in-house site analytics and the ad platforms' reported results didn't reconcile, so budget was being steered on conflicting data.",
-      "actions": [
-        "Transitioned Naver & Kakao paid media fully in-house over two years, owning campaign structure, bidding, and creative",
-        "Diagnosed and rebuilt the tracking layer — fixed the broken UTM parameters so in-house site data and ad-platform results reconciled, restoring a single source of truth for performance",
-        "Ran systematic A/B tests on creative and targeting, cutting underperformers and scaling the winners"
-      ],
-      "impact": [
-        "ROAS +200% YoY (3x) after in-housing",
-        "+26% MoM average ROAS growth, sustained across the period",
-        "Tracking rebuilt so site analytics and ad platforms reconciled, with decisions driven by trustworthy data"
-      ],
-      "skills": [
-        "Paid Media (Naver, Kakao)",
-        "Conversion Tracking / UTM / Attribution",
-        "A/B Testing",
-        "In-housing & Ops"
-      ]
-    }
+    "detail": null
   },
   {
     "cat": "Influencer",
@@ -709,6 +440,499 @@
         "Data Collection",
         "Frequency Analysis",
         "Research"
+      ]
+    }
+  },
+  {
+    "cat": "Content",
+    "headline": "Test Entry",
+    "context": "Placeholder record for system testing.",
+    "img": "",
+    "metrics": [],
+    "tags": [],
+    "detail": {
+      "overview": "This is a test entry.",
+      "problem": "",
+      "actions": [],
+      "impact": [],
+      "skills": []
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built Full-Funnel AMC Measurement Framework for a CPG Pet Food Brand in Japan",
+    "context": "Designed and engineered an end-to-end Amazon Marketing Cloud pipeline—covering SQL, data loading, and visualization—to measure campaign penetration across Awareness, Consideration, Purchase, and Loyalty for a Japan market CPG client at a global media agency.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Amazon Marketing Cloud",
+      "BigQuery",
+      "Python",
+      "Funnel Measurement",
+      "SQL",
+      "Data Engineering",
+      "CPG",
+      "Japan"
+    ],
+    "detail": {
+      "overview": "Designed and built a full-funnel penetration measurement framework for a CPG pet food brand in Japan. The pipeline ran from AMC SQL queries through BigQuery storage to Python visualizations, covering four product categories (Standard Diet and Prescription Diet, Dog and Cat) across four funnel stages.",
+      "problem": "The client needed a single, consistent view of how many unique users were reached and converted at each funnel stage—from DSP impressions through Subscribe-and-Save loyalty orders—across multiple product lines. No existing framework handled AMC's data constraints, Japan timezone requirements, and brand-consistent reporting simultaneously.",
+      "actions": [
+        "Wrote 300+ line multi-CTE AMC SQL queries using dsp_impressions, conversions_all (Flexible Shopping Insights), and APAC audience segment tables to measure reach and conversion across all funnel stages.",
+        "Built an ASIN mapping CTE covering 240+ product ASINs across four categories, and implemented cumulative quarterly reach logic so that Trend totals matched Overall totals for stakeholder clarity.",
+        "Diagnosed and resolved three critical data issues: a cumulative window mismatch between Overall and Trend views, a 13-month AMC data retention gap removing Q1 2025, and a tracked_asin vs tracked_item join error that caused Consideration metrics to return zero rows.",
+        "Loaded query outputs into Google BigQuery with a standardized table naming convention, authenticated via Google Cloud SDK in Colab.",
+        "Built a reusable Python visualization toolkit (style guide v3.2) generating donut pie and line charts in brand colors, exported as PNG (300 dpi) and PDF (vector).",
+        "Documented an AMC SQL parser bug where aliases matching source column names caused silent aggregation errors in UNION ALL contexts; established a safe-prefix naming convention (raw_, u_, conv_, agg_, sum_) to prevent recurrence."
+      ],
+      "impact": [
+        "Delivered a mathematically consistent full-funnel penetration report across four product categories, with Overall and Trend metrics fully aligned.",
+        "Produced 10 visualization assets (4 funnel stages × Overall + Trend, PNG + PDF) and a reusable toolkit applicable to future campaigns.",
+        "Created an AMC SQL best-practices guide documenting a previously undocumented parser bug, reducing risk of silent data errors in future AMC projects at the agency."
+      ],
+      "skills": [
+        "AMC SQL (multi-CTE, window functions, cumulative aggregation, timezone handling)",
+        "Google BigQuery (data loading, table management, GCP authentication)",
+        "Python (pandas, matplotlib, reusable function design)",
+        "Full-funnel measurement design",
+        "Audience segmentation (ASI In-Market + Lifestyle)",
+        "Data pipeline engineering (AMC → BigQuery → Python → Visualization)",
+        "Bug diagnosis and technical documentation"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Frequency Cap Removal Cut Reach by 26% While Raising Cost-per-Reach 9%",
+    "context": "Ran a pre/post quasi-experiment in Amazon Marketing Cloud to assess whether removing the 6x/month frequency cap on a premium whisky brand's Awareness line items improved media efficiency.",
+    "img": "",
+    "metrics": [
+      "-26% unique reach",
+      "+9% CPR",
+      "-44% CPM",
+      "freq 4.33→8.50"
+    ],
+    "tags": [
+      "AMC",
+      "Amazon DSP",
+      "Frequency Analysis",
+      "Clean Room",
+      "Media Efficiency",
+      "Experiment Design"
+    ],
+    "detail": {
+      "overview": "Analyzed the impact of uncapping impression frequency on Awareness campaigns for a premium whisky brand using AMC SQL. Equalized 14-day pre/post windows to isolate frequency effects from time-accumulation bias.",
+      "problem": "The media team removed a 6x/month frequency cap to test whether relaxing delivery constraints would improve reach and lower CPM. The actual effect on cost-per-reach was unknown.",
+      "actions": [
+        "Designed a pre/post quasi-experiment with matched 14-day windows in AMC SQL to control for frequency time-accumulation bias.",
+        "Mapped funnel stages (Awareness / Consideration / Purchase / Loyalty) via line item naming conventions (AW/CON/PUR/LO).",
+        "Aggregated privacy-safe unique reach using COUNT DISTINCT user_id inside CTEs per AMC clean room rules.",
+        "Bucketed users by frequency saturation level to identify where repeat exposure was concentrated.",
+        "Derived CPM and CPR for both windows and calculated directional change."
+      ],
+      "impact": [
+        "Uncapping doubled average frequency (4.33→8.50) while reducing unique reach by 26% — cheaper CPM inventory was absorbed by repeat exposure rather than incremental reach.",
+        "Recommended reinstating the 6x/month cap; projected roughly 2x improvement in CPR if impressions are redistributed at capped frequency."
+      ],
+      "skills": [
+        "AMC SQL",
+        "Clean room analytics",
+        "Experiment design",
+        "Media efficiency analysis",
+        "Privacy-compliant querying",
+        "Data storytelling"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Funnel Penetration Analytics & Visualization Standard for Hill's Pet Nutrition APCL",
+    "context": "Built end-to-end funnel penetration charts and a reusable visualization standard for a global pet nutrition brand's APCL reporting, via a media agency; sole analyst and documentation owner.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Python",
+      "pandas",
+      "matplotlib",
+      "BigQuery",
+      "AMC",
+      "Funnel Analytics",
+      "Data Visualization",
+      "Brand Guidelines"
+    ],
+    "detail": {
+      "overview": "Developed monthly funnel penetration visualizations (Awareness / Consideration / Purchase / Loyalty) across Dog/Cat × SD/PD segments, and authored a team-wide visualization standard to keep outputs PPT-ready and brand-consistent.",
+      "problem": "Funnel reporting lacked a consistent visual standard, required BigQuery table access to run, and had no documentation—making it hard to reuse or hand off. Funnel data also showed a reach imbalance that needed a clear recommendation.",
+      "actions": [
+        "Refactored BigQuery-dependent pipeline into a portable in-memory DataFrame (StringIO/read_csv) with NaN-aware handling for missing segment data",
+        "Designed a Hill's brand color system encoding two dimensions (species + tier) without a legend: Red=Dog/Blue=Cat, vivid=SD/deep=PD",
+        "Authored Hill's Pet Food Python Visualization Guide v1.0, covering PowerPoint export specs (transparent PNG/SVG, Calibri/Malgun Gothic, 16:9 sizing)",
+        "Wrote a neutral-tone strategic budget recommendation (EN/KR) against a 70% reach benchmark, proposing three reallocation paths including AMC audience expansion"
+      ],
+      "impact": [
+        "Standardized chart output cuts rework and ensures brand-consistent, PPT-ready visuals across the team",
+        "Identified funnel imbalance—Awareness and Purchase over-indexed while Consideration and Loyalty under-indexed—and proposed three concrete budget optimization paths"
+      ],
+      "skills": [
+        "Python (pandas, matplotlib)",
+        "BigQuery",
+        "Amazon Marketing Cloud (AMC)",
+        "Data Visualization",
+        "Marketing Funnel Analysis",
+        "Technical Documentation",
+        "Strategic Recommendation"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built Unified AMC Pipeline for Sponsored Ads KPI & Media Cost — Fixed SQL Accuracy Issues",
+    "context": "Designed and debugged an AMC clean room SQL pipeline consolidating KPI and spend across all Sponsored Ads campaign types (SP/SB/SD/STV); established team SQL conventions.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Spark SQL",
+      "Clean Room",
+      "Amazon Ads",
+      "Funnel Analytics",
+      "Data QA",
+      "SQL Engineering"
+    ],
+    "detail": {
+      "overview": "In Amazon Marketing Cloud's clean room environment, built a single-query pipeline that joins KPI data (attributed events) with media cost (CPC + VCPM) for all Sponsored Ads campaign types, and implemented a multi-level campaign classification system. Simultaneously diagnosed and resolved integer division truncation and alias conflict bugs that were corrupting ratio metrics.",
+      "problem": "Ratio KPIs (NTB rate, AOV, etc.) were returning incorrect values due to integer division truncation inside multi-level CTE + UNION/JOIN structures. Column alias conflicts made root-cause diagnosis slow. A missing classification catch-all caused a growing 'Other' bucket, reducing report reliability.",
+      "actions": [
+        "Replaced bare division with CAST(AS DOUBLE) + NULLIF pattern to eliminate integer truncation across all ratio metrics",
+        "Defined a prefix-based naming convention (raw_ / u_ / m_ / sum_) to prevent alias-vs-source column collisions; documented and rolled out to team",
+        "Joined amazon_attributed_events_by_traffic_time (KPI) and sponsored_ads_traffic (spend) via FULL OUTER JOIN to capture campaigns with conversion data only or spend data only",
+        "Ported Google Sheets campaign classification logic into SQL CASE statements covering SD/PD split, Dog/Cat segment, 4-level subfunnel, and top-level funnel (Awareness / Consideration / Purchase)",
+        "Built a standalone QA query to surface unclassified campaigns before reporting, establishing a self-verification loop",
+        "Designed queries with AMC privacy aggregation thresholds (LOW / MEDIUM / HIGH / VERY_HIGH) in mind"
+      ],
+      "impact": [
+        "All Sponsored Ads campaigns now report KPI (revenue, NTB revenue, orders, NTB orders, AOV, NTB rate, units) alongside media cost in a single output table",
+        "Removed root cause of ratio metric errors, improving trustworthiness of performance reports",
+        "Delivered a reusable AMC SQL template and a 7-step debugging checklist adopted as team standard"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Spark SQL",
+        "Clean Room Analytics",
+        "CTE Design",
+        "Data Validation / QA",
+        "Funnel Analysis",
+        "Amazon Sponsored Ads",
+        "Data Pipeline Design"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "AMC Overlap Analysis Revealed Retargeting Gap Across DSP and Sponsored Ads",
+    "context": "Built an end-to-end AMC audience overlap pipeline for a pet nutrition brand's Japan awareness campaigns; sole data engineer and analyst on the project.",
+    "img": "",
+    "metrics": [
+      "FTV↔DSP_Static overlap: 51%",
+      "PVA↔DSP_Static overlap: 44%",
+      "Video↔DSP_Static overlap: 92%",
+      "SA_AW covered by DSP_AW: 81% (SD) / 72% (PD)"
+    ],
+    "tags": [
+      "AMC",
+      "CleanRoom",
+      "SQL",
+      "Python",
+      "DataViz",
+      "AmazonAds",
+      "DSP",
+      "SponsoredAds",
+      "AudienceOverlap",
+      "MediaMeasurement"
+    ],
+    "detail": {
+      "overview": "Designed and delivered a cross-channel audience overlap analysis inside Amazon Marketing Cloud for a pet nutrition brand running awareness campaigns in Japan. Covered Amazon DSP (FTV, PVA, B+, Video, DSP_Static) and Sponsored Ads, and produced client-ready visualizations to guide media reallocation.",
+      "problem": "The team needed to know whether upper-funnel DSP channels were reaching audiences that later got retargeted by the primary conversion channel (DSP_Static), and how much SA and DSP Awareness audiences overlapped — without individual-level data exposure.",
+      "actions": [
+        "Authored privacy-compliant AMC SQL: user_id never surfaced in final SELECT; COUNT(DISTINCT) scoped to CTEs only.",
+        "Parsed campaign names (LOWER + LIKE) to classify five funnel subgroups: FTV, PVA, B+, Video, DSP_Static, plus SA Awareness.",
+        "Engineered pairwise and union overlap matrices via self-joins to work around AMC's lack of window frame support; calculated directional coverage % (within-base and of-union).",
+        "Diagnosed a data-window pitfall where staggered flight dates risked a false 'zero overlap' reading; validated that set-based overlap logic is unaffected and corrected the methodology.",
+        "Built brand-guideline-compliant Python visualizations: stacked bar (reach vs. retargeted), pairwise heatmap/network graph, and 2-set Venn diagrams exported as transparent PNG/SVG for PPT."
+      ],
+      "impact": [
+        "Quantified that FTV (51%) and PVA (44%) had the weakest overlap with DSP_Static, flagging a likely conversion bottleneck where upper-funnel audiences exit without retargeting.",
+        "Showed 81% (SD) / 72% (PD) of SA Awareness reach was already covered by DSP Awareness, surfacing potential frequency duplication.",
+        "Delivered actionable reallocation rationale grounded in clean-room measurement rather than modeled estimates."
+      ],
+      "skills": [
+        "AMC SQL",
+        "Python (pandas, matplotlib, matplotlib-venn)",
+        "BigQuery / Colab Enterprise",
+        "Audience overlap modeling",
+        "Privacy-safe measurement",
+        "Data visualization"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "AMC Frequency Analysis Surfaces Optimal Ad Caps Across Full Purchase Funnel",
+    "context": "Ran funnel-stage frequency analyses in Amazon Marketing Cloud for a pet nutrition brand's Japan market, covering Awareness through Loyalty, to identify where ad exposure stops driving incremental value.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Frequency Analysis",
+      "Ad-Tech",
+      "SQL",
+      "BigQuery",
+      "Python",
+      "Funnel Analytics",
+      "Pet Nutrition",
+      "Japan"
+    ],
+    "detail": {
+      "overview": "Used AMC SQL and Python to build a frequency–outcome analysis across four funnel stages (Awareness, Consideration, Purchase, Loyalty) for two product lines. Goal was to find the frequency point at which additional impressions stop converting, and to make a budget reallocation case toward new-user acquisition.",
+      "problem": "The brand was running without empirically validated frequency caps per funnel stage. Over-exposure to existing and loyal customers risked cannibalizing organic conversions and wasting budget that could go toward prospecting.",
+      "actions": [
+        "Defined stage-specific KPIs: reach efficiency (Awareness), CTR/DPVR (Consideration), purchase rate (Purchase), Subscribe & Save rate (Loyalty).",
+        "Cleaned time windows by excluding promotional periods and attribution-incomplete weeks; used advertiser-timezone date fields throughout.",
+        "Worked around AMC SQL dialect constraints — no window-frame functions, no ORDER BY — by rewriting cumulative and incremental calculations as self-joins.",
+        "Flagged and corrected analytical pitfalls including selection bias and volume-driven dilution at the frequency cap.",
+        "Built reusable Python visualization templates (transparent PNG/SVG, brand palette, PPT-optimized) and an AMC SQL best-practice ruleset."
+      ],
+      "impact": [
+        "Awareness: 70% cumulative reach validated at frequency 2 — confirmed the global 2x/7-day guideline with local Japan data.",
+        "Consideration: efficiency peaks at 1–2 impressions; the FQ3 dip is volume concentration at the cap, not ad fatigue.",
+        "Purchase (Prescription Diet): diminishing returns clear beyond ~7 impressions; 90%+ of buyers were already ad-exposed, flagging cannibalization risk.",
+        "Loyalty: Subscribe & Save rate declines monotonically with frequency; ~60% of subscribers convert organically — strongest evidence that high frequency does not drive incremental subscriptions.",
+        "Delivered a unified strategic recommendation to reduce over-exposure and shift budget from existing/loyal customers toward new-user acquisition."
+      ],
+      "skills": [
+        "AMC SQL",
+        "BigQuery",
+        "Python (pandas, matplotlib)",
+        "Frequency Analysis",
+        "Funnel Analytics",
+        "Selection Bias Detection",
+        "Ad-Tech Troubleshooting",
+        "Data Visualization",
+        "PowerPoint Storytelling"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built AMC SQL Pipelines for Cross-Channel KPI Measurement and Audience Overlap Analysis",
+    "context": "AMC Data Engineer/Analyst supporting campaign measurement and audience analytics across Amazon DSP and Sponsored Ads for agency clients",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC SQL",
+      "Amazon DSP",
+      "Sponsored Ads",
+      "CTE",
+      "UNION ALL",
+      "self-join",
+      "cross-channel reach",
+      "data quality",
+      "audience analytics",
+      "bilingual KR/JP"
+    ],
+    "detail": {
+      "overview": "Designed, built, and debugged Amazon Marketing Cloud SQL pipelines delivering unified KPI dashboards and cross-channel audience overlap insights. Also handled data quality fixes, feasibility consulting on AMC data boundaries, and bilingual technical client communication.",
+      "problem": "Clients needed reliable cross-channel measurement (SA + DSP) in AMC, but existing queries had data accuracy issues and lacked reach-deduplication visibility. One Japanese-language client also needed verified answers on AMC audience lifecycle mechanics.",
+      "actions": [
+        "Built unified KPI query covering impressions, clicks, NTB sales, CTR/CPC/CPM across Sponsored Ads and DSP using CTE-based pipeline",
+        "Fixed integer-division truncation bug via explicit CAST AS DOUBLE and resolved NULL contamination from LEFT JOINs using COALESCE",
+        "Designed cross-channel unique-user overlap analysis (DSP Awareness × AMS General) using UNION ALL and self-join to produce reach-deduplication matrix",
+        "Assessed feasibility of extracting DSP line-item targeting config from AMC; clarified the boundary between configuration data and event-level delivered data, and proposed API/upload alternatives",
+        "Standardized campaign × line-item master list query with reach metrics, respecting AMC aggregation thresholds",
+        "Verified AMC audience lifecycle mechanics (refreshRateDays, 100-day inactivity rule) against official documentation and drafted accurate technical response in Japanese for a JP client"
+      ],
+      "impact": [
+        "Delivered production-ready unified KPI dashboard query covering full-funnel metrics for 2026 trend analysis",
+        "Resolved data accuracy issues in cost and derived metrics calculations",
+        "Provided clients with cross-channel reach-overlap visibility to support media-mix decisions",
+        "Clarified AMC clean-room data boundaries to prevent mis-scoped measurement requests and unblocked alternative solutions"
+      ],
+      "skills": [
+        "AMC SQL",
+        "CTE pipeline design",
+        "self-join overlap analysis",
+        "UNION ALL optimization",
+        "data type casting",
+        "NULL handling",
+        "aggregation threshold compliance",
+        "Amazon DSP",
+        "Sponsored Ads (AMS)",
+        "audience strategy",
+        "bilingual technical communication (KR/JP)"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Diagnosed AMC Data Gaps and Delivered Actionable Workarounds for Two Brands in One Day",
+    "context": "AMC Data Analyst supporting Dell Japan and Hill's Pet Nutrition — ran three parallel analyses in a single session covering off-Amazon conversion categorization, B2B/B2C audience segmentation feasibility, and campaign audience overlap diagnosis",
+    "img": "",
+    "metrics": [
+      "1,573 off-Amazon purchases bucketed by price proxy",
+      "35% audience overlap root-caused to 3 structural setting errors"
+    ],
+    "tags": [
+      "Amazon Marketing Cloud",
+      "AMC SQL",
+      "Audience Overlap",
+      "Clean Room Analytics",
+      "Off-Amazon Conversion",
+      "DSP",
+      "Data Governance",
+      "B2B Analytics"
+    ],
+    "detail": {
+      "overview": "Three AMC analysis requests from two clients (Dell Japan and Hill's Pet Nutrition) completed on the same date. Each task required diagnosing a data limitation, designing a workaround within AMC constraints, and communicating findings clearly to the client.",
+      "problem": "(1) Dell Japan's off-Amazon conversion events lacked product-type metadata, making PC vs. accessory distinction impossible. (2) Dell Japan asked whether AMC could distinguish Business vs. Consumer purchasers. (3) Hill's Pet's Dog and Cat Awareness campaigns showed 35% audience overlap with no clear cause.",
+      "actions": [
+        "T1 — Used off_amazon_product_sales as a price proxy; wrote AMC SQL to bucket 1,573 conversions into 7 price tiers; visualized distribution on a log scale to surface high-value (¥80k+) concentration likely attributable to PC units.",
+        "T2 — Audited is_amazon_business field limitations (SP/SB only, no off-Amazon support); designed a conversion_event_name tag-based segmentation approach; identified pixel vs. CAPI double-count risk on C-prefix parallel tags and resolved via source filtering; documented privacy aggregation threshold constraints. Delivered findings in Japanese.",
+        "T3 — Conducted a segment-ID-level audit of both campaigns; found shared 'Pet Owners' segment IDs across Dog and Cat, plus Dog IDs incorrectly included in the Cat list; classified overlap causes into four categories with a contribution vs. resolvability matrix."
+      ],
+      "impact": [
+        "Gave Dell Japan a practical path to approximate product-category attribution despite missing metadata, with 1,573 purchases distributed across price tiers.",
+        "Clarified the hard limits of AMC's B2B/B2C detection and provided two concrete alternatives (split tag firing, 1P data upload), preventing wasted engineering effort on an unsupported use case.",
+        "Separated structural overlap (3 setting-level causes, addressable) from natural overlap (multi-pet households, inherent) for Hill's Pet, giving the team a prioritized fix list."
+      ],
+      "skills": [
+        "AMC SQL",
+        "CTE pipelines",
+        "Price proxy analysis",
+        "Data governance",
+        "Events Manager / CAPI",
+        "Privacy threshold handling",
+        "DSP segment auditing",
+        "Root-cause analysis",
+        "Japanese business communication"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Audited and Standardized Amazon Sponsored Ads Creative Specs Across 4 Ad Formats",
+    "context": "Cross-verified draft creative specifications against three official Amazon sources (Seller Central, Amazon Ads, Advertising API) and consolidated findings into a single reference table for the team",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AmazonAds",
+      "AdOps",
+      "Documentation",
+      "QualityAssurance",
+      "Bilingual"
+    ],
+    "detail": {
+      "overview": "Built a verified creative specification guide covering Sponsored Products, Sponsored Brands, SP Video, and SB Video — correcting errors in an existing draft and structuring all rules into one unified table.",
+      "problem": "The team's draft spec document contained multiple inaccuracies (audio requirements, file-size limits, aspect ratios), creating risk of ad rejection during campaign setup.",
+      "actions": [
+        "Cross-referenced draft specs against Seller Central G1881, advertising.amazon.com/resources/ad-specs, and Advertising API documentation",
+        "Identified and corrected key errors: SP Video audio spec, SB Custom Image 5 MB vs. Logo 1 MB distinction, added SB Video 9:16 support, fixed aspect-ratio and file-size figures",
+        "Structured all ad-type rules (size, format, file size, landing-page requirements) into a single bilingual comparison table for internal use"
+      ],
+      "impact": [
+        "Reduced creative rejection risk by catching spec errors before campaign launch",
+        "Gave the team a single source of truth for Amazon ad creative production [검증필요: 실제 팀 활용 범위 확인]"
+      ],
+      "skills": [
+        "Data verification",
+        "Technical documentation",
+        "Amazon Ads policy analysis",
+        "Bilingual writing (KO/EN)",
+        "Information architecture"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built AMC Retargeting Audiences for Dell PC Portfolio (402 ASINs)",
+    "context": "Designed and activated privacy-safe retargeting audiences in Amazon Marketing Cloud clean room, targeting Dell's PC product line across Amazon DSP and Sponsored Ads",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Amazon DSP",
+      "Sponsored Ads",
+      "Clean Room",
+      "Audience Building",
+      "SQL",
+      "FSI",
+      "Retargeting"
+    ],
+    "detail": {
+      "overview": "Built retargeting audiences in Amazon Marketing Cloud (AMC) clean room for Dell's PC portfolio of 402 ASINs, segmenting users by cart-add-without-purchase and SA-click-without-purchase behavior across 90/60/30-day recency windows.",
+      "problem": "Dell needed to re-engage high-intent users who added products to cart or clicked Sponsored Ads but did not complete a purchase. No structured audience segments existed for these behaviors at ASIN level.",
+      "actions": [
+        "Standardized 402 ASINs into a reusable CTE (VALUES) block with deduplication and validity checks",
+        "Applied anti-join logic on unified organic + ad purchase data (FSI conversions_all) to isolate non-purchasers",
+        "Designed SA-click audience using creative_asin from sponsored_ads_traffic; pre-validated SP/SB data coverage limits",
+        "Wrote ASIN-level exploratory queries to confirm sales and add-to-cart data availability before audience build",
+        "Ensured all queries comply with AMC SQL constraints: no window frames, no RIGHT JOIN, aggregation thresholds, user_id privacy rules"
+      ],
+      "impact": [
+        "Delivered 3 cart-add-without-purchase audiences (90/60/30-day) ready for DSP activation",
+        "SA-click-without-purchase audiences (90/60/30-day) in progress",
+        "Established reusable, standardized query templates for future AMC audience builds"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Clean Room",
+        "CTE",
+        "Anti-join",
+        "Audience Activation",
+        "Amazon DSP",
+        "Sponsored Ads",
+        "FSI (Flexible Shopping Insights)",
+        "Privacy-safe Querying"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built 10 NTB Audience Segments in AMC Clean Room for Dell Japan",
+    "context": "Designed and deployed rule-based AMC audiences via SQL to support a New-to-Brand customer acquisition campaign for a global PC brand's Japan market; acted as AMC Data Engineer and Data Analyst under a media agency.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Clean Room",
+      "SQL",
+      "Amazon DSP",
+      "NTB",
+      "Audience Engineering",
+      "Japan"
+    ],
+    "detail": {
+      "overview": "Built 10 rule-based audience segments inside Amazon Marketing Cloud to identify high-intent, never-purchased shoppers for Dell Japan's NTB acquisition campaign. Segments covered 300+ ASINs across two intent signals and five lookback windows.",
+      "problem": "Dell Japan needed to reach genuinely new customers without retargeting past buyers. Standard DSP audiences couldn't enforce Amazon's 12-month NTB definition at the signal level, and Japan-timezone boundary errors risked miscounting eligible users.",
+      "actions": [
+        "Designed two audience categories — Add-to-Cart non-purchasers (conversions_all / FSI) and Sponsored Ads click non-purchasers (sponsored_ads_traffic) — each across 30 / 60 / 90 / 180 / 365-day lookback windows, totalling 10 segments.",
+        "Fixed the purchase-exclusion window at 365 days to align with Amazon's official NTB definition, decoupling it from the shorter intent windows to avoid mis-qualifying returning buyers.",
+        "Converted UTC-native AMC columns to JST (Asia/Tokyo) via CONVERT_TIME_ZONE_FROM_UTC to ensure accurate period boundaries for the advertiser's local timezone.",
+        "Applied a two-stage filter — coarse sargable prune first, then precise TZ boundary check — to keep query performance within AMC execution limits.",
+        "Mapped all 300+ Dell Japan ASINs to the target list and documented audience logic in Japanese for client-side review."
+      ],
+      "impact": [
+        "30-day and 60-day segments failed to meet AMC's minimum user threshold, surfacing a reach ceiling for short-window intent signals in this category.",
+        "Recommended a delivery-rate vs. purchase-intent trade-off strategy using the viable 90 / 180 / 365-day segments, giving the client a phased audience activation plan."
+      ],
+      "skills": [
+        "AMC SQL",
+        "Amazon Marketing Cloud",
+        "Amazon DSP",
+        "Audience Engineering",
+        "Clean Room Analytics",
+        "Timezone Handling",
+        "NTB Strategy"
       ]
     }
   }
