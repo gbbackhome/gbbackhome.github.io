@@ -547,7 +547,7 @@
   },
   {
     "cat": "Analytics",
-    "headline": "Funnel Penetration Analytics & Visualization Standard for Hill's Pet Nutrition APCL",
+    "headline": "Funnel Penetration Analytics & Visualization Standard for a Global Pet Nutrition Brand's APCL",
     "context": "Built end-to-end funnel penetration charts and a reusable visualization standard for a global pet nutrition brand's APCL reporting, via a media agency; sole analyst and documentation owner.",
     "img": "",
     "metrics": [],
@@ -566,8 +566,8 @@
       "problem": "Funnel reporting lacked a consistent visual standard, required BigQuery table access to run, and had no documentation—making it hard to reuse or hand off. Funnel data also showed a reach imbalance that needed a clear recommendation.",
       "actions": [
         "Refactored BigQuery-dependent pipeline into a portable in-memory DataFrame (StringIO/read_csv) with NaN-aware handling for missing segment data",
-        "Designed a Hill's brand color system encoding two dimensions (species + tier) without a legend: Red=Dog/Blue=Cat, vivid=SD/deep=PD",
-        "Authored Hill's Pet Food Python Visualization Guide v1.0, covering PowerPoint export specs (transparent PNG/SVG, Calibri/Malgun Gothic, 16:9 sizing)",
+        "Designed a brand color system encoding two dimensions (species + tier) without a legend: Red=Dog/Blue=Cat, vivid=SD/deep=PD",
+        "Authored a Pet Food Python Visualization Guide v1.0, covering PowerPoint export specs (transparent PNG/SVG, Calibri/Malgun Gothic, 16:9 sizing)",
         "Wrote a neutral-tone strategic budget recommendation (EN/KR) against a 70% reach benchmark, proposing three reallocation paths including AMC audience expansion"
       ],
       "impact": [
@@ -776,7 +776,7 @@
   {
     "cat": "Analytics",
     "headline": "Diagnosed AMC Data Gaps and Delivered Actionable Workarounds for Two Brands in One Day",
-    "context": "AMC Data Analyst supporting Dell Japan and Hill's Pet Nutrition — ran three parallel analyses in a single session covering off-Amazon conversion categorization, B2B/B2C audience segmentation feasibility, and campaign audience overlap diagnosis",
+    "context": "AMC Data Analyst supporting a global PC brand and a global pet nutrition brand — ran three parallel analyses in a single session covering off-Amazon conversion categorization, B2B/B2C audience segmentation feasibility, and campaign audience overlap diagnosis",
     "img": "",
     "metrics": [
       "1,573 off-Amazon purchases bucketed by price proxy",
@@ -793,17 +793,17 @@
       "B2B Analytics"
     ],
     "detail": {
-      "overview": "Three AMC analysis requests from two clients (Dell Japan and Hill's Pet Nutrition) completed on the same date. Each task required diagnosing a data limitation, designing a workaround within AMC constraints, and communicating findings clearly to the client.",
-      "problem": "(1) Dell Japan's off-Amazon conversion events lacked product-type metadata, making PC vs. accessory distinction impossible. (2) Dell Japan asked whether AMC could distinguish Business vs. Consumer purchasers. (3) Hill's Pet's Dog and Cat Awareness campaigns showed 35% audience overlap with no clear cause.",
+      "overview": "Three AMC analysis requests from two clients (a global PC brand and a global pet nutrition brand) completed on the same date. Each task required diagnosing a data limitation, designing a workaround within AMC constraints, and communicating findings clearly to the client.",
+      "problem": "(1) The PC brand's off-Amazon conversion events lacked product-type metadata, making PC vs. accessory distinction impossible. (2) The PC brand asked whether AMC could distinguish Business vs. Consumer purchasers. (3) The pet nutrition brand's Dog and Cat Awareness campaigns showed 35% audience overlap with no clear cause.",
       "actions": [
         "T1 — Used off_amazon_product_sales as a price proxy; wrote AMC SQL to bucket 1,573 conversions into 7 price tiers; visualized distribution on a log scale to surface high-value (¥80k+) concentration likely attributable to PC units.",
         "T2 — Audited is_amazon_business field limitations (SP/SB only, no off-Amazon support); designed a conversion_event_name tag-based segmentation approach; identified pixel vs. CAPI double-count risk on C-prefix parallel tags and resolved via source filtering; documented privacy aggregation threshold constraints. Delivered findings in Japanese.",
         "T3 — Conducted a segment-ID-level audit of both campaigns; found shared 'Pet Owners' segment IDs across Dog and Cat, plus Dog IDs incorrectly included in the Cat list; classified overlap causes into four categories with a contribution vs. resolvability matrix."
       ],
       "impact": [
-        "Gave Dell Japan a practical path to approximate product-category attribution despite missing metadata, with 1,573 purchases distributed across price tiers.",
+        "Gave the PC brand a practical path to approximate product-category attribution despite missing metadata, with 1,573 purchases distributed across price tiers.",
         "Clarified the hard limits of AMC's B2B/B2C detection and provided two concrete alternatives (split tag firing, 1P data upload), preventing wasted engineering effort on an unsupported use case.",
-        "Separated structural overlap (3 setting-level causes, addressable) from natural overlap (multi-pet households, inherent) for Hill's Pet, giving the team a prioritized fix list."
+        "Separated structural overlap (3 setting-level causes, addressable) from natural overlap (multi-pet households, inherent) for the pet nutrition brand, giving the team a prioritized fix list."
       ],
       "skills": [
         "AMC SQL",
@@ -854,8 +854,8 @@
   },
   {
     "cat": "Analytics",
-    "headline": "Built AMC Retargeting Audiences for Dell PC Portfolio (402 ASINs)",
-    "context": "Designed and activated privacy-safe retargeting audiences in Amazon Marketing Cloud clean room, targeting Dell's PC product line across Amazon DSP and Sponsored Ads",
+    "headline": "Built AMC Retargeting Audiences for a Global PC Brand's Portfolio (402 ASINs)",
+    "context": "Designed and activated privacy-safe retargeting audiences in Amazon Marketing Cloud clean room, targeting a global PC brand's product line across Amazon DSP and Sponsored Ads",
     "img": "",
     "metrics": [],
     "tags": [
@@ -869,8 +869,8 @@
       "Retargeting"
     ],
     "detail": {
-      "overview": "Built retargeting audiences in Amazon Marketing Cloud (AMC) clean room for Dell's PC portfolio of 402 ASINs, segmenting users by cart-add-without-purchase and SA-click-without-purchase behavior across 90/60/30-day recency windows.",
-      "problem": "Dell needed to re-engage high-intent users who added products to cart or clicked Sponsored Ads but did not complete a purchase. No structured audience segments existed for these behaviors at ASIN level.",
+      "overview": "Built retargeting audiences in Amazon Marketing Cloud (AMC) clean room for a global PC brand's portfolio of 402 ASINs, segmenting users by cart-add-without-purchase and SA-click-without-purchase behavior across 90/60/30-day recency windows.",
+      "problem": "The brand needed to re-engage high-intent users who added products to cart or clicked Sponsored Ads but did not complete a purchase. No structured audience segments existed for these behaviors at ASIN level.",
       "actions": [
         "Standardized 402 ASINs into a reusable CTE (VALUES) block with deduplication and validity checks",
         "Applied anti-join logic on unified organic + ad purchase data (FSI conversions_all) to isolate non-purchasers",
@@ -898,7 +898,7 @@
   },
   {
     "cat": "Analytics",
-    "headline": "Built 10 NTB Audience Segments in AMC Clean Room for Dell Japan",
+    "headline": "Built 10 NTB Audience Segments in AMC Clean Room for a Global PC Brand's Japan Market",
     "context": "Designed and deployed rule-based AMC audiences via SQL to support a New-to-Brand customer acquisition campaign for a global PC brand's Japan market; acted as AMC Data Engineer and Data Analyst under a media agency.",
     "img": "",
     "metrics": [],
@@ -912,14 +912,14 @@
       "Japan"
     ],
     "detail": {
-      "overview": "Built 10 rule-based audience segments inside Amazon Marketing Cloud to identify high-intent, never-purchased shoppers for Dell Japan's NTB acquisition campaign. Segments covered 300+ ASINs across two intent signals and five lookback windows.",
-      "problem": "Dell Japan needed to reach genuinely new customers without retargeting past buyers. Standard DSP audiences couldn't enforce Amazon's 12-month NTB definition at the signal level, and Japan-timezone boundary errors risked miscounting eligible users.",
+      "overview": "Built 10 rule-based audience segments inside Amazon Marketing Cloud to identify high-intent, never-purchased shoppers for the brand's NTB acquisition campaign. Segments covered 300+ ASINs across two intent signals and five lookback windows.",
+      "problem": "The brand needed to reach genuinely new customers without retargeting past buyers. Standard DSP audiences couldn't enforce Amazon's 12-month NTB definition at the signal level, and Japan-timezone boundary errors risked miscounting eligible users.",
       "actions": [
         "Designed two audience categories — Add-to-Cart non-purchasers (conversions_all / FSI) and Sponsored Ads click non-purchasers (sponsored_ads_traffic) — each across 30 / 60 / 90 / 180 / 365-day lookback windows, totalling 10 segments.",
         "Fixed the purchase-exclusion window at 365 days to align with Amazon's official NTB definition, decoupling it from the shorter intent windows to avoid mis-qualifying returning buyers.",
         "Converted UTC-native AMC columns to JST (Asia/Tokyo) via CONVERT_TIME_ZONE_FROM_UTC to ensure accurate period boundaries for the advertiser's local timezone.",
         "Applied a two-stage filter — coarse sargable prune first, then precise TZ boundary check — to keep query performance within AMC execution limits.",
-        "Mapped all 300+ Dell Japan ASINs to the target list and documented audience logic in Japanese for client-side review."
+        "Mapped all 300+ brand ASINs to the target list and documented audience logic in Japanese for client-side review."
       ],
       "impact": [
         "30-day and 60-day segments failed to meet AMC's minimum user threshold, surfacing a reach ceiling for short-window intent signals in this category.",

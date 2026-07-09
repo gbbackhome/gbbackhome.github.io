@@ -7,7 +7,7 @@
 - GitHub: `gbbackhome` · 이메일: gyeongbae311@gmail.com
 - **데이터/마케팅 전략가** — 현재 Amazon Marketing Cloud(AMC) 클린룸 분석 전문
 - 주력 스택: SQL, BigQuery, Python, Amazon DSP, Excel/VBA, Power BI
-- 주요 클라이언트 도메인: 글로벌 펫 뉴트리션 브랜드(Hills, SD/PD × Dog/Cat 퍼널), 프리미엄 주류, 글로벌 테크(PC)
+- 주요 클라이언트 도메인: 글로벌 펫 뉴트리션 브랜드(SD/PD × Dog/Cat 퍼널), 프리미엄 주류, 글로벌 테크(PC) — ⚠️ 이 레포는 퍼블릭이므로 실제 클라이언트명은 어떤 파일에도 적지 않는다
 - 이전 커리어: CIDER 한국 마켓 — 네이버/카카오 퍼포먼스 인하우스 전환(ROAS 3배), 인플루언서/앰배서더, 팝업 이벤트, 카카오 알림톡 CRM, UX 현지화
 
 ## 이 저장소: gbbackhome.github.io
