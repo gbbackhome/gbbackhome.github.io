@@ -12,7 +12,7 @@ const css = `
 .rf-card__headline{font-size:1.18rem;font-weight:800;line-height:1.35;margin:.1rem 0 0;color:#191f28}
 .rf-card__context{font-size:.93rem;line-height:1.55;color:#5a6472;margin:0}
 .rf-card__metrics{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.2rem}
-.rf-metric{background:#e8f3ff;color:#1b64da;font-weight:700;font-size:.82rem;padding:.35rem .75rem;border-radius:999px;white-space:nowrap}
+.rf-metric{background:#e8f3ff;color:#1b64da;font-weight:700;font-size:.82rem;padding:.35rem .75rem;border-radius:999px;white-space:normal;max-width:100%;word-break:break-word}
 .rf-card__tags{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:auto;padding-top:.6rem}
 .rf-tag{font-size:.72rem;color:#9aa3af}
 .rf-card__more{font-size:.8rem;color:#3182f6;font-weight:600;margin-top:.3rem}
