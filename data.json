@@ -935,5 +935,166 @@
         "NTB Strategy"
       ]
     }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Run Amazon Marketing Cloud (AMC) analytics end-to-end at a global agency",
+    "context": "Data-engineering + data-science analyst at WPP Media Japan — from raw clean-room SQL to client-facing insight and presentation.",
+    "img": "",
+    "metrics": [
+      "AMC queries built from scratch",
+      "Validated → analyzed → visualized",
+      "Client-facing presentations"
+    ],
+    "tags": [
+      "AMC",
+      "SQL",
+      "Measurement",
+      "Data Analysis",
+      "Client Presentation"
+    ],
+    "detail": {
+      "overview": "Analyst on WPP Media Japan's Amazon commerce team, owning measurement and analytics end-to-end for global advertisers.",
+      "problem": "Raw clean-room signals (AMC) have to be turned into validated, decision-ready insight and communicated to clients — a mix of data engineering, analysis, and consulting.",
+      "actions": [
+        "Build AMC queries from scratch and QA them for errors before running",
+        "Validate the returned data, then analyze and visualize it",
+        "Pressure-test insights internally, then translate them into optimization actions with the media team",
+        "Build client-facing slides, write the talk track, and present"
+      ],
+      "impact": [
+        "Turns Amazon clean-room measurement into optimization decisions and client-ready narratives",
+        "Owns the full measurement loop: build → validate → insight → action → present"
+      ],
+      "skills": [
+        "AMC",
+        "SQL",
+        "Data Validation",
+        "Data Visualization",
+        "Measurement",
+        "Client Communication"
+      ]
+    }
+  },
+  {
+    "cat": "Performance",
+    "headline": "Turned around a premium whisky brand's Amazon DSP with disciplined A/B testing",
+    "context": "ROAS was sliding below 1.0 with lower-funnel delivery stuck at 20-40%; recovered it by testing every lever one by one.",
+    "img": "",
+    "metrics": [
+      "Lower-funnel delivery 20-40% → 90-99%",
+      "ROAS <1.0 → sustained >1.0",
+      "Balanced spend across full ACPL funnel"
+    ],
+    "tags": [
+      "Amazon DSP",
+      "AMC",
+      "A/B Testing",
+      "Audience Strategy",
+      "Budget Optimization"
+    ],
+    "detail": {
+      "overview": "A premium single-malt whisky client on Amazon DSP was losing performance through 2026 — ROAS below 1.0 and lower-funnel line items delivering at only 20-40% due to tiny audience pools and up to 99% audience mismatch.",
+      "problem": "Recover ROAS above 1.0 and fix delivery without breaking the funnel's budget balance.",
+      "actions": [
+        "Broke the problem into levers and A/B tested each independently",
+        "Expanded audiences across the funnel via AMC custom audiences — the single biggest, fastest lever, especially for lower funnels",
+        "Split the awareness line by audience category (whisky vs. travel) for cleaner measurement and budget control",
+        "Replaced Amazon's automated budget allocation with a projected-spend cap to stop overspend on weak lines",
+        "Swapped underperforming affinity audiences for competitor keyword/ASIN targeting, sourced via a self-built web-scraping automation, with a renewal cadence",
+        "Turned off non-contributing offsite placements and diversified creative"
+      ],
+      "impact": [
+        "Lower-funnel delivery improved from 20-40% to 90-99%",
+        "ROAS recovered from below 1.0 to consistently above 1.0",
+        "Balanced spend across the whole ACPL funnel"
+      ],
+      "skills": [
+        "Amazon DSP",
+        "AMC",
+        "A/B Testing",
+        "Audience Strategy",
+        "Budget Optimization",
+        "Measurement"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built an ACPL funnel penetration analysis to reallocate budget by reach",
+    "context": "Client wanted to know which funnel campaigns had already maxed out reach so budget could shift to under-penetrated funnels.",
+    "img": "",
+    "metrics": [
+      "AMC penetration queries",
+      "Reach estimation for custom audiences",
+      "Reach-based budget reallocation"
+    ],
+    "tags": [
+      "AMC",
+      "SQL",
+      "Penetration Analysis",
+      "Reach Measurement",
+      "Media Mix"
+    ],
+    "detail": {
+      "overview": "A pet-nutrition client asked for a penetration analysis across the ACPL funnel to identify saturated campaigns.",
+      "problem": "Measure audience penetration and saturation per funnel — including for custom line-item audiences not in Amazon's standard segment catalog.",
+      "actions": [
+        "Built AMC queries to compute penetration over Amazon's owned audience segments",
+        "Tackled the harder problem of estimating reachable audience size for custom competitor-signal line items",
+        "Used the findings to inform a Sponsored Products restructure that cut wasted spend"
+      ],
+      "impact": [
+        "Gave the client a reach-based view to move budget from saturated funnels to under-penetrated ones"
+      ],
+      "skills": [
+        "AMC",
+        "SQL",
+        "Penetration/Reach Measurement",
+        "Media-Mix Budget Allocation"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Split a blended audience to fix ad efficiency (audience dilution)",
+    "context": "Whisky + Travel ran as one blended DSP line; splitting them let the algorithm measure and bid on each independently.",
+    "img": "",
+    "metrics": [
+      "Cost -37%",
+      "Clicks +78%",
+      "ROAS 0.5 → 0.94 (+88%)",
+      "Sales +19%"
+    ],
+    "tags": [
+      "Amazon DSP",
+      "Audience Strategy",
+      "Measurement",
+      "A/B Testing",
+      "Incrementality"
+    ],
+    "detail": {
+      "overview": "On Amazon DSP, whisky is a small audience, so — like most competitors — it was paired with a related lifestyle audience (Travel) in one blended line for scale.",
+      "problem": "From early 2026 the blended line lost efficiency: same or higher cost, fewer clicks, lower ROAS. Hypothesis: the two related audiences were competing for the algorithm's attention rather than reinforcing it (audience dilution).",
+      "actions": [
+        "Formed the audience-dilution hypothesis from the cost/click/ROAS pattern",
+        "Split the single blended line into two independent lines in June",
+        "Weighted most budget to Whisky as the priority audience, ran Travel independently",
+        "Reframed Travel toward awareness KPIs (CTR/DPVR) since it converts weakly"
+      ],
+      "impact": [
+        "Cost down 37%",
+        "Clicks up 78%",
+        "ROAS improved from 0.5 to 0.94 (+88%)",
+        "Sales up 19%"
+      ],
+      "skills": [
+        "Amazon DSP",
+        "Audience Strategy",
+        "Measurement",
+        "Bidding Optimization",
+        "A/B Testing"
+      ]
+    }
   }
 ]
