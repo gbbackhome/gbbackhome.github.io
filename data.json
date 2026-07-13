@@ -547,7 +547,45 @@
   },
   {
     "cat": "Analytics",
-    "headline": "Funnel Penetration Analytics & Visualization Standard for a Global Pet Nutrition Brand's APCL",
+    "headline": "Built AMC Funnel-Penetration & NTB Analysis for a Pet Nutrition Brand",
+    "context": "Constructed audience-penetration and CPL queries across a full ACPL funnel to support budget allocation decisions; sole analyst on query design and data processing.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "BigQuery",
+      "SQL",
+      "Python",
+      "Funnel Analysis",
+      "NTB",
+      "DSP",
+      "APAC"
+    ],
+    "detail": {
+      "overview": "Designed and executed an Amazon Marketing Cloud analysis measuring funnel-stage audience penetration and cost-per-lead for a pet nutrition brand's APAC campaigns, broken down by four product lines.",
+      "problem": "The client lacked a structured view of how ad exposure translated into funnel progression and new-to-brand acquisition across SD/PD × Dog/Cat product segments.",
+      "actions": [
+        "Defined a time-invariant universe denominator using APAC in-market and lifestyle segments (audience_segments_apac_*) for Awareness-stage reach calculations against dsp_impressions.",
+        "Isolated exposed vs. non-exposed cohorts via exposure_type field in conversions_all (Paid Feature / FSI) to calculate CPL lift.",
+        "Repeated the full query pipeline across all four product-line combinations (SD Dog, SD Cat, PD Dog, PD Cat).",
+        "Visualized outputs in Python (matplotlib) to surface actionable patterns for the client."
+      ],
+      "impact": [
+        "Delivered a data foundation that directly informed the client's budget reallocation and campaign optimization proposals.",
+        "[검증필요] Quantitative impact metrics (e.g., ROAS lift, NTB rate) not available in source memo — confirm if reportable numbers exist."
+      ],
+      "skills": [
+        "AMC SQL",
+        "BigQuery",
+        "Python (matplotlib)",
+        "DSP audience segmentation",
+        "JST market data processing"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Funnel Penetration Analytics & Visualization Standard for Hill's Pet Nutrition APCL",
     "context": "Built end-to-end funnel penetration charts and a reusable visualization standard for a global pet nutrition brand's APCL reporting, via a media agency; sole analyst and documentation owner.",
     "img": "",
     "metrics": [],
@@ -566,8 +604,8 @@
       "problem": "Funnel reporting lacked a consistent visual standard, required BigQuery table access to run, and had no documentation—making it hard to reuse or hand off. Funnel data also showed a reach imbalance that needed a clear recommendation.",
       "actions": [
         "Refactored BigQuery-dependent pipeline into a portable in-memory DataFrame (StringIO/read_csv) with NaN-aware handling for missing segment data",
-        "Designed a brand color system encoding two dimensions (species + tier) without a legend: Red=Dog/Blue=Cat, vivid=SD/deep=PD",
-        "Authored a Pet Food Python Visualization Guide v1.0, covering PowerPoint export specs (transparent PNG/SVG, Calibri/Malgun Gothic, 16:9 sizing)",
+        "Designed a Hill's brand color system encoding two dimensions (species + tier) without a legend: Red=Dog/Blue=Cat, vivid=SD/deep=PD",
+        "Authored Hill's Pet Food Python Visualization Guide v1.0, covering PowerPoint export specs (transparent PNG/SVG, Calibri/Malgun Gothic, 16:9 sizing)",
         "Wrote a neutral-tone strategic budget recommendation (EN/KR) against a 70% reach benchmark, proposing three reallocation paths including AMC audience expansion"
       ],
       "impact": [
@@ -582,6 +620,40 @@
         "Marketing Funnel Analysis",
         "Technical Documentation",
         "Strategic Recommendation"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Cross-Funnel & Cross-Breed Audience Overlap Analysis for a Pet Nutrition Brand (JP)",
+    "context": "Analyzed audience overlap across purchase funnels and pet breed segments for a pet nutrition brand's SD/PD campaigns in Japan, using AMC and Amazon DSP.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Amazon DSP",
+      "Audience Analysis",
+      "Japan",
+      "Pet",
+      "Cross-Funnel"
+    ],
+    "detail": {
+      "overview": "Conducted cross-funnel and cross-breed audience overlap analysis for a pet nutrition brand running SD and PD campaigns in the Japanese marketplace (Marketplace ID 6).",
+      "problem": "Unclear how audiences moved across funnel stages and how they overlapped between dog-breed and cat-breed product lines, making targeting refinement difficult.",
+      "actions": [
+        "Wrote AMC SQL queries to extract and join audience exposure data across funnel stages (awareness → consideration → conversion)",
+        "Segmented audiences by breed category (dog vs. cat product lines) to identify cross-breed overlap",
+        "Analyzed data within Japan timezone (JST) context using Marketplace ID 6",
+        "[검증필요] Raw log partially truncated — full scope and specific findings to be confirmed"
+      ],
+      "impact": [
+        "[검증필요] Specific impact metrics not available due to partial log — to be confirmed separately"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Amazon DSP",
+        "Audience Segmentation",
+        "Cross-Funnel Analysis"
       ]
     }
   },
@@ -776,7 +848,7 @@
   {
     "cat": "Analytics",
     "headline": "Diagnosed AMC Data Gaps and Delivered Actionable Workarounds for Two Brands in One Day",
-    "context": "AMC Data Analyst supporting a global PC brand and a global pet nutrition brand — ran three parallel analyses in a single session covering off-Amazon conversion categorization, B2B/B2C audience segmentation feasibility, and campaign audience overlap diagnosis",
+    "context": "AMC Data Analyst supporting Dell Japan and Hill's Pet Nutrition — ran three parallel analyses in a single session covering off-Amazon conversion categorization, B2B/B2C audience segmentation feasibility, and campaign audience overlap diagnosis",
     "img": "",
     "metrics": [
       "1,573 off-Amazon purchases bucketed by price proxy",
@@ -793,17 +865,17 @@
       "B2B Analytics"
     ],
     "detail": {
-      "overview": "Three AMC analysis requests from two clients (a global PC brand and a global pet nutrition brand) completed on the same date. Each task required diagnosing a data limitation, designing a workaround within AMC constraints, and communicating findings clearly to the client.",
-      "problem": "(1) The PC brand's off-Amazon conversion events lacked product-type metadata, making PC vs. accessory distinction impossible. (2) The PC brand asked whether AMC could distinguish Business vs. Consumer purchasers. (3) The pet nutrition brand's Dog and Cat Awareness campaigns showed 35% audience overlap with no clear cause.",
+      "overview": "Three AMC analysis requests from two clients (Dell Japan and Hill's Pet Nutrition) completed on the same date. Each task required diagnosing a data limitation, designing a workaround within AMC constraints, and communicating findings clearly to the client.",
+      "problem": "(1) Dell Japan's off-Amazon conversion events lacked product-type metadata, making PC vs. accessory distinction impossible. (2) Dell Japan asked whether AMC could distinguish Business vs. Consumer purchasers. (3) Hill's Pet's Dog and Cat Awareness campaigns showed 35% audience overlap with no clear cause.",
       "actions": [
         "T1 — Used off_amazon_product_sales as a price proxy; wrote AMC SQL to bucket 1,573 conversions into 7 price tiers; visualized distribution on a log scale to surface high-value (¥80k+) concentration likely attributable to PC units.",
         "T2 — Audited is_amazon_business field limitations (SP/SB only, no off-Amazon support); designed a conversion_event_name tag-based segmentation approach; identified pixel vs. CAPI double-count risk on C-prefix parallel tags and resolved via source filtering; documented privacy aggregation threshold constraints. Delivered findings in Japanese.",
         "T3 — Conducted a segment-ID-level audit of both campaigns; found shared 'Pet Owners' segment IDs across Dog and Cat, plus Dog IDs incorrectly included in the Cat list; classified overlap causes into four categories with a contribution vs. resolvability matrix."
       ],
       "impact": [
-        "Gave the PC brand a practical path to approximate product-category attribution despite missing metadata, with 1,573 purchases distributed across price tiers.",
+        "Gave Dell Japan a practical path to approximate product-category attribution despite missing metadata, with 1,573 purchases distributed across price tiers.",
         "Clarified the hard limits of AMC's B2B/B2C detection and provided two concrete alternatives (split tag firing, 1P data upload), preventing wasted engineering effort on an unsupported use case.",
-        "Separated structural overlap (3 setting-level causes, addressable) from natural overlap (multi-pet households, inherent) for the pet nutrition brand, giving the team a prioritized fix list."
+        "Separated structural overlap (3 setting-level causes, addressable) from natural overlap (multi-pet households, inherent) for Hill's Pet, giving the team a prioritized fix list."
       ],
       "skills": [
         "AMC SQL",
@@ -854,8 +926,8 @@
   },
   {
     "cat": "Analytics",
-    "headline": "Built AMC Retargeting Audiences for a Global PC Brand's Portfolio (402 ASINs)",
-    "context": "Designed and activated privacy-safe retargeting audiences in Amazon Marketing Cloud clean room, targeting a global PC brand's product line across Amazon DSP and Sponsored Ads",
+    "headline": "Built AMC Retargeting Audiences for Dell PC Portfolio (402 ASINs)",
+    "context": "Designed and activated privacy-safe retargeting audiences in Amazon Marketing Cloud clean room, targeting Dell's PC product line across Amazon DSP and Sponsored Ads",
     "img": "",
     "metrics": [],
     "tags": [
@@ -869,8 +941,8 @@
       "Retargeting"
     ],
     "detail": {
-      "overview": "Built retargeting audiences in Amazon Marketing Cloud (AMC) clean room for a global PC brand's portfolio of 402 ASINs, segmenting users by cart-add-without-purchase and SA-click-without-purchase behavior across 90/60/30-day recency windows.",
-      "problem": "The brand needed to re-engage high-intent users who added products to cart or clicked Sponsored Ads but did not complete a purchase. No structured audience segments existed for these behaviors at ASIN level.",
+      "overview": "Built retargeting audiences in Amazon Marketing Cloud (AMC) clean room for Dell's PC portfolio of 402 ASINs, segmenting users by cart-add-without-purchase and SA-click-without-purchase behavior across 90/60/30-day recency windows.",
+      "problem": "Dell needed to re-engage high-intent users who added products to cart or clicked Sponsored Ads but did not complete a purchase. No structured audience segments existed for these behaviors at ASIN level.",
       "actions": [
         "Standardized 402 ASINs into a reusable CTE (VALUES) block with deduplication and validity checks",
         "Applied anti-join logic on unified organic + ad purchase data (FSI conversions_all) to isolate non-purchasers",
@@ -898,7 +970,7 @@
   },
   {
     "cat": "Analytics",
-    "headline": "Built 10 NTB Audience Segments in AMC Clean Room for a Global PC Brand's Japan Market",
+    "headline": "Built 10 NTB Audience Segments in AMC Clean Room for Dell Japan",
     "context": "Designed and deployed rule-based AMC audiences via SQL to support a New-to-Brand customer acquisition campaign for a global PC brand's Japan market; acted as AMC Data Engineer and Data Analyst under a media agency.",
     "img": "",
     "metrics": [],
@@ -912,14 +984,14 @@
       "Japan"
     ],
     "detail": {
-      "overview": "Built 10 rule-based audience segments inside Amazon Marketing Cloud to identify high-intent, never-purchased shoppers for the brand's NTB acquisition campaign. Segments covered 300+ ASINs across two intent signals and five lookback windows.",
-      "problem": "The brand needed to reach genuinely new customers without retargeting past buyers. Standard DSP audiences couldn't enforce Amazon's 12-month NTB definition at the signal level, and Japan-timezone boundary errors risked miscounting eligible users.",
+      "overview": "Built 10 rule-based audience segments inside Amazon Marketing Cloud to identify high-intent, never-purchased shoppers for Dell Japan's NTB acquisition campaign. Segments covered 300+ ASINs across two intent signals and five lookback windows.",
+      "problem": "Dell Japan needed to reach genuinely new customers without retargeting past buyers. Standard DSP audiences couldn't enforce Amazon's 12-month NTB definition at the signal level, and Japan-timezone boundary errors risked miscounting eligible users.",
       "actions": [
         "Designed two audience categories — Add-to-Cart non-purchasers (conversions_all / FSI) and Sponsored Ads click non-purchasers (sponsored_ads_traffic) — each across 30 / 60 / 90 / 180 / 365-day lookback windows, totalling 10 segments.",
         "Fixed the purchase-exclusion window at 365 days to align with Amazon's official NTB definition, decoupling it from the shorter intent windows to avoid mis-qualifying returning buyers.",
         "Converted UTC-native AMC columns to JST (Asia/Tokyo) via CONVERT_TIME_ZONE_FROM_UTC to ensure accurate period boundaries for the advertiser's local timezone.",
         "Applied a two-stage filter — coarse sargable prune first, then precise TZ boundary check — to keep query performance within AMC execution limits.",
-        "Mapped all 300+ brand ASINs to the target list and documented audience logic in Japanese for client-side review."
+        "Mapped all 300+ Dell Japan ASINs to the target list and documented audience logic in Japanese for client-side review."
       ],
       "impact": [
         "30-day and 60-day segments failed to meet AMC's minimum user threshold, surfacing a reach ceiling for short-window intent signals in this category.",
@@ -933,6 +1005,697 @@
         "Clean Room Analytics",
         "Timezone Handling",
         "NTB Strategy"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built an AMC Pipeline to Auto-Classify 700+ Campaigns and Surface Daily Performance",
+    "context": "Designed a multi-step AMC SQL pipeline to replace manual classification and enable daily metrics rollup across SD/PD campaigns for two brands",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "SQL",
+      "CTE",
+      "Data Pipeline",
+      "Amazon Ads",
+      "ROAS",
+      "CTR",
+      "CVR"
+    ],
+    "detail": {
+      "overview": "Two brands running 700+ Sponsored Display and Sponsored Products campaigns used three different naming conventions. Manual classification caused recurring human error and delayed reporting. Built an automated pipeline inside AMC to handle classification and daily performance aggregation in one query.",
+      "problem": "Campaign names followed three inconsistent conventions across SD and PD campaign types. Manual tagging was slow and error-prone, blocking timely analysis.",
+      "actions": [
+        "Designed a multi-stage CTE pipeline accounting for AMC SQL dialect constraints — no standalone ORDER BY, no window frame support",
+        "Normalized campaign name delimiters and applied token-boundary matching with CASE WHEN priority logic to auto-assign 8 classification axes (brand, animal, funnel stage, ad type, strategic theme, sub-theme, etc.)",
+        "Joined sponsored_ads_traffic (spend, impressions, clicks) with amazon_attributed_events_by_traffic_time (conversions, NTB, revenue) on campaign ID + date using LEFT JOIN, then computed CTR, CVR, and ROAS at daily granularity"
+      ],
+      "impact": [
+        "Eliminated manual campaign classification entirely across 700+ campaigns",
+        "Established an automated daily performance aggregation layer ready for reporting or further analysis"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Multi-stage CTE design",
+        "Campaign taxonomy logic",
+        "Data pipeline architecture",
+        "Amazon Attribution (NTB, ROAS)"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Diagnosed Revenue Skew in Dell Japan's Off-Amazon Purchase Distribution",
+    "context": "Built an automated price-band distribution report using AMC data to reveal that 3% of transactions drove 52% of revenue — exposing mean distortion in performance reporting.",
+    "img": "",
+    "metrics": [
+      "52% of revenue from top 3% of transactions (≥¥1M band)",
+      "425 high-value conversions identified",
+      "7 price bands defined across 3 conversion tag types"
+    ],
+    "tags": [
+      "AMC SQL",
+      "BigQuery",
+      "Python",
+      "pandas",
+      "matplotlib",
+      "Dell Japan",
+      "off-Amazon",
+      "price distribution"
+    ],
+    "detail": {
+      "overview": "Analyzed 90-day Amazon Marketing Cloud data for Dell Japan to map off-Amazon purchase amounts across 7 JPY price bands, then automated the reporting pipeline for monthly rollup.",
+      "problem": "Performance reports relied on average order value, which was heavily skewed by a small cluster of ultra-high-value transactions. Additionally, a bucketing bug was misclassifying NULL/zero-revenue events into the highest price band.",
+      "actions": [
+        "Wrote AMC SQL with CASE-based bucketing across 7 JPY price tiers on amazon_attributed_events_by_conversion_time",
+        "Fixed NULL/zero misclassification bug by adding IS NOT NULL and >0 filters before band assignment",
+        "Defined a unified aggregation standard across three conversion tags: CSB, C-CSB, and Alienware",
+        "Built distribution tables and charts in Python (pandas + matplotlib) and automated monthly cumulative output via BigQuery"
+      ],
+      "impact": [
+        "Revealed that ≥¥1M transactions (3% of volume) account for 52% of total revenue — flagging mean AOV as an unreliable KPI",
+        "Documented interpretive limits of price-proxy metrics to prevent misreading in future optimization decisions",
+        "Delivered a reusable monthly report template, reducing ad-hoc analysis time going forward"
+      ],
+      "skills": [
+        "AMC SQL",
+        "BigQuery",
+        "Python",
+        "pandas",
+        "matplotlib",
+        "data visualization",
+        "statistical interpretation"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Amazon DSP Restructure for a Premium Scotch Brand: Diagnosing Sub-1.0 ROAS and Rebuilding Audience Architecture",
+    "context": "Led full DSP campaign audit for Macallan on Amazon — identified root causes of ROAS decline and proposed structural fixes across budget allocation, audience segmentation, and competitor targeting.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Amazon DSP",
+      "Campaign Audit",
+      "Audience Strategy",
+      "Competitor ASIN Targeting",
+      "Budget Optimization",
+      "Spirits"
+    ],
+    "detail": {
+      "overview": "Diagnosed a declining Amazon DSP campaign for a premium Scotch whisky brand operating near full delivery (93%) but falling below ROAS 1.0. Delivered a structured remediation plan covering audience quality, inventory constraints, competitor targeting, and budget rebalancing.",
+      "problem": "ROAS dropped below 1.0 despite high delivery rate. Root causes included audience pool exhaustion in retargeting, structural CPM/inventory ceiling in Keyword lines (MAX 500 keywords, CPM 150 / eCPM 113), budget skewed heavily toward upper-funnel (65%), and competitor ASIN targets polluted with unrelated alcohol categories (beer, vodka, tequila).",
+      "actions": [
+        "Identified seasonality and audience quality as primary ROAS drag; mapped line-item budget imbalance within the 93% delivery environment",
+        "Flagged structural inventory ceiling on Keyword line — CPM and keyword count limits constraining scale",
+        "Cleaned competitor ASIN targeting by removing irrelevant categories and adding direct whisky competitors: Highland Park, Balvenie, GlenDronach, Dalmore, Aberlour, Kavalan, Ichiro's Malt — including katakana variants for Japanese-market ASINs",
+        "Added Similar Product Views audience (5 ASINs, 90-day window); applied 90–180D purchaser exclusion across all lines to reduce wasted spend",
+        "Planned a dedicated Loyalty line targeting 180D buyers with Subscribe & Save conversion focus",
+        "Recommended budget rebalance: reduce RT allocation from 35% to 20–25%, shift freed budget from Keyword to Competitor ASIN lines"
+      ],
+      "impact": [
+        "Structural diagnosis delivered — actionable reallocation plan produced prior to campaign execution",
+        "[검증필요] Post-implementation ROAS and efficiency outcomes pending (campaign end: 2026-06-30)"
+      ],
+      "skills": [
+        "Amazon DSP",
+        "Campaign Diagnostics",
+        "Audience Segmentation",
+        "Competitor ASIN Targeting",
+        "Budget Allocation Strategy",
+        "Spirits Category Knowledge"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Automated Amazon Ad Reporting Pipeline for a Pet Nutrition Brand",
+    "context": "Built a BigQuery-based data pipeline to replace manual copy-paste reporting across 100+ daily Amazon campaigns; sole builder.",
+    "img": "",
+    "metrics": [
+      "~25 MB/run processing cost",
+      "100+ campaigns auto-classified"
+    ],
+    "tags": [
+      "BigQuery",
+      "Amazon Ads",
+      "Scheduled Query",
+      "Connected Sheets",
+      "Looker Studio",
+      "AMC",
+      "SQL",
+      "Automation"
+    ],
+    "detail": {
+      "overview": "Designed and deployed an end-to-end automated reporting system for Amazon advertising data, eliminating monthly manual aggregation and enabling daily, weekly, and monthly analysis from a single pipeline.",
+      "problem": "Daily campaign data volume made manual spreadsheet work unsustainable — monthly copy-paste and aggregation consumed significant time and introduced recurring human error.",
+      "actions": [
+        "Loaded raw daily Amazon campaign data into BigQuery and wrote SQL to parse 8-segment campaign naming conventions (Brand, Animal, Funnel, AdType, Strategy, Theme, etc.)",
+        "Applied CASE-based normalization rules to auto-classify 100+ campaigns; built UNMAPPED diagnostic queries to iteratively fix edge cases (PRO→SD mapping, Competition/HIRO/PurchaseDefensive rules, DSP and test campaign exclusions)",
+        "Implemented SAFE_DIVIDE across all KPI calculations (CTR, CVR, ROAS, CPC, CPA, NTB CPA) to guard against division-by-zero errors",
+        "Configured Scheduled Query for automatic daily refresh and connected output to Google Sheets via Connected Sheets for stakeholder access"
+      ],
+      "impact": [
+        "Replaced monthly manual reporting workflow with a fully automated pipeline",
+        "Enabled granular analysis at daily, weekly, and monthly granularity from a single data source",
+        "Processing cost held at approximately 25 MB per query run"
+      ],
+      "skills": [
+        "BigQuery",
+        "SQL",
+        "Scheduled Query",
+        "Connected Sheets",
+        "Looker Studio",
+        "Amazon Marketing Cloud (AMC)",
+        "Data Pipeline Design"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Diagnosed NTB Revenue Gap and Designed AMC Audience Strategy for a Pet Nutrition Brand",
+    "context": "Identified the root cause of a -34% NTB sales shortfall and structured an AMC audience test to recover per-order value; delivered findings in both English and Japanese",
+    "img": "",
+    "metrics": [
+      "-34% NTB Sales vs target",
+      "-13% NTB Units vs target",
+      "~15% of NTB orders concentrated in low-price trial SKU",
+      "Trial SKU NTB rate: 87–89%"
+    ],
+    "tags": [
+      "Amazon",
+      "AMC",
+      "DSP",
+      "AMS",
+      "NTB",
+      "Audience Strategy",
+      "Diagnostic Analysis"
+    ],
+    "detail": {
+      "overview": "Ran a month-over-month NTB performance diagnosis for a pet nutrition brand on Amazon, then designed an AMC audience test to address the underlying product-mix issue.",
+      "problem": "June NTB Sales missed target by 34% while overall revenue grew 5%—a gap that suggested not a volume problem but a per-order value problem. Units shortfall was a milder -13%, confirming the direction.",
+      "actions": [
+        "Compared June vs March–May NTB ASIN-level data to isolate the performance gap from baseline trends.",
+        "Quantified that a low-price 100g trial SKU accounted for ~15% of all NTB orders with an NTB rate of 87–89%, skewing the product mix toward low-AOV first purchases.",
+        "Researched AMC audience eligibility requirements (minimum 2,000 unique users) and drafted an audience test plan aimed at attracting higher-value NTB buyers.",
+        "Delivered the full diagnostic and strategy proposal in both English and Japanese."
+      ],
+      "impact": [
+        "Clearly separated a product-mix issue from a volume or visibility issue, giving the client a precise lever to act on.",
+        "Provided a ready-to-execute AMC audience test design to recover NTB revenue per order."
+      ],
+      "skills": [
+        "Amazon DSP",
+        "AMS",
+        "Amazon Marketing Cloud (AMC)",
+        "Google Sheets",
+        "Diagnostic Analysis",
+        "Bilingual Client Communication (EN/JA)"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "AMC Time-to-Conversion Analysis to Validate Dayparting ROAS",
+    "context": "Built an AMC SQL query for a pet food brand's DSP always-on campaign to resolve attribution timing discrepancies flagged by Amazon and surface reliable off-peak conversion patterns.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "DSP",
+      "Dayparting",
+      "Attribution",
+      "SQL",
+      "Amazon Ads"
+    ],
+    "detail": {
+      "overview": "Designed an AMC-based Time-to-Conversion analysis for a pet food brand running DSP always-on ROAS campaigns (cat and dog product lines). Amazon raised a risk around misalignment between conversion timestamp and ad impression timestamp in dayparting reports, requiring a verification layer.",
+      "problem": "Standard dayparting ROAS reports attribute conversions to the hour they occurred, not the hour the ad was served — creating potential misreads of off-peak performance and flawed budget allocation logic.",
+      "actions": [
+        "Designed a DSP-only AMC SQL pipeline measuring elapsed time from impression to conversion at the individual event level",
+        "Bucketed time-to-conversion into 25 intervals: 24 one-hour buckets plus a 25th bucket for conversions occurring beyond 24 hours",
+        "Added impression_hour (0–23 JST) and a 5-tier day_part dimension to enable hour-level and segment-level slicing",
+        "Joined dsp_impressions cost data by hour to align spend with impression-side timing",
+        "Ensured all outputs complied with AMC aggregation threshold requirements before export"
+      ],
+      "impact": [
+        "Produced hour-level conversion pattern data anchored to ad exposure time, correcting the attribution reference point",
+        "Delivered a structured foundation for dayparting optimization decisions grounded in impression-side attribution"
+      ],
+      "skills": [
+        "AMC SQL",
+        "DSP Attribution Analysis",
+        "Dayparting Strategy",
+        "Amazon Marketing Cloud",
+        "Data Aggregation Design"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built AMC Case Studies to Pitch Non-Endemic Brands on Amazon Measurement",
+    "context": "Developed two anonymized case studies for WPP Media planners to pitch AMC as a measurement and audience activation solution to brands that don't sell on Amazon",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Non-Endemic",
+      "Amazon DSP",
+      "Prime Video Ads",
+      "Sales Enablement",
+      "1P Data Activation"
+    ],
+    "detail": {
+      "overview": "WPP Media planners needed structured collateral to show non-endemic brands—those without an Amazon storefront—how AMC could still deliver value through measurement and first-party data activation.",
+      "problem": "No ready-made materials existed to explain AMC's use cases outside of e-commerce, making it hard for planners to run non-endemic pitches with confidence.",
+      "actions": [
+        "Developed two anonymized case studies based on real Hill's campaign data, with details adjusted to protect confidentiality",
+        "Framed AMC value props around cross-channel measurement, funnel analysis, and 1P audience activation rather than sales-side metrics",
+        "Incorporated Prime Video Ads and DSP touchpoints to illustrate full-funnel applicability"
+      ],
+      "impact": [
+        "Delivered a sales enablement deck used by WPP internal planners for non-endemic client pitches",
+        "Expanded the team's ability to position AMC beyond retail media contexts"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Case Study Development",
+        "Data Storytelling",
+        "Amazon DSP",
+        "Cross-Channel Measurement"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Full-Funnel Penetration Framework Built on AMC for a Global Pet Food Brand",
+    "context": "Designed and implemented an AMC-based audience penetration analysis framework covering 35+ DSP campaigns across four funnel stages (Awareness → Consideration → Purchase → Loyalty); role was sole analytics architect under Wavemaker / GroupM.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "DSP",
+      "Full-Funnel",
+      "Audience Analytics",
+      "Budget Optimization",
+      "Wavemaker",
+      "GroupM"
+    ],
+    "detail": {
+      "overview": "Built a structured penetration analysis framework on Amazon Marketing Cloud to assess how effectively DSP campaigns reached and saturated each funnel-stage audience universe for a global pet food brand operating in Japan.",
+      "problem": "The client ran 35+ DSP campaigns simultaneously with no unified view of how each campaign contributed to funnel progression or where audience universes were over- or under-saturated.",
+      "actions": [
+        "Defined audience universes for each funnel stage (Awareness, Consideration, Purchase, Loyalty) and calculated penetration rates per stage.",
+        "Measured campaign reach against universe size to identify saturation gaps across all 35+ DSP campaigns.",
+        "Translated penetration findings into concrete budget reallocation recommendations tied to funnel efficiency."
+      ],
+      "impact": [
+        "Provided the first unified funnel-penetration view across all DSP campaigns, enabling data-driven budget reallocation discussions.",
+        "Framework designed for reuse across future brand campaigns within the Wavemaker portfolio."
+      ],
+      "skills": [
+        "Amazon Marketing Cloud (AMC)",
+        "DSP Campaign Analysis",
+        "Audience Universe Modeling",
+        "Funnel Penetration Measurement",
+        "Data Storytelling"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built AMC-Based Path-to-Purchase Funnel and Composite KPI Scoring for a Pet Nutrition Brand",
+    "context": "Integrated DSP and Sponsored Ads data in Amazon Marketing Cloud to map the full purchase journey and score campaign efficiency across multiple KPIs.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "SQL",
+      "KPI Scoring",
+      "Path-to-Purchase",
+      "DSP",
+      "Sponsored Ads"
+    ],
+    "detail": {
+      "overview": "Developed an AMC SQL pipeline that unified DSP and Sponsored Ads signals into a custom purchase funnel, then built a composite scoring model to rank campaign performance beyond single-metric views.",
+      "problem": "Standard Amazon reporting kept DSP and Sponsored Ads data siloed, making it impossible to see cross-channel influence on purchase decisions. An alias collision in the initial SQL logic was also producing skewed early metrics.",
+      "actions": [
+        "Wrote and debugged AMC SQL queries to merge DSP impression/click data with Sponsored Ads touchpoints into a unified, stage-labeled funnel",
+        "Identified and resolved alias collision causing metric distortion in early funnel output",
+        "Designed a 5-KPI Composite Scoring system combining CPA, NTB_CPA, CPR, ROAS, and an additional efficiency signal to produce a single ranked score per campaign or tactic"
+      ],
+      "impact": [
+        "Eliminated data distortion from alias collision, restoring accuracy of funnel-stage attribution",
+        "Composite scoring allowed side-by-side comparison of tactics that optimise for different KPIs, reducing reliance on single-metric decision-making"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Funnel Attribution",
+        "Composite KPI Scoring",
+        "DSP Analytics",
+        "English Technical Documentation"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Full-Funnel Overlap & Incrementality Analysis Reshaping Budget Allocation",
+    "context": "Led AMC-based audience overlap and incremental reach analysis across premium inventory (FireTV, Prime Video Ads, Streaming TV B+) for a CPG brand; surfaced data-driven pushback against platform-supplied brand-lift narratives",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "incrementality",
+      "audience overlap",
+      "full-funnel",
+      "FireTV",
+      "Prime Video",
+      "Python",
+      "automation"
+    ],
+    "detail": {
+      "overview": "Analyzed cross-channel audience overlap and incremental reach across premium Amazon inventory to validate funnel strategy and guide budget reallocation for a CPG advertiser.",
+      "problem": "Client lacked clarity on whether premium placements (FireTV, Prime Video Ads) were reaching genuinely new audiences or overlapping with existing funnel touchpoints — and Amazon's own brand-lift narrative needed independent scrutiny.",
+      "actions": [
+        "Ran multi-dimensional audience overlap queries in AMC SQL to map funnel-level duplication across placements",
+        "Quantified incremental reach contribution of each premium placement (FireTV, Prime Video Ads, Streaming TV B+)",
+        "Stress-tested Amazon's FTV brand-lift narrative against observed data, identifying gaps",
+        "Connected rule-based and lookalike AMC custom audiences to overlap segments for retargeting implications",
+        "Automated client deck generation with python-pptx on Google Colab, reducing manual reporting time"
+      ],
+      "impact": [
+        "Delivered budget reallocation recommendation grounded in incremental reach data rather than platform-supplied metrics",
+        "Provided client with an independent, data-backed counter-narrative to Amazon's FTV brand-lift claims"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Python (pandas, matplotlib-venn, python-pptx)",
+        "Google Colab",
+        "Incrementality analysis",
+        "Audience segmentation"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Amazon Advertising & Data Analytics Skill Inventory",
+    "context": "Self-compiled skill reference for resume use; covers Amazon ad platform mechanics, BigQuery SQL, and Google Sheets automation built through hands-on campaign work.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Amazon Ads",
+      "SP/SB/SD/DSP",
+      "BigQuery",
+      "SQL",
+      "Google Sheets",
+      "Campaign Automation",
+      "Match Type",
+      "Bid by Placement"
+    ],
+    "detail": {
+      "overview": "A structured inventory of technical skills across Amazon Advertising and data analytics tooling, maintained as a living document for resume and portfolio use.",
+      "problem": "Ad platform knowledge and analytical skills were spread across projects without a single organized reference, making it hard to articulate scope in applications.",
+      "actions": [
+        "Mapped Amazon ad product structures: SP, SB, SD, DSP — including match types, placement bidding logic, and DSP vs SD inventory differences.",
+        "Documented BigQuery SQL patterns: CTE design, FULL OUTER JOIN for KPI-cost merges, CASE classification, NULLIF/COALESCE for data integrity, CPC/VCPM split aggregation, UNION ALL.",
+        "Catalogued Google Sheets automation techniques: ARRAYFORMULA, XLOOKUP/VLOOKUP, LET optimization, REGEXMATCH/REGEXEXTRACT, multi-condition array logic.",
+        "Defined campaign auto-classification logic by Match Type, Subfunnel, and group labels (SD, PD, Dog, Cat)."
+      ],
+      "impact": [
+        "Provides a single source of truth for skill articulation in resumes and portfolio entries.",
+        "Surfaces gaps for ongoing learning prioritization."
+      ],
+      "skills": [
+        "Amazon Advertising (SP/SB/SD/DSP)",
+        "BigQuery SQL",
+        "Google Sheets Advanced Formulas",
+        "Campaign Taxonomy Design",
+        "Data Pipeline Logic"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "AMC Time-to-Conversion Analysis for Nespresso: Machine vs Capsule Purchase Behavior",
+    "context": "Built an Amazon Marketing Cloud conversion-timing analysis for Nespresso, segmenting ad-exposed audiences by how long they took to purchase — separately for Machine (high-consideration) and Capsule (repeat-purchase) product lines.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Amazon Marketing Cloud",
+      "Attribution",
+      "Cohort Analysis",
+      "SQL",
+      "Nespresso"
+    ],
+    "detail": {
+      "overview": "Designed and executed a Time-to-Conversion study inside AMC to understand how quickly customers convert after ad exposure, split by product category and purchase type.",
+      "problem": "The team needed to know whether Machine buyers and Capsule buyers behave differently in the time between ad impression and purchase — and whether existing campaign filters were pulling the right data.",
+      "actions": [
+        "Built an 11-bucket time-to-conversion field using SECONDS_BETWEEN(impression_dt, conversion_event_dt) with CASE logic spanning <1 min to 14 days across minute, hour, and day granularities",
+        "Fixed a WHERE OR→AND logic error in the custom parameter filter (ad_product_type, campaign_id), reducing the campaign pool from 30+ to 17 valid campaigns",
+        "Aligned the 14-day attribution window with right-censoring: cohort entry capped at impression_dt for complete observation, conversion window left open",
+        "Separated purchase metrics into three layers: direct purchases, total_purchases (brand halo), and NTB (new-to-brand)",
+        "Designed a Machine vs Capsule segmentation frame — Machine as high-consideration/long-funnel, Capsule as short-cycle repeat (1P and 3P split) — with monthly cohort structure",
+        "Debugged YAML custom parameter config: resolved empty values, comment conflicts, and duplicate key errors"
+      ],
+      "impact": [
+        "Delivered an 11-bucket bar chart report for client presentation showing conversion timing distribution by product line",
+        "Produced distinct conversion delay profiles for Machine vs Capsule, enabling product-specific media pacing decisions"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Attribution Window Design",
+        "Right-Censoring / Cohort Methodology",
+        "Custom Parameter Debugging",
+        "Purchase Metric Taxonomy (purchases / total_purchases / NTB)"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built a Scoring Model to Prioritize NTB Keyword Budget Increases",
+    "context": "Designed a 0–100 scoring model in Google Sheets to identify genuinely scalable NTB keywords for a Japanese Amazon advertiser; replaced raw CPA sorting that surfaced near-zero-spend outliers",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Amazon Ads",
+      "NTB",
+      "Keyword Prioritization",
+      "Google Sheets",
+      "Pacvue",
+      "Scoring Model"
+    ],
+    "detail": {
+      "overview": "NTB_CPA ascending sort was pulling up keywords with ¥3 spend and negligible volume to the top, making it impossible to identify real scale candidates. Built a composite scoring model that filters for statistical significance first, then ranks remaining keywords on revenue contribution and CPA efficiency.",
+      "problem": "Raw CPA sorting rewarded tiny-spend keywords with artificially low CPA. No reliable way to distinguish 'efficient and scalable' from 'efficient but trivial'.",
+      "actions": [
+        "Defined Qualified threshold: Cost ≥ ¥1,000 AND NTB_Units ≥ 10 AND NTB_Revenue ≥ ¥10,000",
+        "Scored each Qualified keyword 0–100: 50 pts for NTB_Revenue contribution share + 50 pts for CPA efficiency via PERCENTRANK",
+        "Classified keywords into three action tiers: Scale / Monitor / Low-Volume",
+        "Implemented entirely in Google Sheets using SUMIFS, FILTER, PERCENTRANK, and MAP/LAMBDA helper columns after confirming Pivot calculated fields cannot reference other rows' percentiles or Grand Total correctly",
+        "Documented Pacvue workflow for potential keyword harvesting: promoting converting search terms to exact-match and leveraging Discovery campaigns",
+        "Flagged to client (in Japanese) that untargeted keywords have no NTB metrics in Pacvue and that an Amazon top-ranking keyword list would be needed to fill the gap"
+      ],
+      "impact": [
+        "Gave the team a repeatable, bias-free method to shortlist scale candidates from NTB keyword reports",
+        "Resolved a structural tooling limitation (Pivot calculated field) with a documented workaround, reusable for future analyses"
+      ],
+      "skills": [
+        "Google Sheets (SUMIFS, FILTER, PERCENTRANK, MAP/LAMBDA)",
+        "Pacvue",
+        "Scoring model design",
+        "Amazon Ads — NTB analysis",
+        "Client communication (Japanese)"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Rebuilt AMC Audience Penetration Queries and Validated Feb–Mar CVR Variance",
+    "context": "Overhauled DSP-only audience penetration logic in AMC, resolved YAML config bugs, and reconciled MoM CVR variance across Consideration and Awareness line items for a brand campaign.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "DSP",
+      "SQL",
+      "YAML",
+      "CVR",
+      "MoM Analysis",
+      "Google Sheets"
+    ],
+    "detail": {
+      "overview": "End-to-end analytics work on an Amazon Marketing Cloud campaign: restructured audience penetration queries, clarified two commonly confused impression tables, debugged a YAML config, and produced a clean Feb vs. Mar CVR variance report in Sheets.",
+      "problem": "The existing penetration query mixed DSP and Sponsored Ads traffic, masking true DSP audience reach. Separately, the YAML config threw duplicated-key errors, and the MoM CVR calculation risked double-counting February conversions inside March figures.",
+      "actions": [
+        "Removed sponsored_ads_traffic join and segment_ids filter; switched to full group-by on all audience segments to surface exposed / total / penetration rate across the entire campaign audience.",
+        "Documented the distinction between dsp_impressions_by_matched_segments (delivered audience) and dsp_impressions_by_user_segments (exposed user profile) and applied the correct table per use case.",
+        "Debugged YAML custom parameters by removing duplicated sp_ads_campaigns and segment_ids keys.",
+        "Fixed SQL syntax in the unified DSP + AMS KPI query and restructured ROAS calculation at line-item level.",
+        "Built Feb vs. Mar CVR variance sheet (Consideration 825 rows / Awareness 37 rows) with XLOOKUP mapping; enforced MoM principle so March figures exclude February cumulative data; verified CV/Clicks = 7.93%."
+      ],
+      "impact": [
+        "Penetration query now returns full DSP audience coverage without Sponsored Ads contamination.",
+        "MoM CVR figures are clean and audit-ready; cross-checked CV/Clicks rate confirmed at 7.93%."
+      ],
+      "skills": [
+        "AMC SQL",
+        "YAML",
+        "Google Sheets (XLOOKUP)",
+        "DSP Audience Analytics",
+        "MoM Variance Analysis"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built ASIN-Level NTB Revenue Tracking System on AMC",
+    "context": "Developed AMC SQL queries and a Sheets-based dashboard to track monthly Top-80% ASIN shifts and new-to-brand revenue for a consumer brand on Amazon JP",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "SQL",
+      "NTB",
+      "ASIN",
+      "Amazon",
+      "Google Sheets",
+      "e-commerce"
+    ],
+    "detail": {
+      "overview": "Established a repeatable analytics workflow to monitor which ASINs drive new-to-brand revenue each month and how the top-revenue ASIN mix changes over time.",
+      "problem": "There was no structured way to identify which products were acquiring new customers (NTB) or to track month-over-month changes in the top revenue-driving ASINs.",
+      "actions": [
+        "Wrote and corrected AMC SQL queries using conversions_all and amazon_attributed_events_by_traffic_time tables to aggregate revenue and NTB revenue by ASIN, with proper SUM/GROUP BY logic",
+        "Isolated PD campaign data using a WHERE campaign LIKE '%PD%' filter",
+        "Built a date-level aggregation query based on conversion_event_date, confirming CAST for Date type was unnecessary",
+        "Created Google Sheets formulas (LET, FILTER, COUNTIF, VSTACK) to extract monthly Top-80% ASIN lists by NTB_Revenue and Revenue, and flag New/Gone ASINs vs. the prior month",
+        "Confirmed Amazon JP ASIN URL format (/dp/ASIN) for direct product lookup"
+      ],
+      "impact": [
+        "Enabled consistent monthly tracking of product mix changes across November–February",
+        "Made new-to-brand contribution visible at the ASIN level for PD campaigns"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Google Sheets",
+        "NTB analysis",
+        "ASIN-level reporting",
+        "Amazon DSP"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Three-Layer Budget-vs-NTB Analysis for a Pet Food Brand (DSP + AMS)",
+    "context": "Built a monthly ad performance reporting framework across Brand / Breed / Media / Funnel levels, covering budget allocation and new-to-brand contribution for a pet food advertiser.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "NTB",
+      "DSP",
+      "AMS",
+      "Looker Studio",
+      "Python",
+      "Google Sheets"
+    ],
+    "detail": {
+      "overview": "Designed a three-layer analysis — Budget Allocation, NTB Contribution, and their Relationship — across five granularity levels (Brand, Breed, Media, Funnel, Sub-funnel) using DSP and AMS data from Dec 2025 to Feb 2026.",
+      "problem": "The client needed a structured way to understand not just how budget was split, but whether NTB revenue moved in proportion to spend — and whether cost reductions were hurting new customer acquisition or improving efficiency.",
+      "actions": [
+        "Defined AOV (Rev÷Orders) vs ASP (Rev÷Units) clearly to prevent metric confusion across reports.",
+        "Wrote AMC SQL joining attributed_events and sponsored_ads_traffic; refactored campaign-name parsing logic to classify by Brand (PD/SD), Breed (Dog/Cat), Funnel, and Sub-funnel; merged CPC and VCPM costs.",
+        "Built Google Sheets combo charts (bar + line, secondary axis) with base-month indexing (=100) to handle scale gaps; added PD/SD stacked bar with index overlay.",
+        "Developed Python (Colab) visuals: 100% stacked bar, MoM % change heatmap across Cost/Revenue/Units, correlation coefficients, and Top-N line charts.",
+        "Designed a parallel Looker Studio dashboard for stakeholder-facing reporting."
+      ],
+      "impact": [
+        "Identified that the cost decline from December outpaced the NTB revenue decline — interpreted as an NTB ROAS efficiency improvement rather than simple budget cuts.",
+        "Supplemented analysis with NTB ROAS and Cost per NTB Purchase to validate the efficiency signal."
+      ],
+      "skills": [
+        "AMC SQL",
+        "Google Sheets",
+        "Python (Colab)",
+        "Looker Studio",
+        "DSP/AMS reporting",
+        "Data visualization"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built a Self-Updating Competitor Pet Food Classifier in Google Sheets",
+    "context": "Designed a keyword-driven auto-classification system to categorize Japanese Amazon competitor ASINs into five pet food segments for a global pet nutrition brand's market analysis",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Google Sheets",
+      "Regex",
+      "Data Cleaning",
+      "Competitive Intelligence",
+      "Pet Food",
+      "Japan"
+    ],
+    "detail": {
+      "overview": "Developed a maintainable product-title classifier in Google Sheets that assigns competitor ASINs to five categories—PD Dog, PD Cat, SD Dog, SD Cat, Other—without requiring formula edits when new keywords are added.",
+      "problem": "A raw competitor ASIN list contained Japanese, English, and mixed-language product titles with inconsistent brand naming and overlapping breed/species codes, making manual categorization error-prone and hard to scale.",
+      "actions": [
+        "Started with a hardcoded IFS+REGEXMATCH formula, then refactored into a keyword-management architecture using a dedicated FILTER_KEY tab",
+        "Combined TEXTJOIN, ARRAYFORMULA, and REGEXREPLACE (special-character escaping) so regex patterns regenerate automatically whenever a keyword row is added—no formula body edits needed",
+        "Introduced an Exact Match column and set a clear priority order: Exact → Prescription (療法食) PD → SD Cat → SD Dog → Other",
+        "Resolved species-code conflicts (e.g., RC codes CCN/LHN/SHN = Dog vs. FCN/FHN = Cat) and expanded triggers to cover English prescription terms (Therapeutic Diet, Doctor's Care) missed by Japanese-only conditions",
+        "Normalized scraped brand names (e.g., stripped 'Visit the ~ Store' patterns) and built a competitor-to-Hill's brand mapping table for downstream filtering"
+      ],
+      "impact": [
+        "Classification logic updates by adding a keyword row only—zero formula maintenance required",
+        "Multi-language title handling reduced miscategorization caused by English prescription terminology mixed into Japanese listings"
+      ],
+      "skills": [
+        "Google Sheets (REGEX, TEXTJOIN, LET, ARRAYFORMULA)",
+        "Regex design",
+        "Data cleaning & normalization",
+        "Competitive product taxonomy"
+      ]
+    }
+  },
+  {
+    "cat": "Research",
+    "headline": "Designed Competitor ASIN Scraping Framework for Japan Amazon Pet Food Market",
+    "context": "Built keyword strategy and automated scraping pipeline to map competitive ASIN landscape across prescription and standard diet categories on Amazon Japan; handled end-to-end data collection design.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Amazon Japan",
+      "web scraping",
+      "Automa",
+      "keyword strategy",
+      "pet food",
+      "competitive research"
+    ],
+    "detail": {
+      "overview": "Designed and executed a competitor ASIN scraping project on Amazon Japan for a global pet nutrition brand. Covered prescription diet (PD) and standard diet (SD) segments across dog and cat categories, targeting 3,000+ unique competitor ASINs.",
+      "problem": "The client needed a comprehensive view of competitor SKUs on Amazon Japan but lacked a structured keyword and collection framework that cleanly separated prescription vs. standard diet results and excluded own-brand contamination.",
+      "actions": [
+        "Designed non-overlapping keyword sets for PD (療法食/処方食/ベテリナリー/Veterinary) and SD (一般食/総合栄養食 + species split) — PD: 16 terms, SD_Dog: 34 terms, SD_Cat: 40 terms",
+        "Built a brand-manufacturer mapping table covering major competitors (Mars, Nestlé, Petline, Spectrum Brands, Unicharm) and their sub-brands to enable post-collection filtering",
+        "Set post-processing rules to strip Hills/Science Diet/Prescription Diet contamination from SD results",
+        "Ran hybrid collection strategy: broad multi-keyword sweep (200–300 results each) → deduplication → deep dive on high-uniqueness-yield keywords to balance diversity and volume"
+      ],
+      "impact": [
+        "Delivered structured keyword taxonomy covering 90 terms across three category segments",
+        "Established a reusable scraping workflow in Automa applicable to future category audits — [검증필요: 최종 수집 ASIN 수 및 클라 승인 여부 확인]"
+      ],
+      "skills": [
+        "Automa (browser automation)",
+        "Keyword taxonomy design",
+        "Competitive data collection",
+        "Brand mapping",
+        "Data deduplication logic"
       ]
     }
   },
