@@ -1476,6 +1476,41 @@
   },
   {
     "cat": "Analytics",
+    "headline": "Built a Campaign Naming Automation & Validation System in Google Sheets",
+    "context": "Designed and implemented a spreadsheet-based governance system to auto-generate, validate, and classify campaign names for an Amazon advertising operation — sole contributor",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Google Sheets",
+      "Data Governance",
+      "Amazon Ads",
+      "Naming Convention",
+      "Formula Engineering"
+    ],
+    "detail": {
+      "overview": "Campaign names were built manually, causing frequent typos, inconsistent tokens, and broken downstream reporting. Built a fully formula-driven system in Google Sheets to auto-generate names from dropdowns, validate every token against a master reference list, and classify campaigns into multi-level categories.",
+      "problem": "Manual naming introduced human error (typos like 'Awaremess', mixed formats like 'ROAS vs tROAS'), invisible characters (CHAR(160) non-breaking spaces), and no guardrails against free-text input — making automated reporting unreliable.",
+      "actions": [
+        "Auto-generated campaign names by chaining dropdown values with BYROW+TEXTJOIN('_'), with ignore-empty logic to prevent double underscores (__), and ARRAYFORMULA for automatic row expansion",
+        "Validated each name token against a master Data_Key tab using MAP+SPLIT+MATCH+ISNA, surfacing PASS or WARNING per token",
+        "Standardized text cleaning with TRIM, CLEAN, and SUBSTITUTE to catch invisible characters (CHAR(160)) and common typo patterns; extracted unknown tokens with FILTER+COUNTIF",
+        "Enumerated and standardized all 31 Amazon SA ad-type combinations (SP through SP+SB+SBV+SDA+SDV) as locked dropdowns with Reject Input to block free-text entry",
+        "Built a multi-level classification formula suite using LET+IFS and ISNUMBER+SEARCH with explicit priority ordering for funnel stages, promo types (B+/BONUS/FTV), and prescription diet lines (Weight/Urinary/Derm/GI/Big/Senior)"
+      ],
+      "impact": [
+        "Eliminated naming human error at the source by replacing free-text entry with validated, auto-assembled strings",
+        "Enabled reliable downstream campaign classification and reporting without manual cleanup"
+      ],
+      "skills": [
+        "Google Sheets (BYROW, MAP, ARRAYFORMULA, LET, IFS, TEXTJOIN, FILTER, COUNTIF)",
+        "Data governance & naming convention design",
+        "Amazon Sponsored Ads taxonomy",
+        "Formula debugging (circular dependency, CHAR(160) handling)"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
     "headline": "Built a Scoring Model to Prioritize NTB Keyword Budget Increases",
     "context": "Designed a 0–100 scoring model in Google Sheets to identify genuinely scalable NTB keywords for a Japanese Amazon advertiser; replaced raw CPA sorting that surfaced near-zero-spend outliers",
     "img": "",
@@ -1701,6 +1736,159 @@
   },
   {
     "cat": "Analytics",
+    "headline": "Built Multi-Tier Campaign Taxonomy SQL for AMC Sponsored Ads Reporting",
+    "context": "Developed AMC SQL logic to classify sponsored ad campaigns into a 3-level hierarchy for a pet nutrition brand's AMS performance reporting; sole analyst.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "SQL",
+      "Campaign Taxonomy",
+      "Sponsored Ads",
+      "NTB",
+      "Amazon"
+    ],
+    "detail": {
+      "overview": "Designed and debugged AMC SQL to segment sponsored ad traffic into a structured 3-level campaign group — enabling clean sub-funnel breakdowns (e.g., SD_Dog_Purchase) for NTB and overall performance analysis.",
+      "problem": "Raw AMC campaign data had no consistent grouping structure, and existing SQL contained syntax errors (IS 'value' conditions) that caused incorrect filtering. DSP traffic was mixed in with AMS data, distorting Sponsored Ads metrics.",
+      "actions": [
+        "Filtered AMS-only traffic using ad_product_type IN (...), excluding NULL DSP rows; corrected malformed WHERE clauses to IN() syntax",
+        "Built 3-level CASE/LIKE grouping logic with LOWER() normalization: Group1 (SD/PD) → Group2 (species) → Group3 (sub-funnel stage)",
+        "Refined edge-case rules to force correct classification for ambiguous campaign names (both/sov → Dog; HIRO+NTB/ASIN → Purchase), minimizing 'Other' fallback",
+        "Aggregated NTB performance metrics at each taxonomy level"
+      ],
+      "impact": [
+        "Enabled consistent sub-funnel reporting across SD and PD campaign types",
+        "Reduced 'Other' bucket to near-zero through systematic exception handling"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Campaign Taxonomy Design",
+        "Data Cleaning",
+        "Amazon Sponsored Ads",
+        "NTB Analysis"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Deepened AMC SQL Proficiency Across Amazon Attribution and Reach Measurement",
+    "context": "Self-directed study session applying AMC SQL to live Hill's and Macallan campaign data; covered attribution schema, reach diagnostics, and monthly aggregation edge cases",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC SQL",
+      "Amazon DSP",
+      "Attribution",
+      "Reach",
+      "CTE",
+      "Pivot",
+      "Hill's Science Diet",
+      "Macallan"
+    ],
+    "detail": {
+      "overview": "Structured a working knowledge base for Amazon Marketing Cloud SQL, resolving recurring syntax issues and schema mismatches encountered across two active brand accounts.",
+      "problem": "Several AMC queries were returning unreliable results—under-counted Reach, mismatched attribution windows, and month-boundary discrepancies—due to schema differences between ad-type tables and unsupported functions.",
+      "actions": [
+        "Clarified why Impression Share cannot be compared directly across SB and SP placements due to differing eligible impression denominators",
+        "Fixed IS IN syntax error; added Japanese keyword filters and campaign×ASIN aggregation logic",
+        "Built a 3-table CTE joining attributed_events, dsp_impressions, and dsp_clicks; identified join-key conflicts between ID and name fields",
+        "Distinguished by_conversion_time vs by_traffic_time attribution modes and their appropriate use cases (finance vs efficiency reporting)",
+        "Diagnosed Reach undercounting root causes: table schema mismatch, NULL user_id, and join-key inconsistency",
+        "Resolved DATE_TRUNC vs WHERE filter boundary mismatch; designed Pivot vs Long output structures; worked around unsupported FORMAT_DATE using EXTRACT + CASE padding"
+      ],
+      "impact": [
+        "Established reusable query templates for campaign×ASIN reporting and reach measurement applicable to future AMC engagements",
+        "Identified and documented schema pitfalls that were causing silent errors in attribution and reach outputs"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Amazon Attribution Schema",
+        "CTE Design",
+        "Reach Analysis",
+        "Date Aggregation",
+        "Query Debugging"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "AMC Path-to-Purchase Analysis to Reframe 2026 Media Budget for a Pet Nutrition Brand",
+    "context": "Built a multi-tab AMC analysis framework covering NTB and existing-customer conversion paths; fixed SQL query logic and delivered client-facing top-20-path views by four KPIs",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "SQL",
+      "Path to Purchase",
+      "Media Planning",
+      "NTB",
+      "Google Sheets"
+    ],
+    "detail": {
+      "overview": "Audited and restructured an Amazon Marketing Cloud Path-to-Conversion query for a pet nutrition brand, then designed a Google Sheets analysis framework to surface NTB and existing-customer path efficiency at scale.",
+      "problem": "The existing AMC query excluded brand halo sales, causing metrics like total_product_sales and total_purchases to be understated. The client also lacked a structured view to compare NTB vs. existing paths across multiple KPIs, making budget reallocation decisions difficult.",
+      "actions": [
+        "Corrected the AMC SQL query: unified revenue and purchase metrics to include brand halo (total_product_sales, total_purchases) by rewriting the converted CTE and WHERE conditions; re-verified backend definitions for users_that_purchased, ntb_users, and related fields.",
+        "Designed a three-tab Google Sheets structure — NTB RAW (NTB CPA per user, NTB CVR, NTB %, Sales Volume Contribution), NTB 90% Candidate Group (743 paths covering 90% of cumulative sales, isolating the long-tail), and Existing RAW (existing-customer path breakdown and existing_CPA).",
+        "Produced four client-facing views showing the top 20 paths ranked by NTB CPA, Volume Contribution, CVR, and NTB % respectively, with a minimum-sample threshold applied to prevent small-n distortion."
+      ],
+      "impact": [
+        "Delivered a defensible, multi-dimensional path efficiency report covering both NTB and existing customers.",
+        "Provided a structured budget reallocation framework for the brand's 2026 media plan."
+      ],
+      "skills": [
+        "AMC SQL",
+        "Google Sheets",
+        "Media Planning",
+        "Data QA",
+        "Path-to-Purchase Analysis"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Rebuilt AMC Path-to-Purchase Query with First-Touch CPR and Creative-Type Granularity",
+    "context": "AMC analyst on a CPG brand campaign; extended an existing PTP query to support creative-type segmentation and redesigned cost attribution to eliminate Any-touch double-counting",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "SQL",
+      "Attribution",
+      "DSP",
+      "AMS",
+      "Window Function",
+      "PTP",
+      "Creative Analytics"
+    ],
+    "detail": {
+      "overview": "The existing Path-to-Purchase query lacked creative-type breakdown and its CPR figures were inflated by Any-touch cost double-counting. Both issues were resolved through query-level redesign.",
+      "problem": "1) PTP query aggregated Static, Video, and REC creatives together, hiding performance differences. 2) Summing costs across all touches per path overstated CPR. 3) Raw query output exceeded Excel row/column limits.",
+      "actions": [
+        "Added creative-type classification via CASE WHEN LOWER(creative) LIKE patterns on dsp_impressions.creative and sponsored_ads_traffic.creative, then grouped as CONCAT(campaign_group,'_',creative_type) — e.g. DSP_AW_Static",
+        "Designed a dedicated First-Touch query using ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY impression_dt) to isolate each user's first impression, then joined DSP and AMS to compute unique users, FT cost, and FT-CPR per creative type",
+        "Applied unit conversion: DSP millicents ÷ 1e5, AMS microcents ÷ 1e8",
+        "Handled Excel capacity limits with Top N + Other rollup, Reach threshold filter, and Path length cap",
+        "Reviewed FT vs Last-Touch KPI alignment and examined CPA ≈ CPR/CVR relationship alongside Frequency effects"
+      ],
+      "impact": [
+        "Eliminated CPR distortion caused by Any-touch cost double-counting, making FT-CPR a reliable optimization signal",
+        "Enabled creative-type level comparison (Static vs Video vs REC) within a single unified PTP report",
+        "Made large AMC outputs manageable in Excel without losing key path segments"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Window Functions (ROW_NUMBER, PARTITION BY)",
+        "Attribution modeling (First-Touch vs Any-touch)",
+        "DSP + AMS data integration",
+        "Cost unit normalization",
+        "Query performance optimization"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
     "headline": "Run Amazon Marketing Cloud (AMC) analytics end-to-end at a global agency",
     "context": "Data-engineering + data-science analyst at WPP Media Japan — from raw clean-room SQL to client-facing insight and presentation.",
     "img": "",
@@ -1857,6 +2045,336 @@
         "Measurement",
         "Bidding Optimization",
         "A/B Testing"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Ad vs. Organic Incrementality & Cannibalization Analysis for Amazon Brand",
+    "context": "Built an AMC-based measurement framework to diagnose whether paid media was cannibalizing organic sales and whether budget expansion was justified — sole analyst.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "SQL",
+      "Attribution",
+      "Incrementality",
+      "Amazon Ads",
+      "Python"
+    ],
+    "detail": {
+      "overview": "Assessed the true incremental value of Amazon ad spend (DSP + AMS) by separating ad-driven and organic revenue, then identified cannibalization patterns across product lines and seasons.",
+      "problem": "Client questioned whether increasing budget from ~50M to ~60M KRW was efficient, and whether ads were eating into organic sales rather than growing total revenue. A 133M KRW discrepancy between the standard report and AMC data also needed explaining.",
+      "actions": [
+        "Rebuilt AMC SQL queries using multi-ASIN CTEs to isolate ad-exposed vs. organic revenue; resolved a 309M vs. 442M KRW reporting gap caused by double-counting DSP view and SP click events — deduplicated via ROW_NUMBER on conversion_event_id (Click > View priority, 14-day window).",
+        "Derived Incrementality Ratio (ΔTotal/ΔAd), Cannibalization Rate, and Total ROAS (MER); coded a traffic-light read: >1.0 synergy, 0.5–1.0 partial cannibalization, <0.5 severe, negative = full cannibalization.",
+        "Decomposed results by brand line: SD showed high cannibalization vulnerability (discount-driven stock-up behavior, ratio dropped to 0.58 during Prime Day); PD held up as an essential-goods category.",
+        "Identified that cannibalization severity was driven by seasonality and campaign timing, not budget size alone.",
+        "Documented that Amazon's default Last-Touch 100% attribution (Click > View) structurally inflates ROAS; supported with official Amazon documentation.",
+        "Delivered Divergence chart and Cannibalization Tax Waterfall visualization."
+      ],
+      "impact": [
+        "Produced a Dynamic Budget Allocation framework: monthly Green (increase) / Yellow (hold) / Red (cut) signals per brand line and period.",
+        "Gave client a defensible answer on budget ceiling efficiency — without fabricating a hard ROI number where the data did not support one."
+      ],
+      "skills": [
+        "AMC SQL",
+        "Python",
+        "Attribution methodology",
+        "Incrementality measurement",
+        "Amazon DSP / AMS",
+        "Data visualization"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built a Self-Serve Budget Simulator Powered by MMM Saturation Curves",
+    "context": "Modeled ad spend saturation for a Japanese fashion e-commerce brand [검증필요] using Hill Function response curves and Power Law ROAS decay, then ported the logic into a client-facing Excel tool.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "MMM",
+      "Python",
+      "scipy",
+      "Excel",
+      "Budget Optimization",
+      "Saturation Modeling",
+      "Incremental ROAS"
+    ],
+    "detail": {
+      "overview": "Developed a two-part MMM modeling project: Python-based saturation curve analysis and a self-serve Excel budget simulator. Saturation point estimated at approximately 35–40M JPY in monthly ad spend.",
+      "problem": "The client lacked a systematic way to judge whether increasing ad budget would drive incremental sales or simply erode efficiency — leading to uninformed spend decisions.",
+      "actions": [
+        "Fitted Hill Function (Sales Response) and Power Law (ROAS Decay) curves in Python using scipy curve_fit; visualized Marginal ROAS as a monthly traffic-light signal (Red = saturated, Blue = room to grow).",
+        "Cleaned input data by removing a November 2024 outlier and replaced static base sales with dynamic monthly organic sales to create a Hybrid MMM with near-zero error at 0% adjustment.",
+        "Translated the model into Excel using Power Law parameters (β=0.4–0.6, monthly α back-calculated), a delta-based revenue formula, and a Saturation Penalty term that degrades efficiency on oversized budget increases.",
+        "Delivered a client-operable interface: input monthly budget change % → automatic output of projected revenue and a six-tier signal label (Great / Growth / Good / Check / Loss / Bad) in 億円 format.",
+        "Resolved an internal debate on margin double-penalty by simplifying to Incremental ROAS as the core metric; produced a separate Incrementality Ratio Chart in Python."
+      ],
+      "impact": [
+        "Client can independently simulate budget scenarios without analyst intervention.",
+        "Model structurally encodes the principle that indiscriminate spend increases reduce overall efficiency — not just as a guideline but as a formula."
+      ],
+      "skills": [
+        "Python (scipy curve_fit)",
+        "Hill Function & Power Law modeling",
+        "Hybrid MMM",
+        "Excel financial modeling",
+        "Incremental ROAS analysis",
+        "Data cleaning & outlier handling"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built 2026 Analytics Roadmap and Delivered Bilingual AMC Presentation for a Major Retail Brand",
+    "context": "Designed a three-stage analytics roadmap (validate → identify opportunity → act) and authored the Japanese script for a live AMC Cannibalization presentation; role covered strategy architecture, RFM/LTV methodology, and bilingual delivery support.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "RFM",
+      "LTV",
+      "Cannibalization",
+      "Incrementality",
+      "Amazon Ads",
+      "Japanese Presentation",
+      "Roadmap"
+    ],
+    "detail": {
+      "overview": "Closed out a flagship December engagement by translating a Black Friday retrospective into a structured 2026 growth roadmap, supported by a full suite of audience and ASIN analytics frameworks, and delivered findings in both English and Japanese.",
+      "problem": "Post-BF data showed signs of ad cannibalization and audience overlap, but the client lacked a structured framework to diagnose the root cause, size incremental opportunity, and translate findings into a defensible 2026 action plan—especially for a Japanese-speaking stakeholder audience.",
+      "actions": [
+        "Structured a three-stage roadmap: (1) validate cannibalization and incrementality rates, (2) size opportunity via category growth and SD/PD Reach Penetration, (3) define 2026 actions",
+        "Mapped four analytical tools to the roadmap: RFM matrix (BF vs. BAU period-split, 2×2 with percentile-based tiers), LTV four-segment model (NTB/Existing × One-time/Repeat), ASIN price-tier portfolio health check (Bridge/Hero/Loss-leader/Bundle), and audience overlap operating strategy (High-Bid Overlay, FQ cap 3–5)",
+        "Designed a three-slide persuasion arc: Saturation → Cannibalization as root cause → NTB budget reallocation as solution; each slide anchored by a single English conclusion sentence",
+        "Translated Slides 46–58 into Japanese, added furigana for key terms (カニバリ/純増/レシオ), and revised script based on client feedback [検証必要: 甲田 실명 공개 가능 여부 확인]",
+        "Defined an ACPL incrementality framework for weekly pacing reports: A=Branded Search Lift, C=NTB rate & DPV, P=Sales, L=Repeat purchase & Subscribe-and-Save; reporting tone calibrated to ±10% stable threshold"
+      ],
+      "impact": [
+        "Delivered a presentation-ready 2026 roadmap grounded in BF retrospective data, with clear tooling mapped to each strategic stage",
+        "Enabled bilingual stakeholder alignment by providing a fully scripted and annotated Japanese deck for the 12/18 live session"
+      ],
+      "skills": [
+        "Analytics Strategy",
+        "RFM Analysis",
+        "LTV Segmentation",
+        "Amazon AMC",
+        "Audience Overlap Management",
+        "ASIN Portfolio Analysis",
+        "Japanese Business Communication",
+        "Incrementality Measurement",
+        "Presentation Design"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "ASIN-Level NTB Segmentation to Identify True New-Customer Drivers",
+    "context": "Built a cost attribution and NTB performance framework in AMC to classify which ASINs genuinely recruit new customers for a pet food brand on Amazon JP.",
+    "img": "",
+    "metrics": [
+      "Top 20 ASINs account for 37% of total NTB orders"
+    ],
+    "tags": [
+      "AMC",
+      "DSP",
+      "Sponsored Ads",
+      "NTB",
+      "Cost Attribution",
+      "Amazon JP"
+    ],
+    "detail": {
+      "overview": "Designed an ASIN-level portfolio segmentation that maps DSP and SA spend to new-to-brand outcomes, resolving double-counting and ratio-inflation errors in the process.",
+      "problem": "Existing reporting double-counted DSP costs across ASINs and inflated NTB ratios by applying list filters to denominators, making it impossible to tell which products actually drove new-customer acquisition.",
+      "actions": [
+        "Applied Revenue-Weighted Allocation to distribute DSP campaign costs to ASINs (cost × ASIN revenue / total campaign revenue), eliminating double-counting.",
+        "Split AMC queries into two prompts (NTB performance vs. cost), then merged via VLOOKUP/SUMIFS to avoid granularity mismatches; aggregated SA costs directly from sponsored_ads_traffic with a FULL OUTER JOIN to capture unconverted-click spend.",
+        "Defined four derived metrics — NTB%, NTB CAC, Total ROAS, NTB Contribution — and filtered by Contribution (Top 20) first to avoid the high-ratio / low-volume trap before applying ratio-based role classification.",
+        "Adopted Halo-inclusive (total) figures to reflect each ASIN's full role as a brand entry point.",
+        "Visualized results as a bubble chart (X=ROAS, Y=NTB Ratio, Size=Contribution) with three IFS-classified segments labeled in Japanese: 新規流入 / 新規+ROAS / ROAS重視."
+      ],
+      "impact": [
+        "Top 20 ASINs account for 37% of total NTB orders, providing a data-backed basis for budget concentration.",
+        "Delivered a two-slide output (positioning map + action plan) directly usable in client review."
+      ],
+      "skills": [
+        "AMC SQL",
+        "Cost Attribution Design",
+        "Revenue-Weighted Allocation",
+        "Google Sheets",
+        "Data Visualization"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Budget Forecast Model Rebutted Client's Pessimistic Simulation for Spring Sale 2026",
+    "context": "Built a data-driven counter-proposal to challenge a client's worst-case budget simulation for a Japanese e-commerce brand's Spring Sale; sole analyst on the project.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "budget modeling",
+      "MMM",
+      "scenario analysis",
+      "e-commerce",
+      "Japan"
+    ],
+    "detail": {
+      "overview": "The client projected underperformance based on a Black Friday worst-case metric simulation. I constructed an alternative forecast using historical growth-zone averages and daily budget density analysis to argue the plan was viable with proper allocation.",
+      "problem": "Client simulation used an outlier (BF worst-case) as the baseline, inflating pessimism. Additionally, compressing the same spend into a shorter sale window doubled daily budget density, raising cannibalization risk that the original plan didn't account for.",
+      "actions": [
+        "Defined 'Blue Zone' months (Mar Ratio 1.64, May 2.25, Nov 0.97) as the forecast basis; excluded July Prime Day as a 'Red Zone' outlier to avoid distorting the average.",
+        "Quantified the daily density trap: same ~¥30M budget over 14 days vs. last year's 31 days = ~2× daily spend, flagging cannibalization risk. Flagged April secondary sale saturation (Ratio 0.08–0.53).",
+        "Calculated empirical daily caps by placement type — SD: ¥1,007,400/day (Mar, Ratio 1.36), ¥728,795/day (Apr, Ratio 0.10); PD: ¥297,620/day (Mar, Ratio 1.95), ¥178,780/day (Apr, Ratio 0.53).",
+        "Modeled two allocation scenarios — Target Ratio 0.5 (volume priority) vs. 0.9 (efficiency priority) — and recommended shifting more budget to PD in March given its higher growth headroom."
+      ],
+      "impact": [
+        "Provided a structured rebuttal to the client's underperformance projection with historical data, not assumptions.",
+        "Surfaced the daily density risk before campaign launch, enabling pre-emptive budget restructuring."
+      ],
+      "skills": [
+        "MMM application",
+        "budget simulation",
+        "scenario planning",
+        "daily cap analysis",
+        "paid media strategy"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built Japanese Pitch Scripts and Defined Statistical Scope for Amazon DSP/AMS Review",
+    "context": "Drafted slide-by-slide Japanese scripts (Slides 33–37), prepared Q&A defense logic, wrote WoW commentary, and mapped which statistical models were viable given aggregate-level data — for a client campaign review presentation.",
+    "img": "",
+    "metrics": [
+      "FTV CPR ¥7 vs AMS CPR ¥8",
+      "FTV First-Touch NTB contribution 2.23%",
+      "SD ROAS 3.6→3.7 WoW",
+      "PD ROAS 13.9→16.8 WoW on -14% spend"
+    ],
+    "tags": [
+      "Amazon DSP",
+      "AMS",
+      "NTB",
+      "Path-to-Purchase",
+      "Japanese Business Presentation",
+      "Statistical Modeling",
+      "Elasticity Regression",
+      "Efficient Frontier"
+    ],
+    "detail": {
+      "overview": "Supported a campaign review for a retail client on Amazon Japan. Work spanned scripting a formal Japanese presentation, preparing Q&A rebuttals, writing weekly performance commentary, and scoping which statistical models were applicable given the data available.",
+      "problem": "The team needed a polished Japanese-language pitch covering DSP/AMS attribution logic, NTB definitions, and a forward-looking action plan — while also clarifying which analytical methods were actually feasible with aggregate campaign data.",
+      "actions": [
+        "Wrote Slide 33–37 scripts in formal Japanese (teineigo), using front-loaded structure and bilingual term labeling per the 12/18 style guide",
+        "Slide 35: framed DSP→AMS multi-touch path using '取りこぼす' phrasing; softened unverified claims",
+        "Slide 36: explained FTV efficiency (CPR ¥7 vs AMS ¥8) and First-Touch NTB contribution of 2.23%",
+        "Slide 37: outlined Top 20 ASIN setting adjustments and a roadmap for LTV and postal-code demographic targeting",
+        "Prepared Q&A rebuttals: CPM vs CPR measurement basis difference; 365-day NTB window logic (1yr+ dormant = NTB)",
+        "Wrote WoW commentary for SD (+7% Rev, ROAS 3.6→3.7) and PD (-14% Spend, +2.5% Rev, ROAS 13.9→16.8)",
+        "Scoped statistical model viability: ruled out Markov, Time Decay, Market Basket, and Causal models on aggregate data; confirmed Elasticity Regression and Efficient Frontier as next steps"
+      ],
+      "impact": [
+        "Presentation scripts ready for delivery with defensible attribution narrative",
+        "Defined a clear analytical roadmap: Top 20 ASIN monthly elasticity analysis as immediate next step",
+        "WoW commentary framed budget reductions as intentional efficiency gains, not performance drops"
+      ],
+      "skills": [
+        "Japanese Business Writing",
+        "Amazon DSP/AMS Attribution",
+        "NTB Definition & Defense",
+        "Statistical Model Scoping",
+        "Elasticity Regression",
+        "Efficient Frontier",
+        "WoW Performance Commentary"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built a Measurement Framework and A/B/C Path Scoring Spec for a Retail Media Campaign",
+    "context": "Defined unified KPI logic and authored an English-language scoring spec for the data team at a retail client; sole strategist on measurement design.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "attribution",
+      "KPI design",
+      "scoring model",
+      "first-touch",
+      "NTB",
+      "media planning"
+    ],
+    "detail": {
+      "overview": "Designed a full measurement framework to resolve metric inconsistencies and created a three-path scoring spec (A/B/C) to guide budget allocation across funnel stages.",
+      "problem": "Existing reporting mixed First-Touch and Last-Touch attribution in a single view, causing CVR inflation from frequency effects and ambiguous NTB definitions that misled optimization decisions.",
+      "actions": [
+        "Fixed definitions for CPU, CPR, NTB CVR, NTB Percentage, New-User Contribution, and Frequency (6-month to monthly conversion).",
+        "Documented the CPA≈CPR/CVR relationship and identified frequency-driven CVR overstatement; set frequency caps per segment.",
+        "Separated FT and LT attribution frames: FT-led for Awareness (LT as guardrail only), FT+LT combined for Purchase; prohibited mixing in a single report.",
+        "Authored an English spec for the data team covering three scoring paths — A (NTB-oriented), B (sales volume), C (hybrid: C-1 FT reach expansion + C-2 LT closing) — with explicit attribution rules and SD/PD separation.",
+        "Built a First-Touch funnel-level scoring model gated on NTB orientation, NTB_CPA, CPR, and frequency; produced V1/V2/V3 budget allocation scenarios (DSP_L flagged for reduction first, DSP_FTV set to 0%)."
+      ],
+      "impact": [
+        "Established a single source of truth for KPIs shared between strategy and data teams.",
+        "Eliminated FT/LT metric mixing in reporting, removing a key source of optimization error."
+      ],
+      "skills": [
+        "KPI & metric design",
+        "attribution framework",
+        "scoring model design",
+        "English spec documentation",
+        "media budget allocation"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Video vs. Static Creative Decision for Hills — Dual Budget Scenarios",
+    "context": "Analyzed Video and Static ad performance across Wellness and Therapeutic lines for a Japanese wellness brand; built two budget scenarios and presented findings in Japanese to the client.",
+    "img": "",
+    "metrics": [
+      "NTB YoY -23.5%",
+      "Wellness NTB YoY -34.2%",
+      "Therapeutic NTB YoY -12.3%",
+      "AW_Video CPR ¥9",
+      "AW_Video Frequency 5"
+    ],
+    "tags": [
+      "Creative Analysis",
+      "Budget Planning",
+      "Amazon Ads",
+      "Japanese Presentation",
+      "NTB",
+      "CVR",
+      "CPA",
+      "Frequency"
+    ],
+    "detail": {
+      "overview": "Evaluated whether Video or Static creatives drove more efficient acquisition for a Japanese wellness brand (Hills) across two product lines, then translated findings into two concrete budget proposals and a Japanese-language presentation.",
+      "problem": "Video creatives showed misleading CVR lifts inflated by high frequency exposure. The team needed a clear framework to separate reach efficiency from conversion quality, and to present the recommendation credibly to a Japanese-speaking client.",
+      "actions": [
+        "Compared Video vs. Static on CPR, CVR, CPA (Total and NTB) using First Touch attribution for the Wellness line — found Video cheaper per unique reach but worse on conversion and NTB CPA.",
+        "Diagnosed Therapeutic AW_Video's apparent CVR advantage as a frequency artifact (max FQ 5, CPR ¥9, only 39% new-user share) and recommended budget shift to REC/Static.",
+        "Resolved the NTB_CPA-up / NTB_CVR-up paradox by modeling the combined effect of frequency and CPR.",
+        "Built V1 scenario (efficiency focus: scale Static, suppress/pause Video) and V2 scenario (maintain steady state, expand Video during sale periods, continue LTV tracking); allocated Video budget to FTV/PV formats first.",
+        "Constructed a Touch × Frequency bucket heatmap in Google Sheets (pivot + weighted average) to validate FQ-to-CVR relationships; incorporated Amazon team (Mukai/Shimane) feedback on reach back-calculation logic.",
+        "Wrote Japanese Key Sentences and 補足 notes; consolidated Slides 33/35 into 34/36 for a tighter deck.",
+        "Authored weekly NTB commentary and addressed client misunderstanding about whether the split was P2P-level or creative-level."
+      ],
+      "impact": [
+        "Gave client a defensible, data-backed rationale to reallocate Video budget toward higher-converting Static creatives.",
+        "Frequency-artifact diagnosis prevented the team from scaling an underperforming Video placement.",
+        "Heatmap-based FQ verification added a repeatable validation step to the campaign review process."
+      ],
+      "skills": [
+        "Creative performance analysis",
+        "Budget scenario planning",
+        "Frequency & attribution analysis",
+        "Google Sheets pivot / weighted average",
+        "Japanese business writing & presentation",
+        "Amazon Ads optimization"
       ]
     }
   }
