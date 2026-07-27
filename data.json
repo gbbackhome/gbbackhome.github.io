@@ -2171,6 +2171,45 @@
   },
   {
     "cat": "Analytics",
+    "headline": "Validated Whether Sponsored Ad Captured Last Touch or Drove Mid-Funnel Lift via AMC Path-to-Conversion",
+    "context": "Designed a quasi-experiment and custom AMC SQL to test if a Sponsored ad type was hijacking last-touch attribution or genuinely influencing the purchase path — for a PC/monitor brand on Amazon [검증필요]",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Path-to-Conversion",
+      "Multi-touch Attribution",
+      "Experiment Design",
+      "Amazon DSP",
+      "SQL"
+    ],
+    "detail": {
+      "overview": "Investigated whether a Sponsored ad format drove real mid-funnel engagement or simply appeared at the end of already-decided purchase journeys, using Amazon Marketing Cloud path-to-conversion analysis.",
+      "problem": "The team hypothesized that strong ROAS figures from a Sponsored ad type might reflect last-touch credit capture rather than actual purchase influence. Frequency as an alternative explanation had already been ruled out via DSP dashboards.",
+      "actions": [
+        "Designed a Control (Aug, no P+ active) vs Test (Oct, P+ active) comparison; flagged Prime Big Deal Days overlap as a seasonality confound requiring correction",
+        "Defined three new mid-funnel metrics: Mid-funnel Intervention Rate, Path Length (avg touches per purchase), and Synergy Lift comparing CVR of DSP+SA paths vs DSP+P++SA paths",
+        "Built path-length buckets (Short 1–5, Medium 6–15, Long 16+) and set the rule that Medium-path growth counts as efficient only when accompanied by total sales volume growth",
+        "Wrote AMC P2C SQL covering campaign-name pattern filtering (AMS_Monitor / AMS_PC), DSP campaign_id mapping, chronological sort via ARRAY_SORT(COLLECT(NAMED_ROW)), user_id-only joins, cost-unit conversion (millicents ÷1e5, microcents ÷1e8), and Brand Halo branching on DSP total_* columns",
+        "Established an AMC Agent collaboration workflow — logic-only instruction without hardcoded table names — to make the analysis reusable across accounts"
+      ],
+      "impact": [
+        "Provided a structured framework to separate genuine mid-funnel influence from last-touch inflation in Sponsored ad reporting",
+        "Clarified cost-efficiency thresholds by path length, giving the team a defensible basis for budget reallocation decisions"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Quasi-experimental design",
+        "Seasonality correction",
+        "Multi-touch attribution",
+        "Amazon DSP",
+        "Sponsored Ads",
+        "Path-to-Conversion analysis"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
     "headline": "ASIN-Level NTB Segmentation to Identify True New-Customer Drivers",
     "context": "Built a cost attribution and NTB performance framework in AMC to classify which ASINs genuinely recruit new customers for a pet food brand on Amazon JP.",
     "img": "",
@@ -2375,6 +2414,45 @@
         "Google Sheets pivot / weighted average",
         "Japanese business writing & presentation",
         "Amazon Ads optimization"
+      ]
+    }
+  },
+  {
+    "cat": "Performance",
+    "headline": "Competitor ASIN Retargeting Refresh Drove 10,000%+ Sales Lift for a Pet Food Brand",
+    "context": "Implemented a conquesting audience strategy on Amazon DSP — refreshing competitor ASIN segments and launching new contextual targeting; owned full execution and MoM performance tracking.",
+    "img": "",
+    "metrics": [
+      "+10,928% MoM Sales (CX-Competitor ASINs segment)",
+      "Scaled across 3 audience segments in first active month"
+    ],
+    "tags": [
+      "Amazon DSP",
+      "Retargeting",
+      "Contextual Targeting",
+      "Conquesting",
+      "NTB",
+      "MoM Analysis",
+      "Automa"
+    ],
+    "detail": {
+      "overview": "Applied a competitor ASIN refresh methodology — validated on a prior campaign — to a pet food brand's Amazon DSP account. Launched three retargeting segments and new contextual targeting in a single month, then tracked volume and efficiency metrics side by side.",
+      "problem": "The brand had a designed conquesting audience architecture from February but no live execution yet. Competitor ASIN lists were stale, and no contextual targeting was running.",
+      "actions": [
+        "Refreshed ASIN lists for three competitor-based segments: Competitor Brand Purchase (90D), Competitor Brand View (30D), and CX-Competitor ASINs — using Automa web scraping",
+        "Launched new Contextual targeting line items alongside the retargeting refresh",
+        "Set up MoM tracking across Cost, CPM, DPVR, Sales, ROAS, NTB Sales, and NTB ROAS"
+      ],
+      "impact": [
+        "All three segments recorded MoM Sales and NTB Sales growth in the thousands-of-percent range (e.g., CX-Competitor ASINs: Sales +10,928%, NTB Sales +9,585%)",
+        "ROAS and NTB ROAS declined (-14% to -97%) as spend scaled — consistent with an early-expansion phase where volume outpaces efficiency",
+        "Recommended maintaining current setup with periodic ASIN list refreshes to let efficiency stabilize"
+      ],
+      "skills": [
+        "Amazon DSP — Retargeting & Contextual Targeting",
+        "Competitor audience segmentation",
+        "Automa web scraping for ASIN harvesting",
+        "MoM performance analysis"
       ]
     }
   }
