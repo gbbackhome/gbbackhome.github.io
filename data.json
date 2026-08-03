@@ -2171,6 +2171,44 @@
   },
   {
     "cat": "Analytics",
+    "headline": "Diagnosed an 81–86% Existing-Buyer Anomaly in a DSP New-to-Brand Campaign",
+    "context": "Ran an attribution logic audit for a pet-food brand's Amazon DSP Awareness campaign; identified a likely audience-exclusion leak that caused most tracked purchasers to be mis-labelled as existing buyers despite a 365-day exclusion rule.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Amazon DSP",
+      "AMC",
+      "NTB",
+      "Audience Exclusion",
+      "Attribution",
+      "Pet Food",
+      "CPG"
+    ],
+    "detail": {
+      "overview": "A Hills pet-food DSP Awareness campaign targeting new-to-brand (NTB) shoppers via a 365-day purchaser exclusion showed 81–86% of attributed buyers classified as Existing — a logical impossibility if exclusions were working correctly.",
+      "problem": "SD Dog Video NTB rate: 19%; SD Cat FireTV NTB rate: 14%. If the exclusion was valid, every attributed buyer should have been dormant for 1+ year — unrealistic for a repeat-purchase CPG category. The anomaly pointed to exclusion leakage or a mismatched NTB definition in AMC.",
+      "actions": [
+        "Structured the logical contradiction: a functioning exclusion should yield near-100% NTB; Existing-majority outcome implies audience leakage or a definition mismatch (e.g., Lifetime first-purchase vs. 365-day lookback).",
+        "Designed a binary diagnostic question for Amazon POC: 'Is Existing defined as a purchase within 365 days? YES → AMC exclusion error confirmed; NO → disclose exact lookback window and definition.'",
+        "Clarified that the 0.0007% NTB rate is NTB purchases ÷ Total Impressions — a video-campaign denominator issue, not a signal of campaign failure — to prevent misinterpretation by the account manager.",
+        "Drafted and delivered a formal inquiry email to the Amazon POC (via client): covering NTB definition, AMC query audit request, audience refresh cadence, and FireTV viewer-to-purchaser profile mapping disconnect."
+      ],
+      "impact": [
+        "Reframed a confusing metric as a platform-level attribution issue rather than a creative or targeting failure.",
+        "Provided the client with a structured escalation path and follow-up questions for the 2025 annual review case study."
+      ],
+      "skills": [
+        "Amazon DSP",
+        "AMC Query Audit",
+        "Attribution Definition Analysis",
+        "Audience Exclusion Debugging",
+        "Client Communication",
+        "CPG / Pet Food Category Logic"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
     "headline": "Validated Whether Sponsored Ad Captured Last Touch or Drove Mid-Funnel Lift via AMC Path-to-Conversion",
     "context": "Designed a quasi-experiment and custom AMC SQL to test if a Sponsored ad type was hijacking last-touch attribution or genuinely influencing the purchase path — for a PC/monitor brand on Amazon [검증필요]",
     "img": "",
@@ -2333,6 +2371,47 @@
   },
   {
     "cat": "Analytics",
+    "headline": "Rebuilt AMC Attribution Queries to Surface True Creative & First-Touch Cost Efficiency",
+    "context": "For a pet-nutrition brand on Amazon, diagnosed two query-level distortions inflating CPR and blurring creative performance — then redesigned the measurement framework from the ground up.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "SQL",
+      "Attribution",
+      "Path-to-Purchase",
+      "DSP",
+      "First-Touch",
+      "Window Function",
+      "Amazon Ads"
+    ],
+    "detail": {
+      "overview": "Client asked whether Video creatives warranted additional budget. The existing P2P query structure couldn't answer this cleanly — creative granularity was missing and first-touch cost was being double-counted. Redesigned two separate query layers to separate these problems.",
+      "problem": "① No creative-type breakdown (Static / Video / REC) within the validated P2P base query. ② Any-touch cost summation in the FT-CPR calculation was inflating cost-per-reach figures and making cross-format comparison unreliable.",
+      "actions": [
+        "Extended the Amazon-verified P2P Instructional Query by adding a CASE branch on dsp_impressions.creative — confirmed no separate creative dimension table exists in the schema",
+        "Fixed a LIKE-pattern bug caused by hyphen-vs-underscore inconsistency in creative name strings; standardized to 'DSP_%' pattern",
+        "Unified brand-halo metric columns under the total_* naming convention for consistent aggregation",
+        "Designed a new FT-CPR query using ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY impression_dt) to isolate only each user's first impression, eliminating double-counting",
+        "Built a DSP + AMS UNION ALL structure with cost-unit normalization (1e5 / 1e8 scale alignment) and flagged tie-breaker edge cases for further hardening",
+        "Established 'Path CPA' as a distinct label — numerator is any-touch spend within the FT cohort — to prevent confusion with standard last-touch CPA"
+      ],
+      "impact": [
+        "Enabled valid like-for-like cost comparison across Static, Video, and REC creative formats for the first time",
+        "Isolated first-touch cost correctly, removing the over-inflation that had made CPR figures unreliable for budget decisions"
+      ],
+      "skills": [
+        "AMC SQL",
+        "Window Functions (ROW_NUMBER)",
+        "Attribution Design",
+        "Cost Deduplication Logic",
+        "DSP Creative Analysis",
+        "Amazon Marketing Cloud"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
     "headline": "Built a Measurement Framework and A/B/C Path Scoring Spec for a Retail Media Campaign",
     "context": "Defined unified KPI logic and authored an English-language scoring spec for the data team at a retail client; sole strategist on measurement design.",
     "img": "",
@@ -2414,6 +2493,50 @@
         "Google Sheets pivot / weighted average",
         "Japanese business writing & presentation",
         "Amazon Ads optimization"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Competitor Conquesting Audience Architecture for a Pet Food Brand on Amazon",
+    "context": "Designed the full audience engineering framework for a pet food brand's Amazon conquesting strategy — covering competitor keyword mapping, ASIN scraping methodology, AMC custom audience queries, ad overlap diagnostics, and time-to-conversion modeling. Served as the strategic blueprint for live campaigns running March–June across 2,663 ASINs and 40 targeting groups.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "AMC",
+      "Audience Engineering",
+      "Amazon DSP",
+      "SD/PD",
+      "Conquesting",
+      "Python",
+      "SQL",
+      "Pet Food"
+    ],
+    "detail": {
+      "overview": "Built the end-to-end conquesting audience framework for a pet food brand on Amazon JP/KR. This February phase established the data architecture and strategic logic later operationalized in a multi-month live campaign.",
+      "problem": "The brand needed a structured way to identify and reach competitor brand loyalists at the exact moment they were most likely to switch — without wasting budget on existing customers or overlapping ad exposures.",
+      "actions": [
+        "Mapped competitor keywords (Purina, IAMS, Nutro, Royal Canin, and others) across Japanese and English variants; built a per-brand compressed keyword table with dog/cat separation logic",
+        "Evaluated ASIN scraping methods (Keepa API, PA-API, Helium10, Pacvue, raw HTML) and tested Python requests + BeautifulSoup data-asin parsing; set up Automa batch automation with Sheets API quota handling",
+        "Designed two AMC Custom Audience queries: (1) searched competitor keywords but never purchased Hills, (2) searched competitor keywords and confirmed competitor purchasers",
+        "Defined a 'stock depletion' micro-segment: users with competitor purchase in past 180 days, no purchase in last 30 days, and active search signals — built via INNER JOIN + LEFT JOIN NULL against pet food repurchase cycles of 30–90 days",
+        "Benchmarked AMC vs DSP keyword targeting on lookback flexibility and existing-customer exclusion capability",
+        "Built an Ad Overlap diagnostic framework distinguishing sequential lift (good overlap) from cannibalization (bad overlap) across Brand-only / DSP-only / Both groups, with prescribed actions: remove retargeting overlap, shorten lookback 14→7 days, apply frequency caps",
+        "Created a Time-to-Conversion template using 50/75/90 percentile distribution to calibrate lookback windows, flight lengths, and Pre/Promo/Post phase splits; documented traffic-time vs conversion-time attribution schemas"
+      ],
+      "impact": [
+        "Became the strategic foundation for a live campaign covering 2,663 ASINs and 40 targeting groups across March–June",
+        "Introduced a repurchase-gap targeting concept that prioritizes high-intent switchers over broad competitor audiences",
+        "Overlap framework enabled a concrete decision rule for when to separate or consolidate DSP and Sponsored ad targeting"
+      ],
+      "skills": [
+        "AMC Custom Audience (SQL: INNER JOIN, LEFT JOIN NULL)",
+        "Amazon SD / PD / DSP",
+        "Competitor keyword architecture",
+        "ASIN scraping (Python requests, BeautifulSoup, Keepa API, Automa)",
+        "Ad overlap analysis",
+        "Time-to-conversion modeling",
+        "Audience Engineering"
       ]
     }
   },
