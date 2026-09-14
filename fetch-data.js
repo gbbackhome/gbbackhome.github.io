@@ -3,6 +3,7 @@
 //   - A열: 메모 등 자유 (참고용, 저장 안 함)
 //   - D열: 날것 원본 (내부 DB용, 사이트엔 안 올림 — 애초에 읽지도 않음)
 //   - E열: JSON 문자열 → 파싱해서 data.json 으로 저장
+//   - F열: 게시 플래그 — N/no/hide/0 이면 사이트에 싣지 않음 (비어 있으면 게시)
 //   - 스키마: { cat, headline, context, metrics[], tags[], img, detail{} }
 //   - 익명화: 시트는 날것 그대로, 사이트로 나가기 직전 sanitize.js 가 치환 + 잔존 검사(실패 시 빌드 중단)
 import { writeFile, readFile } from "node:fs/promises";
@@ -29,12 +30,15 @@ const sheets = google.sheets({ version: "v4", auth });
 // A열과 E열만 콕 집어서 요청 (B·C·D는 네트워크로도 가져오지 않음)
 const { data } = await sheets.spreadsheets.values.batchGet({
   spreadsheetId: SHEET_ID,
-  ranges: [`${SHEET_NAME}!A2:A`, `${SHEET_NAME}!E2:E`],
+  ranges: [`${SHEET_NAME}!A2:A`, `${SHEET_NAME}!E2:E`, `${SHEET_NAME}!F2:F`],
 });
 
 const colA = data.valueRanges?.[0]?.values || [];
 const colE = data.valueRanges?.[1]?.values || [];
+const colF = data.valueRanges?.[2]?.values || [];
 const rows = Math.max(colA.length, colE.length);
+const HIDE = new Set(["n", "no", "hide", "0", "false"]);
+let hidden = 0;
 
 const STR_KEYS = ["cat", "headline", "context", "img"];
 const out = [];
@@ -43,6 +47,7 @@ let skipped = 0;
 for (let i = 0; i < rows; i++) {
   const raw = (colE[i]?.[0] || "").trim();
   if (!raw) { skipped++; continue; }                 // E가 비면 건너뜀
+  if (HIDE.has((colF[i]?.[0] || "").trim().toLowerCase())) { hidden++; continue; } // F=N 이면 게시 안 함
   try {
     const obj = JSON.parse(raw);
     const item = {};
@@ -69,7 +74,7 @@ if (leaks.length) {
 const next = JSON.stringify(pub, null, 2) + "\n";
 let prev = "";
 try { prev = await readFile("data.json", "utf8"); } catch {}
-const stat = `${pub.length}건 (무효 ${skipped}, 테스트행 ${testRows}, 중복 ${deduped})`;
+const stat = `${pub.length}건 (무효 ${skipped}, 비게시 ${hidden}, 테스트행 ${testRows}, 중복 ${deduped})`;
 if (next !== prev) {
   await writeFile("data.json", next);
   console.log(`data.json 갱신: ${stat}`);
