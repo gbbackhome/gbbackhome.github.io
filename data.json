@@ -1201,6 +1201,113 @@
     }
   },
   {
+    "cat": "Performance",
+    "headline": "Turned around a whisky brand's Amazon ads by testing",
+    "context": "For a premium Scotch brand in Japan, I ran the Amazon ad account's recovery, testing each fix separately.",
+    "img": "",
+    "metrics": [
+      "Lower-funnel delivery 20-40% to 90-99%",
+      "Ad returns back above break-even"
+    ],
+    "tags": [
+      "Amazon ads",
+      "A/B testing",
+      "Audience design",
+      "Budget pacing"
+    ],
+    "detail": {
+      "overview": "A premium Scotch brand's Amazon ads were losing money in 2026, and the ads meant to close sales barely ran. I fixed it by testing one change at a time across six ad lines.",
+      "problem": "Ad returns fell below break-even and lower-funnel ads delivered only 20-40%, because target audiences were tiny and mismatched up to 99%.",
+      "actions": [
+        "Expanded every funnel's audience with custom clean-room audiences (biggest win)",
+        "Split awareness ads by audience type and capped projected spend manually",
+        "Replaced weak interest audiences with scraped competitor product targeting"
+      ],
+      "impact": [
+        "Lower-funnel delivery rose from 20-40% to 90-99%",
+        "Ad returns recovered from below break-even to consistently above it"
+      ],
+      "skills": [
+        "Amazon DSP",
+        "A/B testing",
+        "Audience strategy",
+        "Budget optimization"
+      ]
+    }
+  },
+  {
+    "cat": "Performance",
+    "headline": "Split one blended audience, and ad efficiency recovered",
+    "context": "For a premium Scotch brand on Amazon in Japan, I diagnosed why a shared ad line was losing efficiency.",
+    "img": "",
+    "metrics": [
+      "Cost -37%",
+      "Clicks +78%",
+      "Ad returns 0.5 to 0.94"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Audience design",
+      "Measurement",
+      "Bidding"
+    ],
+    "detail": {
+      "overview": "Whisky buyers are a small group on Amazon, so the brand had bundled them with travel fans in one ad line. From early 2026 that line cost the same but got fewer clicks.",
+      "problem": "Two related audiences in one line gave the bidding algorithm mixed signals, so it optimized for neither (audience dilution).",
+      "actions": [
+        "Formed the dilution hypothesis from the cost, click and return pattern",
+        "Split the blended line into two independent lines in June",
+        "Gave whisky most budget and re-scored travel on awareness metrics"
+      ],
+      "impact": [
+        "Cost fell 37% while clicks rose 78% and sales rose 19%",
+        "Ad returns improved from 0.5 to 0.94"
+      ],
+      "skills": [
+        "Amazon DSP",
+        "Audience strategy",
+        "Measurement",
+        "Bidding optimization"
+      ]
+    }
+  },
+  {
+    "cat": "Performance",
+    "headline": "Refreshing competitor product targeting sent sales up 10,928%",
+    "context": "For a global pet nutrition brand in Japan, I ran the competitor-targeting refresh on Amazon ads and tracked results.",
+    "img": "",
+    "metrics": [
+      "Sales +10,928% month over month",
+      "New-customer sales +9,585%",
+      "Returns fell 14-97% as spend scaled"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Retargeting",
+      "Competitor targeting",
+      "Web scraping"
+    ],
+    "detail": {
+      "overview": "In February I had designed how to target shoppers of rival pet food brands, but nothing was live yet. In April I refreshed the rival product lists and launched new contextual ads.",
+      "problem": "Rival product lists used for retargeting were stale and no contextual targeting was running, so the plan had no live results.",
+      "actions": [
+        "Re-scraped rival product lists for three retargeting audience segments",
+        "Launched new contextual targeting alongside the refreshed retargeting",
+        "Tracked cost, sales, new-customer sales and returns month over month"
+      ],
+      "impact": [
+        "Sales and new-customer sales grew thousands of percent in all segments",
+        "Returns fell as spend scaled, typical for a new segment's expansion"
+      ],
+      "skills": [
+        "Amazon DSP",
+        "Competitor targeting",
+        "Web scraping",
+        "Month-over-month analysis"
+      ]
+    }
+  },
+  {
     "cat": "Analytics",
     "headline": "Cut unsorted ad campaigns from 13 down to zero",
     "context": "For a pet food brand in Japan, I built the monthly ad-report data pipeline and campaign-sorting rules.",
