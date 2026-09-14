@@ -14,11 +14,11 @@
 경배님의 **자동갱신 포트폴리오 사이트** (GitHub Pages 호스팅).
 - 토스 스타일 미니멀 + 파랑 + 3D 이모지 (Fluent Emoji 3D)
 - 바닐라 JS/CSS — 외부 CSS 프레임워크 없음. Pretendard, Lenis, GSAP + ScrollTrigger 사용
-- **데이터 흐름**: 비공개 Google 시트 E열(JSON) → GitHub Actions(매일 + 수동) → `fetch-data.js`(서비스계정) → `data.json` → 변경 시에만 커밋
+- **데이터 흐름(2026-09-15~)**: 정본 DB = 비공개 리포 `gbbackhome/career-records`(로컬 `C:\Users\worsh\Claude\career-records`, 프로젝트당 1 md: A 메모리/B 공개 JSON/C 서사) → `tools/publish_site.py`가 B(ELI5 짧은 버전) + `records/_legacy_cases.json`을 `data.json`으로 조립 → `sanitize.js` 익명화 게이트 통과 시에만 커밋·푸시. 구글 시트 동기화(`fetch-data.js`)는 수동 실행용으로만 남김(주간 cron 해제).
 - `data.json`에는 AMC/퍼포먼스/인플루언서/이벤트/CRM/분석 케이스 스터디가 담김 (cat, headline, context, metrics, tags, detail 스키마)
 - 시트의 B, C, D열은 보안상 절대 읽지 않음
 
 ## 작업 원칙
 - 클라이언트 실데이터·비공개 정보는 커밋하지 않는다 (공개 가능한 공식·가상 샘플만)
-- 포트폴리오 콘텐츠 수정은 원본인 Google 시트가 소스 오브 트루스 — `data.json` 직접 수정은 다음 동기화 때 덮어써질 수 있음을 항상 알린다
+- 포트폴리오 콘텐츠의 소스 오브 트루스는 career-records의 기록 파일(B 섹션) — `data.json` 직접 수정은 다음 publish 때 덮어써지므로 기록 파일을 고치고 `publish_site.py`를 돌린다. 사이트 문구는 ELI5(쉬운 말·짧게), 상세는 기록 파일에
 - 사이트 스타일을 바꿀 땐 토스 스타일 미니멀 기조를 유지한다
