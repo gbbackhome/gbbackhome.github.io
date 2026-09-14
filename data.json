@@ -1,53 +1,67 @@
 [
   {
     "cat": "Performance",
-    "headline": "Took CIDER's paid media in-house and tripled performance",
-    "context": "Rebuilt Naver & Kakao paid media end to end after agency results fell ~70%.",
+    "headline": "Brought CIDER's ads in-house and tripled results",
+    "context": "For CIDER, a fashion e-commerce brand, I rebuilt paid ads in-house after an agency's results fell 70%.",
     "img": "",
     "metrics": [
-      "+200% YoY",
-      "+26% MoM avg",
-      "Tracking rebuilt"
+      "+200% year-over-year growth",
+      "+26% month-over-month growth"
     ],
     "tags": [
-      "Performance",
-      "A/B Test",
-      "Kakao",
-      "Naver"
+      "Naver ads",
+      "Kakao ads",
+      "A/B testing",
+      "Performance"
     ],
-    "detail": null
+    "detail": {
+      "overview": "CIDER's paid ads on Naver and Kakao were run by an agency, but results had dropped about 70%. I took the whole channel in-house and rebuilt it end to end.",
+      "problem": "Agency-run paid ads had fallen about 70%, with no reliable in-house tracking.",
+      "actions": [
+        "Rebuilt Naver and Kakao paid campaigns in-house from scratch",
+        "Rebuilt conversion tracking to trust the numbers again",
+        "Ran A/B tests to improve ad performance steadily"
+      ],
+      "impact": [
+        "Grew ad performance 200% year over year",
+        "Kept improving about 26% month over month on average"
+      ],
+      "skills": [
+        "Naver ads",
+        "Kakao ads",
+        "A/B testing",
+        "Performance marketing"
+      ]
+    }
   },
   {
     "cat": "Influencer",
-    "headline": "Reworked CIDER's Naver KOL playbook for +67% GMV",
-    "context": "Built sponsorship guidelines, an influencer tier chart, and metrics from scratch.",
+    "headline": "Rebuilt influencer playbook, sales jumped 67%",
+    "context": "For CIDER, a fashion brand, I built the influencer marketing playbook and tracking from scratch.",
     "img": "",
     "metrics": [
-      "+67% GMV",
-      "SOPs built"
+      "+67% sales vs last campaign"
     ],
     "tags": [
-      "Influencer",
+      "Influencers",
       "Naver",
-      "ROI"
+      "Sales growth"
     ],
     "detail": {
-      "overview": "CIDER's influencer marketing on Naver ran without structure, internal SOPs, or reliable tracking.",
-      "problem": "Naver results are hard to track directly, and there was no repeatable playbook, so each campaign started from zero.",
+      "overview": "CIDER's influencer marketing on Naver (a popular Korean blog platform) had no playbook or reliable tracking. I built sponsorship rules, a tier chart, and ways to measure results.",
+      "problem": "Naver results were hard to track directly, and each influencer campaign started from zero with no repeatable process.",
       "actions": [
-        "Wrote detailed sponsorship guidelines so influencers produced varied, on-brand content",
-        "Built an influencer tier chart and defined performance metrics in Excel",
-        "Followed up individually with each blogger to recover campaign results Naver couldn't track",
-        "Negotiated using cross-channel mirrored exposure instead of just higher fees"
+        "Wrote sponsorship guidelines so content stayed varied and on-brand",
+        "Built an influencer tier chart with clear performance metrics",
+        "Tracked results by hand since Naver couldn't measure them directly"
       ],
       "impact": [
-        "+67% GMV versus the previous KOL campaign",
-        "Repeatable SOPs and tiering adopted across Naver, Instagram, and YouTube"
+        "Sales rose 67% versus the previous campaign",
+        "Playbook adopted across Naver, Instagram, and YouTube"
       ],
       "skills": [
-        "Influencer Marketing",
+        "Influencer marketing",
         "Naver",
-        "SOP Design",
         "Negotiation",
         "Excel"
       ]
@@ -55,434 +69,387 @@
   },
   {
     "cat": "Influencer",
-    "headline": "Built CIDER's ambassador program to 9x sales on budget",
-    "context": "Ran it end to end as PM — 20+ styled looks, tiered rewards, ad-ready content.",
+    "headline": "Built an ambassador program that made 9x sales",
+    "context": "For CIDER, a fashion brand, I ran an ambassador program from planning to launch as project lead.",
     "img": "",
     "metrics": [
-      "9x sales vs. budget",
-      "52% feed / 47% reels"
+      "Sales were 9x the budget",
+      "Content: 52% feed, 47% reels"
     ],
     "tags": [
-      "Project Management",
-      "Influencer",
-      "Market Research"
+      "Project management",
+      "Influencer marketing",
+      "Market research"
     ],
     "detail": {
-      "overview": "CIDER, a fast-fashion e-commerce brand, had little local awareness or loyalty in the Korea market.",
-      "problem": "The brand needed deeper engagement, a reason for local shoppers to explore the app, and a steady supply of advertising content.",
+      "overview": "CIDER had little brand awareness or loyalty in Korea. I ran an ambassador program end to end to build engagement, an exclusive collection, and steady ad content.",
+      "problem": "The brand needed deeper engagement, a reason to explore the app, and a steady flow of ad content.",
       "actions": [
-        "Designed the program around three goals: engagement, an in-app exclusive collection, and ad content",
-        "Prepared 20+ head-to-toe styling looks, finalized through manager and team feedback",
-        "Coordinated with logistics for a final check two weeks before each shoot",
-        "Set reward tiers across categories (most reviews, most content, best reels) and routed content to ad and design teams"
+        "Designed the program around engagement, an exclusive collection, and content",
+        "Prepared over 20 styled looks with team feedback",
+        "Set reward tiers and routed content to ad teams"
       ],
       "impact": [
         "Sales reached 9x the invested budget",
-        "Content hit 52% for feed and 47% for reels, surpassing initial targets"
+        "Content mix beat targets at 52% feed, 47% reels"
       ],
       "skills": [
-        "Project Management",
-        "Influencer Marketing",
-        "Cross-team Coordination",
-        "Market Research"
+        "Project management",
+        "Influencer marketing",
+        "Market research"
       ]
     }
   },
   {
     "cat": "Event",
-    "headline": "Ran CIDER's Seoul pop-up to 3x competitors' footfall",
-    "context": "Led event, viral marketing, press, and agency contracts on a lean budget.",
+    "headline": "Ran a pop-up that tripled competitors' foot traffic",
+    "context": "For CIDER, a fashion brand, I led a Seoul pop-up event on a lean budget.",
     "img": "",
     "metrics": [
-      "+7,243% SNS search",
-      "3x visitors"
+      "+7,243% jump in social searches",
+      "3x the usual foot traffic"
     ],
     "tags": [
-      "Event Planning",
-      "SNS Marketing",
-      "KPIs"
+      "Event planning",
+      "PR",
+      "Viral marketing"
     ],
     "detail": {
-      "overview": "Ahead of pop-ups at Waterbomb and Konkuk University, CIDER launched a large pop-up at Space Wadiz, Seoul.",
-      "problem": "The event had to make a big splash on a tight budget, and offline pop-up ROI is hard to measure.",
+      "overview": "CIDER needed a big splash before pop-ups at two festivals, on a tight budget. Offline pop-up results (like foot traffic) are hard to measure, so I built a way to track it.",
+      "problem": "The event had to make a big impression on a tight budget, and offline results are hard to measure.",
       "actions": [
-        "Sent well-written press drafts to a curated journalist list to earn coverage without paid placement",
-        "Researched other pop-up stores for format and merchandising ideas",
-        "Built a data-tracking framework and aligned KPIs across teams",
-        "Worked through ROI from viral marketing, offline footfall, and SNS participation"
+        "Pitched press coverage instead of paying for placement",
+        "Researched other pop-ups for format and merchandising ideas",
+        "Built a tracking framework and aligned KPIs across teams"
       ],
       "impact": [
-        "+7,243% surge in SNS search volume",
-        "About 3x the venue's usual visitor rate, and 3x competitors' average footfall"
+        "Social search volume jumped +7,243%",
+        "Foot traffic hit about 3x competitors' average"
       ],
       "skills": [
-        "Event Planning",
-        "Viral Marketing",
-        "PR / Press",
-        "KPI Design",
-        "Project Management"
+        "Event planning",
+        "PR",
+        "Viral marketing",
+        "KPI design"
       ]
     }
   },
   {
     "cat": "Content",
-    "headline": "Grew CIDER's Naver Blog +81% as the brand entered Korea",
-    "context": "Built Instagram-style content and ran interim customer service before support existed.",
+    "headline": "Grew CIDER's Korean blog traffic by 81%",
+    "context": "For CIDER, a fashion brand new to Korea, I grew its blog and handled early customer questions.",
     "img": "",
     "metrics": [
-      "+81% daily visitors",
-      "2x followers / 6mo"
+      "+81% more daily blog visitors",
+      "Followers doubled in 6 months"
     ],
     "tags": [
-      "Content Marketing",
-      "Naver Blog",
-      "Social"
+      "Content marketing",
+      "Naver blog",
+      "Social media"
     ],
     "detail": {
-      "overview": "With no recognition in Korea, CIDER needed reach and an early customer-service outlet before formal support existed.",
-      "problem": "Limited manpower, no brand awareness, and rising customer questions all landed at once — and the blog had to feel like an extension of the brand.",
+      "overview": "CIDER had no recognition in Korea and no customer support yet. I built Instagram-style blog content and answered customer questions myself until formal support existed.",
+      "problem": "Limited manpower and rising customer questions arrived at once, and the blog had to feel like the brand itself.",
       "actions": [
-        "Engaged influencers directly by commenting on their blogs to build relationships",
-        "Created Instagram-style Naver content (trend roundups, styling guides, vacation picks)",
-        "Posted idol-inspired coordinated looks on Twitter to reach style-driven audiences",
-        "Ran exchange, return, sizing, and FAQ posts as interim customer service"
+        "Built relationships by commenting directly on influencer blogs",
+        "Made Instagram-style posts: trends, styling guides, travel picks",
+        "Answered exchanges, sizing, and FAQs as early customer service"
       ],
       "impact": [
-        "+81% daily visitors to the Naver Blog",
+        "Daily blog visitors rose 81%",
         "Follower count doubled within six months"
       ],
       "skills": [
-        "Content Marketing",
-        "Naver Blog",
-        "Social Media",
-        "Customer Communication"
+        "Content marketing",
+        "Naver blog",
+        "Customer service"
       ]
     }
   },
   {
     "cat": "Research",
-    "headline": "Lifted CIDER's address conversion +20% with localized UX",
-    "context": "Specced an auto-address API, reworked sizing, and mapped the full refund journey.",
+    "headline": "Lifted address form completion by 20%",
+    "context": "For CIDER's Korean app, I fixed sizing, address entry, and the returns process for local shoppers.",
     "img": "",
     "metrics": [
-      "+20% address conversion",
-      "A/B tested"
+      "+20% more people finished checkout"
     ],
     "tags": [
-      "UI/UX",
-      "A/B Test",
-      "Localization"
+      "UX design",
+      "Localization",
+      "A/B testing"
     ],
     "detail": {
-      "overview": "CIDER's app lacked Korean localization and local-standard UX for sizing, address entry, and returns.",
-      "problem": "Foreign-centric sizing and a manual address flow created friction for Korean shoppers, and changes needed C-level buy-in.",
+      "overview": "CIDER's Korean app lacked local touches for sizing, address entry, and returns. I designed an automatic address tool, resized options for Korean shoppers, and mapped the full return journey.",
+      "problem": "Foreign-sized options and manual address entry created friction, and any change needed leadership approval.",
       "actions": [
-        "Wrote the dev document for an automatic address-fill service and integrated it with the backend team",
-        "Ran an A/B test with and without the address API",
-        "Benchmarked domestic e-commerce sizing and proposed localized options",
-        "Mapped the full return/refund journey stage by stage against competitors and surfaced weak points"
+        "Specced an automatic address tool with the backend team",
+        "Tested checkout with and without the address tool",
+        "Mapped the full return journey against competitors, stage by stage"
       ],
       "impact": [
-        "+20% address conversion from the automatic address API",
-        "Localized sizing reduced related customer inquiries",
-        "Leadership accepted the gaps and moved forward on improvements"
+        "Address tool lifted checkout completion by 20%",
+        "Leadership approved the fixes and moved forward"
       ],
       "skills": [
-        "UI/UX",
-        "A/B Testing",
+        "UX design",
+        "A/B testing",
         "Localization",
-        "Competitor Analysis",
-        "Project Management"
+        "Competitor analysis"
       ]
     }
   },
   {
     "cat": "CRM",
-    "headline": "Localized CIDER's CRM on KakaoTalk to lift retention",
-    "context": "Integrated Kakao Alimtalk and a chatbot, and wrote CS SOPs for overseas teams.",
+    "headline": "Moved customer messages to Kakao, retention rose",
+    "context": "For CIDER's Korean shoppers, I built messaging and support on KakaoTalk, Korea's top chat app.",
     "img": "",
-    "metrics": [
-      "Higher retention & payment success",
-      "10+ competitors mapped"
-    ],
+    "metrics": [],
     "tags": [
-      "CRM",
-      "Retention",
-      "Customer Service"
+      "KakaoTalk",
+      "Customer retention",
+      "Customer service"
     ],
     "detail": {
-      "overview": "CIDER's CRM relied only on email and in-app push, with no localized channel — while Korean e-commerce leans heavily on KakaoTalk.",
-      "problem": "There was no localized CRM channel, and no Korean-language customer service for local shoppers.",
+      "overview": "CIDER only reached customers by email and app alerts, while Korean shoppers live on KakaoTalk (a popular chat app). I added Kakao messages, a support chatbot, and local-language customer service.",
+      "problem": "There was no Korean-language customer channel or support, even though local shoppers rely heavily on chat.",
       "actions": [
-        "Integrated Kakao Alimtalk messages: payment reminder (30 min), split shipping, order confirmation, review request",
-        "Synced templates with the internal tech team",
-        "Planned and built a Kakao customer-service chatbot and wrote localized CS SOPs for overseas teams",
-        "Mapped 10+ competitors across fashion e-commerce, fashion brands, and SPA brands for comparison"
+        "Sent Kakao messages for payment, shipping, and reviews",
+        "Built a Kakao chatbot for common customer questions",
+        "Mapped over 10 competitors' messaging approaches"
       ],
       "impact": [
-        "Higher retention and payment-success rates after the Kakao messages went live",
-        "Improved local CS quality through SOPs",
-        "Chatbot reduced direct inquiries and collected complaint data"
+        "Retention and payment success improved after launch",
+        "Chatbot cut direct inquiries and collected complaint data"
       ],
       "skills": [
-        "CRM",
-        "KakaoTalk / Alimtalk",
-        "Chatbot Planning",
-        "Customer Service",
-        "Competitor Analysis"
+        "KakaoTalk",
+        "Customer service",
+        "Competitor analysis"
       ]
     }
   },
   {
     "cat": "Research",
-    "headline": "Turned CIDER customer FGIs into a product action plan",
-    "context": "Planned and ran focus group interviews end to end as PM.",
+    "headline": "Turned customer interviews into an action plan",
+    "context": "For CIDER, I ran customer interviews from planning to a final action plan.",
     "img": "",
-    "metrics": [
-      "VOC to action plan"
-    ],
+    "metrics": [],
     "tags": [
-      "Market Research",
-      "Interview",
-      "Strategic Planning"
+      "Market research",
+      "Interviews",
+      "Strategic planning"
     ],
     "detail": {
-      "overview": "As a customer-centric team, CIDER needed real Voice of the Customer from domestic users to guide product and marketing.",
-      "problem": "There was no structured way to capture in-depth feedback on UI/UX and product from Korean customers.",
+      "overview": "CIDER needed real customer feedback (voice of the customer) to guide its product and marketing. I planned and ran the interviews myself, start to finish.",
+      "problem": "There was no structured way to gather deep feedback on the app and products from Korean customers.",
       "actions": [
-        "Planned and ran focus group interviews end to end as PM",
-        "Collected detailed feedback on UI/UX and product offerings",
-        "Synthesized findings into a prioritized action plan"
+        "Planned and ran the interviews from start to finish",
+        "Collected detailed feedback on the app and products",
+        "Turned findings into a prioritized action plan"
       ],
       "impact": [
-        "Customer feedback turned into a concrete, prioritized action plan for the team"
+        "Customer feedback became a concrete plan for the team"
       ],
       "skills": [
-        "Market Research",
-        "Focus Group Interviews",
-        "Strategic Planning",
-        "VOC Analysis"
+        "Market research",
+        "Interviews",
+        "Strategic planning"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Modeled a multinational's market share in Power BI",
-    "context": "Portfolio project on a sample dataset — Power Query cleaning and DAX modeling.",
+    "headline": "Mapped a company's market share in a dashboard",
+    "context": "Portfolio project: I cleaned sample sales data and built a market-share dashboard for a global brand.",
     "img": "",
     "metrics": [
-      "48.55% share mapped",
-      "10.94% avg growth"
+      "48.55% market share mapped",
+      "10.94% average yearly growth"
     ],
     "tags": [
-      "Power BI",
-      "DAX",
-      "Data Modeling",
-      "Portfolio"
+      "Dashboards",
+      "Data modeling",
+      "Portfolio project"
     ],
     "detail": {
-      "overview": "A portfolio project analyzing a multinational electronics manufacturer (VanArsdel) against competitors using a sample benchmarking dataset.",
-      "problem": "Five separate tables (sales, products, manufacturers, geography, dates) needed cleaning and modeling before any insight was possible.",
+      "overview": "This portfolio project analyzed a sample electronics brand against competitors using a benchmarking dataset. I cleaned five separate tables and built a dashboard to compare market share and growth.",
+      "problem": "Five separate data tables needed cleaning and linking before any insight was possible.",
       "actions": [
-        "Cleaned and reshaped data in Power Query (fill-down, split columns, append, conditional columns, type fixes)",
-        "Built table relationships and a date table, and hid unnecessary tables",
-        "Wrote DAX measures: % Growth, PY Sales, total Sales, and Market Share",
-        "Used grouping to show only the top competitors and added filter-based interactions"
+        "Cleaned and reshaped raw data across five tables",
+        "Linked the tables and built a calendar table",
+        "Wrote formulas for growth, prior-year sales, and market share"
       ],
       "impact": [
-        "Mapped VanArsdel at 48.55% market share with 10.94% average growth (2017-2021)",
-        "Surfaced that the US drove 52.73% of revenue while Canada was underpenetrated — a localization opportunity"
+        "Mapped the brand at 48.55% share with 10.94% growth",
+        "Found Canada underpenetrated versus the US market"
       ],
       "skills": [
-        "Power BI",
-        "Power Query",
-        "DAX",
-        "Data Modeling",
-        "Data Visualization"
+        "Dashboards",
+        "Data modeling",
+        "Data cleaning",
+        "Data visualization"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Found the drivers behind a 26.86% telecom churn rate",
-    "context": "Portfolio project — Excel pivot analysis across demographics, plans, and geography.",
+    "headline": "Found why 26.86% of customers left",
+    "context": "Portfolio project: I analyzed a US phone company's customer data to find why people were leaving.",
     "img": "",
     "metrics": [
-      "26.86% churn analyzed",
-      "Driver segments found"
+      "26.86% of customers left overall"
     ],
     "tags": [
       "Excel",
-      "Churn",
-      "Segmentation",
-      "Portfolio"
+      "Customer analysis",
+      "Portfolio project"
     ],
     "detail": {
-      "overview": "A portfolio project analyzing customer churn for a US telecom (Databel sample dataset) to surface drivers and propose actions.",
-      "problem": "Churn was rising in a competitive market, but the reasons weren't broken down by who was leaving or why.",
+      "overview": "This portfolio project studied why customers left a sample US phone company. I broke the losses down by age, plan, and location to find who was leaving and why.",
+      "problem": "Losses were rising in a competitive market, but no one had broken down who was leaving or why.",
       "actions": [
-        "Cleaned the data using a structured checklist and built a churn-rate column for pivot analysis",
-        "Categorized churn reasons and grouped ages into Under 30 / Senior / Other",
-        "Cross-analyzed churn by data plan, contract length, and state with international activity"
+        "Cleaned the data with a structured checklist",
+        "Grouped customers by age, plan, and location",
+        "Cross-checked losses against contract length and international activity"
       ],
       "impact": [
-        "Quantified overall churn at 26.86%, mostly lost to competitors with better devices/offers",
-        "Isolated high-risk segments: seniors, unlimited-plan users under 5GB, and international users in California"
+        "Overall customer loss measured at 26.86%",
+        "Pinpointed high-risk groups: seniors and heavy data users"
       ],
       "skills": [
         "Excel",
-        "Pivot Tables",
-        "Churn Analysis",
+        "Pivot tables",
+        "Customer analysis",
         "Segmentation"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Built an interactive Excel/VBA sales dashboard",
-    "context": "Portfolio project — 5,782 rows with slicers, VBA controls, and theme switching.",
+    "headline": "Built an interactive sales dashboard in Excel",
+    "context": "Portfolio project: I built an interactive sales dashboard with buttons and filters in Excel.",
     "img": "",
-    "metrics": [
-      "5,782 rows",
-      "Interactive VBA"
-    ],
+    "metrics": [],
     "tags": [
       "Excel",
       "VBA",
-      "Dashboard",
-      "Portfolio"
+      "Dashboards",
+      "Portfolio project"
     ],
     "detail": {
-      "overview": "A portfolio project to push Excel data-visualization skills, building an interactive dashboard from a US company's sales data.",
-      "problem": "A 5,782-row dataset across 10 categories needed to be explorable by non-technical viewers, not just static charts.",
+      "overview": "This portfolio project turned a large sales spreadsheet into an interactive dashboard for non-technical viewers. I added filters, charts, and clickable buttons instead of static charts.",
+      "problem": "Thousands of rows of sales data needed to be explorable by non-technical viewers, not just fixed charts.",
       "actions": [
-        "Built pivot-based waterfall, stacked bar, line, map, combo, and doughnut charts",
-        "Used GETPIVOTDATA for real-time text callouts and added slicers for filtering",
-        "Coded VBA interactive buttons, info tabs, color-theme switching, and on/off toggles"
+        "Built charts: waterfall, stacked bar, line, and map",
+        "Added filters and live text callouts for details",
+        "Coded clickable buttons and a color-theme switcher"
       ],
       "impact": [
-        "Delivered a fully interactive dashboard covering revenue, delivery, returns, and satisfaction",
-        "Surfaced clear reads like 67% on-time delivery and a 10% return rate"
+        "Delivered a full dashboard covering revenue and returns",
+        "Showed 67% on-time delivery and a 10% return rate"
       ],
       "skills": [
         "Excel",
         "VBA",
-        "Pivot Charts",
-        "Dashboard Design"
+        "Dashboards",
+        "Data visualization"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Segmented customers into 5 actionable groups in Python",
-    "context": "Portfolio project — compared K-Means, DBSCAN, PCA, and GMM; chose a 5-cluster GMM.",
+    "headline": "Split customers into 5 useful groups",
+    "context": "Portfolio project: I grouped customers into behavior-based segments using clustering methods in Python.",
     "img": "",
-    "metrics": [
-      "5 segments",
-      "GMM model"
-    ],
+    "metrics": [],
     "tags": [
       "Python",
       "Clustering",
-      "GMM",
-      "Portfolio"
+      "Portfolio project"
     ],
     "detail": {
-      "overview": "A portfolio project building a customer-segmentation model on a public marketing dataset so campaigns could be targeted by behavior.",
-      "problem": "A heterogeneous customer base had heavy overlaps, so raw charts gave no clean segments to act on.",
+      "overview": "This portfolio project built a customer-segmentation model on a public marketing dataset so campaigns could be targeted by behavior. I compared several clustering methods and picked the one that split people most usefully.",
+      "problem": "A mixed customer base overlapped heavily, so raw charts gave no clean groups to act on.",
       "actions": [
-        "Ran feature engineering (grouped age, marital status, family size, expenses, engagement) and dropped outliers",
-        "Compared K-Means, hierarchical clustering, DBSCAN, PCA, and GMM",
-        "Selected a 5-cluster GMM for finer granularity at an acceptable silhouette score (0.1342)",
-        "Mapped each cluster to a marketing play (discounts, BNPL, VIP, cashback, household deals)"
+        "Engineered features like age, spending, and engagement",
+        "Compared several clustering methods side by side",
+        "Mapped each group to a marketing action"
       ],
       "impact": [
-        "Produced 5 clearly defined, action-ready customer segments",
-        "Confirmed a positive income-to-spend relationship to prioritize high-value targets"
+        "Produced 5 clear, action-ready customer groups",
+        "Confirmed higher income links to higher spending"
       ],
       "skills": [
         "Python",
         "Clustering",
-        "GMM",
-        "Feature Engineering",
+        "Feature engineering",
         "Statistics"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Analyzed 39 job posts to rank in-demand analyst skills",
-    "context": "Self-collected 39 international Tokyo postings and analyzed them in Excel.",
+    "headline": "Analyzed 39 job ads to rank top skills",
+    "context": "Self-directed project: I collected 39 Tokyo job postings and ranked the skills employers wanted most.",
     "img": "",
-    "metrics": [
-      "39 postings",
-      "Top-10 skills ranked"
-    ],
+    "metrics": [],
     "tags": [
       "Excel",
       "Research",
-      "Data Analysis"
+      "Job market"
     ],
     "detail": {
-      "overview": "A self-directed project analyzing what international employers in Tokyo actually expect from data and business analysts.",
-      "problem": "Skill expectations were anecdotal — there was no data-backed view of what to prioritize learning.",
+      "overview": "This self-directed project looked at what international employers in Tokyo actually expect from data and business analysts. I collected 39 job postings and counted which skills came up most.",
+      "problem": "Skill expectations were anecdotal, with no data-backed view of what to prioritize learning.",
       "actions": [
-        "Collected 39 Data/Business Analyst postings, focused on international companies",
-        "Coded and counted required skills and tools in Excel",
+        "Collected 39 postings from international companies",
+        "Counted required skills and tools in a spreadsheet",
         "Ranked programming languages and visualization tools by frequency"
       ],
       "impact": [
-        "Found SQL required most often (ahead of Python/R), with visualization second — Tableau leading, then Power BI, Excel, Qlik, Looker",
-        "Confirmed bilingual ability and a bachelor's degree as baseline, with domain knowledge and communication as differentiators"
+        "SQL was required most often, ahead of Python",
+        "Confirmed bilingual ability as a baseline expectation"
       ],
       "skills": [
         "Excel",
-        "Data Collection",
-        "Frequency Analysis",
-        "Research"
+        "Research",
+        "Data analysis"
       ]
     }
   },
   {
     "cat": "CRM",
-    "headline": "Found that repurchase hazard halves by day 60 and designed a one-time-buyer audience as a budget reallocation, not a new-customer play",
-    "context": "For a global pet nutrition brand (Japan) I ran the first RFM workstream of the client's LTV brief: quantified when first-time buyers of the wellness line stop repurchasing, sized the audience by pack size, and designed the DSP audience and its A/B test.",
+    "headline": "Pinpointed day 60 as when repeat buying stops",
+    "context": "For a pet food brand in Japan, I analyzed purchase data to find when one-time buyers stop repurchasing.",
     "img": "",
     "metrics": [
-      "32% of the wellness line's buyers over five years bought exactly once",
-      "36% of first-time buyers did not repurchase within 365 days; by pack size the rate ranged from 29% to 68%",
-      "Daily repurchase hazard peaked at days 22-30 and fell to 47% of peak by day 61, setting the cut-off at 60 days",
-      "163 products mapped to pack-size bands with a mapping QA that reconciled detail rows to control totals"
+      "32% of buyers bought only once",
+      "36% never repurchased within a year",
+      "Repeat buying halves by day 60"
     ],
     "tags": [
-      "AMC",
-      "RFM",
-      "Retention",
-      "Audience design",
-      "Amazon DSP",
-      "BigQuery",
-      "Survival analysis"
+      "Amazon ads",
+      "Customer retention",
+      "SQL",
+      "Audience design"
     ],
     "detail": {
-      "overview": "The client's brief asked for a retargeting audience of first-time buyers who churn. I reframed it as two questions — from which day does repurchase stop, and how many such people exist now — and answered with AMC retail-purchase history, a hazard-rate view of the first-to-second purchase gap, and a 14-day repurchase curve by pet, form, pack size and order quantity.",
-      "problem": "The brief's privacy threshold was wrong by 20x, timezone handling shifted monthly counts, pack sizes were mis-mapped from truncated product names and shipping-case notation, an overlap check against the existing loyalty line-item ignored its own exclusion rules and had to be thrown out, and slide denominators confused the internal reviewer.",
+      "overview": "The brand wanted to re-target customers who bought once and stopped. I studied purchase data to find the exact day repeat buying drops off, then sized and designed an ad audience around it.",
+      "problem": "The starting numbers were wrong (budget rules, timezones, product sizes), and an early check against an existing ad list was invalid.",
       "actions": [
-        "Corrected the brief (audience minimum, timezone) and built discovery queries for coverage, identity, left-censoring and product mapping",
-        "Chose the churn cut-off from the hazard-rate drop rather than a cumulative-curve percentile and cross-checked it against a platform reference",
-        "Dropped a bag-depletion segmentation after measurement showed it flat, and re-cut by pet type instead",
-        "Merged the professional sub-line into the wellness line (163 products), fixed pack-size mapping and re-ran the repurchase curve until the unmapped share was resolved",
-        "Loaded results to BigQuery with assert-based QA (row sums, detail-to-control totals, mapping counts) and built four slides with explicit numerator/denominator labels",
-        "Designed the audience rule (exactly one order, past the drop-off point, no second order, refreshed daily), its exclusion from the existing loyalty line, and a randomized A/B test over the seasonal sale"
+        "Fixed early data errors in rules, timezones, and product sizes",
+        "Found day 60 using a drop-off pattern, not guesswork",
+        "Designed an ad audience and a fair before/after test"
       ],
       "impact": [
-        "Designed the audience and test plan; audience creation and the A/B run were not yet started at the end of the log",
-        "Reframed the story for the client: value comes from reallocating existing retargeting budget to the hesitation window, not from new reach"
+        "Designed the ad audience and test plan, not yet launched",
+        "Reframed the value as reusing budget, not new customers"
       ],
       "skills": [
-        "AMC SQL",
-        "BigQuery",
-        "Python (pandas, matplotlib)",
-        "Survival/hazard analysis",
+        "SQL",
+        "Data analysis",
         "Audience design",
         "Experiment design"
       ]
@@ -490,1528 +457,1244 @@
   },
   {
     "cat": "Analytics",
-    "headline": "Turned 4,700 overlapping audience segments into a defensible expand/exclude plan: pet segments ~3x CVR, exclusion sized by reach loss not count",
-    "context": "For a global pet nutrition brand (Japan) I analysed which Amazon audience segments an AI-driven DSP prospecting line item actually converts on, and designed the expansion/exclusion actions so they would not cannibalise high-value users — owning AMC SQL, BigQuery, the Python pipeline and the client slides.",
+    "headline": "Turned 4,700 overlapping audiences into a clear plan",
+    "context": "For a pet food brand in Japan, I ranked ad audiences and designed which to add or drop.",
     "img": "",
     "metrics": [
-      "Median user belonged to 122-124 segments at once, so segment-level ranking needed a peer baseline and a 20% coverage cap",
-      "Untargeted pet segments converted ~3x the segment average (2.8x dog / 3.1x cat) while the recommended 'Beauty' theme sat at ~1x",
-      "Naive name matching said 8-9 of the top 10 were already targeted; segment-ID ground truth corrected this to 6-7 of 10",
-      "Segment-level budget sums overstated the bottom-10 share (22.7%) versus user-level de-duplication (19.4%)",
-      "The AI optimiser dropped high-performing pet segments 1.2-1.9x faster than weak broad ones as the campaign paced down"
+      "Pet audiences converted 3 times more",
+      "Each shopper matched 120+ audiences",
+      "System dropped good audiences 1.9x faster"
     ],
     "tags": [
-      "AMC",
-      "Amazon DSP",
+      "Amazon ads",
       "Audience segments",
-      "BigQuery",
-      "Python",
-      "Exclusion design",
-      "Selection bias",
-      "Data visualisation"
-    ],
-    "detail": {
-      "overview": "The prospecting line item had no explicit targeting; Amazon's AI chose audiences. I pulled segment-level impressions and conversions from AMC, loaded them to BigQuery, and built a Colab pipeline (control totals, tiered asserts, EDA, gating, de-duplication, ground-truth join, daily allocation trends, user-level exclusion curves) ending in a Tufte-style two-slide client deck with speaker notes.",
-      "problem": "Users belonged to ~140 segments each, so simple sums double-counted, converters inflated any campaign-level baseline by ~1.2-1.3x, identical segment names mapped to different IDs, and the largest segments could never show high CVR by construction. Excluding weak segments risked removing users who also sat in strong ones, and 'savings' framing was wrong because the campaign budget was fixed and re-allocated daily.",
-      "actions": [
-        "Replaced a composite score with plain CVR plus narrative, at the account lead's request, and gated segments on minimum impressions and conversions",
-        "Re-based the CVR index on the peer average and then dropped the index entirely for percentage CVR the client could read",
-        "Rejected name-based matching after finding one-to-many name-to-ID mappings, and joined against actual matched segment IDs from sibling line items to decide what was truly untargeted",
-        "Derived a statistical ceiling (segment CVR <= campaign CVR / coverage) to justify a 20% coverage cap and separate 'do not touch' mega-segments",
-        "Tested the vendor's 'Beauty' recommendation: broad Beauty was average with ~3.5x the pet NTB cost, only narrow Beauty sub-segments beat average, so they were seeded as audience signals for a 4-week split test rather than promoted",
-        "Normalised daily segment trends against the campaign's own pacing and sized the exclusion by a user-level reach-loss budget with absolute NTB guardrails"
-      ],
-      "impact": [
-        "Delivered an expand/exclude recommendation with quantified reach and conversion trade-offs per species, framed as redirection with guardrails rather than savings",
-        "Exposed that most 'top' segments were already targeted by sibling line items, redirecting the story from discovery to overlap reduction",
-        "Exclusion depth and split test were designed; live results after console changes were not yet measured in the log"
-      ],
-      "skills": [
-        "AMC SQL",
-        "BigQuery",
-        "Python (pandas, matplotlib)",
-        "Statistical reasoning",
-        "Audience strategy",
-        "Client storytelling"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Validated a 365-day purchaser exclusion: new-to-brand share +9pt on DSP vs +1pt on the untouched control, NTB cost per unit halved",
-    "context": "For a global pet nutrition brand (Japan) I designed and ran the before/after measurement of a DSP targeting change amid Prime Day, a 64% budget cut and a trial-pack mix shift, and delivered the client slides and workbook.",
-    "img": "",
-    "metrics": [
-      "DSP new-to-brand share 24.6% -> 34.0% (+9.4pt) vs Sponsored Ads control +0.9pt; difference-in-differences +8.5pt, consistent across three campaign-cut definitions",
-      "NTB units per unit of spend roughly doubled (+99%) across DSP+SA and nearly tripled on DSP alone (+186%)",
-      "NTB cost per unit -50% combined, -65% on DSP; DSP went from 74% more expensive than SA to 23% cheaper",
-      "Untreated loyalty line retained ~71% of purchases on a 67% budget cut, ruling out a market collapse",
-      "Excluding a discontinued trial pack lifted the DSP NTB gain from +9.4pt to +13.5pt, so the headline used the conservative figure"
-    ],
-    "tags": [
-      "AMC",
-      "Difference-in-differences",
-      "NTB",
-      "Amazon DSP",
-      "Sponsored Ads",
-      "BigQuery",
-      "Python",
-      "Executive reporting"
-    ],
-    "detail": {
-      "overview": "The client had excluded 365-day purchasers from DSP targeting to push new-to-brand acquisition and asked whether it worked. I built a gated AMC discovery series, chose comparable 21-day PRE/POST windows around Prime Day with a 7-day truncated attribution applied to both, used Sponsored Ads (targeting unchanged) and the loyalty line (not excluded) as controls, loaded everything to BigQuery with control-total asserts, and produced a two-slide client story plus internal appendix and a 14-sheet workbook.",
-      "problem": "Spend fell 64% between periods, so every absolute NTB metric was negative and the first slide read as failure. Attribution lag, a sale event on the exclusion date, a trial pack that made up 75% of one line's new purchases before disappearing, and a simultaneous audience change on one line all confounded the read.",
-      "actions": [
-        "Chose conversion-time windows that avoid sale periods and applied the same truncated attribution to both, framing Prime Day carry-over as a conservative bias against the treatment rather than a wash",
-        "Set NTB share as the primary judgement metric with a directional DiD against Sponsored Ads and a market-demand check on the loyalty line",
-        "Replaced the all-negative absolute KPIs with a two-panel slide: absolute totals as context, NTB units per unit of spend as the conclusion, and moved NTB cost to a per-unit basis",
-        "Decomposed the efficiency gain into media price and conversion-rate components to pre-empt the 'it only improved because you spent less' objection",
-        "Isolated the trial pack by ASIN allow-list after price and keyword rules both failed, and produced a defence slide for the line whose NTB share collapsed",
-        "Enforced control totals with grain-aware tolerances and a balanced campaign panel"
-      ],
-      "impact": [
-        "Delivered a validated, conservative headline the client team could defend, with the sensitivity cases in speaker notes rather than on slides",
-        "Separating the concurrent audience-waterfall effect from the budget cut remained an open item pending budget stabilisation"
-      ],
-      "skills": [
-        "AMC SQL",
-        "Causal framing (DiD)",
-        "BigQuery",
-        "Python (pandas, matplotlib, xlsxwriter)",
-        "Data QA",
-        "Client storytelling"
-      ]
-    }
-  },
-  {
-    "cat": "Performance",
-    "headline": "Proved an audience waterfall cut multi-line overlap from ~50% to ~34%, then expanded it with 22 measured segments and a video control group",
-    "context": "For a global pet nutrition brand (Japan) I validated an exposure-based audience de-duplication cascade across DSP awareness line items, found why it saved no budget, and designed the full console spec for adding untargeted dog/cat segments in size order with a measurement plan.",
-    "img": "",
-    "metrics": [
-      "Users reached by 2+ line items fell from 49.9% to 33.8% (-16pt) after the waterfall",
-      "Cost per unique user -39%, of which ~26% was media-price deflation, leaving ~13-15% as the cascade's own effect",
-      "AI prospecting line's first-touch share rose from ~50% to ~71% once overlap was removed",
-      "Estimated tier positions were 3-4x off actual coverage for one health segment, so every tier was re-ordered on measured coverage",
-      "An intersection audience designed as AND actually reached 76k users against a 14k ceiling, proving it ran as OR"
-    ],
-    "tags": [
-      "Amazon DSP",
-      "AMC",
-      "Audience strategy",
-      "Waterfall targeting",
-      "Segment coverage",
-      "Measurement design",
-      "Change management"
-    ],
-    "detail": {
-      "overview": "A cascade where each upper tier excludes the users it has already exposed had been live on display line items for two months. I measured whether it hit its three goals (less duplicated reach, lower spend, better cost per unique user), then found untargeted catalogue segments for both species, sized them on a common denominator, placed them in tier order with parent-child rules, and wrote the console-ready before/after spec with segment IDs, QA checklist and a display-vs-video difference-in-differences plan.",
-      "problem": "First measurement used within-line frequency and read the cascade as a failure; the correct grain was cross-line overlap. Identical segment names mapped to different IDs, the planning sheet disagreed with the live console, on-site and off-site segment lists had drifted apart, and an intersection audience (parents x pet owners x cat food) was silently running as a union and cannibalising lower tiers.",
-      "actions": [
-        "Re-specified the validation as cross-line overlap, exposure time-gap distribution and first-touch tier order, all on a stable identity type",
-        "Separated the cascade's effect from a concurrent 26% media-price drop and a uniform budget cut, concluding it created a savings opportunity but did not execute one",
-        "Rejected a proposal to throttle the AI prospecting line and instead promoted its top discovered segments to explicit tiers with audience signals",
-        "Measured coverage of every candidate segment on one denominator, ranked tiers ascending, merged a near-duplicate large segment, and put child segments above parents",
-        "Proved the AND-vs-OR structural bug from matched-segment reach and put the affected lines on hold pending a rebuilt intersection",
-        "Unified on-site and off-site lists, scoped video line items out as a control, took a pre-change baseline and resolved 76 of 91 segment IDs via a single metadata query with explicit NOT logic"
-      ],
-      "impact": [
-        "Confirmed the cascade should not be rolled back and gave the team a defensible internal verdict",
-        "Delivered the execution spec for 22 new segments and 8 new line items; post-change effect is scheduled for measurement three weeks after go-live"
-      ],
-      "skills": [
-        "AMC SQL",
-        "Amazon DSP audience setup",
-        "Coverage analysis",
-        "Measurement design",
-        "Python (pandas)",
-        "Technical documentation"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Proved OTT reached 18% of total audience no other Amazon channel touched, and killed a false 2.2x lift before it reached the client",
-    "context": "For a premium coffee brand (Japan) I built the AMC-to-BigQuery-to-Python pipeline and the slide deck measuring what Prime Video and Fire TV ads added on top of DSP display and Sponsored Ads, then handled the local team's Q&A.",
-    "img": "",
-    "metrics": [
-      "OTT-only reach = 52% of OTT reach and 18% of total unique reach across five Amazon media",
-      "100% of connected-TV impressions came through OTT; 80% of OTT impressions were CTV; 22% of OTT impressions were zero-cost bonus inventory",
-      "Fair comparison: OTT + display + search converted at 0.44x the display + search-only rate, replacing a contaminated 2.2x claim",
-      "Exclusive reach share by medium: Prime Video 46%, Fire TV 35%, display 58%, Sponsored Ads 56%"
-    ],
-    "tags": [
-      "AMC",
-      "OTT",
-      "Prime Video",
-      "Fire TV",
-      "Incrementality",
-      "BigQuery",
-      "Python",
-      "Client presentation"
-    ],
-    "detail": {
-      "overview": "The client had run Prime Video and Fire TV campaigns on the agency's recommendation. I designed a user-level media-combination query (mutually exclusive combo partitions with a 14-day exposure envelope), loaded control totals and the master table into BigQuery, produced the slides in matplotlib, and iterated the narrative with the account lead and the Japanese team.",
-      "problem": "Campaign IDs arrived corrupted by Excel float rounding, product classification by price was wrong in both directions, a Fire Tablet placement hid inside display, and the first purchase-rate story compared OTT users against a baseline polluted by low-intent single-channel users, producing a plausible but false 2.2x lift.",
-      "actions": [
-        "Replaced campaign-ID joins with campaign-name and supply-source tagging after proving the IDs returned zero rows",
-        "Cross-checked product ASINs on the live marketplace and hard-coded a prefix allowlist instead of a price threshold",
-        "Built a single combo-grain master query with control-total checks that reconciled to manual estimates within 0.04%",
-        "Reconciled five mutually exclusive exposure groups against the master totals and corrected the lift claim to 0.44x, reframing OTT as a prospecting layer rather than a converter",
-        "Added a volume slide (donuts and a three-way split of OTT-only reach) and proved combination reach was deduplicated and that the analysis measured co-exposure, not path order",
-        "Rewrote every headline with explicit denominators and corrected three factual errors in the presentation script before delivery"
-      ],
-      "impact": [
-        "Delivered a defensible four-slide deck plus appendix and a Q&A record the Japanese team used with the client",
-        "Prevented a false lift figure from reaching the client and established the rule that reach can be called incremental but purchases only 'OTT in the mix' without a holdout"
-      ],
-      "skills": [
-        "AMC SQL",
-        "BigQuery",
-        "Python (pandas, matplotlib)",
-        "Data QA",
-        "Incrementality framing",
-        "Japanese client communication"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Audited Amazon's official path-to-conversion query template and found 11 defects before it touched client data",
-    "context": "For a premium coffee brand (Japan) I turned a past AMC aggregation bug into a fixed SQL operating standard, then used it to audit and harden Amazon's official Path-to-Conversion instructional query before running it on the client's instance.",
-    "img": "",
-    "metrics": [
-      "11 defects identified in the official template (3 critical: alias/source-column collisions, an integer division that would zero out conversion rates)",
-      "Hardened query passed a 15-point self-check (no alias collisions, explicit CAST/NULLIF, COALESCE after LEFT JOIN, fixed identity type)"
-    ],
-    "tags": [
-      "AMC",
-      "SQL",
-      "Path to conversion",
-      "Code audit",
-      "Attribution",
-      "Sankey"
-    ],
-    "detail": {
-      "overview": "An earlier AMC query had returned wrong aggregates because column aliases reused source column names in a multi-CTE UNION ALL pipeline. I wrote down the root cause as an operating standard (forbidden alias list, prefix pipeline, explicit casting, staged validation queries, pre-submit checklist) and then applied that standard to Amazon's official Path-to-Conversion by Campaign Group template.",
-      "problem": "The official template reproduced the same bug pattern: aliases identical to source columns, a CTE named after a column, integer division in the off-Amazon conversion rate, SELECT *, non-sargable ARRAY_CONTAINS filters, first-conversion timing mixed with full-window revenue (overstated ROAS), no identity-type filter, and a paid-feature dependency.",
-      "actions": [
-        "Documented the root cause of the earlier aggregation bug and codified a forbidden-alias list, raw_/u_/agg_/final_ prefix pipeline and a standard CTE template",
-        "Audited the official instructional query line by line against that standard and ranked 11 issues by severity",
-        "Rewrote the on-Amazon and off-Amazon versions with prefixed aliases, CAST/NULLIF ratios, COALESCE after LEFT JOIN, a fixed identity type and a sargable VALUES-based campaign-group map",
-        "Designed three pre-flight validation queries (campaign mapping, identity coverage, conversion-table scope) and an alternative first-conversion-only CTE to test the ROAS overstatement",
-        "Built matplotlib chart templates (top-N path bar, touchpoint-position mix, Sankey) with a PPT-safe export helper"
-      ],
-      "impact": [
-        "Designed a reusable AMC SQL standard that was later folded into a workflow prompt suite for all clients",
-        "Execution against the live instance and the three validation queries were still pending at the end of the log"
-      ],
-      "skills": [
-        "AMC SQL",
-        "Query auditing",
-        "Data pipeline design",
-        "Attribution logic",
-        "Python visualization"
-      ]
-    }
-  },
-  {
-    "cat": "Performance",
-    "headline": "Redesigned a 180-line-item Amazon DSP audience stack into a reach-ordered exclusion waterfall before Prime Day, fixing two ladder faults found in live reach data",
-    "context": "Full-funnel DSP audience and suppression architecture for a global pet nutrition brand (Japan); I owned the AMC measurement, the waterfall design and the activation handoff.",
-    "img": "",
-    "metrics": [
-      "Four new AMC audiences measured at only 2.8-4.3% net-new reach against active purchase lines, so they were repositioned as budget-steering tiers rather than reach expansion",
-      "Pet-owner identity segment found 1.6x (dog) to 7x (cat) larger than the keyword line that was excluding it, a fault that would have driven that line's reach toward zero",
-      "Purchase ladder re-sequenced by measured reach: a brand-store retargeting line of ~3-5K users moved from rank 7 to rank 4"
-    ],
-    "tags": [
-      "Amazon DSP",
-      "AMC",
-      "SQL",
-      "Audience architecture",
-      "Suppression",
-      "Budget waterfall",
-      "Lookback windows",
-      "Prime Day"
-    ],
-    "detail": {
-      "overview": "Ahead of Prime Day the client wanted its DSP audience settings optimized across Awareness, Consideration, Purchase and Loyalty for two product lines and two species. The work grew from placing four new AMC audiences into a full re-architecture: which audiences to build in AMC versus natively in the console, how each line item should exclude the tiers above it, what lookback windows to use, and how to order tiers so budget flows to the most valuable users first.",
-      "problem": "New audiences overlapped heavily with lines already running, so adding them would not add reach; console exclusion semantics (displayed as AND, executed as OR-removal) were being misread; several ladder positions were set by intent strength rather than audience size, so large tiers were starving small ones; and the activation team needed a document in exact setting names rather than analyst shorthand.",
-      "actions": [
-        "Measured net-new reach and a 5x5 overlap matrix in AMC across all enabled line items, then re-scoped the new audiences from reach expansion to value-based budget steering",
-        "Split builds by capability: catalog in-market/lifestyle bundles as native console OR-includes (live, auto-refreshed), AMC only for custom event logic (high-value, NTB high-value, cart-not-purchase, trial-not-purchase, purchaser lookalike)",
-        "Set lookbacks from purchase cycle: 90-day purchaser exclusion on purchase lines (a 30-60 day repurchase cycle makes 180 days a win-back dead zone), 180-365 days for identity signals, and a no-recent-purchase exception stack for high-value tiers",
-        "Validated ladder order with June impression and unique-reach data per line item, removed a superset segment from a lower tier's exclusions and re-ordered the purchase ladder ascending by reach",
-        "Added species-level ASIN filters to the AMC audience queries after finding dog and cat versions returned identical users",
-        "Rewrote the activation handoff in verbatim setting names with before/after tables, plus a context log recording why each rule exists"
-      ],
-      "impact": [
-        "Delivered the full waterfall design, exclusion-stack definitions and AMC query package for activation; live results are tracked in a separate case",
-        "Established reusable rules: exclude by saved audience not segment lists, never exclude across species/line/inventory, order ladders by size and use intent only for budget weighting",
-        "Documented the console's exclusion semantics so future audits do not misread AND-notation as intersection"
-      ],
-      "skills": [
-        "AMC SQL",
-        "DSP audience architecture",
-        "Set logic / De Morgan reasoning",
-        "Reach-based validation",
-        "Stakeholder handoff documentation"
-      ]
-    }
-  },
-  {
-    "cat": "Performance",
-    "headline": "Built a Prime Day 'hot lead' AMC audience (14-day product views, no purchase in 365 days) and designed a contamination-aware before/after read of the new exclusion waterfall",
-    "context": "Prime Day activation and post-event measurement for a global pet nutrition brand (Japan) on Amazon DSP; I proposed the audience logic, wrote the AMC SQL and built the measurement chart pipeline.",
-    "img": "",
-    "metrics": [
-      "Audience defined on the platform's official 365-day new-to-brand rule instead of a lifetime window, keeping the segment buildable and comparable",
-      "Pre-event week showed detail-page views down 18% while CTR rose 13%, a signal read as spend-driven rather than demand-driven"
-    ],
-    "tags": [
-      "AMC",
-      "SQL",
-      "Amazon DSP",
-      "NTB",
-      "Prime Day",
-      "Delivery troubleshooting",
-      "Python",
+      "Statistics",
       "BigQuery"
     ],
     "detail": {
-      "overview": "Ahead of Prime Day the week-over-week report showed shoppers browsing but deferring purchase. I proposed targeting users who viewed the brand's product pages in the last 14 days but had no purchase in 365 days as a high-intent, likely new-to-brand audience at the top of the purchase waterfall, then designed how to judge whether the re-sequenced waterfall improved CPA once the sale distortion was removed.",
-      "problem": "A 'no purchase' rule risks including existing customers waiting to repurchase; the first query used a non-existent column; after go-live the audience delivered almost nothing for hours; and any post-event comparison is contaminated by pre-sale demand suppression, sale-period demand spikes and the 14-day attribution lookback.",
+      "overview": "An AI-run ad line picks its own audiences, and I had to find which ones actually work well. I ranked thousands of audiences fairly and designed a safe plan to expand or exclude them.",
+      "problem": "Simple counting broke down because each shopper belonged to over a hundred audiences at once, and audience names didn't match their real IDs.",
       "actions": [
-        "Wrote species-specific AMC rule-based audience queries (recent detail-page viewers LEFT JOIN 365-day purchasers, anti-join) and corrected the date column against the schema after a console error",
-        "Aligned the exclusion window to the platform's rolling 365-day new-to-brand definition rather than a lifetime window",
-        "Triaged zero delivery by eliminating causes in order (minimum size, match rate, refresh, sync latency up to 48h, bid level) and held observation after a bid increase instead of rewriting the audience",
-        "Tagged the daily series into clean baseline, pre-sale suppressed, sale, high-risk and low-risk post-sale windows and compared only clean baseline vs low-risk stabilised",
-        "Built a 7-day moving-average CPA / NTB CPA / NTB share chart with change-point markers and shaded contamination windows for the client deck"
+        "Replaced a confusing score with one plain, readable number.",
+        "Matched audiences by their real ID, not just their name.",
+        "Set a size limit so huge audiences couldn't skew the ranking."
       ],
       "impact": [
-        "Audience live before Prime Day; delivery normalisation and the measured CPA effect were still pending at the end of the log",
-        "Designed a reusable event-contamination framework for reading any setting change around a major sale"
+        "Delivered a clear expand-or-exclude plan balancing reach against results.",
+        "Live results after the changes went live were still pending."
       ],
       "skills": [
-        "AMC rule-based audiences",
-        "SQL debugging",
-        "Ad delivery troubleshooting",
-        "Quasi-experimental period design",
-        "matplotlib reporting"
+        "Statistical reasoning",
+        "SQL",
+        "Audience strategy",
+        "Data visualization"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Reframed a 'new-to-brand sales are falling' brief into 'units +30%, AOV -17%, DSP-to-search channel shift' and traced the root cause to line-item audience overlap",
-    "context": "Monthly NTB deep-dive and nine-slide client storyline for a global pet nutrition brand (Japan); I owned the AMC SQL, BigQuery/Python analysis, visuals and slide narrative reviewed by my manager.",
+    "headline": "Proved a new-customer ad change worked, cost halved",
+    "context": "For a pet food brand in Japan, I measured whether a new-customer ad strategy worked despite a budget cut.",
     "img": "",
     "metrics": [
-      "NTB sales +8% May to June with units +30% and AOV -17%, validated by ASIN-level totals within 0.3-0.7% of the headline query",
-      "Wellness line: DSP-attributed NTB sales -23% while Sponsored Ads +74%, read as channel shift rather than DSP failure",
-      "Awareness line items shared 47% of users off-site vs 4% for loyalty; multi-funnel-stage reach only 17-20% of exposed users",
-      "Configured vs delivering line items matched 96%, ruling out dormant settings as the cause"
+      "New customers per dollar nearly doubled",
+      "Cost per new customer fell half",
+      "Loyal purchases fell only 29%"
     ],
     "tags": [
-      "AMC",
-      "SQL",
+      "Amazon ads",
       "BigQuery",
-      "Python",
-      "NTB",
-      "Path to conversion",
-      "Funnel analysis",
-      "Cannibalisation",
-      "Client deck"
+      "Data analysis",
+      "Reporting"
     ],
     "detail": {
-      "overview": "The client believed new-to-brand sales were declining. I decomposed May vs June NTB into units and average order value, broke it down by channel, product line, species and funnel, built ad-type and funnel-level path-to-conversion views, measured how many users actually travel across funnel stages, and quantified user overlap between line items to explain why.",
-      "problem": "The premise was wrong (total NTB grew; only DSP-attributed sales fell while search grew), aggregation thresholds blanked 7.5% of revenue when sliced too finely, path-level sales carry attribution bias, the official path template did not de-duplicate repeated funnel nodes, and several intuitive cannibalisation metrics turned out to have no valid basis.",
+      "overview": "The brand had stopped showing ads to past buyers to win new customers, and wanted proof it worked. I compared results before and after, using a similar campaign as a control group.",
+      "problem": "Sales fell so much overall that every simple number looked like a failure, even though the strategy might have been working underneath.",
       "actions": [
-        "Split reporting into a low-dimension headline query and a high-dimension diagnostic query, and reconciled headline totals against ASIN-level sums",
-        "Grouped conversion paths at ad-type level, ranked by volume with CPA alongside, and switched the unit of analysis from orders to units for low-price trial products",
-        "Replaced exposure-joined channel totals with direct sums from the attribution table after spotting double counting",
-        "Rebuilt the path query to collapse each user to first-seen per funnel stage before sequencing, then verified zero self-repeats across four datasets",
-        "Measured line-item overlap as the share of users hitting two or more line items per funnel, separately on-site and off-site, and checked configured vs delivering line items",
-        "Dropped three metrics and one narrative link that could not be defended, re-ran the funnel-reach view on DSP plus search, and rewrote the story in neutral, channel-shift framing"
+        "Compared matching time periods before and after, avoiding sale-season noise.",
+        "Measured new-customer share instead of raw totals, since spending dropped.",
+        "Showed loyal customers stayed steady, ruling out a market crash."
       ],
       "impact": [
-        "Nine-slide storyline delivered and accepted after manager review, with next steps prioritised (audience mutual exclusion in awareness and consideration, trial ASIN focus)",
-        "Showed the frequency-cap cut on loyalty had not reduced overlap, redirecting the fix toward audience exclusion design",
-        "Established a reusable QA cell (self-repeat check and touch-count distribution) for future path analyses"
+        "Delivered proof the new-customer strategy worked, even after the budget cut.",
+        "The main ad channel flipped from pricier to cheaper than the rest."
       ],
       "skills": [
-        "AMC SQL",
-        "Attribution reasoning",
-        "Path-to-conversion modelling",
-        "matplotlib slide visuals",
-        "Executive storytelling",
+        "Data analysis",
+        "BigQuery",
+        "Ad reporting",
+        "Client communication"
+      ]
+    }
+  },
+  {
+    "cat": "Performance",
+    "headline": "Proved a system to stop repeat ads actually worked",
+    "context": "For a pet food brand in Japan, I checked whether an ad system stopped repeat views and fixed gaps.",
+    "img": "",
+    "metrics": [
+      "Repeat ad views dropped 16 points",
+      "Cost per person fell 39%",
+      "One line's reach share rose 21pt"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Audience design",
+      "Data analysis",
+      "Ad strategy"
+    ],
+    "detail": {
+      "overview": "A system shows each ad group only to people the earlier groups missed, like a waterfall. I checked whether it worked, then found new audiences it should include.",
+      "problem": "The first check used the wrong measurement and looked like a failure, and one audience meant to narrow reach was secretly reaching everyone.",
+      "actions": [
+        "Re-measured using cross-group overlap instead of single-group repeat views.",
+        "Found and sized new audiences, then ranked them by size.",
+        "Proved one audience was broken, reaching everyone instead of a narrow group."
+      ],
+      "impact": [
+        "Confirmed the system worked and should stay running.",
+        "Designed 22 new audiences and 8 new ad groups to add."
+      ],
+      "skills": [
+        "Audience strategy",
+        "Data analysis",
+        "Amazon ads",
+        "Documentation"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Caught a fake advertising result before delivery",
+    "context": "For a coffee brand in Japan, I analyzed video ad data and fixed a wrong result before it shipped.",
+    "img": "",
+    "metrics": [
+      "OTT alone reached 18% of everyone",
+      "TV ads: 100% came via OTT",
+      "Lift claim fixed: 2.2x to 0.44x"
+    ],
+    "tags": [
+      "Amazon ads",
+      "OTT ads",
+      "BigQuery",
+      "Client presentation"
+    ],
+    "detail": {
+      "overview": "The client's video ads sat on top of its regular display and search ads. I built a pipeline to check how many extra people the video ads reached, and whether they boosted sales.",
+      "problem": "Broken campaign IDs, wrong product tags, and a hidden ad placement made the numbers unreliable, and an early sales-lift claim turned out to be miscalculated.",
+      "actions": [
+        "Fixed broken campaign data by matching names instead of broken IDs",
+        "Checked products by hand online instead of trusting price rules",
+        "Recomputed the sales-lift number and corrected it before delivery"
+      ],
+      "impact": [
+        "Delivered a defensible report the client team used with confidence",
+        "Stopped a false result from ever reaching the client"
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Python",
+        "Client communication"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Found 11 errors in Amazon's own official template",
+    "context": "For a coffee brand in Japan, I checked Amazon's official ad-data query for errors before running it.",
+    "img": "",
+    "metrics": [
+      "3 of 11 errors were critical"
+    ],
+    "tags": [
+      "SQL",
+      "Data quality",
+      "Amazon ads",
+      "Code review"
+    ],
+    "detail": {
+      "overview": "I once found a coding bug that gave wrong totals in an ad-data query. I used that lesson to check Amazon's own official version of a similar query before trusting it with real data.",
+      "problem": "Amazon's official query repeated the same bug pattern and also overstated results by mixing timing rules incorrectly.",
+      "actions": [
+        "Wrote a checklist from a past bug's root cause.",
+        "Checked Amazon's official query line by line against it.",
+        "Rewrote the query, fixing all 11 errors found."
+      ],
+      "impact": [
+        "Built a reusable checklist now used on every project.",
+        "Designed fixes were pending a final test run."
+      ],
+      "skills": [
+        "SQL",
+        "Code review",
+        "Data quality",
+        "Attribution logic"
+      ]
+    }
+  },
+  {
+    "cat": "Performance",
+    "headline": "Rebuilt online ad targeting so top customers get priority",
+    "context": "For a pet nutrition brand in Japan, I redesigned how their online ads target customers before a big sale.",
+    "img": "",
+    "metrics": [
+      "96% overlap found with existing audiences",
+      "One audience was 7x bigger",
+      "Moved a rule up 3 ranks"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Targeting rules",
+      "SQL",
+      "Budget strategy"
+    ],
+    "detail": {
+      "overview": "Ahead of a major sale, I reorganized which customers a pet brand's ads reach first. I measured overlap between new and existing customer lists, then fixed rule order so top-value customers get budget first.",
+      "problem": "New customer lists mostly overlapped with existing ones, and the targeting order didn't match how big each customer group really was.",
+      "actions": [
+        "Measured how much new customer lists overlapped with existing ones",
+        "Reordered targeting rules so top customers get budget priority",
+        "Fixed two rules that were ranked in the wrong order"
+      ],
+      "impact": [
+        "Delivered the full targeting redesign for the team to launch",
+        "Wrote simple rules the team can reuse for future targeting"
+      ],
+      "skills": [
+        "Data analysis",
+        "Ad targeting design",
+        "Logic checking",
+        "Team documentation"
+      ]
+    }
+  },
+  {
+    "cat": "Performance",
+    "headline": "Targeted new buyers ahead of a big sale",
+    "context": "For a pet food brand in Japan, I designed and built this shopper-targeting audience for Amazon ads.",
+    "img": "",
+    "metrics": [
+      "Views dropped 18%, clicks rose 13%"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Audience targeting",
+      "Prime Day",
+      "Troubleshooting"
+    ],
+    "detail": {
+      "overview": "Shoppers were browsing pages but not buying before a big sale. I built an ad audience of recent browsers with no purchase history to target as likely new customers.",
+      "problem": "A too-strict 'no purchase' rule could sweep in loyal customers just waiting to reorder, and the new audience showed almost no traffic at launch.",
+      "actions": [
+        "Defined 'new customer' using the platform's own 365-day rule.",
+        "Fixed a broken query column after a console error.",
+        "Traced zero delivery step by step instead of rebuilding blindly."
+      ],
+      "impact": [
+        "Audience went live before the sale; delivery results were still pending.",
+        "Designed a reusable way to read ad results around any big sale."
+      ],
+      "skills": [
+        "Audience targeting",
+        "SQL debugging",
+        "Troubleshooting",
+        "Reporting charts"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Showed sales grew, not fell, and found why",
+    "context": "For a pet nutrition brand in Japan, I investigated a reported drop in new-customer sales.",
+    "img": "",
+    "metrics": [
+      "Sales rose 8%, not fell",
+      "One channel -23%, another +74%",
+      "Top-funnel ads overlapped 47% of users"
+    ],
+    "tags": [
+      "SQL",
+      "Data analysis",
+      "Ad funnel",
+      "Sales reporting"
+    ],
+    "detail": {
+      "overview": "The client believed new-customer sales were falling and wanted to know why. I found total sales had actually grown, then traced the real story to a shift between ad channels and overlapping ad targeting.",
+      "problem": "The starting belief that new-customer sales were dropping was wrong, and it hid a shift between two ad channels.",
+      "actions": [
+        "Broke total sales into quantity sold and price paid",
+        "Traced the change to one ad channel losing share",
+        "Measured how often the same customers saw competing ads"
+      ],
+      "impact": [
+        "Nine-slide report accepted by the manager and client",
+        "Pointed the fix toward ad targeting, not budget caps"
+      ],
+      "skills": [
+        "SQL",
+        "Data analysis",
+        "Ad funnel analysis",
+        "Client reporting"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Proved showing ads again to viewers doubled views",
+    "context": "For a pet food brand's ad team in Japan, I measured whether repeat-viewer ads truly worked.",
+    "img": "",
+    "metrics": [
+      "Reached targeted viewers 500x more often",
+      "Views per person more than doubled",
+      "Repeat views rose 6-8%, control fell"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Ad measurement",
+      "SQL",
+      "Experiment design"
+    ],
+    "detail": {
+      "overview": "A campaign re-showed ads to people who'd seen the brand online before. The client doubted it helped, so I tested whether it truly reached the right people and added extra views.",
+      "problem": "My first read said reach doubled but repeat views stayed flat, which didn't match how the campaign was built to work.",
+      "actions": [
+        "Questioned a 'no change' result that didn't make sense.",
+        "Found new, lightly-viewed people were dragging down the average.",
+        "Locked the comparison group before launch and re-measured fairly."
+      ],
+      "impact": [
+        "Confirmed the campaign reached the right people and lifted views.",
+        "Reviewed the test's code and flagged fixes before reporting numbers."
+      ],
+      "skills": [
+        "Experiment design",
+        "SQL",
+        "Ad measurement",
+        "Code review"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built a sales forecast that shows its own guesswork",
+    "context": "For a pet nutrition brand in Japan, I built a full-year sales forecast requested by my manager.",
+    "img": "",
+    "metrics": [
+      "200 products sorted into 9 groups",
+      "207 real days plus 158 estimated"
+    ],
+    "tags": [
+      "Forecasting",
+      "Spreadsheet formulas",
+      "SQL",
+      "Data transparency"
+    ],
+    "detail": {
+      "overview": "My manager wanted next year's sales estimated from this year's results, then adjusted for big holiday sales events. I built the estimate so the guessed part is one labeled number, not hidden in the formula.",
+      "problem": "The needed multiplier for holiday sales couldn't be measured because last year's matching data no longer existed.",
+      "actions": [
+        "Sorted 200 products into 9 objective groups automatically",
+        "Checked three ways to measure the holiday effect first",
+        "Turned the unmeasurable guess into one adjustable number"
+      ],
+      "impact": [
+        "Delivered a reusable forecast workbook awaiting manager sign-off",
+        "Made the spend data's limits clear so no one misreads it"
+      ],
+      "skills": [
+        "Forecasting",
+        "Spreadsheet formulas",
+        "SQL",
+        "Data transparency"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Found two ad stages that need more budget",
+    "context": "For a pet food brand in Japan, I measured how well ads reached shoppers at each stage.",
+    "img": "",
+    "metrics": [
+      "Hit the 70% reach goal",
+      "Two stages stuck near 40-50%",
+      "Fixed a chart mismatch of 2.3%"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Data visualization",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A pet food brand runs ads across four buying stages (awareness, consideration, purchase, loyalty) and wanted to know how deeply each stage reaches shoppers. Leadership needed one trustworthy chart set to judge funding per stage.",
+      "problem": "Early charts used mismatched math, so the year-end summary chart didn't match the month-by-month trend chart, confusing what the numbers meant.",
+      "actions": [
+        "Defined one clear way to measure each stage's reach",
+        "Rebuilt the math so every chart added up correctly",
+        "Turned results into plain advice on where to spend more"
+      ],
+      "impact": [
+        "Delivered a reconciled chart set leaders could trust and reuse.",
+        "Flagged two under-funded stages and one over-saturated stage for budget talks."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Data visualization",
+        "Client communication"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Found the best number of times to show ads",
+    "context": "For a pet food brand in Japan, I checked ad-frequency rules using real ad data.",
+    "img": "",
+    "metrics": [
+      "78% reach at only 2 views",
+      "11x more signups at low frequency",
+      "2x campaign overlap explained the dip"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Ad frequency",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A pet food brand wanted to know how often to repeat an ad before it stops helping, using Amazon's ad data room (AMC). Different goals (awareness, consideration, purchase, loyalty) needed different limits.",
+      "problem": "The obvious approach (picking the frequency with best results) always said 'show more,' because heavy viewers already liked the product most.",
+      "actions": [
+        "Measured how many views it took to reach most people",
+        "Checked three signals together, not just one, before deciding",
+        "Found repeat views mostly went to already-loyal customers, not new ones"
+      ],
+      "impact": [
+        "Confirmed the awareness limit was correct; recommended cutting the loyalty limit sharply.",
+        "Suggested moving saved budget toward reaching new customers instead."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Ad strategy",
+        "Client communication"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Seeing both ad types multiplied new customers by 6.7x",
+    "context": "For a pet food brand's awareness ads in Japan, I tested reach, frequency, and audience design.",
+    "img": "",
+    "metrics": [
+      "Beat every reach goal, 107-504%",
+      "6.7x more new customers when combined",
+      "Top audience group won 5.7x more"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Audience design",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A pet food brand ran six types of awareness ads and wanted to know if reach, frequency, and budget were right. I also tested whether pairing two ad types worked better than either alone.",
+      "problem": "Reach and frequency numbers were defined two different ways, and it looked like the discovery ads and retargeting ads worked separately.",
+      "actions": [
+        "Defined reach clearly so every channel could be compared fairly",
+        "Tested how often to repeat ads using three signals at once",
+        "Grouped viewers by which ad combo they saw, then compared results"
+      ],
+      "impact": [
+        "Client increased spend on discovery ads and added a follow-up ad link.",
+        "Withdrew a frequency increase before it reached the client."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Audience design",
+        "Client communication"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Follow-up ads reach 78% of new shoppers",
+    "context": "For a pet food brand in Japan, I checked whether follow-up ads and targeting were working.",
+    "img": "",
+    "metrics": [
+      "Follow-up rate jumped 48% to 78%",
+      "Overlap dropped from 36% to 1%",
+      "All 8 checks matched perfectly"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Audience design",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A pet food brand runs separate ads for cat and dog owners and re-shows ads to shoppers who already saw one (retargeting). The client worried the setup wasn't working.",
+      "problem": "A quick check made retargeting look broken (only 7-8%), and cat and dog audiences overlapped more than expected in early-stage ads.",
+      "actions": [
+        "Fixed a technical bug that broke the original measurement",
+        "Recalculated the ad-follow-up rate the right way, over 3 months",
+        "Traced the overlap to a shared audience list, not a bug"
+      ],
+      "impact": [
+        "Showed 4 in 5 shoppers really were reached by earlier ads.",
+        "Recommended splitting the shared audience list to fix true overlap."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Data visualization",
+        "Root-cause analysis"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Sorted every one of 170+ ad campaigns correctly",
+    "context": "For a pet food brand's ad account in Japan, I built rules to label every ad campaign.",
+    "img": "",
+    "metrics": [
+      "176 campaigns sorted, zero unlabeled",
+      "Fixed 6 wrongly-labeled campaigns",
+      "Only 7 cases stayed unclear"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Data QA",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A pet food brand runs 170+ ad campaigns with three different naming styles. Every campaign needed to be sorted into clear categories (brand, species, funnel stage) with none left unlabeled.",
+      "problem": "An old shortcut in the sorting rule quietly mislabeled campaigns, and early checks had wrongly said everything passed.",
+      "actions": [
+        "Rebuilt the naming rule to avoid accidental letter matches",
+        "Reordered rules so specific labels won over general ones",
+        "Built a checker that flags any campaign left unsorted"
+      ],
+      "impact": [
+        "Reached zero unlabeled campaigns after fixing the hidden bug.",
+        "Escalated only 7 truly unclear names for manual review."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Data QA",
+        "Process design"
+      ]
+    }
+  },
+  {
+    "cat": "CRM",
+    "headline": "Rebuilt 10 ad audiences; 8 out of 10 worked",
+    "context": "For a global PC brand's Japan ads, via their agency, I redesigned who gets retargeted with new-customer ads.",
+    "img": "",
+    "metrics": [
+      "10 audiences built from 2 designs",
+      "8 of 10 audiences worked",
+      "Excluded buyers from the past year"
+    ],
+    "tags": [
+      "Audience targeting",
+      "SQL",
+      "Data privacy",
+      "Advertising"
+    ],
+    "detail": {
+      "overview": "Two customer lists a PC brand used for retargeting had shrunk too small to use. I rebuilt them with a fixed one-year no-purchase rule so anyone who converted would count as a genuinely new customer.",
+      "problem": "The old lists stopped delivering, and 'never bought' was only checked inside whatever short time window each list used.",
+      "actions": [
+        "Answered the client using only documented facts, not guesses",
+        "Split the shopping window from the fixed one-year exclusion",
+        "Hand-checked every date boundary before sending the final lists"
+      ],
+      "impact": [
+        "Delivered 8 of 10 working audience lists with documented logic",
+        "Built the exclusion rule to match the client's own definition"
+      ],
+      "skills": [
+        "SQL",
+        "Audience targeting",
+        "Data QA",
+        "Client communication"
+      ]
+    }
+  },
+  {
+    "cat": "Performance",
+    "headline": "Showed that showing ads more often reached fewer people",
+    "context": "For a whisky brand's ad team in Japan, I tested what happened when we stopped limiting repeat ads.",
+    "img": "",
+    "metrics": [
+      "Repeat views per person nearly doubled",
+      "Cost per ad view fell 44%",
+      "Reaching new people got 9% pricier"
+    ],
+    "tags": [
+      "Ad testing",
+      "SQL",
+      "Amazon ads",
+      "Frequency capping"
+    ],
+    "detail": {
+      "overview": "A whisky brand had been limiting how many times each person saw its awareness ads, then removed that limit to see if performance improved. I compared two matched two-week periods, before and after, to check.",
+      "problem": "There was no side-by-side comparison group since the limit was removed for everyone at once, risking a misleading before/after read.",
+      "actions": [
+        "Compared two equal 14-day windows, right before and after.",
+        "Picked cost-per-person-reached as the fairest scorecard for budgets.",
+        "Double-checked odd zero-result queries before trusting any numbers."
+      ],
+      "impact": [
+        "Found the cheaper ads were repeating on the same people.",
+        "Recommended bringing the viewing limit back."
+      ],
+      "skills": [
+        "Experiment design",
+        "SQL",
+        "Ad measurement",
+        "Data debugging"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Rescued a hidden low-budget channel from disappearing in reports",
+    "context": "For a pet nutrition brand in Japan, I fixed data bugs and built a fairer way to score ad channels.",
+    "img": "",
+    "metrics": [
+      "Just 20 paths covered 85%",
+      "One path was half of it"
+    ],
+    "tags": [
+      "Data QA",
+      "Ad analytics",
+      "SQL",
+      "Data visualization"
+    ],
+    "detail": {
+      "overview": "A standard top-20 report by traffic volume made a cheap, effective ad channel invisible. I built a separate scorecard so small-budget channels could still be judged fairly, after also fixing two silent data bugs.",
+      "problem": "Ranking channels by traffic volume alone hid a small, cheap channel that mattered, and two hidden bugs were producing impossible numbers.",
+      "actions": [
+        "Found why 'buyers' count matched pure traffic count exactly",
+        "Traced a data-naming bug that made purchases show as zero",
+        "Built a separate scorecard so small channels stayed visible"
+      ],
+      "impact": [
+        "Delivered a report structure that didn't hide the small channel",
+        "Fixed two bugs that were producing impossible numbers"
+      ],
+      "skills": [
+        "Data debugging",
+        "SQL",
+        "Data visualization",
         "Data QA"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Proved an OTT-retargeting line item reached 17-35% of its target cohorts vs 0.03% of control and lifted awareness impressions per member 2.2-2.7x (DiD)",
-    "context": "Fixed-cohort difference-in-differences in AMC SQL for a global pet nutrition brand (Japan); I designed the cohorts, corrected the frequency metric and ran a line-by-line review of the v3 query.",
+    "headline": "Fixed a data mix-up that hid video ad sales",
+    "context": "For a pet food brand in Japan, I built and debugged a dashboard matching two ad data systems.",
     "img": "",
     "metrics": [
-      "Retargeting reach rate 17.5% (FTV cohort), 29.6% (PVA), 34.8% (both) vs 0.03% in the clean control group (roughly 550-1,100x)",
-      "Awareness impressions per cohort member rose 1.75-2.16x post-launch while control fell to 0.79x, a ratio-of-ratios DiD of 2.2-2.7x",
-      "Frequency among already-reached users rose +6.4% (PVA) and +7.5% (both) even in the diluted metric; control -2.0%"
+      "Categories matched perfectly, 8 for 8",
+      "Video sales were 100% miscounted",
+      "Remaining sales gap: about 10%"
     ],
     "tags": [
-      "AMC",
-      "SQL",
-      "Difference-in-Differences",
-      "Causal inference",
-      "Retargeting",
-      "OTT / CTV",
-      "Amazon DSP"
-    ],
-    "detail": {
-      "overview": "A retargeting line item was launched inside the awareness display campaign to re-expose users who had seen the brand's OTT (Fire TV / Prime Video) campaigns. The client questioned whether any observed effect was just 'more touches'. I built a fixed-cohort DiD in AMC to measure whether the line item reached the intended cohort and whether it added reach or frequency.",
-      "problem": "The first read said 'reach doubled, frequency unchanged'. The frequency metric averaged over everyone reached, so the many newly reached low-frequency users diluted it, hiding the lift among users who were already exposed. A follow-up line review of the v3 query also found that pre-window contamination by the retargeting line would go undetected, that campaign-name tokens could fabricate a 'both OTT' segment, and that the control group was selected on addressability while the treatment groups were not.",
-      "actions": [
-        "Fixed the cohort before launch (OTT exposure up to the cutoff), split late-OTT users out of control, and measured identical 10-day pre/post windows",
-        "Isolated the retargeting line directly by line-item pattern instead of inferring it from aggregate frequency, after the team confirmed the naming convention",
-        "Switched the primary KPI to impressions per cohort member (reach x frequency) and treated frequency-among-reached as a dilution diagnostic",
-        "Reconciled the output with control totals (RT + other impressions = total post impressions) on every segment",
-        "Reviewed v3 line by line: added pre-window guard columns, a pre-flight naming audit, an addressability axis for the DiD, an extended console window for rolling-lookback audiences, and a placebo pre-period design",
-        "Withdrew a 'back-calculated' frequency table once I confirmed its inputs were assumed, and replaced it with assumption-free bounds"
-      ],
-      "impact": [
-        "Established that the retargeting line executed as designed (near-zero control leakage) and that its effect was mainly new reach plus a measurable frequency lift",
-        "Reframed the launch as a budget reallocation from broad prospecting to OTT-exposed users, making the real question 'was the reallocation worth it in NTB terms' for the path analysis",
-        "Designed the guard, placebo and variance additions needed before the DiD is reported; re-run still pending"
-      ],
-      "skills": [
-        "AMC SQL",
-        "Difference-in-Differences",
-        "Cohort design",
-        "Metric denominator diagnosis",
-        "Query code review"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Built a full-year sales and cost estimate by ASIN objective group when the seasonality multiplier could not be measured, exposing it as a single explicit assumption instead of a hidden one",
-    "context": "H2 forecast and ASIN-group performance reporting for a global pet nutrition brand (Japan), requested by my manager; I owned the sheet formulas, the AMC SQL and the Python/Excel estimation pipeline.",
-    "img": "",
-    "metrics": [
-      "~200 ASINs mapped into 9 objective groups with one spreadsheet formula (brand -> species -> life-stage / condition)",
-      "Estimate structured as 207 actual days plus 158 remaining days with one user-set H2 multiplier; NTB share method shown to be mathematically identical to the daily-average method under a common multiplier"
-    ],
-    "tags": [
-      "AMC",
-      "SQL",
-      "Python",
-      "Excel",
-      "Forecasting",
-      "NTB ROAS",
-      "Google Sheets",
-      "Seasonality"
-    ],
-    "detail": {
-      "overview": "Management wanted the year estimated as 'H1 actual NTB ROAS times remaining spend' for each product objective group, then asked to include July and the second-half sales events. That required a clean group mapping, a de-duplicated AMC query with halo sales in the advertiser's timezone, and a transparent extrapolation method.",
-      "problem": "DSP has no ASIN dimension so per-group spend can only cover Sponsored Products/Display with an ASIN match (brand video ads are structurally excluded); the first query used UTC dates and excluded halo sales, leaking revenue between sibling groups; and the platform retains 13 months, so the prior year's first half needed for a measured seasonality ratio no longer existed, while the warehouse held only campaign-level data.",
-      "actions": [
-        "Wrote a LET / nested IF / REGEXMATCH sheet formula to assign each ASIN to an objective group, flagging the one dual-species SKU",
-        "Built the AMC query on a single attribution table for automatic de-duplication, with halo-inclusive totals, advertiser-timezone dates and an explicitly labelled 'Sponsored Ads only' spend column",
-        "Tested three routes to a measured seasonality multiplier (prior-year halves, campaign-level monthly trend, internal media plan) and documented why each was unavailable or out of scope",
-        "Parameterised the estimate: daily average of 207 actual days x 158 remaining days x one H2 multiplier, with NTB revenue via H1 NTB ROAS and NTB units via H1 NTB share",
-        "Generated a four-sheet workbook (assumptions, raw input, calculation detail, final estimate) with a disclaimer that the multiplier is a judgement, not a measurement",
-        "Recommended 'CY' over 'FY' to avoid fiscal-year misreading for a Japanese client"
-      ],
-      "impact": [
-        "Delivered a reproducible estimation workbook; the multiplier value and final figures were pending management sign-off",
-        "Made the spend coverage limitation (search only, ASIN-matched) explicit in the column name so the client cannot misread it as total spend"
-      ],
-      "skills": [
-        "AMC SQL",
-        "Forecast design",
-        "Google Sheets formulas",
-        "pandas / openpyxl",
-        "Assumption transparency"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Built a full-funnel penetration framework in AMC whose trend endpoints reconcile exactly to totals, revealing two under-invested funnel stages",
-    "context": "Executive reporting for a global pet nutrition brand (Japan); I designed the AMC SQL, the cumulative logic, the BigQuery/Python visual standard and the client-facing investment diagnosis.",
-    "img": "",
-    "metrics": [
-      "Awareness reach at ~70% of the defined pet-owner universe for both species lines, meeting the client's 70% benchmark",
-      "Purchase stage >90% ad-exposed share vs Consideration ~46-51% and Loyalty ~39-43%, identifying the two stages below the 70% benchmark",
-      "Last-period cumulative value matched the overall total for all 4 stages after redesign (previously off by up to 2.3 pp)"
-    ],
-    "tags": [
-      "AMC",
-      "SQL",
-      "BigQuery",
-      "Python",
-      "matplotlib",
-      "Full-funnel",
-      "Penetration",
-      "DSP"
-    ],
-    "detail": {
-      "overview": "The brand runs Amazon DSP across Awareness, Consideration, Purchase and Loyalty for two product lines (wellness / therapeutic) and two species. Leadership asked how deeply each stage penetrates its audience and whether each stage is adequately funded against a 70% reach benchmark.",
-      "problem": "Awareness (reach over a segment universe) and lower-funnel stages (ad-exposed share of converters) needed different denominators yet one consistent chart set; the AMC instance only retained 13 months; the ASIN column used for product mapping was populated only on purchase events; and an initial version showed quarterly trend endpoints that did not match the overall pie.",
-      "actions": [
-        "Defined stage-specific penetration metrics with aligned naming and a shared species split, and fixed the analysis window to the instance's 13-month retention",
-        "Mapped conversions to product lines via the item-level column populated on every event type after diagnosing why the ASIN column dropped two stages entirely",
-        "Rebuilt both queries as cumulative-to-period-end with a single shared cutoff so the final trend point equals the overall total by construction",
-        "Wrote an internal AMC SQL rule set (alias prefixes, JST timezone, CAST/NULLIF division) and a reusable prompt after alias-collision and timezone bugs recurred",
-        "Standardised a matplotlib visual guide (brand palette, donut + trend, 16:9 slide sizing, transparent SVG) and an in-memory RAW workflow for notebook reproducibility",
-        "Translated the results into a neutral-tone investment diagnosis: which stages exceed or miss the 70% benchmark and three reallocation options"
-      ],
-      "impact": [
-        "Delivered a reconciled 4-stage x 4-segment chart set (overall + monthly cumulative trend) used in the client's funnel investment discussion",
-        "Identified Consideration and Loyalty as below-benchmark stages and Purchase as saturated, framing a reallocation plus audience-expansion recommendation",
-        "Rule set and prompt were reused as the standing system prompt for subsequent AMC sessions"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud SQL",
-        "Metric definition and reconciliation",
-        "BigQuery + Colab pipelines",
-        "Data visualisation standards",
-        "Client communication"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Derived stage-specific DSP frequency caps from 13 weeks of AMC data, validating the global 2x awareness cap and recommending a ~70% cut to the loyalty cap",
-    "context": "Frequency strategy for a global pet nutrition brand (Japan) across Awareness, Consideration, Purchase and Loyalty; I designed the KPI logic per stage, the AMC SQL and the client slides.",
-    "img": "",
-    "metrics": [
-      "Awareness: weekly frequency 2 reached ~78% cumulative reach vs a 70% target and was the modal answer in 9 of 13 weeks",
-      "Loyalty: subscription conversion rate at frequency 1 was ~11x the rate at frequency 25 for both product lines, with ~60% of subscribers converting organically",
-      "Consideration: users at weekly frequency 6 averaged ~2 campaigns vs ~1 at frequency 3, proving the 'cap leak' was cross-campaign overlap, not a query error"
-    ],
-    "tags": [
-      "AMC",
-      "DSP",
-      "SQL",
-      "Frequency cap",
-      "Selection bias",
-      "Diminishing returns",
-      "Python",
-      "BigQuery"
-    ],
-    "detail": {
-      "overview": "The client wanted to know whether the global frequency caps (2x/7d awareness, 3x/7d consideration, 25x/30d purchase and loyalty) are optimal for Japan, using different KPIs per stage: reach and cost per reach, CTR and detail-page-view rate, purchase rate, and subscribe-and-save rate.",
-      "problem": "Efficiency per frequency bucket rises monotonically because heavy users self-select, so 'best bucket' logic always removes the cap. AMC does not support window frames or standalone ORDER BY. Cumulative rates dip at the cap boundary because volume piles up there. A budget-reallocation simulation failed repeatedly in AMC. Ad-exposed purchase and subscription shares were initially misread as ad effectiveness.",
-      "actions": [
-        "Aligned the analysis unit to each cap's period (13 clean weeks; two clean 30-day windows) and excluded sale weeks and the unfinished attribution week",
-        "Replaced bucket-level efficiency with cumulative-reach saturation: the minimum weekly frequency reaching 70% of reach, voted across weeks",
-        "Rebuilt cumulative metrics with a self-join because AMC rejects window frames, and exported raw counts for ratios",
-        "Diagnosed the consideration-stage spike at frequency 6 with a users x campaigns query, then anchored the cap recommendation to a penetration target to avoid circular logic",
-        "Adopted one KPI per stage with a ranked table (purchase rate; subscription rate from the all-conversions feed rather than digital-subscription fields)",
-        "Reframed high ad-exposed shares as potential cannibalisation and recommended a hold-out test for the purchase stage"
-      ],
-      "impact": [
-        "Confirmed the global awareness cap with local data and provided a per-stage recommendation set: keep 2 (awareness), test lower (consideration and therapeutic purchase), cut 25 to 5-7 (loyalty)",
-        "Consolidated four stages into one narrative for the client: reduce over-exposure and move budget to new-user acquisition",
-        "Left the budget simulation explicitly as a spreadsheet estimate with stated assumptions rather than an AMC result"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud SQL",
-        "Frequency and reach analysis",
-        "Selection-bias reasoning",
-        "KPI design per funnel stage",
-        "matplotlib visualisation",
-        "Client communication"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Proved that users reached by both discovery video and retargeting display convert new-to-brand ~6.7x more than retargeting alone, and redesigned the awareness audience stack around it",
-    "context": "Awareness strategy for a global pet nutrition brand (Japan) answering three client questions on reach sufficiency, frequency and budget; I designed the AMC SQL, the exclusive-reach and frequency methodology, the synergy test and the execution plan slides.",
-    "img": "",
-    "metrics": [
-      "Every awareness channel exceeded its media-plan target on exclusive reach (107% to 504%), shifting the question from reach to efficiency",
-      "Users exposed to both discovery and retargeting channels showed a NTB conversion rate ~6.7x the retargeting-only group and ~4.5x the discovery-only group",
-      "Weekly frequency 2 was the only level where detail-page-view, purchase and NTB rates all rose together; a proposed cap increase was withdrawn",
-      "Top-priority audience line converted NTB at ~5.7x the rate of the catch-all pet-owner line, setting a measured top-down priority order"
-    ],
-    "tags": [
-      "AMC",
-      "DSP",
-      "SQL",
-      "Exclusive reach",
-      "Optimal frequency",
-      "NTB",
-      "Audience segmentation",
-      "Retargeting",
-      "Python"
-    ],
-    "detail": {
-      "overview": "Six awareness placements (display, brand-plus, streaming TV, video ads, online video, sponsored awareness) ran with a weekly cap of 2. The client asked whether reach was sufficient against the media plan, what to recommend, and how to allocate budget; I added three supporting questions on optimal frequency, NTB-based allocation, and why users were seen up to 25 times despite the cap.",
-      "problem": "Exclusive reach had two competing definitions; the first frequency query pooled 13 weeks and used UTC columns, producing a reversed conclusion for streaming TV; AMC attributes last-touch so awareness NTB is under-counted; the cap leak was initially misdiagnosed as a settings error; and the audience lines were nested supersets with no explicit retargeting relay between discovery and display.",
-      "actions": [
-        "Computed exclusive reach as users with channel breadth = 1 via a self-join, verified with identity checks, and replaced a share-of-total metric with cost per exclusive reach",
-        "Measured media-plan target achievement on exclusive reach for the four plan buckets",
-        "Rebuilt the frequency response curves as weekly rates averaged over 13-14 weeks in advertiser timezone, with weeks-observed as a reliability flag, and cross-checked DPV against purchase and NTB rates",
-        "Explained the cap leak as per-line order-level caps over overlapping audiences, confirmed high-frequency users were high converters, and chose to keep it rather than force an advertiser-level cap",
-        "Ran an NTB synergy test labelling users as discovery-only, retargeting-only or both, then extended the window and re-ran",
-        "Measured NTB rate per audience line and species, derived a top-down OR-NOT priority order, and drafted AMC retargeting audiences for streaming-TV and video-exposed users with exclusions on all prospecting lines"
-      ],
-      "impact": [
-        "Client approved increased discovery (streaming TV / video) budget; the plan adds a display retargeting relay that did not previously exist",
-        "Withdrew a cap-increase recommendation before it reached the client after multi-KPI validation",
-        "Delivered a global-team slide set with an explicit disclaimer list (selection bias, last-touch floor, currency reconciliation pending)"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud SQL",
-        "Reach and frequency methodology",
-        "Experiment-style cohort comparison",
-        "Audience architecture design",
-        "matplotlib slide production",
-        "Client and global-team communication"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Turned a retargeting scare into proof that it works: capture rate 78% at 3 months, and traced a 36% species overlap to shared audience segments",
-    "context": "DSP audience diagnostics for a global pet nutrition brand (Japan) under client escalation; I wrote the AMC SQL, redefined the metric and audited the targeting setup.",
-    "img": "",
-    "metrics": [
-      "Awareness-to-Consideration capture rate rose from ~48% (1-month window) to ~78% (3-month window) once retargeting lag was included",
-      "Species overlap fell from ~36% of Awareness reach to under 1% at the Loyalty stage, confirming separated targeting deeper in the funnel",
-      "8 overlap queries reconciled exactly (segment sums equal total reach) before visualisation"
-    ],
-    "tags": [
-      "AMC",
-      "DSP",
-      "SQL",
-      "Audience overlap",
-      "Retargeting",
-      "Python",
-      "Venn"
-    ],
-    "detail": {
-      "overview": "The client wanted to know whether dog and cat campaigns reach distinct users across four funnel stages, and, after a low first read, whether DSP retargeting from one stage to the next was actually set up correctly.",
-      "problem": "A proven overlap query failed twice in AMC (root cause: a '+' in campaign names broke IN-list parsing). The first retargeting metric divided overlap by the upper-stage reach, making healthy retargeting look like 7-8%; a single-month window also ignored multi-week retargeting lag. The species overlap at Awareness (~36%) needed a root cause, not just a number.",
-      "actions": [
-        "Rebuilt eight brand x stage overlap queries on LIKE-pattern matching and moved ratio maths outside AMC for parser safety",
-        "Verified every result with the identity cat_only + dog_only + both = total, then visualised as brand-coloured Venn strips with fixed-denominator (100%) shares",
-        "Redefined the retargeting metric as capture rate (overlap over the lower-stage reach) to answer the client's actual question",
-        "Re-ran the funnel-overlap query over three months to include lag and compared 1-month vs 3-month capture rates",
-        "Audited the live audience settings and found the same pet-owner segment reused across dog and cat lines plus duplicated segment IDs in the cat list",
-        "Designed a cross-channel (DSP awareness x sponsored 'General') overlap query using UNION ALL plus a single GROUP BY dedup"
-      ],
-      "impact": [
-        "Client-facing wording changed from 'is retargeting broken?' to evidence that roughly four in five lower-stage users had been reached upstream",
-        "Reframed species overlap as evidence of good separation deeper in the funnel, with a concrete fix for the shared awareness segment",
-        "Established a 3-month window and capture-rate definition as the standard for retargeting checks"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud SQL",
-        "Metric definition",
-        "Audience overlap analysis",
-        "Root-cause auditing",
-        "Data visualisation",
-        "Client communication"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Built an 8-level auto-classification and daily KPI pipeline for 170+ sponsored-ad campaigns with zero unmapped rows, after catching a wildcard bug that had faked earlier passes",
-    "context": "Reporting infrastructure for a global pet nutrition brand (Japan); I designed the AMC SQL taxonomy, the QA loop and the KPI joins.",
-    "img": "",
-    "metrics": [
-      "176 campaigns classified into brand x species with 0 unmapped; 68 in-month campaigns fully classified on funnel with no 'Other'",
-      "6 false 'Auto' classifications eliminated and a stage count corrected from 15 to 6 after replacing the separator",
-      "Residual unresolved cases reduced to 7, all traced to naming conflicts requiring owner confirmation rather than logic gaps"
-    ],
-    "tags": [
-      "AMC",
-      "SQL",
-      "Campaign taxonomy",
-      "Data QA",
-      "NTB",
-      "ROAS",
-      "Sponsored Ads"
-    ],
-    "detail": {
-      "overview": "Every sponsored-ad campaign (products, brands, display, TV) needed spend, impressions, clicks, CTR, units, CVR, sales, ROAS and NTB by day, broken down by brand line, species, funnel, ad type, strategy theme, sub-theme and campaign - with the rule that no campaign may fall into 'Other'.",
-      "problem": "Campaign names followed three different conventions (pipe-delimited, underscore-delimited, funnel-first). The legacy query used bare substring matching, so a name containing 'SDA' was read as the wellness line; SQL LIKE treats '_' as a single-character wildcard, so using it as a token separator silently matched 'cat' as the 'Auto' tactic; cost was truncated by integer division; and cost-only or conversion-only campaigns dropped out of the join.",
-      "actions": [
-        "Normalised campaign names into '#'-delimited tokens (pipes, spaces, underscores, brackets and plus signs) so LIKE matches are exact token boundaries",
-        "Ordered CASE rules per column by narrowest-first priority (e.g. therapeutic before wellness to protect 'SDA', Strategic before Competitor) and kept two funnel columns separate on purpose",
-        "Cast spend to DOUBLE before scaling, took impressions and clicks from the traffic table rather than the attribution table, and used FULL OUTER JOIN with COALESCE so every campaign appears",
-        "Wrote a companion QA query that flags any campaign landing in Other/UNMAPPED at any level and re-ran it after each rule change",
-        "Reconciled populations across columns (same 68 in-month campaigns on each) and hand-checked all 70 in-month campaigns for the sub-theme column",
-        "Escalated the 7 genuinely ambiguous names to the campaign owner in Japanese instead of guessing a rule"
-      ],
-      "impact": [
-        "Delivered a classification that reconciled to zero unmapped rows at brand, species and funnel levels on live data",
-        "Exposed that earlier 'passing' checks were invalid, preventing a silently wrong monthly report",
-        "Query became the base for a scheduled BigQuery refresh in the following workstream"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud SQL",
-        "String normalisation and rule design",
-        "Data QA loops",
-        "KPI modelling (CTR/CVR/ROAS/NTB)",
-        "Stakeholder clarification"
-      ]
-    }
-  },
-  {
-    "cat": "CRM",
-    "headline": "Rebuilt 10 AMC retargeting audiences with a 365-day no-purchase rule aligned to Amazon's NTB definition; 8 of 10 met the size floor",
-    "context": "AMC clean-room audience build for a global PC brand (Japan) via its agency; I owned the SQL design, timezone logic, NTB alignment and the Japanese client reporting.",
-    "img": "",
-    "metrics": [
-      "2 audience categories x 5 lookback windows (30/60/90/180/365 days) = 10 rule-based audiences",
-      "8 of 10 audiences generated; the two shortest cart-based windows failed the minimum-size threshold",
-      "Purchase-exclusion window fixed at 365 days (Amazon NTB definition) independent of the intent window",
-      "400+ ASIN catalogue mapped in a reusable CTE"
-    ],
-    "tags": [
-      "AMC",
-      "Audience building",
-      "Clean room",
-      "NTB",
-      "Anti-join",
-      "Timezone",
-      "Amazon DSP",
-      "Sponsored Ads",
-      "Japanese client comms"
-    ],
-    "detail": {
-      "overview": "Two AMC segments the brand's DSP relied on (add-to-cart non-purchasers across organic and ads; Sponsored Ads clickers who did not purchase) had stopped delivering for lack of volume. The agency asked whether a lapsed segment can be revived and, if not, to rebuild them at 30/60/90-day recency for a new-to-brand acquisition campaign.",
-      "problem": "AMC has no concept of reviving an audience, and 'non-purchaser' is only judged inside the API time window that pre-slices every table, so a 30-day audience silently allowed buyers from 31+ days ago back in. The brand's KPI was NTB, which Amazon defines as no brand purchase in the prior 12 months. Add-to-cart and purchase live in a UTC-only table while the advertiser reports in JST, and Sponsored Brands clicks carry no creative ASIN.",
-      "actions": [
-        "Answered the agency's revival question strictly from AMC documentation (refresh stops after 100 days unlinked, deactivation 30 days later) after separating documented mechanics from my assistant's interpretation",
-        "Standardised a reusable 400+ ASIN CTE and an anti-join pattern (LEFT JOIN ... IS NULL) over the full-signal conversions table for cart-adds and the Sponsored Ads traffic table for clicks",
-        "Split the design into an intent window (30 to 365 days, variable) and a purchase-exclusion window fixed at 365 days so every remaining user would count as NTB if converted, and dropped the ASIN constraint on exclusion to work at brand level",
-        "Applied a two-stage date filter: a sargable coarse prune on the UTC date column plus a precise JST boundary via CONVERT_TIME_ZONE_FROM_UTC, keeping the coarse edge one day outside the precise edge",
-        "Hand-checked every window boundary and corrected three off-by-one errors before submission; widened the API time window to 365 days plus buffer so the SQL exclusion was not truncated",
-        "Reported results in Japanese, explaining why the two shortest windows failed and proposing 180/365-day audiences as a delivery-rate vs intent trade-off"
-      ],
-      "impact": [
-        "8 of 10 audiences generated and handed to the agency with documented logic",
-        "Designed the exclusion so that the audience is NTB-eligible by construction rather than by post-hoc filtering",
-        "Left Sponsored Brands click coverage and post-launch performance explicitly open"
-      ],
-      "skills": [
-        "Amazon Marketing Cloud SQL",
-        "Audience engineering",
-        "KPI-to-logic translation (NTB)",
-        "Timezone normalisation",
-        "Query performance (sargable filters)",
-        "Bilingual client communication"
-      ]
-    }
-  },
-  {
-    "cat": "Performance",
-    "headline": "Showed that removing a DSP frequency cap halved CPM but raised cost per reach 9% and cut reach 26%, recommending the cap be reinstated",
-    "context": "Amazon DSP awareness campaign for a premium Scotch brand (Japan); I designed the pre/post test and wrote the AMC SQL.",
-    "img": "",
-    "metrics": [
-      "Average frequency roughly doubled (4.3 to 8.5) over the same 14-day window after uncapping",
-      "CPM fell 44% while cost per unique reach rose 9% and unique reach fell 26%"
-    ],
-    "tags": [
-      "AMC",
-      "DSP",
-      "SQL",
-      "Frequency cap",
-      "Pre/post",
-      "CPR",
-      "CPM"
-    ],
-    "detail": {
-      "overview": "The monthly 6x frequency cap on a DSP awareness line was removed to see whether the full funnel would improve. The cap had been lifted for all audiences at once, so no concurrent control group existed.",
-      "problem": "Without a hold-out, any comparison risks seasonal and accumulation bias; frequency naturally accumulates with window length, and AMC's aggregation thresholds return NULLs for thin buckets. Early queries also failed on a reserved-word alias and returned nothing due to a wrong year and a UTC timestamp column.",
-      "actions": [
-        "Framed the test as equal-length 14-day pre (capped) and post (uncapped) windows to neutralise frequency accumulation",
-        "Chose cost per unique reach as the decision metric for an awareness objective, since it self-normalises across different budgets",
-        "Grouped frequency into five buckets and exported raw counts for spreadsheet ratios to avoid threshold NULLs",
-        "Diagnosed empty results with a discovery query on actual campaign and line-item strings before editing filters, then fixed the year and advertiser-timezone column",
-        "Computed frequency, CPR and CPM per line item and period and derived the change rates"
-      ],
-      "impact": [
-        "Concluded that cheaper impressions were absorbed by repeat exposure rather than new reach, and recommended reinstating a cap",
-        "Left the cost currency unit and one line item's missing pre-period data explicitly flagged as unresolved rather than reporting them as settled"
-      ],
-      "skills": [
-        "Experiment design (pre/post)",
-        "Amazon Marketing Cloud SQL",
-        "Reach and frequency analysis",
-        "Excel derived metrics"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Proved top-20 paths cover 85% of reach, then built a composite-score view so low-budget premium video paths were not hidden",
-    "context": "For a global pet nutrition brand (Japan) I rebuilt the AMC path-to-conversion pipeline, fixed two silent metric bugs and produced a volume Sankey plus efficiency scorecard deck to assess premium video (Brand+/Fire TV/Prime Video) budget.",
-    "img": "",
-    "metrics": [
-      "Top 20 of 6,510 paths covered 85.3% of reach; top 12 covered 80%; single top path covered 50%",
-      "Top-ranked single-touch awareness path alone accounted for ~52% of top-20 reach and was invisible in the Sankey",
-      "Premium video formats were ~10% of budget [REVIEW: basis not in log]"
-    ],
-    "tags": [
-      "AMC",
-      "Path to Conversion",
-      "Sankey",
-      "Composite scoring",
-      "Pareto",
-      "SQL debugging",
-      "NTB"
-    ],
-    "detail": {
-      "overview": "Rebuilt an Amazon Marketing Cloud path-to-conversion query for one brand instance (campaign-name priority grouping, unclassified campaigns excluded), loaded results to BigQuery and built in Colab a Plotly volume Sankey (top 20), a Pareto check, a composite efficiency scorecard (CPA, NTB CPA, CPR, ROAS, NTB ROAS; min-max normalised, weighted 1.0/1.5/1.0/1.0/1.5) with minimum-sample filters, and first-touch channel pivots for a three-slide client story.",
-      "problem": "Two silent bugs: 'users that purchased' equalled reach because the conversion CTE counted detail-page views and hard-coded a flag; and aliases named like source columns made the AMC parser read the raw column, producing purchases=0 with sales>0. Analytically, the playbook's volume-ranked top-20 Sankey hides low-budget premium video paths (volume trap), and single-touch paths cannot be drawn in a Sankey at all.",
-      "actions": [
-        "Diagnosed the reach-equals-purchasers anomaly and split purchased_flag (purchases>0 or NTB purchases>0) from engaged_flag (DPV/clicks), adding users_engaged and a QA rule users_that_purchased <= reach",
-        "Traced impossible metric combinations to alias/source-column collisions and established a prefix naming convention (raw_/u_/conv_/imp_/sum_) plus MAX-based user de-duplication",
-        "Ran a Pareto analysis on all paths to justify the top-20 cut before presenting it",
-        "Kept the volume Sankey as the standard view and moved efficiency ranking to a separate composite-score table, with the client-specified weights and minimum reach/purchaser filters",
-        "Separated single-touch paths into a bar chart and clarified whether node percentages were within-step or overall",
-        "Rejected a Markov-chain attribution step because the AMC path is ordered by first exposure, not a true event sequence"
-      ],
-      "impact": [
-        "Delivered a validated three-slide structure (volume Sankey / efficiency scorecard / first-touch channel KPIs) for the premium video budget discussion",
-        "Designed the composite scorecard and QA rules; final score values and the corrected Fire TV query re-run were not yet verified in the log"
-      ],
-      "skills": [
-        "AMC SQL",
-        "BigQuery",
-        "Python (pandas, Plotly)",
-        "Data QA",
-        "Attribution logic",
-        "Executive storytelling"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Reconciled an AMC channel dashboard to the ad console: cost within ~0-5% per channel, a -10.5% sales gap accepted after proving channel rankings unchanged",
-    "context": "For a global pet nutrition brand (Japan) I built and debugged a 19-version AMC SQL that unifies DSP and sponsored ads into console-equivalent channel KPIs, and defined when AMC numbers can be trusted.",
-    "img": "",
-    "metrics": [
-      "Channel classification matched the console's 8 sub-funnels 1:1 after moving video detection to campaign-name keywords",
-      "Total product sales gap -10.5% (NTB sales -2.8%); ROAS ranking identical between console and AMC for all channels except one streaming format",
-      "A misclassification had hidden 100% of video sales inside awareness (+8.4% inflation) before the fix"
-    ],
-    "tags": [
-      "AMC",
       "Data reconciliation",
       "SQL",
-      "KPI governance",
-      "DSP",
-      "Sponsored Ads",
-      "NTB"
+      "Dashboards",
+      "Debugging"
     ],
     "detail": {
-      "overview": "Combined dsp_impressions and sponsored_ads_traffic (cost/traffic) with attributed events by traffic time (conversions) in two CTEs joined on channel, classified campaigns with a priority CASE (video, Brand+, Prime Video, Fire TV, bonus/awareness, consideration, loyalty, purchase; search ads separate), and compared every channel's cost, sales, NTB sales and purchases with console pivots.",
-      "problem": "Early versions used non-existent columns, a creative_type filter that never matched (all video sales fell into awareness), and a conversion-time table that dropped most sales. Even after fixes, a systematic -10.5% sales gap remained with no confirmed cause, raising the question of whether AMC efficiency KPIs could be used at all.",
+      "overview": "I built a query that pulls all ad spending and sales into the same categories the client's dashboard uses. Then I compared every number side by side to catch mismatches.",
+      "problem": "Video ad results were silently mislabeled as a different category, and even after fixing that, sales still didn't fully match.",
       "actions": [
-        "Set AMC UI date range wide and filtered the exact analysis period in SQL, after realising the UI range and the WHERE clause act independently",
-        "Rejected the attribution-window hypothesis with data: AMC was below console for every channel except one, which a longer console window cannot explain",
-        "Dropped creative_type entirely and put a campaign-name 'video' rule at the top of the CASE so video and awareness can never double count",
-        "Corrected NTB column naming (new_to_brand_total_*) and video metric names against the schema reference",
-        "Compared ROAS and CPA rankings side by side and confirmed order was unchanged despite absolute gaps",
-        "Adopted a governance rule: absolute values from the console, relative channel efficiency from AMC"
+        "Combined spending and sales data into one matching table",
+        "Traced why video sales showed as zero, found mislabeling",
+        "Compared rankings before and after to confirm decisions stayed sound"
       ],
       "impact": [
-        "Final query adopted as the channel performance dashboard with channel mapping validated against the console",
-        "Established a documented trust rule for AMC vs console KPIs; root cause of the residual sales gap left open"
+        "Query adopted as the team's standard dashboard, category counts now match perfectly",
+        "Remaining sales gap accepted since rankings didn't change"
       ],
       "skills": [
-        "AMC SQL",
+        "SQL",
         "Data reconciliation",
-        "Schema literacy",
-        "Attribution windows",
-        "KPI governance",
-        "Stakeholder communication"
+        "Debugging",
+        "Dashboard design"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Measured true incremental reach of Fire TV at 38.5% after removing search-ad retargeting noise, and validated funnel retargeting flows of 75% / 52% / 63.5%",
-    "context": "For a global pet nutrition brand (Japan) I designed AMC overlap queries by brand line, pet type and funnel stage, built pairwise Venn visuals and a slide/script set to test Amazon's 'unique reach' claim for streaming video.",
+    "headline": "Proved a streaming ad's 'exclusive reach' claim was inflated",
+    "context": "For a pet food brand in Japan, I tested whether one ad format truly reached new people.",
     "img": "",
     "metrics": [
-      "Fire TV pure incremental reach 38.5% of its audience vs DSP awareness (61.5% overlapped); vs all other awareness channels: Prime Video 48%, Fire TV 42%, Brand+ 25%",
-      "Retargeting flow validated: 75% of consideration reach came from awareness, 52% of purchase from consideration, 63.5% of loyalty from purchase",
-      "Brand-line overlap ~18% of total reach; therapeutic line exclusive reach 8.7% vs 23% budget share; pet-type overlap ~50%"
+      "Exclusive reach was 38%, not 62%",
+      "3 of 4 people moved onward",
+      "About half of two groups overlapped"
     ],
     "tags": [
-      "AMC",
       "Overlap analysis",
-      "Incremental reach",
-      "Venn",
-      "DSP",
-      "Retargeting",
-      "Python"
+      "Ad reach",
+      "Data visualization",
+      "Client reporting"
     ],
     "detail": {
-      "overview": "Replaced Amazon's parameter-driven overlap template with rule-based campaign grouping (keyword cascade in SQL) so new campaigns classify automatically, then ran three overlap analyses (brand line, pet type, funnel stage incl. streaming formats) with mutually exclusive exposure groups and distinct-user reach. Visualised in Colab with matplotlib-venn and python-pptx and wrote the client script in English and Japanese.",
-      "problem": "An initial read suggested Fire TV was 62% incremental, which was actually its overlap share. Including search ads polluted the picture because purchase/loyalty campaigns auto-retarget anyone who viewed a product page, so any channel appeared to 'share' users. Slides also mixed two percentages with different denominators (union vs per-circle).",
+      "overview": "A streaming-ad format claimed to reach people no other ad touched. I re-ran the numbers without a channel that was quietly inflating the overlap, and checked whether each funnel step really fed the next.",
+      "problem": "An early estimate said a video ad format was mostly unique reach, but that number actually measured overlap, not exclusivity.",
       "actions": [
-        "Rebuilt campaign grouping as a keyword cascade (streaming first, then purchase/loyalty/consideration, awareness as remainder) and removed hard-coded dates in favour of the console reporting window",
-        "Restricted the analysis to DSP only after reasoning that search ads are retargeting by construction",
-        "Defined pure incremental rate = channel-only users / channel total and retargeting rate = overlap / source-stage total",
-        "Chose four pairwise Venns over a five-set Venn for readability and split overlap share and retargeting flow into two captioned tables",
-        "Verified AI estimates against my own Python output and corrected the 62% -> 38.5% misread",
-        "Translated my English script to Japanese with a strict 'nothing beyond the source' rule for the client presentation"
+        "Removed a channel that was distorting the overlap numbers",
+        "Recalculated true exclusive reach versus shared reach for each format",
+        "Checked how much each funnel step fed into the next"
       ],
       "impact": [
-        "Client deck concluded streaming formats deliver a low-overlap incremental audience and should be kept at minimum budget while data matures",
-        "Retargeting funnel setup validated as working; brand-line finding suggested room to grow therapeutic-line exclusive reach"
+        "Corrected the reach claim and confirmed the retargeting funnel works as intended"
       ],
       "skills": [
-        "AMC SQL",
-        "Set logic / overlap analysis",
-        "Python (matplotlib-venn, python-pptx)",
-        "Media planning",
-        "Bilingual client communication (EN/JA)"
+        "Overlap analysis",
+        "SQL",
+        "Data visualization",
+        "Client communication"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Rebuilt a time-to-conversion and dayparting query on exposure time so off-peak hours are credited for the sales they generate",
-    "context": "After Amazon questioned whether a pet nutrition brand's hourly report was based on ad time or purchase time, I re-based the AMC query on traffic time, added hourly buckets, impression hour, day-part and spend.",
+    "headline": "Fixed a report that shortchanged nighttime ad sales",
+    "context": "For a pet nutrition brand in Japan, I rebuilt an ad report so night-time sales counted correctly.",
     "img": "",
     "metrics": [],
     "tags": [
-      "AMC",
-      "Dayparting",
-      "Time to conversion",
+      "SQL",
       "Attribution timing",
-      "DSP",
-      "SQL"
+      "Data debugging",
+      "Advertising"
     ],
     "detail": {
-      "overview": "Converted a conversion-time template to amazon_attributed_events_by_traffic_time, locked the traffic window to one month with a two-month console window so late conversions are captured, restricted to DSP with brand-halo purchases, added campaign-group CTEs with sargable filters, 25 hourly buckets from impression/click to purchase, impression hour and five day-parts, and joined hourly DSP spend for hourly ROAS.",
-      "problem": "Hourly ROAS keyed on purchase time under-credits off-peak exposure hours. The first runs returned no rows for three overlapping reasons: a wrong year filter, a purchase column that excludes brand-halo sales (most DSP conversions), and confusion over the DSP-only filter. Average time-to-conversion then came back NULL in many buckets because of AMC's 100-user aggregation threshold on timestamp-based fields.",
+      "overview": "A report judged ad success by purchase time, making quiet night hours look worse than they were. I rebased it on exposure time instead, after tracing three reasons it first returned no data.",
+      "problem": "Measuring success by purchase time under-credited quiet hours, and the new query first returned nothing for three separate reasons.",
       "actions": [
-        "Isolated each no-result cause with diagnostic queries (campaign presence, monthly distribution, ad product type) before changing the main query",
-        "Switched the purchase filter to total purchases to include brand-halo conversions and kept DSP-only after confirming the campaign code meant the product line, not sponsored display",
-        "Documented the four table-by-time-basis combinations and locked traffic vs conversion windows explicitly",
-        "Diagnosed NULL averages as a distinct-user threshold effect (purchases are not users) and removed the average columns rather than report unreliable values",
-        "Integrated Amazon's dayparting instructional query: impression hour, day-part and hourly spend"
+        "Tracked down three separate causes of the empty report",
+        "Fixed a purchase filter that missed most real sales",
+        "Removed an average number that a privacy rule was hiding"
       ],
       "impact": [
-        "Hourly time-to-conversion query validated against console output; spend-joined hourly ROAS version built but not yet run"
+        "Validated the hourly report against the ad platform's own numbers",
+        "Designed a spend-linked version that has not been run yet"
       ],
       "skills": [
-        "AMC SQL",
+        "SQL",
         "Attribution timing",
-        "Query diagnostics",
-        "Privacy thresholds",
-        "Dayparting analysis"
+        "Data debugging",
+        "Advertising analytics"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Built a reusable AMC reporting pipeline that classifies 100+ Amazon ad campaigns into brand × species × funnel tiers and joins cost to NTB KPIs",
-    "context": "Monthly Amazon Ads report for a global pet nutrition brand (Japan); I owned the AMC SQL, funnel taxonomy and Excel post-processing.",
+    "headline": "Cut unsorted ad campaigns from 13 down to zero",
+    "context": "For a pet food brand in Japan, I built the monthly ad-report data pipeline and campaign-sorting rules.",
     "img": "",
     "metrics": [
-      "Unclassified campaigns driven from 13 to 0 through three diagnostic iterations",
-      "DSP vs Sponsored Ads spend split reported as a 67/33 share view per management request"
+      "Unsorted campaigns: 13 down to 0",
+      "Ad spend split shown as 67/33"
     ],
     "tags": [
-      "AMC",
+      "Amazon ads",
       "SQL",
-      "DSP",
-      "Sponsored Ads",
-      "NTB",
-      "Funnel taxonomy",
-      "Excel"
+      "Excel",
+      "Campaign sorting"
     ],
     "detail": {
-      "overview": "The February monthly report needed cost, NTB revenue/purchases, NTB ratio and AOV for every combination of brand line (wellness / therapeutic), species (dog / cat) and funnel stage, for both DSP and Sponsored Ads, straight out of Amazon Marketing Cloud.",
-      "problem": "Campaign names were not standardized (mixed separators and ad-hoc tokens), cost and conversion data live in different AMC tables at different grains, and DSP and Sponsored Ads events share one attribution table distinguished only by a nullable product-type column.",
+      "overview": "A monthly ad report needed cost and sales split by brand, pet type, and funnel stage. I wrote sorting rules in Amazon's ad data room (AMC) and checked results until none were left unsorted.",
+      "problem": "Campaign names weren't standardized, so a simple rule missed many campaigns, and cost and sales data lived in separate systems.",
       "actions": [
-        "Designed a template with injectable VALUES CTEs (campaign IDs, campaign names, target ASINs) that splits DSP and Sponsored Ads via the ad_product_type rule and unions the two KPI sets",
-        "Wrote CASE-based string classification (brand line -> species -> sub-funnel -> ACPL roll-up) and a companion diagnostic query that lists every campaign falling into OTHER with the reason",
-        "Iterated the rules against real AMC output three times until no campaign was unclassified, adding exceptions for sale, brand-video and ASIN-targeting campaigns",
-        "Aggregated cost (dsp_impressions / sponsored_ads_traffic, CPC and vCPM split) and conversions (attributed events) separately with the same classification, then LEFT JOINed on the group keys",
-        "Added a campaign-name drill-down level and separated species and sub-funnel into orthogonal columns so downstream Sheets/Python could build segment keys",
-        "Handled what AMC could not in Excel: YoY growth, DSP/AMS share columns, exclusion of bonus and zero-cost rows"
+        "Wrote rules to sort campaigns by brand, pet type, and stage.",
+        "Tested results repeatedly and fixed rules until nothing was unsorted.",
+        "Matched cost data to sales data using the same grouping rules."
       ],
       "impact": [
-        "Delivered the February report with a fully classified campaign set and a reusable query bank for subsequent months",
-        "Standardized KPI definitions (AOV = revenue / orders vs ASP = revenue / units) across the report",
-        "Flagged an AMC-vs-console click/cost discrepancy for follow-up rather than reporting unreconciled numbers"
+        "Delivered a fully sorted campaign report with cost and sales combined.",
+        "Standardized how key report numbers were defined across the report."
       ],
       "skills": [
-        "Amazon Marketing Cloud SQL",
-        "Attribution data modeling",
-        "String-rule taxonomy design",
-        "Data QA loops",
+        "Data querying",
+        "Rule-based classification",
+        "Data QA",
         "Excel reporting"
       ]
     }
   },
   {
     "cat": "Research",
-    "headline": "Built a 2.7k-ASIN competitor list for Amazon Japan conquesting by designing scrape keywords, an auto-classification sheet and a 40-ASIN targeting shortlist",
-    "context": "Competitor conquesting groundwork for a global pet nutrition brand (Japan); I owned keyword design, the classification rules and the final list handed to the client.",
+    "headline": "Built a 2,700-product competitor list and picked targets",
+    "context": "For a pet food brand in Japan, I built and classified a competitor product list for ad targeting.",
     "img": "",
     "metrics": [
-      "89 scrape keywords across 3 product groups designed to avoid therapeutic / wellness overlap",
-      "Vendor list (~4k ASINs) plus agency scrape consolidated to ~2.7k in-stock, de-duplicated ASINs",
-      "40 targeting ASINs selected as 10 per category with a 3 top / 3 mid / 4 niche mix"
+      "89 search terms across 3 groups",
+      "Merged lists into 2,700 clean products",
+      "Picked 40 products for ad targeting"
     ],
     "tags": [
-      "Competitor analysis",
+      "Competitor research",
       "Web scraping",
       "Google Sheets",
-      "Regex",
-      "Product taxonomy",
-      "Sponsored Products"
+      "Product classification"
     ],
     "detail": {
-      "overview": "The client supplied a list of competitor products mapped to its own four-way taxonomy (therapeutic / wellness × dog / cat) and expected the agency to build a comparable competitor ASIN universe on Amazon Japan, then pick ASINs for Sponsored Products targeting.",
-      "problem": "Amazon search surfaces the same top sellers repeatedly, so scrape depth alone does not add new ASINs; product titles are unstructured Japanese text with brand-only tokens that span both species; and the client's 'therapeutic' label did not match the literal therapeutic-diet keyword.",
+      "overview": "I gathered thousands of competitor products from Amazon Japan and sorted them into the client's product categories automatically. Then I picked 40 products, mixing popular and niche ones, for ad targeting.",
+      "problem": "Automatically sorting messy product names into the right category was hard, especially when the client's own labels did not match my rules.",
       "actions": [
-        "Designed Japanese scrape keywords per group (therapeutic must contain a therapeutic-diet token; wellness gets dog/cat suffixes) and excluded the client's own brand terms entirely",
-        "Chose a wide-then-deep scrape plan: many keywords at 200–300 results, de-duplicate, then 500+ only for keywords with high unique yield",
-        "Built a Google Sheets classifier with a separate keyword tab (partial-match columns, exact-title override columns, TEXTJOIN-generated regex) so rules are maintained by editing rows, not formulas",
-        "Iterated the classifier against the client's labeled list, fixing species misclassification with line-code rules (e.g. dog vs cat product codes) and moving ambiguous brands to exact overrides",
-        "Normalized scraped brand strings, mapped them to the client taxonomy, flagged unmapped brands as candidates for approval, and merged vendor and agency lists after stock and duplicate checks",
-        "Selected 40 targeting ASINs (10 per category) balancing top, mid and niche sellers to avoid bidding only on the most contested products"
+        "Designed search terms to find competitor products, not our own",
+        "Built a sorting system that classified products by product name",
+        "Merged two product lists and picked 40 for targeting"
       ],
       "impact": [
-        "Delivered the consolidated competitor ASIN list and the targeting shortlist to the client",
-        "Identified that therapeutic-line competitor ASINs were under-represented and redirected scraping to three therapeutic brands by species and condition",
-        "Surfaced a taxonomy-definition gap (client 'therapeutic' ≠ literal therapeutic diet) for client confirmation before further classification"
+        "Delivered a clean competitor list and a ready targeting shortlist",
+        "Found the client's category definitions did not match ours"
       ],
       "skills": [
-        "Keyword strategy for scraping",
-        "Regex / LET / IFS in Google Sheets",
-        "Data cleaning and de-duplication",
-        "Taxonomy design",
-        "Client communication (Japanese)"
+        "Web scraping",
+        "Text classification (regex)",
+        "Data cleaning",
+        "Client communication"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Reframed a client's 'budget vs NTB correlation' ask into a 3-layer allocation / contribution / relationship view across 5 segment dimensions",
-    "context": "Quarterly NTB growth review (Dec–Feb) for a global pet nutrition brand (Japan); I designed the analysis frame, the Sheets summary tables and the Python/Looker prototypes.",
+    "headline": "Showed which product line turns budget into sales best",
+    "context": "For a pet food brand in Japan, I analyzed whether ad budget changes tracked with new-customer sales results.",
     "img": "",
     "metrics": [
-      "Wellness-line cost share fell 79% -> 67% (Dec -> Feb) while its NTB-revenue share held at 46-48%",
-      "Search-ads cost share moved 37% -> 57% (Jan -> Feb) with NTB-revenue share 40% -> 67%",
-      "Therapeutic line: ~1/3 of spend but over half of NTB revenue in Feb"
+      "Wellness spend share: 79% to 67%",
+      "Search-ads spend share: 37% to 57%",
+      "Therapeutic line: 1/3 spend, half sales"
     ],
     "tags": [
-      "NTB",
-      "Budget allocation",
+      "Budget analysis",
       "Google Sheets",
       "Python",
-      "pandas",
-      "Looker Studio",
       "Data visualization"
     ],
     "detail": {
-      "overview": "The client asked what the current budget allocation by funnel was, how NTB contribution compared, and whether investment changes correlated with NTB. I turned this into a three-layer frame — cost share (allocation), NTB revenue/units share (contribution), and month-over-month direction/gap (relationship) — at brand × species × media × funnel × sub-funnel granularity.",
-      "problem": "Raw data mixed subtotal rows with leaf rows, metric scales differed by 10^4, DSP and search-ads funnels used different naming, one month had duplicate rows, and only three monthly data points existed — far too few to claim a statistical correlation.",
+      "overview": "A client asked if ad budget changes matched new-to-brand (first-time buyer) sales changes, by product line and channel. I reframed it as three questions: where money goes, where sales come from, and how they connect.",
+      "problem": "Only three months of data existed, budget mattered across five different levels, and the two ad channels used different naming.",
       "actions": [
-        "Rebuilt a leaf-row-only monthly summary in Sheets (SUMIFS on group keys) and recomputed AOV as sum(revenue)/sum(orders) instead of averaging row-level AOVs",
-        "Designed a combo chart: stacked bars for absolute NTB revenue by brand line plus index lines (first month = 100) for cost, revenue and AOV on a secondary axis",
-        "Wrote Colab/pandas code that builds a 5-dimension segment key and outputs cost share, NTB revenue share, share gap (NTB share minus cost share) and NTB ROAS heatmaps per month",
-        "Prototyped the same view in Looker Studio with CASE-based monthly calculated fields for Dec/Jan/Feb and MoM % columns after discovering DATE_TRUNC is unsupported",
-        "Standardized the summary table's change indicators as percentage-point differences with arrow formatting and conditional-format rules driven by source cells",
-        "Rewrote the narrative from 'cost fell so NTB fell' to 'NTB revenue declined less than cost, so efficiency improved', supported by NTB ROAS and cost per NTB purchase"
+        "Rebuilt clean monthly totals by removing duplicate subtotal rows.",
+        "Compared each segment's spend share against its sales share.",
+        "Rewrote conclusions to avoid overstating cause from only 3 months."
       ],
       "impact": [
-        "Delivered a full-month February view at every level the client asked for, with share, share-gap and MoM columns",
-        "Designed the segment-level diagnostic (share gap heatmap) that answers 'which pocket converts budget into NTB best' — execution output not recorded [REVIEW]",
-        "Limited correlation claims to directional statements with an explicit note that three months cannot support a strong-correlation conclusion"
+        "Delivered a clear view of which segments turn budget into sales best.",
+        "Kept conclusions honest by not claiming strong correlation from 3 data points."
       ],
       "skills": [
-        "Analytical framing",
-        "Google Sheets (SUMIFS, index charts, conditional formatting)",
-        "pandas / seaborn",
-        "Looker Studio",
-        "Executive storytelling"
+        "Data analysis framing",
+        "Google Sheets",
+        "Python (pandas)",
+        "Executive communication"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Answered 'how long after ad exposure do users convert?' with an AMC time-to-conversion model that respects the 14-day attribution window and censoring",
-    "context": "Ad-exposure-to-purchase timing analysis for a premium coffee brand (Japan, machine vs consumable lines, search + DSP); I adapted Amazon's template, redesigned the buckets and defined the cohort cut-offs.",
+    "headline": "Fixed a data illusion that hid true buying speed",
+    "context": "For a premium coffee brand in Japan, I measured how fast people buy after seeing an ad.",
     "img": "",
     "metrics": [
-      "Bucket design consolidated from 37 to 11 tiers covering the full 14-day attribution window",
-      "Campaign filter of 17 IDs restored after finding OR-joined WHERE conditions returned 30+ campaigns"
+      "Groups simplified: 37 down to 11",
+      "Campaign count fixed: 30+ to 17"
     ],
     "tags": [
-      "AMC",
+      "Amazon ads",
       "SQL",
-      "Time-to-conversion",
-      "Attribution window",
-      "Cohort analysis",
-      "DSP",
-      "Sponsored Ads"
+      "Data debugging",
+      "Time analysis"
     ],
     "detail": {
-      "overview": "The client asked how long it takes users to convert after seeing an ad. Starting from Amazon's time-to-conversion template, I built a bucketed lag distribution (seconds between impression and conversion) for machine and consumable campaigns across search and DSP.",
-      "problem": "The template's CASE only bucketed impressions (everything else fell to 'Other'), its WHERE joined product-type and campaign filters with OR, and pooled three months so the largest bucket was '30+ days' — conversions that are not ad-attributed at all under the 14-day window. Recent exposures also lacked a full 14-day follow-up, distorting late buckets.",
+      "overview": "A client asked how long after seeing an ad people take to buy. My first pass looked wrong because it ignored the 14-day tracking window and counted recent, still-unfinished cases.",
+      "problem": "Sales counted past the 14-day tracking window aren't valid, and very recent ad views hadn't had time to finish tracking yet.",
       "actions": [
-        "Fixed the custom-parameter YAML (comment syntax, indentation) and changed the WHERE logic from OR to AND so only the 17 target campaigns were included",
-        "Redesigned buckets iteratively — minute/hour tiers kept because most conversions land within minutes, day tiers compressed to 1–3 / 3–7 / 7–10 / 10–14 days — with two-digit prefixes for stable pivot sorting",
-        "Excluded lags beyond 14 days in WHERE (not as a CASE label) because they are not ad-attributed sales",
-        "Applied a fully-observed cohort rule: impressions up to 14 days before the data end date, conversions up to the end date, keeping the console range open to avoid truncating late conversions",
-        "Separated direct purchases from brand-halo total purchases and added new-to-brand conversions as a second measure",
-        "Split machine vs consumable campaigns in Sheets via campaign-name rules and planned separate bar charts with a summary view plus a detailed appendix"
+        "Cut out sales that fell outside the 14-day window.",
+        "Excluded recent ad views whose tracking wasn't finished yet.",
+        "Simplified time groups from 37 down to 11 categories."
       ],
       "impact": [
-        "Delivered a defensible lag distribution methodology; final chart output and machine-vs-consumable figures pending [REVIEW]",
-        "Documented why '30+ days' dominated the naive version so the client would not read censored or unattributed lags as real behavior"
+        "Delivered a trustworthy buying-speed model; final chart is not yet finished."
       ],
       "skills": [
-        "Amazon Marketing Cloud SQL",
-        "Attribution-window reasoning",
-        "Right-censoring handling",
-        "Bucket / histogram design",
-        "Client-facing data storytelling"
+        "Data querying",
+        "Time-based analysis",
+        "Data debugging",
+        "Client reporting"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Extended AMC path-to-purchase to creative type; found Video reached users at ~half the cost but ~5x lower CVR, so budget stayed Static-led",
-    "context": "A global pet nutrition brand (Japan) asked whether to add budget to Video creatives; I extended the AMC path query to campaign group x creative type, settled the cost basis for cost-per-reach, and delivered Japanese slides and a presentation script.",
+    "headline": "Video ads were cheaper to show, but converted less",
+    "context": "For a pet food brand in Japan, I compared video and static ads to guide budget.",
     "img": "",
     "metrics": [
-      "Video cost per reach ~0.5x Static on the same awareness line item (wellness line, first-touch cohort)",
-      "Video total CVR ~1/5 of Static (0.02% vs 0.10%) and NTB CVR ~1/6 (0.01% vs 0.06%)",
-      "Video NTB acquisition cost ~2.6x Static; share of new-to-brand among converters similar (58% vs 61%)",
-      "2025 creative mix: Static 36% / Video 11% / REC 48% / Fire TV 5%"
+      "Video reach cost: half of Static",
+      "Video's conversion rate: 1/5 of Static",
+      "New-customer cost: 2.6x higher for Video"
     ],
     "tags": [
-      "AMC",
+      "Amazon ads",
       "SQL",
-      "Path to Purchase",
-      "Creative analysis",
-      "First-touch attribution",
-      "Japanese client reporting"
+      "Video vs static",
+      "Japanese reporting"
     ],
     "detail": {
-      "overview": "Answered 'should Video get more budget?' from a path-to-purchase angle: modified Amazon's validated path-to-conversion query so DSP touchpoints carry a creative type (Static/Video/REC), pivoted paths by first-touch creative, defined cost-per-reach and CPA on a consistent cost basis, and wrote SD/PD insights, V1/V2 budget plans and a Japanese presentation script.",
-      "problem": "The standard query grouped paths by campaign only, and the same creative ran across many campaigns. Once creative-level paths existed, cost metrics became ambiguous: path cost is any-touch exposure cost, a pure first-touch cost query gave very different numbers, and a metric labelled 'CPA' was actually cost per first-touch unique user. Conclusions also flipped when the therapeutic-line data was corrected.",
+      "overview": "I traced each customer's ad journey (path to purchase) to see whether video or static ads worked better. I split the data by ad type instead of just campaign, then compared costs and results.",
+      "problem": "The usual report only showed ad campaigns, not video vs static, so nobody could tell which creative type actually worked.",
       "actions": [
-        "Confirmed the AMC schema (creative name lives in the 'creative' column; no separate creative table) after a workflow validation error, and replaced the proposed mapping-table join with a CASE on LOWER(creative)",
-        "Kept the validated campaign-group mapping CTEs untouched and changed only the DSP output column to CONCAT(campaign_group, '_', creative_type); left Sponsored Ads ungrouped by creative",
-        "Wrote a separate first-touch cost-per-reach query (ROW_NUMBER per user) and fixed a LIKE pattern bug that hid the creative split",
-        "Settled the cost basis: report 'Path CPR (first-touch cohort)' = any-touch path cost / first-touch unique users, because billed cost accrues on every touch",
-        "Relabelled CPU vs purchase CPA, restricted awareness-funnel judgement to first-touch KPIs (NTB share, CVR, CPR, CPA, frequency) and kept last-touch only as a guardrail for the purchase funnel",
-        "Produced SD/PD key sentences, V1/V2 allocation options and a natural-language Japanese script, then answered the client's 'is this really path-based?' challenge"
+        "Rebuilt the ad-tracking query to label each ad as video or static",
+        "Fixed a cost formula so it reflected real billed spending",
+        "Wrote plain-language slides and a script explaining the tradeoffs"
       ],
       "impact": [
-        "Recommended keeping wellness-line Video at its current share with sale-period-only expansion and prioritising Video assets for Fire TV/Prime Video; recommended pausing therapeutic-line awareness/purchase Video in favour of REC/Static (V1) with an LTV check track (V2)",
-        "Established a reusable rule set for creative-level path analysis: schema-first, minimal-change query edits, and numerator/denominator attribution consistency in every KPI label"
+        "Recommended keeping video ads steady, boosting them only during sales periods",
+        "Set a reusable rule for measuring any ad type by customer journey"
       ],
       "skills": [
-        "AMC SQL (CTE, window functions)",
-        "Attribution analysis",
-        "KPI definition",
-        "Excel pivot analysis",
-        "Japanese presentation writing",
-        "Client Q&A"
+        "Data querying (SQL)",
+        "Ad performance analysis",
+        "Budget recommendations",
+        "Japanese reporting"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Scored Amazon funnels on first-touch reach KPIs to propose three 2026 budget scenarios summing to 100%",
-    "context": "For a global pet nutrition brand (Japan) I turned Amazon's reach/frequency feedback into a funnel scoring model, three budget-mix scenarios and a path-scoring spec for the data team.",
+    "headline": "Ranked ad channels to build three budget plans",
+    "context": "For a pet food brand in Japan, I scored ad channels to propose three 2026 budget plans.",
     "img": "",
     "metrics": [
-      "Top-scored awareness funnel proposed 25% -> 30% of budget; Fire TV 4% -> 8% (NTB scenario)",
-      "Sales-efficiency scenario: search ads 38% -> 35%, loyalty 6% -> 3%, Fire TV 2% -> 0%, reallocated to consideration/purchase funnels (+8pp)",
-      "Highest first-touch NTB contribution funnel: 33% of all NTB purchasers; strongest NTB orientation: 61% of its converters were new-to-brand"
+      "Awareness budget: 25% up to 30%",
+      "Search ads: 38% down to 35%",
+      "Top channel: 33% of new customers"
     ],
     "tags": [
-      "AMC",
-      "Attribution",
-      "Budget allocation",
-      "Reach & Frequency",
-      "NTB",
+      "Amazon ads",
+      "Budget planning",
+      "Google Sheets",
       "KPI design"
     ],
     "detail": {
-      "overview": "Extended a path-to-purchase analysis with the reach/frequency lens Amazon requested: first-touch pivots per funnel (cost per reach, monthly-equivalent frequency, NTB CVR, NTB CPA, NTB share, NTB contribution), a 4-point increment-priority score, three budget scenarios (sales volume / NTB volume / balanced) and a data-team spec defining three path scorecards (A: NTB-oriented, B: sales-volume driver, C: first-touch scalability + last-touch closing).",
-      "problem": "Six months of accumulated data made frequency incomparable with monthly saturation intuition; volume metrics were mostly a function of budget size; and mixing first-touch and last-touch attribution in one score produced contradictions (a 'closer' cannot be a first-touch metric). Management wanted sales-volume efficiency while the client insisted on protecting the awareness funnel.",
+      "overview": "The client wanted to know which ad channels to grow and which to protect for the next year's budget. I scored each channel on cost and new-customer results, then built three budget plans.",
+      "problem": "Six months of data made comparing channels unfair, since view counts and spend naturally differ by channel size.",
       "actions": [
-        "Built first-touch and last-touch funnel pivots in Google Sheets and normalised frequency to a monthly equivalent (x 30/180) applied once at the aggregate level",
-        "Defined a 4-point increment-priority score (NTB orientation 2pt, CPA below median 1pt, CPR below median 1pt) with frequency as a saturation gate rather than a score",
-        "Excluded volume share from the score because it mostly reflects budget size, keeping it as a tie-breaker",
-        "Separated roles: first touch = where to grow (CPR/frequency), last touch = where to protect (volume/CPA/ROAS), after finding last-touch was not dominated by search ads",
-        "Drafted three 100%-sum scenarios with client constraints applied (keep awareness, cut loyalty and Fire TV, trim search ads) and wrote concise English slide copy",
-        "Wrote a data-team spec (definition, formula, why, attribution note) for path scorecards A/B/C with explicit cost-attribution rules and brand-separation requirements"
+        "Adjusted for time so channels could be fairly compared",
+        "Built a simple scoring system based on cost and reach",
+        "Drafted three budget plans balancing sales and new customers"
       ],
       "impact": [
-        "Delivered three budget scenarios aligned to 2026 objectives with a transparent scoring rationale for management and client review",
-        "Designed the path-scoring spec and attribution rules for data-team implementation (implementation and incremental-effect validation pending)"
+        "Delivered three ready-to-review budget plans with clear scoring logic",
+        "Designed shared rules other channel-scoring projects later reused"
       ],
       "skills": [
-        "Attribution modelling",
-        "Budget optimisation",
+        "Ad performance scoring",
+        "Budget planning",
+        "Spreadsheet modeling",
+        "Stakeholder communication"
+      ]
+    }
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Grouped 174 products to guide next year's budget",
+    "context": "For a pet food brand in Japan, I grouped products to show where ad budget should go.",
+    "img": "",
+    "metrics": [
+      "Top 20 items = 37% impact",
+      "Rules adjusted per product line",
+      "4 scores calculated from 1 dataset"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Data segmentation",
+      "Charts",
+      "Client presentation"
+    ],
+    "detail": {
+      "overview": "A brand had 174 products and needed to know which ones actually bring in new customers. I grouped them into three simple types and built a one-page chart to guide 2026 ad spending.",
+      "problem": "Ranking products by new-customer rate alone put tiny, barely-selling items at the top, which was misleading.",
+      "actions": [
+        "Filtered out tiny products before ranking by new-customer rate.",
+        "Sorted the rest into three plain, easy-to-understand groups.",
+        "Built one chart and rewrote rules for a second product line."
+      ],
+      "impact": [
+        "Gave the client a clear one-page plan for 2026 ad budget.",
+        "Repeated the grouping for a second product line with new rules."
+      ],
+      "skills": [
+        "Data segmentation",
         "KPI design",
-        "Google Sheets pivots",
-        "Stakeholder alignment",
-        "Technical documentation (English)"
+        "Chart design",
+        "Bilingual reporting"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Segmented 174 SKUs into 3 new-customer roles; top 20 SKUs held 37% of new-to-brand purchases, shaping the 2026 budget recommendation",
-    "context": "For a global pet nutrition brand (Japan) I built the SKU-level new-to-brand portfolio analysis and the client-facing slides for both the wellness and therapeutic lines.",
+    "headline": "Rebuilt a sale budget to avoid wasted spend",
+    "context": "For a pet food brand in Japan, I checked and redesigned a client's holiday sale spending plan.",
     "img": "",
     "metrics": [
-      "Top 20 of 174 SKUs = 37% of all new-to-brand purchases",
-      "4 derived KPIs (NTB ratio, NTB CAC, total ROAS, NTB contribution) from 1 AMC query",
-      "Segment thresholds tuned per line: 40/25% (wellness) vs. 30/20% (therapeutic)"
+      "Spending packed 2.2x tighter per day",
+      "Split shifted 77:23 to 72.5:27.5",
+      "Weak week's budget capped, not grown"
     ],
     "tags": [
-      "AMC",
-      "New-to-Brand",
-      "Segmentation",
-      "Bubble Chart",
-      "Google Sheets",
-      "Client Presentation",
-      "Japanese"
+      "Amazon ads",
+      "Budget planning",
+      "Marketing math",
+      "Client advisory"
     ],
     "detail": {
-      "overview": "The client asked which SKUs genuinely acquire new customers and where 2026 ad budget should go. Starting from a full-year AMC extract of NTB, total (halo-inclusive) and promoted sales per SKU plus allocated cost, I designed the KPI set, the segmentation rule and a one-slide bubble-chart story per product line.",
-      "problem": "Ranking by NTB ratio alone surfaced tiny SKUs with high ratios but negligible volume; 174 SKUs could not be shown on one chart; and the wellness-line thresholds produced a lopsided split when reused on the therapeutic line, whose NTB ratios never exceeded 40%.",
+      "overview": "A client's first-ever sale budget plan fell short of its own sales target. I checked the numbers against real past data and redesigned how the budget was split by day and product line.",
+      "problem": "There was no past sale to compare against, and cramming the same total budget into fewer days changes its effect.",
       "actions": [
-        "Added an NTB contribution KPI (SKU NTB purchases / all NTB purchases) as the volume gate before any ratio-based classification",
-        "Chose halo-inclusive totals so entry-point SKUs get credit for purchases of other SKUs in the brand",
-        "Filtered to the top 20 by contribution, then classified by NTB ratio into three functional groups with plain Japanese labels instead of marketing nicknames",
-        "Built the bubble chart (ROAS x NTB ratio, size = contribution, series = segment) and a facts-only English/Japanese recommendation slide",
-        "Re-tuned thresholds for the therapeutic line from its observed distribution and rewrote the commentary in the same voice"
+        "Rejected the client's overly pessimistic sales assumptions using real data.",
+        "Compared daily spending, not totals, to judge the real risk.",
+        "Capped the weak week's budget and moved money to the strong one."
       ],
       "impact": [
-        "Delivered the wellness-line Top 15 slide with a clear 2026 direction: shift budget toward the two acquisition-oriented groups",
-        "Produced matching therapeutic-line segmentation and commentary; operational translation into DSP/SA targeting is the next step"
+        "Designed a daily budget plan that better protects sales results.",
+        "Gave the client a data-backed answer instead of guesswork."
       ],
       "skills": [
-        "AMC SQL",
-        "KPI design",
-        "Portfolio segmentation",
-        "Data visualization",
-        "Bilingual client communication (EN/JP)"
+        "Marketing math",
+        "Budget planning",
+        "Data analysis",
+        "Critical thinking"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Re-planned a two-wave spring sale budget by daily-spend density and incrementality floors, shifting the line split from 77:23 to 72.5:27.5",
-    "context": "For a global pet nutrition brand (Japan) I audited the client's sale simulation and used my own MMM outputs to design daily budgets per product line and sale wave.",
+    "headline": "Explained why 'new customer' ads seemed to fail",
+    "context": "For a pet food brand in Japan, I investigated a confusing result in a customer-acquisition ad campaign.",
     "img": "",
     "metrics": [
-      "Daily spend density ~2.2x prior-year March at the same total (14 sale days vs. 31)",
-      "April incrementality floor held at ~0.64 (wellness) / >=0.5 (therapeutic) by capping second-wave budget",
-      "Line split re-planned 77:23 -> 72.5:27.5 within the same total budget"
+      "Only 19% of buyers were new",
+      "81% looked like repeat customers",
+      "2 mixed-up numbers, sorted apart"
     ],
     "tags": [
-      "MMM",
-      "Incrementality",
-      "Budget Allocation",
-      "Cannibalization",
-      "Simulation",
-      "Amazon Ads"
-    ],
-    "detail": {
-      "overview": "The client's simulation for a first-ever spring sale used worst-case CTR/CVR/CPC assumptions and fell far short of target, while splitting the budget 50:50 across two waves. With no daily data and no prior spring sale, I had to judge whether the plan would cannibalize organic sales and propose daily budgets by line and wave.",
-      "problem": "Which benchmark to use for an event that never ran; how to compare a 14-day burst against monthly incrementality ratios; and how to reconcile AI-generated forecasts that contradicted basic diminishing-returns logic.",
-      "actions": [
-        "Rejected the worst-case simulation and benchmarked on the three months where incrementality was proven positive, excluding the saturated summer event",
-        "Challenged an unexplained 2.5x sale-day weighting and forced a data-based re-derivation from a normal month vs. a sale month (~2.0x)",
-        "Reframed the client's question from wave totals to daily spend per line, showing the same total compressed into 14 days roughly doubles daily density",
-        "Replaced AI-estimated daily spends with actual prior-year daily spends and ratios per line and month",
-        "Locked the low-ratio second wave at a defended level and reallocated the remainder to the high-ratio first wave, raising the therapeutic-line share"
-      ],
-      "impact": [
-        "Designed a daily budget table per line and wave within the same total budget (final sign-off pending in the log)",
-        "Gave the client a defensible answer to 'will this cannibalize?' in terms of daily density and ratio floors rather than wave totals"
-      ],
-      "skills": [
-        "Marketing mix modeling interpretation",
-        "Incrementality analysis",
-        "Budget scenario design",
-        "Critical review of AI outputs",
-        "Client advisory"
-      ]
-    }
-  },
-  {
-    "cat": "Analytics",
-    "headline": "Traced an 81-86% 'existing customer' share in 365-day-excluded awareness campaigns to a targeting-vs-measurement definition gap and framed a binary escalation to Amazon",
-    "context": "For a global pet nutrition brand (Japan) I handled the manager and client questions on why awareness campaigns excluding recent buyers still reported mostly existing-customer purchases.",
-    "img": "",
-    "metrics": [
-      "NTB share of purchases 19% (video) / 14% (connected TV) despite 365-day buyer exclusion",
-      "2 conflated KPIs separated: impression-based NTB rate vs. purchase-based NTB share",
-      "1 binary question (definition YES/NO) replacing an open-ended escalation"
-    ],
-    "tags": [
-      "New-to-Brand",
-      "Amazon DSP",
-      "AMC Audiences",
+      "Amazon ads",
       "Attribution",
-      "Fire TV",
-      "Stakeholder Communication"
+      "Customer data",
+      "Vendor emails"
     ],
     "detail": {
-      "overview": "Two always-on awareness campaigns (video and connected TV) were targeted with an AMC audience excluding anyone who bought the brand in the last 365 days, yet Amazon's report showed 81-86% of attributed purchases coming from existing customers. My manager and then the client asked how that was possible.",
-      "problem": "The question mixed two different metrics, the reporting definition of 'existing' was unknown, and the answer could be either our own audience setup error or a definitional gap (e.g. NTB defined as lifetime never-purchased, so lapsed buyers count as existing).",
+      "overview": "Ads meant to reach brand-new shoppers were set to exclude anyone who bought recently, yet most buyers still looked like repeat customers. I dug into why the numbers didn't match the setup.",
+      "problem": "The report showed mostly repeat buyers even though the targeting excluded them, and the cause could be our setup or a defined difference.",
       "actions": [
-        "Separated the impression-denominator NTB rate (expected to be tiny for awareness) from the purchase-denominator NTB share (the real anomaly)",
-        "Listed candidate causes: brand-halo scope mismatch, audience refresh lag, view-through attribution of loyal buyers, CTV viewer-to-account mapping, and our own audience query",
-        "Used elimination logic: if exclusion worked, all 'existing' buyers would be 366+ day lapsed customers, which is implausible for pet food",
-        "Wrote a four-part investigation request to Amazon forcing a YES/NO on the 'existing' definition so the reply lands on either a setup fault or a definition gap",
-        "Reframed the client's follow-up as a lifetime-definition hypothesis with a lookback-window confirmation request"
+        "Separated two different percentages that were being confused together.",
+        "Ruled out simple explanations using logic, not guesswork.",
+        "Asked Amazon one yes-or-no question to pinpoint the cause."
       ],
       "impact": [
-        "Designed the escalation so the next step is decidable regardless of Amazon's answer (audit our audience vs. explain lapsed-buyer re-entry)",
-        "Gave the manager a clean two-metric explanation for the annual review"
+        "Designed a question so any Amazon answer points to a clear next step.",
+        "Gave managers a simple, two-number explanation for the year-end review."
       ],
       "skills": [
-        "Attribution logic",
-        "Audience targeting QA",
-        "Hypothesis structuring",
-        "Business English writing",
-        "Cross-vendor escalation"
+        "Data analysis",
+        "Amazon ads",
+        "Problem-solving",
+        "Business writing"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Rebuilt a 59-campaign grouped path-to-conversion query through Amazon's AMC query agent and designed a pre/post test for whether a premium DSP campaign type was hijacking last-touch credit",
-    "context": "For a global PC brand (Japan) I owned the AMC path analysis requested by the media agency partner, across DSP and Sponsored Ads for PC and monitor lines.",
+    "headline": "Tested whether one ad type was stealing credit",
+    "context": "For a global PC brand in Japan, I checked whether a premium ad campaign was gaming attribution credit.",
     "img": "",
     "metrics": [
-      "12 DSP + 47 Sponsored Ads campaigns mapped into 14 path groups",
-      "5+ agent-generated query versions reviewed; 8 logic defects caught before execution",
-      "1 pre/post design (no-P+ month vs. P+ month) x 2 product lines x 4 last-touch types"
+      "59 campaigns mapped into 14 groups",
+      "8 logic errors caught before running",
+      "Compared 2 months across 2 product lines"
     ],
     "tags": [
-      "AMC",
-      "Path to Conversion",
       "Attribution",
-      "Last Touch",
-      "DSP",
-      "Sponsored Ads",
-      "Prompt Engineering",
-      "Japanese"
+      "Amazon ads",
+      "SQL",
+      "Japanese business"
     ],
     "detail": {
-      "overview": "The partner agency suspected a premium DSP campaign type looked strong only because it kept appearing as the last touch. I needed a chronological path-by-campaign-group query for PC and monitor lines and a comparison against a period when that campaign type did not run.",
-      "problem": "The AMC query agent has a 4,000-character input limit and a policy filter that rejects anything resembling audience creation; its generated SQL repeatedly broke path logic (joining on group, alphabetical instead of chronological ordering, inner joins dropping unmapped campaigns, invented column names); and the helper LLM kept rewriting code instead of writing instructions.",
+      "overview": "A media partner suspected one premium ad type just grabbed credit for sales other ads had already earned. I rebuilt the tracking query and designed a before/after test to check.",
+      "problem": "An AI query-writing tool kept breaking the customer-journey logic, mixing up campaign groups and losing the correct time order.",
       "actions": [
-        "Split roles explicitly: the query agent owns schema and syntax, the helper LLM writes instructions and reviews logic only, and I inject campaign ID lists myself",
-        "Replaced keyword matching with explicit campaign-name lists and requested a placeholder template to stay under the character limit",
-        "Kept the standard template's ROW_NUMBER + NAMED_ROW + ARRAY_SORT ordering rather than an unverified ARRAY_AGG ORDER BY, and reworded the request as aggregate reporting to pass the policy filter",
-        "Translated the partner's Japanese request into a testable design: pre vs. post month, PC vs. monitor, last-touch type per purchase, read together with total purchase volume to separate cannibalization from incremental lift",
-        "Confirmed touch definitions (DSP = impression, Sponsored Ads = click) and set up SharePoint delivery"
+        "Split the work: one AI writes rules, another builds queries.",
+        "Listed every campaign name explicitly instead of guessing patterns.",
+        "Designed a before/after comparison to test the partner's suspicion."
       ],
       "impact": [
-        "Delivered a final grouped path query with full chronological path strings and NTB/cost metrics (execution pending)",
-        "Designed the last-touch interception test so the partner's hypothesis can be answered with a control period rather than opinion"
+        "Delivered a corrected query, though final results are still pending.",
+        "Designed a fair test to prove credit-stealing versus real extra sales."
       ],
       "skills": [
-        "AMC SQL",
-        "Attribution analysis design",
-        "LLM/agent orchestration",
-        "Query logic QA",
+        "Query design",
+        "Attribution analysis",
+        "AI/agent prompting",
         "Japanese business communication"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Turned a client's cannibalization concern into a monthly incrementality ratio guiding seasonal budgets",
-    "context": "For a global pet nutrition brand in Japan, I led the Amazon/AMC analytics response to the client marketing lead's belief that rising ad spend was cannibalizing organic sales.",
+    "headline": "Found which months ads helped, not hurt, sales",
+    "context": "For a pet food brand in Japan, I was the analyst answering whether ads were stealing sales.",
     "img": "",
     "metrics": [
-      "Ad spend vs organic sales correlation of 0.03 across 13 months",
-      "Monthly incrementality ratio ranged from -3.28 to 2.25",
-      "Prime Day month ratio 0.50 vs peak-season month 0.97"
+      "Spend-sales correlation only 0.03 overall",
+      "Monthly ratio ranged -3.28 to 2.25",
+      "Sale month ratio 0.50 vs 0.97"
     ],
     "tags": [
+      "Amazon ads",
       "Incrementality",
-      "Cannibalization",
-      "AMC",
-      "Amazon Ads",
       "Python",
-      "Client Presentation"
+      "Client presentation"
     ],
     "detail": {
-      "overview": "Diagnosed whether increased Amazon ad spend was eating into organic sales for the wellness and therapeutic lines, and packaged the answer as a client deck with a month-by-month incrementality ratio and seasonal budget guidance.",
-      "problem": "The client was convinced that flat retail revenue despite higher ad spend proved cannibalization. A simple time series was dominated by seasonality, and a 13-month scatter (correlation 0.03) risked the opposite over-claim that no cannibalization existed at all.",
+      "overview": "Checked whether more Amazon ad spend was quietly stealing sales that would have happened anyway (organic sales), for a pet food brand's Japan team. Built a simple monthly score instead of one big average.",
+      "problem": "The client was sure rising ad spend was cannibalizing organic sales, but looking at all months together hid the real monthly pattern.",
       "actions": [
-        "Pulled 13 months of ad-attributed, organic and total sales plus ad spend from AMC and built the derived metrics in a shared sheet",
-        "Rejected the 'zero correlation = zero cannibalization' framing after finding months where spend rose and organic fell",
-        "Defined Incrementality Ratio = MoM change in total sales / MoM change in ad-attributed sales, with a 1.0 break-even and separate handling for negative-sign months",
-        "Split the analysis by brand line (wellness vs therapeutic) and added an organic-delta column so readers could see synergy vs substitution directly",
-        "Built stacked-bar and three-metric combo charts in Python and formatted tables in Japanese business units for the client deck",
-        "Wrote the conclusion around timing rather than budget size, backed by a three-factor Q&A defence (promotion intensity, product type, competition)"
+        "Pulled 13 months of ad and organic sales data.",
+        "Rejected a 'no effect' claim that ignored bad months.",
+        "Built a monthly score comparing total sales change to ad spend change."
       ],
       "impact": [
-        "Reframed the client conversation from 'ads are cannibalizing' to 'which months scale and which months defend', enabling a seasonal allocation proposal",
-        "Identified the wellness line as the main driver of cannibalization in the Prime Day month, while the therapeutic line stayed resilient",
-        "Delivered a reusable monthly incrementality table with status coding that fed the follow-on budget simulator"
+        "Turned 'ads hurt sales' into a month-by-month spending plan.",
+        "Found one product line was more prone to losing organic sales."
       ],
       "skills": [
-        "Incrementality analysis",
-        "Amazon Marketing Cloud",
-        "pandas / matplotlib",
-        "Metric design",
-        "Client storytelling (EN/JP)"
+        "Data analysis",
+        "Amazon ads",
+        "Excel/Python",
+        "Client communication"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Modelled ad-spend saturation with Hill curves, then chose an incrementality map for client action",
-    "context": "For a global pet nutrition brand in Japan, I built the response-curve modelling behind the client's request for an MMM ROI curve, as the agency's Amazon analytics lead.",
+    "headline": "Found the simplest chart clients could actually use",
+    "context": "For the same brand, I tested spend-response curves, then switched to a simpler monthly scorecard.",
     "img": "",
     "metrics": [
-      "Monthly total ROAS fell from a 25.0 peak to 13.6 in the highest-spend month",
-      "One of 13 monthly points excluded as a data-collection outlier before refitting"
+      "Efficiency fell from 25x to 14x",
+      "1 of 13 months excluded"
     ],
     "tags": [
-      "MMM",
-      "Hill function",
-      "Response curve",
-      "Marginal ROAS",
-      "scipy",
+      "Curve fitting",
+      "Amazon ads",
+      "Marketing analytics",
       "Python"
     ],
     "detail": {
-      "overview": "Fitted advertising response curves (log, power, quadratic, Hill) to 13 months of Amazon ad spend and total sales to locate the saturation point, translated the curve into a per-month cut/hold/boost table, and ultimately replaced the curve with an ad-spend vs incrementality-ratio map as the client-facing chart.",
-      "problem": "The client wanted a curve showing how much sales each budget level would return. With only 13 points, two high-spend months and strong seasonality, a single fitted curve either came out nearly straight or shifted its verdict whenever the target marginal ROAS changed, and its above/below-curve position did not actually say whether to cut or add budget.",
+      "overview": "I fit several math curves to find the point where more ad spending stops paying off. With limited data points, the curves kept changing shape, so I used a simpler chart instead.",
+      "problem": "With only 13 months of data, the fitted curve kept changing its answer whenever the target efficiency level changed.",
       "actions": [
-        "Rebuilt the input from month-over-month deltas to raw spend and total sales, since a response curve needs absolute inputs",
-        "Iterated log-linear, power, quadratic and Hill-function fits with scipy curve_fit, keeping the Hill form as the industry-standard saturating shape",
-        "Paired a sales response curve with a ROAS decay curve so that scale-driven ROAS decline (peak season) could be separated from wasteful decline (deal season)",
-        "Removed the first month as a data-collection outlier after showing it depressed the fitted baseline",
-        "Converted the curve into a per-month table of saved spend vs lost sales at a 10% cut, replacing above/below-curve reasoning with marginal-efficiency reasoning",
-        "Dropped the BCG-matrix framing and the curve itself as the client chart in favour of an ad spend vs incrementality ratio scatter with explicit thresholds"
+        "Fit several curve shapes to the monthly spend and sales data.",
+        "Removed one early month as a data-collection outlier.",
+        "Replaced the unstable curve with a clearer monthly chart."
       ],
       "impact": [
-        "Designed the analytical basis for a seasonal budget shift proposal (defend deal-season months, scale peak-season months)",
-        "Established that chart colours must come from the model or the simulator, not hard-coded month lists — a check reused in the follow-on Excel simulator",
-        "Curve parameters and per-month gain/loss figures remain unverified against actual outcomes [REVIEW]"
+        "Set the groundwork for a seasonal budget shift plan.",
+        "Curve numbers stayed unverified, so a simpler chart was used instead."
       ],
       "skills": [
-        "Marketing mix modelling",
-        "Curve fitting (scipy)",
-        "Marginal ROAS analysis",
-        "matplotlib visualisation",
-        "Analytical storytelling"
+        "Curve fitting",
+        "Python (scipy)",
+        "Marketing mix modeling",
+        "Data visualization"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Built a client-operated Excel budget simulator that converts monthly incrementality ratios into scale/cut decisions",
-    "context": "For a global pet nutrition brand in Japan, I designed and iterated an Excel what-if tool so the client marketing team could test monthly Amazon budget changes themselves, as the agency's analytics lead.",
+    "headline": "Built an Excel tool clients could test themselves",
+    "context": "For the same brand, I built a self-serve Excel tool so the client could test budget changes.",
     "img": "",
     "metrics": [
-      "Simulator reproduces actual sales exactly at 0% adjustment (control-total check)",
-      "Diminishing returns modelled so that doubling a month's budget halves its incremental efficiency",
-      "Peak-month gains flipped from positive at +20% to negative at +30% in the margin-based version"
+      "Matches real sales at 0% change",
+      "Doubling budget halves extra efficiency",
+      "Gains flip negative past +30%"
     ],
     "tags": [
-      "MMM",
       "Excel",
-      "Incrementality",
       "Budget simulation",
-      "Client tool",
-      "Amazon Ads"
+      "Amazon ads",
+      "Client tool"
     ],
     "detail": {
-      "overview": "Turned a Python response-curve analysis into a hand-off Excel simulator: the client enters a monthly budget adjustment and sees expected sales, adjusted efficiency and a traffic-light verdict, with the logic evolving from a Hill function to a power law with organic baselines to a direct monthly incrementality-ratio model.",
-      "problem": "Porting the fitted curve into Excel reversed the analytical story (the deal-season month came out profitable), because the chart colours had been hard-coded and the single curve only reflected spend size, not season. Fixed elasticity and an assumed retail margin then produced verdicts the client could easily challenge.",
+      "overview": "I turned a complex sales-response chart into a simple Excel tool: the client types in a budget change and instantly sees expected sales and a color-coded verdict. It took several redesigns to get it right.",
+      "problem": "Early versions broke basic logic: they showed the same result every month, or profitable results for the wrong month.",
       "actions": [
-        "Set a control-total rule that a 0% adjustment must reproduce actual sales, and used it to reject each broken version",
-        "Replaced a fitted baseline with each month's actual organic sales so seasonality entered the model as data rather than a parameter",
-        "Applied the month's own incrementality ratio only to the incremental ad sales, then decayed the ratio as adjustment size grew",
-        "Removed the assumed retail margin and elasticity constant, keeping expected sales, adjusted ratio and expected ROAS as the only outputs",
-        "Designed an asymmetric verdict: budget increases judged on growth (1.0 / 0.5 / 0 thresholds), budget cuts judged on waste avoided",
-        "Reduced the client view to six columns with a single yellow input cell and a two-scenario reading guide, and wrote the before/after simulation slides"
+        "Required the tool to match real sales at zero change.",
+        "Used each month's real baseline instead of a made-up average.",
+        "Removed profit-margin guesses, judging results by sales impact only."
       ],
       "impact": [
-        "Delivered a self-serve tool that let the client test scale-up in high-synergy months and modest cuts in cannibalization months without analyst Q&A",
-        "Converted the earlier diagnosis into concrete monthly adjustment proposals for the following year's plan",
-        "Designed for realism rather than persuasion: forecast values are model-based and not yet validated against actual spend outcomes [REVIEW]"
+        "Gave the client a self-serve tool for monthly budget calls.",
+        "Forecasts are model-based, not yet tested against real spending."
       ],
       "skills": [
-        "Excel modelling",
-        "Marketing mix modelling",
-        "Incrementality logic",
-        "Simulation design",
-        "Client-facing documentation"
+        "Excel modeling",
+        "Budget simulation",
+        "Marketing analytics",
+        "Client tools"
       ]
     }
   },
   {
     "cat": "Analytics",
-    "headline": "Diagnosed a 43% AMC-vs-report ad sales gap as cross-channel double counting and rebuilt the query",
-    "context": "For a global pet nutrition brand in Japan, I owned the Amazon Marketing Cloud extraction that fed the cannibalization analysis and had to reconcile it with the client's monthly report, as the agency's AMC analyst.",
+    "headline": "Found why ad sales numbers didn't match the report",
+    "context": "For the same pet food brand, I fixed why our ad data didn't match the client's report.",
     "img": "",
     "metrics": [
-      "Initial AMC ad-attributed sales were 43% above the monthly report for the same month",
-      "Scope of ~300 ASINs handled through a single CTE instead of per-ASIN output"
+      "Ad sales were 43% too high"
     ],
     "tags": [
-      "AMC",
+      "Amazon ads",
       "SQL",
-      "Attribution",
       "Data reconciliation",
-      "DSP",
-      "Prompt engineering"
+      "Attribution"
     ],
     "detail": {
-      "overview": "Reconciled AMC-derived monthly ad sales, organic sales, NTB and ad cost against the client's reported ad sales, tracing the overstatement to purchases credited to both a DSP view and a sponsored-ads click, and redesigning the extraction as conversion-level deduplicated, step-separated queries.",
-      "problem": "The first AMC query returned ad sales roughly 1.4x the reported figure for the same month. Fixes suggested by a general-purpose LLM failed on AMC-specific syntax and table logic, an attributed-only rewrite dropped organic sales to zero, and a combined NTB/organic query produced NTB larger than total ad sales.",
+      "overview": "Our ad platform's data room (AMC) showed 43% more ad sales than the client's official monthly report for the same month. I traced it to purchases being counted twice.",
+      "problem": "One purchase was sometimes counted under two different ad types, inflating the ad sales number well above the client's report.",
       "actions": [
-        "Decomposed ad sales by ad product type and attribution type to isolate DSP view-through as the dominant, double-counted component",
-        "Specified a deduplication rule keyed on the unique conversion event with click-over-view priority and a 14-day window",
-        "Switched to a subtraction method (total orders minus deduplicated ad-attributed orders) so organic sales could be derived consistently",
-        "Rewrote instructions for the AMC SQL assistant as logical requirements without naming tables, after direct SQL from a general LLM repeatedly hit parser errors",
-        "Split the extraction into separate ad-sales and organic-sales queries with spreadsheet-side control totals (click+view = total, DSP+sponsored = total)"
+        "Split ad sales by ad type to find the overlap.",
+        "Set a rule so each purchase counts only once.",
+        "Rebuilt the data pull as two separate, checkable steps."
       ],
       "impact": [
-        "Decomposed ad sales came within roughly 3% of the client report after removing view/click double counting [REVIEW: AI-read from result image]",
-        "Produced a reusable prompting pattern for AMC's SQL assistant (requirements, not table names) and a three-cause checklist for report-vs-AMC gaps",
-        "Final step-separated query results and the cost-unit conversion remain unverified in the log [REVIEW]"
+        "Traced the gap to double-counted purchases across ad channels.",
+        "Created a reusable checklist for building future queries safely."
       ],
       "skills": [
-        "Amazon Marketing Cloud SQL",
-        "Attribution logic",
+        "AMC SQL",
         "Data reconciliation",
-        "Window functions",
-        "LLM prompting for SQL"
+        "Attribution logic",
+        "SQL prompting"
       ]
     }
   }
