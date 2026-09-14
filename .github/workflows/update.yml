@@ -26,9 +26,15 @@ jobs:
       - name: Fetch Google Sheets data
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          ANONYMIZE_RULES: ${{ secrets.ANONYMIZE_RULES }} # 클라이언트명 치환·차단 규칙 (리포에 두지 않음)
           SHEET_ID: ${{ vars.SHEET_ID }}
           SHEET_NAME: ${{ vars.SHEET_NAME }}
         run: node fetch-data.js
+
+      - name: Verify no client names in data.json
+        env:
+          ANONYMIZE_RULES: ${{ secrets.ANONYMIZE_RULES }}
+        run: node sanitize.js data.json
 
       - name: Commit and push if changed
         run: |

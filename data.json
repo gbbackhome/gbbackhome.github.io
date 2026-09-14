@@ -444,21 +444,6 @@
     }
   },
   {
-    "cat": "Content",
-    "headline": "Test Entry",
-    "context": "Placeholder record for system testing.",
-    "img": "",
-    "metrics": [],
-    "tags": [],
-    "detail": {
-      "overview": "This is a test entry.",
-      "problem": "",
-      "actions": [],
-      "impact": [],
-      "skills": []
-    }
-  },
-  {
     "cat": "Analytics",
     "headline": "Built Full-Funnel AMC Measurement Framework for a CPG Pet Food Brand in Japan",
     "context": "Designed and engineered an end-to-end Amazon Marketing Cloud pipeline—covering SQL, data loading, and visualization—to measure campaign penetration across Awareness, Consideration, Purchase, and Loyalty for a Japan market CPG client at a global media agency.",
@@ -1773,7 +1758,7 @@
   {
     "cat": "Analytics",
     "headline": "Deepened AMC SQL Proficiency Across Amazon Attribution and Reach Measurement",
-    "context": "Self-directed study session applying AMC SQL to live Hill's and Macallan campaign data; covered attribution schema, reach diagnostics, and monthly aggregation edge cases",
+    "context": "Self-directed study session applying AMC SQL to live a global pet nutrition brand and a premium Scotch brand campaign data; covered attribution schema, reach diagnostics, and monthly aggregation edge cases",
     "img": "",
     "metrics": [],
     "tags": [
@@ -1783,8 +1768,8 @@
       "Reach",
       "CTE",
       "Pivot",
-      "Hill's Science Diet",
-      "Macallan"
+      "the wellness line of a global pet nutrition brand",
+      "a premium Scotch brand"
     ],
     "detail": {
       "overview": "Structured a working knowledge base for Amazon Marketing Cloud SQL, resolving recurring syntax issues and schema mismatches encountered across two active brand accounts.",
@@ -2185,7 +2170,7 @@
       "CPG"
     ],
     "detail": {
-      "overview": "A Hills pet-food DSP Awareness campaign targeting new-to-brand (NTB) shoppers via a 365-day purchaser exclusion showed 81–86% of attributed buyers classified as Existing — a logical impossibility if exclusions were working correctly.",
+      "overview": "A global pet nutrition brand pet-food DSP Awareness campaign targeting new-to-brand (NTB) shoppers via a 365-day purchaser exclusion showed 81–86% of attributed buyers classified as Existing — a logical impossibility if exclusions were working correctly.",
       "problem": "SD Dog Video NTB rate: 19%; SD Cat FireTV NTB rate: 14%. If the exclusion was valid, every attributed buyer should have been dormant for 1+ year — unrealistic for a repeat-purchase CPG category. The anomaly pointed to exclusion leakage or a mismatched NTB definition in AMC.",
       "actions": [
         "Structured the logical contradiction: a functioning exclusion should yield near-100% NTB; Existing-majority outcome implies audience leakage or a definition mismatch (e.g., Lifetime first-purchase vs. 365-day lookback).",
@@ -2449,7 +2434,7 @@
   },
   {
     "cat": "Analytics",
-    "headline": "Video vs. Static Creative Decision for Hills — Dual Budget Scenarios",
+    "headline": "Video vs. Static Creative Decision for a global pet nutrition brand — Dual Budget Scenarios",
     "context": "Analyzed Video and Static ad performance across Wellness and Therapeutic lines for a Japanese wellness brand; built two budget scenarios and presented findings in Japanese to the client.",
     "img": "",
     "metrics": [
@@ -2470,7 +2455,7 @@
       "Frequency"
     ],
     "detail": {
-      "overview": "Evaluated whether Video or Static creatives drove more efficient acquisition for a Japanese wellness brand (Hills) across two product lines, then translated findings into two concrete budget proposals and a Japanese-language presentation.",
+      "overview": "Evaluated whether Video or Static creatives drove more efficient acquisition for a Japanese wellness brand (a global pet nutrition brand) across two product lines, then translated findings into two concrete budget proposals and a Japanese-language presentation.",
       "problem": "Video creatives showed misleading CVR lifts inflated by high frequency exposure. The team needed a clear framework to separate reach efficiency from conversion quality, and to present the recommendation credibly to a Japanese-speaking client.",
       "actions": [
         "Compared Video vs. Static on CPR, CVR, CPA (Total and NTB) using First Touch attribution for the Wellness line — found Video cheaper per unique reach but worse on conversion and NTB CPA.",
@@ -2518,7 +2503,7 @@
       "actions": [
         "Mapped competitor keywords (Purina, IAMS, Nutro, Royal Canin, and others) across Japanese and English variants; built a per-brand compressed keyword table with dog/cat separation logic",
         "Evaluated ASIN scraping methods (Keepa API, PA-API, Helium10, Pacvue, raw HTML) and tested Python requests + BeautifulSoup data-asin parsing; set up Automa batch automation with Sheets API quota handling",
-        "Designed two AMC Custom Audience queries: (1) searched competitor keywords but never purchased Hills, (2) searched competitor keywords and confirmed competitor purchasers",
+        "Designed two AMC Custom Audience queries: (1) searched competitor keywords but never purchased a global pet nutrition brand, (2) searched competitor keywords and confirmed competitor purchasers",
         "Defined a 'stock depletion' micro-segment: users with competitor purchase in past 180 days, no purchase in last 30 days, and active search signals — built via INNER JOIN + LEFT JOIN NULL against pet food repurchase cycles of 30–90 days",
         "Benchmarked AMC vs DSP keyword targeting on lookback flexibility and existing-customer exclusion capability",
         "Built an Ad Overlap diagnostic framework distinguishing sequential lift (good overlap) from cannibalization (bad overlap) across Brand-only / DSP-only / Both groups, with prescribed actions: remove retargeting overlap, shorten lookback 14→7 days, apply frequency caps",
