@@ -1,8 +1,8 @@
 name: Auto-Update Portfolio Data
 
+# 2026-09-15부터 정본 DB는 비공개 리포 career-records(records/*.md) — data.json은 tools/publish_site.py 로 로컬에서 생성·푸시.
+# 시트 동기화는 수동 실행(workflow_dispatch)만 남김. 주간 cron 비활성화.
 on:
-  schedule:
-    - cron: '0 1 * * 1' # 매주 월요일 1회 (UTC 01:00 = KST 월 10:00)
   workflow_dispatch:
 
 permissions:
