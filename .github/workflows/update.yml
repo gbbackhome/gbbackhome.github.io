@@ -1,0 +1,47 @@
+name: Auto-Update Portfolio Data
+
+# 2026-09-15부터 정본 DB는 비공개 리포 career-records(records/*.md) — data.json은 tools/publish_site.py 로 로컬에서 생성·푸시.
+# 시트 동기화는 수동 실행(workflow_dispatch)만 남김. 주간 cron 비활성화.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install googleapis
+
+      - name: Fetch Google Sheets data
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          ANONYMIZE_RULES: ${{ secrets.ANONYMIZE_RULES }} # 클라이언트명 치환·차단 규칙 (리포에 두지 않음)
+          SHEET_ID: ${{ vars.SHEET_ID }}
+          SHEET_NAME: ${{ vars.SHEET_NAME }}
+        run: node fetch-data.js
+
+      - name: Verify no client names in data.json
+        env:
+          ANONYMIZE_RULES: ${{ secrets.ANONYMIZE_RULES }}
+        run: node sanitize.js data.json
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Auto-update portfolio data"
+          git pull --rebase origin main
+          git push

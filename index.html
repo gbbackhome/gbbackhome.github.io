@@ -1,0 +1,206 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GyeongBae Jeon · Retail Media Measurement</title>
+  <meta name="description" content="GyeongBae Jeon, retail media measurement in Tokyo: Amazon DSP, AMC, incrementality, MMM and BigQuery.">
+
+  <!-- Pretendard (free web font, renders Latin well) -->
+  <link rel="stylesheet" as="style" crossorigin="" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== Nav ===== -->
+  <header class="nav">
+    <a class="nav__logo" href="#hero">GB.</a>
+    <nav class="nav__links">
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#cases">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section id="hero" class="hero">
+      <img class="hero__emoji float" data-emoji="rocket" alt="🚀">
+      <p class="hero__id">GyeongBae Jeon · Retail media measurement · Tokyo</p>
+      <h1 class="hero__title">
+        Measuring what ads<br>
+        <span class="accent">actually add.</span>
+      </h1>
+      <p class="hero__sub">Amazon DSP · AMC · incrementality · MMM · BigQuery</p>
+
+      <!-- Quick Stats: shown once data exists. Hidden at first. -->
+      <div id="stats" class="stats" hidden=""></div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" class="section">
+      <p class="section__eyebrow">Core Skills</p>
+      <h2 class="section__title">Technical and strategic</h2>
+
+      <div class="skills">
+        <div class="skill-col reveal">
+          <div class="skill-col__head">
+            <img class="skill-col__emoji" data-emoji="gear" alt="⚙️">
+            <h3>Data &amp; Tools</h3>
+          </div>
+          <ul class="chips">
+            <li>SQL</li><li>Python</li><li>BigQuery</li><li>Power BI</li>
+            <li>Looker Studio</li><li>GA4</li><li>Funnel.io</li><li>Excel</li>
+          </ul>
+        </div>
+
+        <div class="skill-col reveal">
+          <div class="skill-col__head">
+            <img class="skill-col__emoji" data-emoji="brain" alt="🧠">
+            <h3>Measurement &amp; Strategy</h3>
+          </div>
+          <ul class="chips">
+            <li>Incrementality</li><li>MMM</li><li>Frequency capping</li><li>Clean-room (AMC) analysis</li>
+            <li>Attribution</li><li>Markov Chain</li><li>A/B Testing</li>
+            <li>CRO</li><li>Media Buying</li><li>FGI Research</li>
+          </ul>
+        </div>
+
+        <div class="skill-col reveal">
+          <div class="skill-col__head">
+            <img class="skill-col__emoji" data-emoji="rocket" alt="🚀">
+            <h3>Ad Platforms</h3>
+          </div>
+          <ul class="chips">
+            <li>Amazon DSP/SA</li><li>Meta Ads</li><li>Google Ads</li>
+            <li>LINE Ads</li><li>X Ads</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Case Studies ===== -->
+    <section id="cases" class="section">
+      <p class="section__eyebrow">Selected Work</p>
+      <h2 class="section__title">Measurement first</h2>
+
+      <div id="filters" class="filters"></div>
+      <div id="caseGrid" class="case-sections"></div>
+
+      <!-- Empty state -->
+      <div id="caseEmpty" class="empty" hidden="">
+        <img class="empty__emoji float" data-emoji="bulb" alt="💡">
+        <p class="empty__title">Coming soon</p>
+        <p class="empty__sub">Case studies are being written up.</p>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience" class="section">
+      <p class="section__eyebrow">Experience</p>
+      <h2 class="section__title">Where I've worked</h2>
+
+      <div class="exp">
+        <article class="exp__item reveal">
+          <div class="exp__head">
+            <div>
+              <h3 class="exp__role">Senior Associate</h3>
+              <p class="exp__company">WPP Media · Tokyo, Japan</p>
+            </div>
+            <span class="exp__period">2025.04 – Present</span>
+          </div>
+          <ul class="exp__points">
+            <li>Build full-funnel measurement in <b>Amazon Marketing Cloud</b> (SQL, BigQuery, Python) — penetration, attribution, frequency, and new-to-brand — to guide client budget decisions; conversion-path analysis reached <b>1,800% ROAS</b>.</li>
+            <li>Work face-to-face with clients to diagnose ad-performance problems, set the measurement direction and project schedule, stand up the testing/experimentation environment, and present recommendations in decks I own end to end.</li>
+            <li>Built an automated Funnel.io → dashboard reporting workflow, cutting manual data processing <b>90%</b> (5 days → &lt;24h).</li>
+            <li>Develop attribution models (Markov Chain, Composite KPI Indices) and reusable, validated analytics standards adopted across the team.</li>
+          </ul>
+        </article>
+
+        <article class="exp__item reveal">
+          <div class="exp__head">
+            <div>
+              <h3 class="exp__role">Marketing Associate</h3>
+              <p class="exp__company">CIDER · Seoul, Korea</p>
+            </div>
+            <span class="exp__period">2021.07 – 2024.02</span>
+          </div>
+          <ul class="exp__points">
+            <li>Internalized ad operations from agencies, achieving <b>200% annual growth</b> and a steady <b>26% MoM</b> revenue increase through performance analysis.</li>
+            <li>Built a cross-platform monitoring framework (Kakao SDK/Sync + AppsFlyer), reducing attribution discrepancies and surfacing high-ROI segments.</li>
+            <li>Ran FGI research and A/B testing on user pain points, turning VOC into UI/UX improvements (e.g., Address API) that lifted conversion <b>20%</b>.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Background ===== -->
+    <section id="background" class="section">
+      <p class="section__eyebrow">Background</p>
+      <h2 class="section__title">Education &amp; credentials</h2>
+
+      <div class="info-grid">
+        <div class="info-card reveal">
+          <h3 class="info-card__title">🎓 Education</h3>
+          <ul class="info-card__list">
+            <li><b>Beijing Foreign Studies University</b><br>B.A., International Economics &amp; Trade · 2019–2023<br><span class="info-card__note">Dean's List · Beijing Government Scholarship (full tuition)</span></li>
+            <li><b>Calvin University</b>, Michigan, USA<br>International Relations &amp; Affairs · 2014–2016</li>
+          </ul>
+        </div>
+
+        <div class="info-card reveal">
+          <h3 class="info-card__title">📜 Certifications</h3>
+          <ul class="info-card__list">
+            <li>Power BI Data Analyst (PL-300)</li>
+            <li>Amazon Marketing Cloud</li>
+            <li>MOS Excel Expert</li>
+            <li><span class="info-card__note">Bootcamps: MIT-ADSP (Python, ML) · Datarian (MySQL)</span></li>
+          </ul>
+        </div>
+
+        <div class="info-card reveal">
+          <h3 class="info-card__title">🌐 Languages</h3>
+          <ul class="info-card__list">
+            <li>English — Native</li>
+            <li>Korean — Native</li>
+            <li>Japanese — Business (N2)</li>
+            <li>Chinese — HSK5</li>
+            <li>Turkish</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section">
+      <p class="section__eyebrow">About</p>
+      <h2 class="section__title">GyeongBae Jeon</h2>
+      <div class="about reveal">
+        <p>I work on retail media measurement at WPP Media in Tokyo, writing SQL in Amazon Marketing Cloud to answer three questions clients keep asking: did this campaign bring in new customers, how much of these sales would have happened anyway, and where should next quarter's budget go?</p>
+        <p>The work I'm proudest of is on this page: a 13-month incrementality study that showed ad-driven cannibalization followed season and promotion timing more than budget; frequency cap tests built from DSP impression logs; an MMM simulator planners can use before anything reaches the client; and a BigQuery pipeline that replaced manual monthly exports.</p>
+        <p>Before Tokyo, I spent two and a half years at CIDER in Seoul, running paid media in-house while the app reached No. 1 for downloads in the iOS shopping category.</p>
+        <p>I work in Korean, Japanese and English, and I'm happiest sitting between the data and the people who have to decide something with it.</p>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section section--center">
+      <img class="contact__emoji float" data-emoji="wave" alt="👋">
+      <h2 class="section__title">Let's work together</h2>
+      <p class="contact__sub">Open to roles, projects, and a quick chat.</p>
+      <div class="contact__links reveal">
+        <a href="https://www.linkedin.com/in/gyeongbaejeon/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:gyeongbae311@gmail.com">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> GyeongBae Jeon · gbbackhome.github.io</footer>
+
+  <!-- Free, open-source CDNs -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+
+</body></html>

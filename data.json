@@ -1,0 +1,1860 @@
+[
+  {
+    "cat": "Analytics",
+    "headline": "13-month incrementality study: when ads added sales and when they cannibalized organic",
+    "context": "For a global consumer brand in Japan, I was the analyst answering whether ads were stealing sales.",
+    "img": "",
+    "metrics": [
+      "Spend-sales correlation only 0.03 overall",
+      "Monthly ratio ranged -3.28 to 2.25",
+      "Sale month ratio 0.50 vs 0.97"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Incrementality",
+      "Python",
+      "Client presentation"
+    ],
+    "detail": {
+      "overview": "Checked whether more Amazon ad spend was quietly stealing sales that would have happened anyway (organic sales), for a global consumer brand's Japan team. Built a simple monthly score instead of one big average.",
+      "problem": "The client was sure rising ad spend was cannibalizing organic sales, but looking at all months together hid the real monthly pattern.",
+      "actions": [
+        "Pulled 13 months of ad and organic sales data.",
+        "Rejected a 'no effect' claim that ignored bad months.",
+        "Built a monthly score comparing total sales change to ad spend change."
+      ],
+      "impact": [
+        "Turned 'ads hurt sales' into a month-by-month spending plan.",
+        "Found one product line was more prone to losing organic sales."
+      ],
+      "skills": [
+        "Data analysis",
+        "Amazon ads",
+        "Excel/Python",
+        "Client communication"
+      ]
+    },
+    "section": "measurement"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Attribution vs. incrementality: testing whether a premium ad type was claiming credit (results pending)",
+    "context": "For a global consumer electronics brand in Japan, I checked whether a premium ad campaign was inflating its attribution credit.",
+    "img": "",
+    "metrics": [
+      "59 campaigns mapped into 14 groups",
+      "8 logic errors caught before running",
+      "Compared 2 months across 2 product lines"
+    ],
+    "tags": [
+      "Attribution",
+      "Amazon ads",
+      "SQL",
+      "Japanese business"
+    ],
+    "detail": {
+      "overview": "A media partner suspected one premium ad type just grabbed credit for sales other ads had already earned. I rebuilt the tracking query and designed a before/after test to check.",
+      "problem": "An AI query-writing tool kept breaking the customer-journey logic, mixing up campaign groups and losing the correct time order.",
+      "actions": [
+        "Split the work: one AI writes rules, another builds queries.",
+        "Listed every campaign name explicitly instead of guessing patterns.",
+        "Designed a before/after comparison to test the partner's suspicion."
+      ],
+      "impact": [
+        "Delivered a corrected query, though final results are still pending.",
+        "Designed a fair test to prove credit-stealing versus real extra sales."
+      ],
+      "skills": [
+        "Query design",
+        "Attribution analysis",
+        "AI/agent prompting",
+        "Japanese business communication"
+      ]
+    },
+    "section": "measurement"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Frequency cap test: finding where extra exposure stops adding conversions",
+    "context": "For a global consumer brand in Japan, I checked ad-frequency rules using real ad data.",
+    "img": "",
+    "metrics": [
+      "78% reach at only 2 views",
+      "11x more signups at low frequency",
+      "2x campaign overlap explained the dip"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Ad frequency",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A global consumer brand wanted to know how often to repeat an ad before it stops helping, using Amazon's ad data room (AMC). Different goals (awareness, consideration, purchase, loyalty) needed different limits.",
+      "problem": "The obvious approach (picking the frequency with best results) always said 'show more,' because heavy viewers already liked the product most.",
+      "actions": [
+        "Measured how many views it took to reach most people",
+        "Checked three signals together, not just one, before deciding",
+        "Found repeat views mostly went to already-loyal customers, not new ones"
+      ],
+      "impact": [
+        "Confirmed the awareness limit was correct; recommended cutting the loyalty limit sharply.",
+        "Suggested moving saved budget toward reaching new customers instead."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Ad strategy",
+        "Client communication"
+      ]
+    },
+    "section": "measurement"
+  },
+  {
+    "cat": "Performance",
+    "headline": "Removing a frequency cap: CPM fell 44%, but unique reach got 9% pricier",
+    "context": "For a premium beverage brand's ad team in Japan, I tested what happened when we stopped limiting repeat ads.",
+    "img": "",
+    "metrics": [
+      "Repeat views per person nearly doubled",
+      "Cost per ad view fell 44%",
+      "Reaching new people got 9% pricier"
+    ],
+    "tags": [
+      "Ad testing",
+      "SQL",
+      "Amazon ads",
+      "Frequency capping"
+    ],
+    "detail": {
+      "overview": "A premium beverage brand had been limiting how many times each person saw its awareness ads, then removed that limit to see if performance improved. I compared two matched two-week periods, before and after, to check.",
+      "problem": "There was no side-by-side comparison group since the limit was removed for everyone at once, risking a misleading before/after read.",
+      "actions": [
+        "Compared two equal 14-day windows, right before and after.",
+        "Picked cost-per-person-reached as the fairest scorecard for budgets.",
+        "Double-checked odd zero-result queries before trusting any numbers."
+      ],
+      "impact": [
+        "Found the cheaper ads were repeating on the same people.",
+        "Recommended bringing the viewing limit back."
+      ],
+      "skills": [
+        "Experiment design",
+        "SQL",
+        "Ad measurement",
+        "Data debugging"
+      ]
+    },
+    "section": "measurement"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "MMM budget simulator: a self-serve response-curve tool for budget scenarios",
+    "context": "For a global consumer brand in Japan, I built a self-serve Excel tool so the client could test budget changes.",
+    "img": "",
+    "metrics": [
+      "Matches real sales at 0% change",
+      "Doubling budget halves extra efficiency",
+      "Gains flip negative past +30%"
+    ],
+    "tags": [
+      "Excel",
+      "Budget simulation",
+      "Amazon ads",
+      "Client tool"
+    ],
+    "detail": {
+      "overview": "I turned a complex sales-response chart into a simple Excel tool: the client types in a budget change and instantly sees expected sales and a color-coded verdict. It took several redesigns to get it right.",
+      "problem": "Early versions broke basic logic: they showed the same result every month, or profitable results for the wrong month.",
+      "actions": [
+        "Required the tool to match real sales at zero change.",
+        "Used each month's real baseline instead of a made-up average.",
+        "Removed profit-margin guesses, judging results by sales impact only."
+      ],
+      "impact": [
+        "Gave the client a self-serve tool for monthly budget calls.",
+        "Forecasts are model-based, not yet tested against real spending."
+      ],
+      "skills": [
+        "Excel modeling",
+        "Budget simulation",
+        "Marketing analytics",
+        "Client tools"
+      ]
+    },
+    "section": "measurement"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Found the simplest chart clients could actually use",
+    "context": "For a global consumer brand in Japan, I tested spend-response curves, then switched to a simpler monthly scorecard.",
+    "img": "",
+    "metrics": [
+      "Efficiency fell from 25x to 14x",
+      "1 of 13 months excluded"
+    ],
+    "tags": [
+      "Curve fitting",
+      "Amazon ads",
+      "Marketing analytics",
+      "Python"
+    ],
+    "detail": {
+      "overview": "I fit several math curves to find the point where more ad spending stops paying off. With limited data points, the curves kept changing shape, so I used a simpler chart instead.",
+      "problem": "With only 13 months of data, the fitted curve kept changing its answer whenever the target efficiency level changed.",
+      "actions": [
+        "Fit several curve shapes to the monthly spend and sales data.",
+        "Removed one early month as a data-collection outlier.",
+        "Replaced the unstable curve with a clearer monthly chart."
+      ],
+      "impact": [
+        "Set the groundwork for a seasonal budget shift plan.",
+        "Curve numbers stayed unverified, so a simpler chart was used instead."
+      ],
+      "skills": [
+        "Curve fitting",
+        "Python (scipy)",
+        "Marketing mix modeling",
+        "Data visualization"
+      ]
+    },
+    "section": "measurement"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "AMC campaign taxonomy pipeline: 176 campaigns auto-classified, zero unlabeled",
+    "context": "For a global consumer brand's ad account in Japan, I built rules to label every ad campaign.",
+    "img": "",
+    "metrics": [
+      "176 campaigns sorted, zero unlabeled",
+      "Fixed 6 wrongly-labeled campaigns",
+      "Only 7 cases stayed unclear"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Data QA",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A global consumer brand runs 170+ ad campaigns with three different naming styles. Every campaign needed to be sorted into clear categories (brand, product category, funnel stage) with none left unlabeled.",
+      "problem": "An old shortcut in the sorting rule quietly mislabeled campaigns, and early checks had wrongly said everything passed.",
+      "actions": [
+        "Rebuilt the naming rule to avoid accidental letter matches",
+        "Reordered rules so specific labels won over general ones",
+        "Built a checker that flags any campaign left unsorted"
+      ],
+      "impact": [
+        "Reached zero unlabeled campaigns after fixing the hidden bug.",
+        "Escalated only 7 truly unclear names for manual review."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Data QA",
+        "Process design"
+      ]
+    },
+    "section": "infrastructure"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Monthly AMC reporting pipeline: unsorted campaigns from 13 to 0",
+    "context": "For a global consumer brand in Japan, I built the monthly ad-report data pipeline and campaign-sorting rules.",
+    "img": "",
+    "metrics": [
+      "Unsorted campaigns: 13 down to 0",
+      "Ad spend split shown as 67/33"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Excel",
+      "Campaign sorting"
+    ],
+    "detail": {
+      "overview": "A monthly ad report needed cost and sales split by brand, product category, and funnel stage. I wrote sorting rules in Amazon's ad data room (AMC) and checked results until none were left unsorted.",
+      "problem": "Campaign names weren't standardized, so a simple rule missed many campaigns, and cost and sales data lived in separate systems.",
+      "actions": [
+        "Wrote rules to sort campaigns by brand, product category, and stage.",
+        "Tested results repeatedly and fixed rules until nothing was unsorted.",
+        "Matched cost data to sales data using the same grouping rules."
+      ],
+      "impact": [
+        "Delivered a fully sorted campaign report with cost and sales combined.",
+        "Standardized how key report numbers were defined across the report."
+      ],
+      "skills": [
+        "Data querying",
+        "Rule-based classification",
+        "Data QA",
+        "Excel reporting"
+      ]
+    },
+    "section": "infrastructure"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "AMC vs. Ads console reconciliation: fixing a 43% overstatement",
+    "context": "For a global consumer brand in Japan, I fixed why our ad data didn't match the client's report.",
+    "img": "",
+    "metrics": [
+      "Ad sales were 43% too high"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Data reconciliation",
+      "Attribution"
+    ],
+    "detail": {
+      "overview": "Our ad platform's data room (AMC) showed 43% more ad sales than the client's official monthly report for the same month. I traced it to purchases being counted twice.",
+      "problem": "One purchase was sometimes counted under two different ad types, inflating the ad sales number well above the client's report.",
+      "actions": [
+        "Split ad sales by ad type to find the overlap.",
+        "Set a rule so each purchase counts only once.",
+        "Rebuilt the data pull as two separate, checkable steps."
+      ],
+      "impact": [
+        "Traced the gap to double-counted purchases across ad channels.",
+        "Created a reusable checklist for building future queries safely."
+      ],
+      "skills": [
+        "AMC SQL",
+        "Data reconciliation",
+        "Attribution logic",
+        "SQL prompting"
+      ]
+    },
+    "section": "infrastructure"
+  },
+  {
+    "cat": "CRM",
+    "headline": "Pinpointed day 60 as when repeat buying stops",
+    "context": "For a global consumer brand in Japan, I analyzed purchase data to find when one-time buyers stop repurchasing.",
+    "img": "",
+    "metrics": [
+      "32% of buyers bought only once",
+      "36% never repurchased within a year",
+      "Repeat buying halves by day 60"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Customer retention",
+      "SQL",
+      "Audience design"
+    ],
+    "detail": {
+      "overview": "The brand wanted to re-target customers who bought once and stopped. I studied purchase data to find the exact day repeat buying drops off, then sized and designed an ad audience around it.",
+      "problem": "The starting numbers were wrong (budget rules, timezones, product sizes), and an early check against an existing ad list was invalid.",
+      "actions": [
+        "Fixed early data errors in rules, timezones, and product sizes",
+        "Found day 60 using a drop-off pattern, not guesswork",
+        "Designed an ad audience and a fair before/after test"
+      ],
+      "impact": [
+        "Designed the ad audience and test plan, not yet launched",
+        "Reframed the value as reusing budget, not new customers"
+      ],
+      "skills": [
+        "SQL",
+        "Data analysis",
+        "Audience design",
+        "Experiment design"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Turned 4,700 overlapping audiences into a clear plan",
+    "context": "For a global consumer brand in Japan, I ranked ad audiences and designed which to add or drop.",
+    "img": "",
+    "metrics": [
+      "Category audiences converted 3 times more",
+      "Each shopper matched 120+ audiences",
+      "System dropped good audiences 1.9x faster"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Audience segments",
+      "Statistics",
+      "BigQuery"
+    ],
+    "detail": {
+      "overview": "An AI-run ad line picks its own audiences, and I had to find which ones actually work well. I ranked thousands of audiences fairly and designed a safe plan to expand or exclude them.",
+      "problem": "Simple counting broke down because each shopper belonged to over a hundred audiences at once, and audience names didn't match their real IDs.",
+      "actions": [
+        "Replaced a confusing score with one plain, readable number.",
+        "Matched audiences by their real ID, not just their name.",
+        "Set a size limit so huge audiences couldn't skew the ranking."
+      ],
+      "impact": [
+        "Delivered a clear expand-or-exclude plan balancing reach against results.",
+        "Live results after the changes went live were still pending."
+      ],
+      "skills": [
+        "Statistical reasoning",
+        "SQL",
+        "Audience strategy",
+        "Data visualization"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "New-to-brand strategy test: cost per new customer halved",
+    "context": "For a global consumer brand in Japan, I measured whether a new-customer ad strategy worked despite a budget cut.",
+    "img": "",
+    "metrics": [
+      "New customers per dollar nearly doubled",
+      "Cost per new customer fell half",
+      "Loyal purchases fell only 29%"
+    ],
+    "tags": [
+      "Amazon ads",
+      "BigQuery",
+      "Data analysis",
+      "Reporting"
+    ],
+    "detail": {
+      "overview": "The brand had stopped showing ads to past buyers to win new customers, and wanted proof it worked. I compared results before and after, using a similar campaign as a control group.",
+      "problem": "Sales fell so much overall that every simple number looked like a failure, even though the strategy might have been working underneath.",
+      "actions": [
+        "Compared matching time periods before and after, avoiding sale-season noise.",
+        "Measured new-customer share instead of raw totals, since spending dropped.",
+        "Showed loyal customers stayed steady, ruling out a market crash."
+      ],
+      "impact": [
+        "Delivered proof the new-customer strategy worked, even after the budget cut.",
+        "The main ad channel flipped from pricier to cheaper than the rest."
+      ],
+      "skills": [
+        "Data analysis",
+        "BigQuery",
+        "Ad reporting",
+        "Client communication"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Performance",
+    "headline": "Proved a system to stop repeat ads actually worked",
+    "context": "For a global consumer brand in Japan, I checked whether an ad system stopped repeat views and fixed gaps.",
+    "img": "",
+    "metrics": [
+      "Repeat ad views dropped 16 points",
+      "Cost per person fell 39%",
+      "One line's reach share rose 21pt"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Audience design",
+      "Data analysis",
+      "Ad strategy"
+    ],
+    "detail": {
+      "overview": "A system shows each ad group only to people the earlier groups missed, like a waterfall. I checked whether it worked, then found new audiences it should include.",
+      "problem": "The first check used the wrong measurement and looked like a failure, and one audience meant to narrow reach was secretly reaching everyone.",
+      "actions": [
+        "Re-measured using cross-group overlap instead of single-group repeat views.",
+        "Found and sized new audiences, then ranked them by size.",
+        "Proved one audience was broken, reaching everyone instead of a narrow group."
+      ],
+      "impact": [
+        "Confirmed the system worked and should stay running.",
+        "Designed 22 new audiences and 8 new ad groups to add."
+      ],
+      "skills": [
+        "Audience strategy",
+        "Data analysis",
+        "Amazon ads",
+        "Documentation"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "OTT lift claim corrected before delivery: 2.2x was really 0.44x",
+    "context": "For a premium beverage brand in Japan, I analyzed video ad data and fixed a wrong result before it shipped.",
+    "img": "",
+    "metrics": [
+      "OTT alone reached 18% of everyone",
+      "TV ads: 100% came via OTT",
+      "Lift claim fixed: 2.2x to 0.44x"
+    ],
+    "tags": [
+      "Amazon ads",
+      "OTT ads",
+      "BigQuery",
+      "Client presentation"
+    ],
+    "detail": {
+      "overview": "The client's video ads sat on top of its regular display and search ads. I built a pipeline to check how many extra people the video ads reached, and whether they boosted sales.",
+      "problem": "Broken campaign IDs, wrong product tags, and a hidden ad placement made the numbers unreliable, and an early sales-lift claim turned out to be miscalculated.",
+      "actions": [
+        "Fixed broken campaign data by matching names instead of broken IDs",
+        "Checked products by hand online instead of trusting price rules",
+        "Recomputed the sales-lift number and corrected it before delivery"
+      ],
+      "impact": [
+        "Delivered a defensible report the client team used with confidence",
+        "Stopped a false result from ever reaching the client"
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Python",
+        "Client communication"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Found 11 errors in Amazon's own official template",
+    "context": "For a premium beverage brand in Japan, I checked Amazon's official ad-data query for errors before running it.",
+    "img": "",
+    "metrics": [
+      "3 of 11 errors were critical"
+    ],
+    "tags": [
+      "SQL",
+      "Data quality",
+      "Amazon ads",
+      "Code review"
+    ],
+    "detail": {
+      "overview": "I once found a coding bug that gave wrong totals in an ad-data query. I used that lesson to check Amazon's own official version of a similar query before trusting it with real data.",
+      "problem": "Amazon's official query repeated the same bug pattern and also overstated results by mixing timing rules incorrectly.",
+      "actions": [
+        "Wrote a checklist from a past bug's root cause.",
+        "Checked Amazon's official query line by line against it.",
+        "Rewrote the query, fixing all 11 errors found."
+      ],
+      "impact": [
+        "Built a reusable checklist now used on every project.",
+        "Designed fixes were pending a final test run."
+      ],
+      "skills": [
+        "SQL",
+        "Code review",
+        "Data quality",
+        "Attribution logic"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Performance",
+    "headline": "Rebuilt online ad targeting so top customers get priority",
+    "context": "For a global consumer brand in Japan, I redesigned how their online ads target customers before a big sale.",
+    "img": "",
+    "metrics": [
+      "96% overlap found with existing audiences",
+      "One audience was 7x bigger",
+      "Moved a rule up 3 ranks"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Targeting rules",
+      "SQL",
+      "Budget strategy"
+    ],
+    "detail": {
+      "overview": "Ahead of a major sale, I reorganized which customers the brand's ads reach first. I measured overlap between new and existing customer lists, then fixed rule order so top-value customers get budget first.",
+      "problem": "New customer lists mostly overlapped with existing ones, and the targeting order didn't match how big each customer group really was.",
+      "actions": [
+        "Measured how much new customer lists overlapped with existing ones",
+        "Reordered targeting rules so top customers get budget priority",
+        "Fixed two rules that were ranked in the wrong order"
+      ],
+      "impact": [
+        "Delivered the full targeting redesign for the team to launch",
+        "Wrote simple rules the team can reuse for future targeting"
+      ],
+      "skills": [
+        "Data analysis",
+        "Ad targeting design",
+        "Logic checking",
+        "Team documentation"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Performance",
+    "headline": "Targeted new buyers ahead of a big sale",
+    "context": "For a global consumer brand in Japan, I designed and built this shopper-targeting audience for Amazon ads.",
+    "img": "",
+    "metrics": [
+      "Views dropped 18%, clicks rose 13%"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Audience targeting",
+      "Prime Day",
+      "Troubleshooting"
+    ],
+    "detail": {
+      "overview": "Shoppers were browsing pages but not buying before a big sale. I built an ad audience of recent browsers with no purchase history to target as likely new customers.",
+      "problem": "A too-strict 'no purchase' rule could sweep in loyal customers just waiting to reorder, and the new audience showed almost no traffic at launch.",
+      "actions": [
+        "Defined 'new customer' using the platform's own 365-day rule.",
+        "Fixed a broken query column after a console error.",
+        "Traced zero delivery step by step instead of rebuilding blindly."
+      ],
+      "impact": [
+        "Audience went live before the sale; delivery results were still pending.",
+        "Designed a reusable way to read ad results around any big sale."
+      ],
+      "skills": [
+        "Audience targeting",
+        "SQL debugging",
+        "Troubleshooting",
+        "Reporting charts"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Showed sales grew, not fell, and found why",
+    "context": "For a global consumer brand in Japan, I investigated a reported drop in new-customer sales.",
+    "img": "",
+    "metrics": [
+      "Sales rose 8%, not fell",
+      "One channel -23%, another +74%",
+      "Top-funnel ads overlapped 47% of users"
+    ],
+    "tags": [
+      "SQL",
+      "Data analysis",
+      "Ad funnel",
+      "Sales reporting"
+    ],
+    "detail": {
+      "overview": "The client believed new-customer sales were falling and wanted to know why. I found total sales had actually grown, then traced the real story to a shift between ad channels and overlapping ad targeting.",
+      "problem": "The starting belief that new-customer sales were dropping was wrong, and it hid a shift between two ad channels.",
+      "actions": [
+        "Broke total sales into quantity sold and price paid",
+        "Traced the change to one ad channel losing share",
+        "Measured how often the same customers saw competing ads"
+      ],
+      "impact": [
+        "Nine-slide report accepted by the manager and client",
+        "Pointed the fix toward ad targeting, not budget caps"
+      ],
+      "skills": [
+        "SQL",
+        "Data analysis",
+        "Ad funnel analysis",
+        "Client reporting"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Proved showing ads again to viewers doubled views",
+    "context": "For a global consumer brand's ad team in Japan, I measured whether repeat-viewer ads truly worked.",
+    "img": "",
+    "metrics": [
+      "Reached targeted viewers 500x more often",
+      "Views per person more than doubled",
+      "Repeat views rose 6-8%, control fell"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Ad measurement",
+      "SQL",
+      "Experiment design"
+    ],
+    "detail": {
+      "overview": "A campaign re-showed ads to people who'd seen the brand online before. The client doubted it helped, so I tested whether it truly reached the right people and added extra views.",
+      "problem": "My first read said reach doubled but repeat views stayed flat, which didn't match how the campaign was built to work.",
+      "actions": [
+        "Questioned a 'no change' result that didn't make sense.",
+        "Found new, lightly-viewed people were dragging down the average.",
+        "Locked the comparison group before launch and re-measured fairly."
+      ],
+      "impact": [
+        "Confirmed the campaign reached the right people and lifted views.",
+        "Reviewed the test's code and flagged fixes before reporting numbers."
+      ],
+      "skills": [
+        "Experiment design",
+        "SQL",
+        "Ad measurement",
+        "Code review"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built a sales forecast that shows its own guesswork",
+    "context": "For a global consumer brand in Japan, I built a full-year sales forecast requested by my manager.",
+    "img": "",
+    "metrics": [
+      "200 products sorted into 9 groups",
+      "207 real days plus 158 estimated"
+    ],
+    "tags": [
+      "Forecasting",
+      "Spreadsheet formulas",
+      "SQL",
+      "Data transparency"
+    ],
+    "detail": {
+      "overview": "My manager wanted next year's sales estimated from this year's results, then adjusted for big holiday sales events. I built the estimate so the guessed part is one labeled number, not hidden in the formula.",
+      "problem": "The needed multiplier for holiday sales couldn't be measured because last year's matching data no longer existed.",
+      "actions": [
+        "Sorted 200 products into 9 objective groups automatically",
+        "Checked three ways to measure the holiday effect first",
+        "Turned the unmeasurable guess into one adjustable number"
+      ],
+      "impact": [
+        "Delivered a reusable forecast workbook awaiting manager sign-off",
+        "Made the spend data's limits clear so no one misreads it"
+      ],
+      "skills": [
+        "Forecasting",
+        "Spreadsheet formulas",
+        "SQL",
+        "Data transparency"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Found two ad stages that need more budget",
+    "context": "For a global consumer brand in Japan, I measured how well ads reached shoppers at each stage.",
+    "img": "",
+    "metrics": [
+      "Hit the 70% reach goal",
+      "Two stages stuck near 40-50%",
+      "Fixed a chart mismatch of 2.3%"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Data visualization",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A global consumer brand runs ads across four buying stages (awareness, consideration, purchase, loyalty) and wanted to know how deeply each stage reaches shoppers. Leadership needed one trustworthy chart set to judge funding per stage.",
+      "problem": "Early charts used mismatched math, so the year-end summary chart didn't match the month-by-month trend chart, confusing what the numbers meant.",
+      "actions": [
+        "Defined one clear way to measure each stage's reach",
+        "Rebuilt the math so every chart added up correctly",
+        "Turned results into plain advice on where to spend more"
+      ],
+      "impact": [
+        "Delivered a reconciled chart set leaders could trust and reuse.",
+        "Flagged two under-funded stages and one over-saturated stage for budget talks."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Data visualization",
+        "Client communication"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Seeing both ad types multiplied new customers by 6.7x",
+    "context": "For a global consumer brand's awareness ads in Japan, I tested reach, frequency, and audience design.",
+    "img": "",
+    "metrics": [
+      "Reached 107-504% of each campaign's reach goal",
+      "6.7x more new customers when combined",
+      "Top audience group won 5.7x more"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Audience design",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A global consumer brand ran six types of awareness ads and wanted to know if reach, frequency, and budget were right. I also tested whether pairing two ad types worked better than either alone.",
+      "problem": "Reach and frequency numbers were defined two different ways, and it looked like the discovery ads and retargeting ads worked separately.",
+      "actions": [
+        "Defined reach clearly so every channel could be compared fairly",
+        "Tested how often to repeat ads using three signals at once",
+        "Grouped viewers by which ad combo they saw, then compared results"
+      ],
+      "impact": [
+        "Client increased spend on discovery ads and added a follow-up ad link.",
+        "Withdrew a frequency increase before it reached the client."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Audience design",
+        "Client communication"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Follow-up ads reach 78% of new shoppers",
+    "context": "For a global consumer brand in Japan, I checked whether follow-up ads and targeting were working.",
+    "img": "",
+    "metrics": [
+      "Follow-up rate jumped 48% to 78%",
+      "Overlap dropped from 36% to 1%",
+      "All 8 checks matched perfectly"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Audience design",
+      "Data analysis"
+    ],
+    "detail": {
+      "overview": "A global consumer brand runs separate ads for two product categories and re-shows ads to shoppers who already saw one (retargeting). The client worried the setup wasn't working.",
+      "problem": "A quick check made retargeting look broken (only 7-8%), and the two category audiences overlapped more than expected in early-stage ads.",
+      "actions": [
+        "Fixed a technical bug that broke the original measurement",
+        "Recalculated the ad-follow-up rate the right way, over 3 months",
+        "Traced the overlap to a shared audience list, not a bug"
+      ],
+      "impact": [
+        "Showed 4 in 5 shoppers really were reached by earlier ads.",
+        "Recommended splitting the shared audience list to fix true overlap."
+      ],
+      "skills": [
+        "Data analysis",
+        "SQL",
+        "Data visualization",
+        "Root-cause analysis"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "CRM",
+    "headline": "Rebuilt 10 ad audiences; 8 out of 10 worked",
+    "context": "For a global consumer electronics brand's Japan ads, via their agency, I redesigned who gets retargeted with new-customer ads.",
+    "img": "",
+    "metrics": [
+      "10 audiences built from 2 designs",
+      "8 of 10 audiences worked",
+      "Excluded buyers from the past year"
+    ],
+    "tags": [
+      "Audience targeting",
+      "SQL",
+      "Data privacy",
+      "Advertising"
+    ],
+    "detail": {
+      "overview": "Two customer lists an electronics brand used for retargeting had shrunk too small to use. I rebuilt them with a fixed one-year no-purchase rule so anyone who converted would count as a genuinely new customer.",
+      "problem": "The old lists stopped delivering, and 'never bought' was only checked inside whatever short time window each list used.",
+      "actions": [
+        "Answered the client using only documented facts, not guesses",
+        "Split the shopping window from the fixed one-year exclusion",
+        "Hand-checked every date boundary before sending the final lists"
+      ],
+      "impact": [
+        "Delivered 8 of 10 working audience lists with documented logic",
+        "Built the exclusion rule to match the client's own definition"
+      ],
+      "skills": [
+        "SQL",
+        "Audience targeting",
+        "Data QA",
+        "Client communication"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Rescued a hidden low-budget channel from disappearing in reports",
+    "context": "For a global consumer brand in Japan, I fixed data bugs and built a fairer way to score ad channels.",
+    "img": "",
+    "metrics": [
+      "Just 20 paths covered 85%",
+      "One path was half of it"
+    ],
+    "tags": [
+      "Data QA",
+      "Ad analytics",
+      "SQL",
+      "Data visualization"
+    ],
+    "detail": {
+      "overview": "A standard top-20 report by traffic volume made a cheap, effective ad channel invisible. I built a separate scorecard so small-budget channels could still be judged fairly, after also fixing two silent data bugs.",
+      "problem": "Ranking channels by traffic volume alone hid a small, cheap channel that mattered, and two hidden bugs were producing impossible numbers.",
+      "actions": [
+        "Found why 'buyers' count matched pure traffic count exactly",
+        "Traced a data-naming bug that made purchases show as zero",
+        "Built a separate scorecard so small channels stayed visible"
+      ],
+      "impact": [
+        "Delivered a report structure that didn't hide the small channel",
+        "Fixed two bugs that were producing impossible numbers"
+      ],
+      "skills": [
+        "Data debugging",
+        "SQL",
+        "Data visualization",
+        "Data QA"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Fixed a data mix-up that hid video ad sales",
+    "context": "For a global consumer brand in Japan, I built and debugged a dashboard matching two ad data systems.",
+    "img": "",
+    "metrics": [
+      "Categories matched perfectly, 8 for 8",
+      "Video sales were 100% miscounted",
+      "Remaining sales gap: about 10%"
+    ],
+    "tags": [
+      "Data reconciliation",
+      "SQL",
+      "Dashboards",
+      "Debugging"
+    ],
+    "detail": {
+      "overview": "I built a query that pulls all ad spending and sales into the same categories the client's dashboard uses. Then I compared every number side by side to catch mismatches.",
+      "problem": "Video ad results were silently mislabeled as a different category, and even after fixing that, sales still didn't fully match.",
+      "actions": [
+        "Combined spending and sales data into one matching table",
+        "Traced why video sales showed as zero, found mislabeling",
+        "Compared rankings before and after to confirm decisions stayed sound"
+      ],
+      "impact": [
+        "Query adopted as the team's standard dashboard, category counts now match perfectly",
+        "Remaining sales gap accepted since rankings didn't change"
+      ],
+      "skills": [
+        "SQL",
+        "Data reconciliation",
+        "Debugging",
+        "Dashboard design"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Incremental reach check: a streaming ad's exclusive reach was 38%, not 62%",
+    "context": "For a global consumer brand in Japan, I tested whether one ad format truly reached new people.",
+    "img": "",
+    "metrics": [
+      "Exclusive reach was 38%, not 62%",
+      "3 of 4 people moved onward",
+      "About half of two groups overlapped"
+    ],
+    "tags": [
+      "Overlap analysis",
+      "Ad reach",
+      "Data visualization",
+      "Client reporting"
+    ],
+    "detail": {
+      "overview": "A streaming-ad format claimed to reach people no other ad touched. I re-ran the numbers without a channel that was quietly inflating the overlap, and checked whether each funnel step really fed the next.",
+      "problem": "An early estimate said a video ad format was mostly unique reach, but that number actually measured overlap, not exclusivity.",
+      "actions": [
+        "Removed a channel that was distorting the overlap numbers",
+        "Recalculated true exclusive reach versus shared reach for each format",
+        "Checked how much each funnel step fed into the next"
+      ],
+      "impact": [
+        "Corrected the reach claim and confirmed the retargeting funnel works as intended"
+      ],
+      "skills": [
+        "Overlap analysis",
+        "SQL",
+        "Data visualization",
+        "Client communication"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Fixed a report that shortchanged nighttime ad sales",
+    "context": "For a global consumer brand in Japan, I rebuilt an ad report so night-time sales counted correctly.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "SQL",
+      "Attribution timing",
+      "Data debugging",
+      "Advertising"
+    ],
+    "detail": {
+      "overview": "A report judged ad success by purchase time, making quiet night hours look worse than they were. I rebased it on exposure time instead, after tracing three reasons it first returned no data.",
+      "problem": "Measuring success by purchase time under-credited quiet hours, and the new query first returned nothing for three separate reasons.",
+      "actions": [
+        "Tracked down three separate causes of the empty report",
+        "Fixed a purchase filter that missed most real sales",
+        "Removed an average number that a privacy rule was hiding"
+      ],
+      "impact": [
+        "Validated the hourly report against the ad platform's own numbers",
+        "Designed a spend-linked version that has not been run yet"
+      ],
+      "skills": [
+        "SQL",
+        "Attribution timing",
+        "Data debugging",
+        "Advertising analytics"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Performance",
+    "headline": "Turned around a premium beverage brand's Amazon ads by testing",
+    "context": "For a premium beverage brand in Japan, I ran the Amazon ad account's recovery, testing each fix separately.",
+    "img": "",
+    "metrics": [
+      "Lower-funnel delivery 20-40% to 90-99%",
+      "Ad returns back above break-even"
+    ],
+    "tags": [
+      "Amazon ads",
+      "A/B testing",
+      "Audience design",
+      "Budget pacing"
+    ],
+    "detail": {
+      "overview": "A premium beverage brand's Amazon ads were losing money in 2026, and the ads meant to close sales barely ran. I fixed it by testing one change at a time across six ad lines.",
+      "problem": "Ad returns fell below break-even and lower-funnel ads delivered only 20-40%, because target audiences were tiny and mismatched up to 99%.",
+      "actions": [
+        "Expanded every funnel's audience with custom clean-room audiences (biggest win)",
+        "Split awareness ads by audience type and capped projected spend manually",
+        "Replaced weak interest audiences with scraped competitor product targeting"
+      ],
+      "impact": [
+        "Lower-funnel delivery rose from 20-40% to 90-99%",
+        "Ad returns recovered from below break-even to consistently above it"
+      ],
+      "skills": [
+        "Amazon DSP",
+        "A/B testing",
+        "Audience strategy",
+        "Budget optimization"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Performance",
+    "headline": "Split one blended audience, and ad efficiency recovered",
+    "context": "For a premium beverage brand on Amazon in Japan, I diagnosed why a shared ad line was losing efficiency.",
+    "img": "",
+    "metrics": [
+      "Cost -37%",
+      "Clicks +78%",
+      "Ad returns 0.5 to 0.94"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Audience design",
+      "Measurement",
+      "Bidding"
+    ],
+    "detail": {
+      "overview": "The brand's core buyers are a small group on Amazon, so they had been bundled with a related interest audience in one ad line. From early 2026 that line cost the same but got fewer clicks.",
+      "problem": "Two related audiences in one line gave the bidding algorithm mixed signals, so it optimized for neither (audience dilution).",
+      "actions": [
+        "Formed the dilution hypothesis from the cost, click and return pattern",
+        "Split the blended line into two independent lines in June",
+        "Gave the core audience most of the budget and re-scored the related interest audience on awareness metrics"
+      ],
+      "impact": [
+        "Cost fell 37% while clicks rose 78% and sales rose 19%",
+        "Ad returns improved from 0.5 to 0.94"
+      ],
+      "skills": [
+        "Amazon DSP",
+        "Audience strategy",
+        "Measurement",
+        "Bidding optimization"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Performance",
+    "headline": "Relaunched competitor targeting: a new segment scaled from near zero",
+    "context": "For a global consumer brand in Japan, I ran the competitor-targeting refresh on Amazon ads and tracked results.",
+    "img": "",
+    "metrics": [
+      "Sales +10,928% MoM, from a near-zero March base",
+      "New-customer sales +9,585%",
+      "Returns fell 14-97% as spend scaled"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Retargeting",
+      "Competitor targeting",
+      "Web scraping"
+    ],
+    "detail": {
+      "overview": "In February I had designed how to target shoppers of rival brands in the category, but nothing was live yet. In April I refreshed the rival product lists and launched new contextual ads.",
+      "problem": "Rival product lists used for retargeting were stale and no contextual targeting was running, so the plan had no live results.",
+      "actions": [
+        "Re-scraped rival product lists for three retargeting audience segments",
+        "Launched new contextual targeting alongside the refreshed retargeting",
+        "Tracked cost, sales, new-customer sales and returns month over month"
+      ],
+      "impact": [
+        "Sales and new-customer sales grew thousands of percent in all segments",
+        "Returns fell as spend scaled, typical for a new segment's expansion"
+      ],
+      "skills": [
+        "Amazon DSP",
+        "Competitor targeting",
+        "Web scraping",
+        "Month-over-month analysis"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Research",
+    "headline": "Built a 2,700-product competitor list and picked targets",
+    "context": "For a global consumer brand in Japan, I built and classified a competitor product list for ad targeting.",
+    "img": "",
+    "metrics": [
+      "89 search terms across 3 groups",
+      "Merged lists into 2,700 clean products",
+      "Picked 40 products for ad targeting"
+    ],
+    "tags": [
+      "Competitor research",
+      "Web scraping",
+      "Google Sheets",
+      "Product classification"
+    ],
+    "detail": {
+      "overview": "I gathered thousands of competitor products from Amazon Japan and sorted them into the client's product categories automatically. Then I picked 40 products, mixing popular and niche ones, for ad targeting.",
+      "problem": "Automatically sorting messy product names into the right category was hard, especially when the client's own labels did not match my rules.",
+      "actions": [
+        "Designed search terms to find competitor products, not our own",
+        "Built a sorting system that classified products by product name",
+        "Merged two product lists and picked 40 for targeting"
+      ],
+      "impact": [
+        "Delivered a clean competitor list and a ready targeting shortlist",
+        "Found the client's category definitions did not match ours"
+      ],
+      "skills": [
+        "Web scraping",
+        "Text classification (regex)",
+        "Data cleaning",
+        "Client communication"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Showed which product line turns budget into sales best",
+    "context": "For a global consumer brand in Japan, I analyzed whether ad budget changes tracked with new-customer sales results.",
+    "img": "",
+    "metrics": [
+      "Line A spend share: 79% to 67%",
+      "Search-ads spend share: 37% to 57%",
+      "Line B: 1/3 spend, half sales"
+    ],
+    "tags": [
+      "Budget analysis",
+      "Google Sheets",
+      "Python",
+      "Data visualization"
+    ],
+    "detail": {
+      "overview": "A client asked if ad budget changes matched new-to-brand (first-time buyer) sales changes, by product line and channel. I reframed it as three questions: where money goes, where sales come from, and how they connect.",
+      "problem": "Only three months of data existed, budget mattered across five different levels, and the two ad channels used different naming.",
+      "actions": [
+        "Rebuilt clean monthly totals by removing duplicate subtotal rows.",
+        "Compared each segment's spend share against its sales share.",
+        "Rewrote conclusions to avoid overstating cause from only 3 months."
+      ],
+      "impact": [
+        "Delivered a clear view of which segments turn budget into sales best.",
+        "Kept conclusions honest by not claiming strong correlation from 3 data points."
+      ],
+      "skills": [
+        "Data analysis framing",
+        "Google Sheets",
+        "Python (pandas)",
+        "Executive communication"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Fixed a data illusion that hid true buying speed",
+    "context": "For a premium beverage brand in Japan, I measured how fast people buy after seeing an ad.",
+    "img": "",
+    "metrics": [
+      "Groups simplified: 37 down to 11",
+      "Campaign count fixed: 30+ to 17"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Data debugging",
+      "Time analysis"
+    ],
+    "detail": {
+      "overview": "A client asked how long after seeing an ad people take to buy. My first pass looked wrong because it ignored the 14-day tracking window and counted recent, still-unfinished cases.",
+      "problem": "Sales counted past the 14-day tracking window aren't valid, and very recent ad views hadn't had time to finish tracking yet.",
+      "actions": [
+        "Cut out sales that fell outside the 14-day window.",
+        "Excluded recent ad views whose tracking wasn't finished yet.",
+        "Simplified time groups from 37 down to 11 categories."
+      ],
+      "impact": [
+        "Delivered a trustworthy buying-speed model; final chart is not yet finished."
+      ],
+      "skills": [
+        "Data querying",
+        "Time-based analysis",
+        "Data debugging",
+        "Client reporting"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Video vs. static: half the reach cost, one-fifth the conversion rate",
+    "context": "For a global consumer brand in Japan, I compared video and static ads to guide budget.",
+    "img": "",
+    "metrics": [
+      "Video reach cost: half of Static",
+      "Video's conversion rate: 1/5 of Static",
+      "New-customer cost: 2.6x higher for Video"
+    ],
+    "tags": [
+      "Amazon ads",
+      "SQL",
+      "Video vs static",
+      "Japanese reporting"
+    ],
+    "detail": {
+      "overview": "I traced each customer's ad journey (path to purchase) to see whether video or static ads worked better. I split the data by ad type instead of just campaign, then compared costs and results.",
+      "problem": "The usual report only showed ad campaigns, not video vs static, so nobody could tell which creative type actually worked.",
+      "actions": [
+        "Rebuilt the ad-tracking query to label each ad as video or static",
+        "Fixed a cost formula so it reflected real billed spending",
+        "Wrote plain-language slides and a script explaining the tradeoffs"
+      ],
+      "impact": [
+        "Recommended keeping video ads steady, boosting them only during sales periods",
+        "Set a reusable rule for measuring any ad type by customer journey"
+      ],
+      "skills": [
+        "Data querying (SQL)",
+        "Ad performance analysis",
+        "Budget recommendations",
+        "Japanese reporting"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Ranked ad channels to build three budget plans",
+    "context": "For a global consumer brand in Japan, I scored ad channels to propose three 2026 budget plans.",
+    "img": "",
+    "metrics": [
+      "Awareness budget: 25% up to 30%",
+      "Search ads: 38% down to 35%",
+      "Top channel: 33% of new customers"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Budget planning",
+      "Google Sheets",
+      "KPI design"
+    ],
+    "detail": {
+      "overview": "The client wanted to know which ad channels to grow and which to protect for the next year's budget. I scored each channel on cost and new-customer results, then built three budget plans.",
+      "problem": "Six months of data made comparing channels unfair, since view counts and spend naturally differ by channel size.",
+      "actions": [
+        "Adjusted for time so channels could be fairly compared",
+        "Built a simple scoring system based on cost and reach",
+        "Drafted three budget plans balancing sales and new customers"
+      ],
+      "impact": [
+        "Delivered three ready-to-review budget plans with clear scoring logic",
+        "Designed shared rules other channel-scoring projects later reused"
+      ],
+      "skills": [
+        "Ad performance scoring",
+        "Budget planning",
+        "Spreadsheet modeling",
+        "Stakeholder communication"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Grouped 174 products to guide next year's budget",
+    "context": "For a global consumer brand in Japan, I grouped products to show where ad budget should go.",
+    "img": "",
+    "metrics": [
+      "Top 20 items = 37% impact",
+      "Rules adjusted per product line",
+      "4 scores calculated from 1 dataset"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Data segmentation",
+      "Charts",
+      "Client presentation"
+    ],
+    "detail": {
+      "overview": "A brand had 174 products and needed to know which ones actually bring in new customers. I grouped them into three simple types and built a one-page chart to guide 2026 ad spending.",
+      "problem": "Ranking products by new-customer rate alone put tiny, barely-selling items at the top, which was misleading.",
+      "actions": [
+        "Filtered out tiny products before ranking by new-customer rate.",
+        "Sorted the rest into three plain, easy-to-understand groups.",
+        "Built one chart and rewrote rules for a second product line."
+      ],
+      "impact": [
+        "Gave the client a clear one-page plan for 2026 ad budget.",
+        "Repeated the grouping for a second product line with new rules."
+      ],
+      "skills": [
+        "Data segmentation",
+        "KPI design",
+        "Chart design",
+        "Bilingual reporting"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Rebuilt a sale budget to avoid wasted spend",
+    "context": "For a global consumer brand in Japan, I checked and redesigned a client's holiday sale spending plan.",
+    "img": "",
+    "metrics": [
+      "Spending packed 2.2x tighter per day",
+      "Split shifted 77:23 to 72.5:27.5",
+      "Weak week's budget capped, not grown"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Budget planning",
+      "Marketing math",
+      "Client advisory"
+    ],
+    "detail": {
+      "overview": "A client's first-ever sale budget plan fell short of its own sales target. I checked the numbers against real past data and redesigned how the budget was split by day and product line.",
+      "problem": "There was no past sale to compare against, and cramming the same total budget into fewer days changes its effect.",
+      "actions": [
+        "Rejected the client's overly pessimistic sales assumptions using real data.",
+        "Compared daily spending, not totals, to judge the real risk.",
+        "Capped the weak week's budget and moved money to the strong one."
+      ],
+      "impact": [
+        "Designed a daily budget plan that better protects sales results.",
+        "Gave the client a data-backed answer instead of guesswork."
+      ],
+      "skills": [
+        "Marketing math",
+        "Budget planning",
+        "Data analysis",
+        "Critical thinking"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Explained why 'new customer' ads seemed to fail",
+    "context": "For a global consumer brand in Japan, I investigated a confusing result in a customer-acquisition ad campaign.",
+    "img": "",
+    "metrics": [
+      "Only 19% of buyers were new",
+      "81% looked like repeat customers",
+      "2 mixed-up numbers, sorted apart"
+    ],
+    "tags": [
+      "Amazon ads",
+      "Attribution",
+      "Customer data",
+      "Vendor emails"
+    ],
+    "detail": {
+      "overview": "Ads meant to reach brand-new shoppers were set to exclude anyone who bought recently, yet most buyers still looked like repeat customers. I dug into why the numbers didn't match the setup.",
+      "problem": "The report showed mostly repeat buyers even though the targeting excluded them, and the cause could be our setup or a defined difference.",
+      "actions": [
+        "Separated two different percentages that were being confused together.",
+        "Ruled out simple explanations using logic, not guesswork.",
+        "Asked Amazon one yes-or-no question to pinpoint the cause."
+      ],
+      "impact": [
+        "Designed a question so any Amazon answer points to a clear next step.",
+        "Gave managers a simple, two-number explanation for the year-end review."
+      ],
+      "skills": [
+        "Data analysis",
+        "Amazon ads",
+        "Problem-solving",
+        "Business writing"
+      ]
+    },
+    "section": "audience"
+  },
+  {
+    "cat": "Performance",
+    "headline": "Brought CIDER's ads in-house and tripled results",
+    "context": "For CIDER, a fashion e-commerce brand, I rebuilt paid ads in-house after an agency's results fell 70%.",
+    "img": "",
+    "metrics": [
+      "+200% year-over-year growth",
+      "+26% month-over-month growth"
+    ],
+    "tags": [
+      "Naver ads",
+      "Kakao ads",
+      "A/B testing",
+      "Performance"
+    ],
+    "detail": {
+      "overview": "CIDER's paid ads on Naver and Kakao were run by an agency, but results had dropped about 70%. I took the whole channel in-house and rebuilt it end to end.",
+      "problem": "Agency-run paid ads had fallen about 70%, with no reliable in-house tracking.",
+      "actions": [
+        "Rebuilt Naver and Kakao paid campaigns in-house from scratch",
+        "Rebuilt conversion tracking to trust the numbers again",
+        "Ran A/B tests to improve ad performance steadily"
+      ],
+      "impact": [
+        "Grew ad performance 200% year over year",
+        "Kept improving about 26% month over month on average"
+      ],
+      "skills": [
+        "Naver ads",
+        "Kakao ads",
+        "A/B testing",
+        "Performance marketing"
+      ]
+    },
+    "section": "cider"
+  },
+  {
+    "cat": "Influencer",
+    "headline": "Rebuilt influencer playbook, sales jumped 67%",
+    "context": "For CIDER, a fashion brand, I built the influencer marketing playbook and tracking from scratch.",
+    "img": "",
+    "metrics": [
+      "+67% sales vs last campaign"
+    ],
+    "tags": [
+      "Influencers",
+      "Naver",
+      "Sales growth"
+    ],
+    "detail": {
+      "overview": "CIDER's influencer marketing on Naver (a popular Korean blog platform) had no playbook or reliable tracking. I built sponsorship rules, a tier chart, and ways to measure results.",
+      "problem": "Naver results were hard to track directly, and each influencer campaign started from zero with no repeatable process.",
+      "actions": [
+        "Wrote sponsorship guidelines so content stayed varied and on-brand",
+        "Built an influencer tier chart with clear performance metrics",
+        "Tracked results by hand since Naver couldn't measure them directly"
+      ],
+      "impact": [
+        "Sales rose 67% versus the previous campaign",
+        "Playbook adopted across Naver, Instagram, and YouTube"
+      ],
+      "skills": [
+        "Influencer marketing",
+        "Naver",
+        "Negotiation",
+        "Excel"
+      ]
+    },
+    "section": "cider"
+  },
+  {
+    "cat": "Influencer",
+    "headline": "Built an ambassador program that made 9x sales",
+    "context": "For CIDER, a fashion brand, I ran an ambassador program from planning to launch as project lead.",
+    "img": "",
+    "metrics": [
+      "Sales were 9x the budget",
+      "Content: 52% feed, 47% reels"
+    ],
+    "tags": [
+      "Project management",
+      "Influencer marketing",
+      "Market research"
+    ],
+    "detail": {
+      "overview": "CIDER had little brand awareness or loyalty in Korea. I ran an ambassador program end to end to build engagement, an exclusive collection, and steady ad content.",
+      "problem": "The brand needed deeper engagement, a reason to explore the app, and a steady flow of ad content.",
+      "actions": [
+        "Designed the program around engagement, an exclusive collection, and content",
+        "Prepared over 20 styled looks with team feedback",
+        "Set reward tiers and routed content to ad teams"
+      ],
+      "impact": [
+        "Sales reached 9x the invested budget",
+        "Content mix beat targets at 52% feed, 47% reels"
+      ],
+      "skills": [
+        "Project management",
+        "Influencer marketing",
+        "Market research"
+      ]
+    },
+    "section": "cider"
+  },
+  {
+    "cat": "Event",
+    "headline": "Ran a pop-up that tripled competitors' foot traffic",
+    "context": "For CIDER, a fashion brand, I led a Seoul pop-up event on a lean budget.",
+    "img": "",
+    "metrics": [
+      "+7,243% jump in social searches",
+      "3x the usual foot traffic"
+    ],
+    "tags": [
+      "Event planning",
+      "PR",
+      "Viral marketing"
+    ],
+    "detail": {
+      "overview": "CIDER needed a big splash before pop-ups at two festivals, on a tight budget. Offline pop-up results (like foot traffic) are hard to measure, so I built a way to track it.",
+      "problem": "The event had to make a big impression on a tight budget, and offline results are hard to measure.",
+      "actions": [
+        "Pitched press coverage instead of paying for placement",
+        "Researched other pop-ups for format and merchandising ideas",
+        "Built a tracking framework and aligned KPIs across teams"
+      ],
+      "impact": [
+        "Social search volume jumped +7,243%",
+        "Foot traffic hit about 3x competitors' average"
+      ],
+      "skills": [
+        "Event planning",
+        "PR",
+        "Viral marketing",
+        "KPI design"
+      ]
+    },
+    "section": "cider"
+  },
+  {
+    "cat": "Content",
+    "headline": "Grew CIDER's Korean blog traffic by 81%",
+    "context": "For CIDER, a fashion brand new to Korea, I grew its blog and handled early customer questions.",
+    "img": "",
+    "metrics": [
+      "+81% more daily blog visitors",
+      "Followers doubled in 6 months"
+    ],
+    "tags": [
+      "Content marketing",
+      "Naver blog",
+      "Social media"
+    ],
+    "detail": {
+      "overview": "CIDER had no recognition in Korea and no customer support yet. I built Instagram-style blog content and answered customer questions myself until formal support existed.",
+      "problem": "Limited manpower and rising customer questions arrived at once, and the blog had to feel like the brand itself.",
+      "actions": [
+        "Built relationships by commenting directly on influencer blogs",
+        "Made Instagram-style posts: trends, styling guides, travel picks",
+        "Answered exchanges, sizing, and FAQs as early customer service"
+      ],
+      "impact": [
+        "Daily blog visitors rose 81%",
+        "Follower count doubled within six months"
+      ],
+      "skills": [
+        "Content marketing",
+        "Naver blog",
+        "Customer service"
+      ]
+    },
+    "section": "cider"
+  },
+  {
+    "cat": "Research",
+    "headline": "Lifted address form completion by 20%",
+    "context": "For CIDER's Korean app, I fixed sizing, address entry, and the returns process for local shoppers.",
+    "img": "",
+    "metrics": [
+      "+20% more people finished checkout"
+    ],
+    "tags": [
+      "UX design",
+      "Localization",
+      "A/B testing"
+    ],
+    "detail": {
+      "overview": "CIDER's Korean app lacked local touches for sizing, address entry, and returns. I designed an automatic address tool, resized options for Korean shoppers, and mapped the full return journey.",
+      "problem": "Foreign-sized options and manual address entry created friction, and any change needed leadership approval.",
+      "actions": [
+        "Specced an automatic address tool with the backend team",
+        "Tested checkout with and without the address tool",
+        "Mapped the full return journey against competitors, stage by stage"
+      ],
+      "impact": [
+        "Address tool lifted checkout completion by 20%",
+        "Leadership approved the fixes and moved forward"
+      ],
+      "skills": [
+        "UX design",
+        "A/B testing",
+        "Localization",
+        "Competitor analysis"
+      ]
+    },
+    "section": "cider"
+  },
+  {
+    "cat": "CRM",
+    "headline": "Moved customer messages to Kakao, retention rose",
+    "context": "For CIDER's Korean shoppers, I built messaging and support on KakaoTalk, Korea's top chat app.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "KakaoTalk",
+      "Customer retention",
+      "Customer service"
+    ],
+    "detail": {
+      "overview": "CIDER only reached customers by email and app alerts, while Korean shoppers live on KakaoTalk (a popular chat app). I added Kakao messages, a support chatbot, and local-language customer service.",
+      "problem": "There was no Korean-language customer channel or support, even though local shoppers rely heavily on chat.",
+      "actions": [
+        "Sent Kakao messages for payment, shipping, and reviews",
+        "Built a Kakao chatbot for common customer questions",
+        "Mapped over 10 competitors' messaging approaches"
+      ],
+      "impact": [
+        "Retention and payment success improved after launch",
+        "Chatbot cut direct inquiries and collected complaint data"
+      ],
+      "skills": [
+        "KakaoTalk",
+        "Customer service",
+        "Competitor analysis"
+      ]
+    },
+    "section": "cider"
+  },
+  {
+    "cat": "Research",
+    "headline": "Turned customer interviews into an action plan",
+    "context": "For CIDER, I ran customer interviews from planning to a final action plan.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Market research",
+      "Interviews",
+      "Strategic planning"
+    ],
+    "detail": {
+      "overview": "CIDER needed real customer feedback (voice of the customer) to guide its product and marketing. I planned and ran the interviews myself, start to finish.",
+      "problem": "There was no structured way to gather deep feedback on the app and products from Korean customers.",
+      "actions": [
+        "Planned and ran the interviews from start to finish",
+        "Collected detailed feedback on the app and products",
+        "Turned findings into a prioritized action plan"
+      ],
+      "impact": [
+        "Customer feedback became a concrete plan for the team"
+      ],
+      "skills": [
+        "Market research",
+        "Interviews",
+        "Strategic planning"
+      ]
+    },
+    "section": "cider"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Mapped a company's market share in a dashboard",
+    "context": "Portfolio project: I cleaned sample sales data and built a market-share dashboard for a global brand.",
+    "img": "",
+    "metrics": [
+      "48.55% market share mapped",
+      "10.94% average yearly growth"
+    ],
+    "tags": [
+      "Dashboards",
+      "Data modeling",
+      "Portfolio project"
+    ],
+    "detail": {
+      "overview": "This portfolio project analyzed a sample electronics brand against competitors using a benchmarking dataset. I cleaned five separate tables and built a dashboard to compare market share and growth.",
+      "problem": "Five separate data tables needed cleaning and linking before any insight was possible.",
+      "actions": [
+        "Cleaned and reshaped raw data across five tables",
+        "Linked the tables and built a calendar table",
+        "Wrote formulas for growth, prior-year sales, and market share"
+      ],
+      "impact": [
+        "Mapped the brand at 48.55% share with 10.94% growth",
+        "Found Canada underpenetrated versus the US market"
+      ],
+      "skills": [
+        "Dashboards",
+        "Data modeling",
+        "Data cleaning",
+        "Data visualization"
+      ]
+    },
+    "section": "practice"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Found why 26.86% of customers left",
+    "context": "Portfolio project: I analyzed a US phone company's customer data to find why people were leaving.",
+    "img": "",
+    "metrics": [
+      "26.86% of customers left overall"
+    ],
+    "tags": [
+      "Excel",
+      "Customer analysis",
+      "Portfolio project"
+    ],
+    "detail": {
+      "overview": "This portfolio project studied why customers left a sample US phone company. I broke the losses down by age, plan, and location to find who was leaving and why.",
+      "problem": "Losses were rising in a competitive market, but no one had broken down who was leaving or why.",
+      "actions": [
+        "Cleaned the data with a structured checklist",
+        "Grouped customers by age, plan, and location",
+        "Cross-checked losses against contract length and international activity"
+      ],
+      "impact": [
+        "Overall customer loss measured at 26.86%",
+        "Pinpointed high-risk groups: seniors and heavy data users"
+      ],
+      "skills": [
+        "Excel",
+        "Pivot tables",
+        "Customer analysis",
+        "Segmentation"
+      ]
+    },
+    "section": "practice"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Built an interactive sales dashboard in Excel",
+    "context": "Portfolio project: I built an interactive sales dashboard with buttons and filters in Excel.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Excel",
+      "VBA",
+      "Dashboards",
+      "Portfolio project"
+    ],
+    "detail": {
+      "overview": "This portfolio project turned a large sales spreadsheet into an interactive dashboard for non-technical viewers. I added filters, charts, and clickable buttons instead of static charts.",
+      "problem": "Thousands of rows of sales data needed to be explorable by non-technical viewers, not just fixed charts.",
+      "actions": [
+        "Built charts: waterfall, stacked bar, line, and map",
+        "Added filters and live text callouts for details",
+        "Coded clickable buttons and a color-theme switcher"
+      ],
+      "impact": [
+        "Delivered a full dashboard covering revenue and returns",
+        "Showed 67% on-time delivery and a 10% return rate"
+      ],
+      "skills": [
+        "Excel",
+        "VBA",
+        "Dashboards",
+        "Data visualization"
+      ]
+    },
+    "section": "practice"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Split customers into 5 useful groups",
+    "context": "Portfolio project: I grouped customers into behavior-based segments using clustering methods in Python.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Python",
+      "Clustering",
+      "Portfolio project"
+    ],
+    "detail": {
+      "overview": "This portfolio project built a customer-segmentation model on a public marketing dataset so campaigns could be targeted by behavior. I compared several clustering methods and picked the one that split people most usefully.",
+      "problem": "A mixed customer base overlapped heavily, so raw charts gave no clean groups to act on.",
+      "actions": [
+        "Engineered features like age, spending, and engagement",
+        "Compared several clustering methods side by side",
+        "Mapped each group to a marketing action"
+      ],
+      "impact": [
+        "Produced 5 clear, action-ready customer groups",
+        "Confirmed higher income links to higher spending"
+      ],
+      "skills": [
+        "Python",
+        "Clustering",
+        "Feature engineering",
+        "Statistics"
+      ]
+    },
+    "section": "practice"
+  },
+  {
+    "cat": "Analytics",
+    "headline": "Analyzed 39 job ads to rank top skills",
+    "context": "Self-directed project: I collected 39 Tokyo job postings and ranked the skills employers wanted most.",
+    "img": "",
+    "metrics": [],
+    "tags": [
+      "Excel",
+      "Research",
+      "Job market"
+    ],
+    "detail": {
+      "overview": "This self-directed project looked at what international employers in Tokyo actually expect from data and business analysts. I collected 39 job postings and counted which skills came up most.",
+      "problem": "Skill expectations were anecdotal, with no data-backed view of what to prioritize learning.",
+      "actions": [
+        "Collected 39 postings from international companies",
+        "Counted required skills and tools in a spreadsheet",
+        "Ranked programming languages and visualization tools by frequency"
+      ],
+      "impact": [
+        "SQL was required most often, ahead of Python",
+        "Confirmed bilingual ability as a baseline expectation"
+      ],
+      "skills": [
+        "Excel",
+        "Research",
+        "Data analysis"
+      ]
+    },
+    "section": "practice"
+  }
+]
