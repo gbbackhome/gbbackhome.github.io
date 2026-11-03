@@ -57,7 +57,7 @@ let lenis=null;
 if(typeof Lenis!=="undefined"&&!REDUCE){lenis=new Lenis({duration:1.1,smoothWheel:true});const raf=(t)=>{lenis.raf(t);requestAnimationFrame(raf);};requestAnimationFrame(raf);}
 if(typeof gsap!=="undefined"&&typeof ScrollTrigger!=="undefined"){gsap.registerPlugin(ScrollTrigger);if(lenis)lenis.on("scroll",ScrollTrigger.update);if(!REDUCE)gsap.to(".float",{y:-10,duration:2.4,ease:"sine.inOut",repeat:-1,yoyo:true});}
 function revealEls(els){if(REDUCE||typeof gsap==="undefined")return;els.forEach((el)=>gsap.from(el,{opacity:0,y:26,duration:.7,ease:"back.out(1.4)",scrollTrigger:{trigger:el,start:"top 88%"}}));}
-revealEls(gsap?.utils?.toArray(".reveal")||[]);
+revealEls(typeof gsap!=="undefined"?gsap.utils.toArray(".reveal"):[]);
 
 const grid=document.getElementById("caseGrid");
 const filtersEl=document.getElementById("filters");
@@ -65,6 +65,29 @@ const emptyEl=document.getElementById("caseEmpty");
 const statsEl=document.getElementById("stats");
 const esc=(s)=>String(s??"").replace(/[&<>"]/g,(c)=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let DATA=[];
+
+// Case sections, in page order. data.json items carry a "section" id (set by career-records/tools/publish_site.py).
+const SECTIONS=[
+  {id:"measurement",title:"Measurement: incrementality & frequency",intro:"Did the ads add sales, or take credit for sales that would have happened anyway?"},
+  {id:"infrastructure",title:"Measurement infrastructure: AMC & BigQuery",intro:"Pipelines and reconciliations that keep the numbers trustworthy."},
+  {id:"audience",title:"Audience & growth on Amazon Ads",intro:"Audience design, budget planning and diagnostics for brands advertising on Amazon in Japan."},
+  {id:"cider",title:"Earlier work: growth marketing at CIDER",intro:"2021–2024, in-house paid media and growth for an e-commerce app in Seoul (No. 1 in iOS shopping downloads)."},
+  {id:"practice",title:"Practice projects",intro:"Self-directed projects on public or sample data, from before my agency role.",collapsed:true},
+];
+function sectionsHTML(data){
+  const known=new Set(SECTIONS.map((s)=>s.id));
+  const groups=SECTIONS.map((s)=>({...s,items:[]}));
+  const other={id:"other",title:"More work",intro:"",items:[]};
+  data.forEach((item,i)=>{const g=groups.find((s)=>s.id===item.section);(g||other).items.push([item,i]);});
+  if(other.items.length)groups.splice(groups.length-1,0,other);
+  return groups.filter((g)=>g.items.length).map((g)=>{
+    const cards=g.items.map(([item,i])=>cardHTML(item,i)).join("");
+    const head=`<h3 class="case-section__title">${esc(g.title)}</h3>`;
+    const intro=g.intro?`<p class="case-section__intro">${esc(g.intro)}</p>`:"";
+    if(g.collapsed)return `<details class="case-section case-section--practice" data-section="${esc(g.id)}"><summary>${head}</summary>${intro}<div class="case-grid">${cards}</div></details>`;
+    return `<section class="case-section" data-section="${esc(g.id)}">${head}${intro}<div class="case-grid">${cards}</div></section>`;
+  }).join("");
+}
 
 function cardHTML(item,i){
   const emoji=CAT_EMOJI[item.cat]||"•";
@@ -116,6 +139,7 @@ function buildFilters(cats){
     filtersEl.querySelectorAll(".rf-filter").forEach((b)=>b.classList.remove("is-active"));
     btn.classList.add("is-active");const f=btn.dataset.filter;
     grid.querySelectorAll(".rf-card").forEach((card)=>{card.style.display=(f==="All"||card.dataset.cat===f)?"":"none";});
+    grid.querySelectorAll(".case-section").forEach((sec)=>{const any=[...sec.querySelectorAll(".rf-card")].some((c)=>c.style.display!=="none");sec.style.display=any?"":"none";});
     if(typeof ScrollTrigger!=="undefined")ScrollTrigger.refresh();
   }));
 }
@@ -129,12 +153,13 @@ function buildStats(data){
 fetch("data.json").then((r)=>r.json()).then((data)=>{
   if(!Array.isArray(data)||data.length===0){if(emptyEl)emptyEl.hidden=false;return;}
   DATA=data;
-  grid.innerHTML=data.map(cardHTML).join("");
+  grid.innerHTML=data.some((d)=>d.section)?sectionsHTML(data):`<div class="case-grid">${data.map(cardHTML).join("")}</div>`;
   grid.querySelectorAll(".rf-card").forEach((card)=>card.addEventListener("click",()=>{
     const item=DATA[+card.dataset.i];if(item&&item.detail)openModal(item);
   }));
+  grid.querySelectorAll("details").forEach((d)=>d.addEventListener("toggle",()=>{if(typeof ScrollTrigger!=="undefined")ScrollTrigger.refresh();}));
   buildFilters([...new Set(data.map((d)=>d.cat).filter(Boolean))]);
   buildStats(data);
-  revealEls(gsap?.utils?.toArray("#caseGrid .reveal")||[]);
+  revealEls(typeof gsap!=="undefined"?gsap.utils.toArray("#caseGrid .reveal"):[]);
   if(typeof ScrollTrigger!=="undefined")ScrollTrigger.refresh();
 }).catch(()=>{if(emptyEl)emptyEl.hidden=false;});

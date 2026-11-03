@@ -22,7 +22,7 @@ export function loadRules(env = process.env) {
   if (!raw) throw new Error("환경변수 ANONYMIZE_RULES 가 없습니다 — 익명화 규칙 없이 공개 빌드를 진행하지 않습니다.");
   const r = JSON.parse(raw);
   const replace = Object.entries(r.replace || {})
-    .sort((a, b) => b[0].length - a[0].length) // 긴 표현 우선 ("Hill's Pet Food" > "Hill's")
+    .sort((a, b) => b[0].length - a[0].length) // 긴 표현 우선 ("Acme Foods Japan" > "Acme")
     .map(([from, to]) => [new RegExp(`\\b${escapeRe(from)}\\b`, "g"), to]);
   const deny = (r.deny || []).map((p) => new RegExp(p, "g"));
   const skipHeadline = (r.skipHeadline || []).map((p) => new RegExp(p));
@@ -32,7 +32,7 @@ export function loadRules(env = process.env) {
 export function sanitizeText(s, rules) {
   let out = s;
   for (const [re, to] of rules.replace) out = out.replace(re, to);
-  // 관사 중복 보정: "A Hills campaign" → "A a global … campaign" → "A global … campaign"
+  // 관사 중복 보정: "A Acme campaign" → "A a global … campaign" → "A global … campaign"
   return out.replace(/\b([Aa]|[Tt]he) (?:a|an|the|its) (?=\w)/g, "$1 ");
 }
 

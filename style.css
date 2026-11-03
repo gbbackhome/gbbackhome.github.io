@@ -220,3 +220,17 @@ img{display:block}
   .float{animation:none}
   html{scroll-behavior:auto}
 }
+
+/* 2026-11: identity line, case sections, about paragraphs */
+.hero__id{font-size:clamp(14px,2.2vw,17px);font-weight:700;color:var(--blue);margin-bottom:18px;letter-spacing:-.01em}
+.about p+p{margin-top:1em}
+.case-section{margin-top:56px}
+.case-section:first-of-type{margin-top:8px}
+.case-section__title{font-size:clamp(20px,3.2vw,26px);font-weight:800;letter-spacing:-.02em;color:#191f28}
+.case-section__intro{margin:8px 0 22px;color:var(--grey);font-size:15.5px;line-height:1.6}
+.case-section--practice{margin-top:56px;border-top:1px solid #eef0f3;padding-top:28px}
+.case-section--practice summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.case-section--practice summary::-webkit-details-marker{display:none}
+.case-section--practice summary::after{content:"Show ▾";font-size:14px;font-weight:600;color:var(--blue)}
+.case-section--practice[open] summary::after{content:"Hide ▴"}
+.case-section--practice summary .case-section__title{font-size:clamp(17px,2.6vw,20px);color:#4e5968}
